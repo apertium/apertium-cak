@@ -1,0 +1,56 @@
+Alphabet 
+
+a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ï ö ü ʼ
+%{w%}:0 %{w%}:w
+%{n%}:0 %{n%}:n %{n%}:w
+%{i%}:0 %{i%}:i
+%{u%}:0 %{u%}:u
+%{a%}:0 %{a%}:a
+%{ъ%}:0 %{ъ%}:ʼ
+%{t%}:0 %{t%}:t
+
+%>:0
+%{≤%}:0
+
+; 
+
+Sets 
+
+Tense = i ü u e ö o a ;
+Lax = ï ë ä ; 
+
+Vow = Tense Lax ;
+
+Cns = b c d f g h j k l m n p q r s t v w x y z ʼ ; 
+
+Rules
+
+"Epenthetic {w} between vowels"
+%{w%}:w <=> :Vow _ %>: Vow ;
+
+"Vowels in possessives delete before vowel"
+Vx:0 <=> _ %>: :Vow  ; 
+     where Vx in ( %{i%} %{a%} %{u%} ) ;
+
+"Possessive alternation of nu-, w-"
+%{n%}:w <=> _ %{u%}:0 %>: :Vow ; 
+
+!@ {n}:w {u}:0 >:0 ä j
+
+"Possessive alternation of nu-, w-"
+%{n%}:n <=> _ %{u%}: %>: Cns ; 
+
+"Alternation of {n} in verbal prefixes"
+%{n%}:n <=>  i _ %>: :Vow ; 
+
+"Alternation of {ъ} in verbal prefixes"
+%{ъ%}:ʼ <=> _ %>: :Vow ; 
+
+"Alternation of {t}"
+%{t%}:0 <=> _ %>: :Cns ; 
+
+"Lax to tense upon possession"
+Vx:Vy <=> %>: ?* _ Cns: %{≤%}: ; 
+      where Vx in ( ï ë ä ö ) 
+            Vy in ( i e a o ) 
+      matched ; 

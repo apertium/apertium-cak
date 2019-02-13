@@ -1,1 +1,1 @@
-# apertium-cak
+README

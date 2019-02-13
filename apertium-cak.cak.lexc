@@ -1,0 +1,209 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Multichar_Symbols
+
+%<n%>                  ! Sustantivo
+%<v%>                  ! Verbo
+%<vaux%>               ! Verbo auxiliar
+
+%<iv%>                 ! Intransitivo
+%<tv%>                 ! Transitivo
+
+%<cmpl%>               ! Completivo
+%<incm%>               ! Incompletivo
+%<pot%>                ! Potencial
+
+%<px1sg%>              ! Posesivo, 1a singular
+%<px2sg%>              ! Posesivo, 2a singular
+%<px3sg%>              ! Posesivo, 3a singular
+%<px1pl%>              ! Posesivo, 1a plural
+%<px2pl%>              ! Posesivo, 2a plural
+%<px3pl%>              ! Posesivo, 3a plural
+
+@P.Poss.Sg1@
+@P.Poss.Sg2@
+@P.Poss.Sg3@
+@P.Poss.Pl1@
+@P.Poss.Pl2@
+@P.Poss.Pl3@
+
+@R.Poss.Sg1@
+@R.Poss.Sg2@
+@R.Poss.Sg3@
+@R.Poss.Pl1@
+@R.Poss.Pl2@
+@R.Poss.Pl3@
+
+@D.Poss@               ! Posesivo prohibido
+
+%{a%}                  ! Underlying -a- deletes before vowel
+%{i%}                  ! Underlying -i- deletes before vowel
+%{u%}                  ! Underlying -u- deletes before vowel
+%{n%}                  ! Para el posesivo de 1a persona, nu-,w-
+%{w%}                  ! -w- epentética
+%{t%}                  ! -t- en prefijos de persona
+%{ъ%}                  ! -ʼ- en prefijos de persona
+%{≤%}                  ! Marcador fonológico de sustantivos de la clase II 
+
+ʼ
+%>                     ! Frontera entre morfemas
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Root
+
+Nouns ; 
+
+Prefixes ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Prefixes
+
+Possessives ;
+Verbal ;
+
+LEXICON Possessives 
+
+! _ Cns: nu-, a-, ru-, qa-, i-, ki-
+! _ Vow: w- , aw-, r-, q-,  iw-, k-
+
+@P.Poss.Sg1@:@P.Poss.Sg1@%{n%}%{u%}%> Nouns ;
+@P.Poss.Sg2@:@P.Poss.Sg2@a%{w%}%> Nouns ;
+@P.Poss.Sg3@:@P.Poss.Sg3@r%{u%}%> Nouns ;
+@P.Poss.Pl1@:@P.Poss.Pl1@q%{a%}%> Nouns ;
+@P.Poss.Pl2@:@P.Poss.Pl2@i%{w%}%> Nouns ;
+@P.Poss.Pl3@:@P.Poss.Pl3@k%{i%}%> Nouns ;
+
+LEXICON Verbal 
+
+! Pres/Past/Pot
+! Impf/Perf
+! Ind/Hort
+
+Accidents ;
+
+LEXICON Accidents
+
+Pres ;
+
+LEXICON Pres
+
+%<pres%>:y PERS-IV ; 
+%<pres%>:n%{i%}%> PERS-IV-3 ; 
+
+LEXICON PERS-IV
+
+:i%{n%}%> Intr ; ! y-in-el, y-i-wär   = -i{n}-
+:a%{t%}%> Intr ; ! y-at-el, y-a-wär   = -a{t}-
+                 ! n-Ø-el , ni-Ø-wär  = -n{i}-
+:oj%> Intr ;     ! y-oj-el, y-oj-wär  = -oj-
+:ix%> Intr ;     ! y-ix-el, y-ix-wär  = -ix-
+:e%{ъ%}%> Intr ;   ! y-e'-el, y-e-wär   = -e{ъ}-
+
+LEXICON PERS-IV-3
+
+Intr ; 
+
+LEXICON Poss
+
+@R.Poss.Sg1@%<px1sg%>:@R.Poss.Sg1@ # ;
+@R.Poss.Sg2@%<px2sg%>:@R.Poss.Sg2@ # ;
+@R.Poss.Sg3@%<px3sg%>:@R.Poss.Sg3@ # ;
+@R.Poss.Pl1@%<px1pl%>:@R.Poss.Pl1@ # ;
+@R.Poss.Pl2@%<px2pl%>:@R.Poss.Pl2@ # ;
+@R.Poss.Pl3@%<px3pl%>:@R.Poss.Pl3@ # ;
+
+LEXICON N1 
+! Class 1 nouns: No change on possession
+%<n%>: Poss ;
+@D.Poss@%<n%>:@D.Poss@ # ;
+
+LEXICON N2
+! Class 2 nouns: Change from lax to tense vowel 
+! on possession
+%<n%>:%{≤%} Poss ;
+@D.Poss@%<n%>:@D.Poss@ # ;
+
+LEXICON N3/axel
+
+%<n%>: Poss ;
+@D.Poss@%<n%>:@D.Poss@axel # ;
+
+LEXICON N3/aj
+
+%<n%>: Poss ;
+@D.Poss@%<n%>:@D.Poss@aj # ;
+
+LEXICON TV 
+
+%<v%>%<tv%>: # ; 
+
+LEXICON IV 
+
+%<v%>%<iv%>: # ; 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Nouns
+
+wuj:wuj N1 ; ! "libro"
+poʼt:poʼt N1 ; ! "blusa"
+chʼatal:chʼatal N1 ; ! "mesa"
+chachal:chachal N1 ; ! "collar"
+taqkil:taqkil N1 ; ! "recado"
+
+tzʼibʼabʼäl:tzʼibʼabʼäl N2 ; ! "boligrafo"
+tinamït:tinamït N2 ; ! "ciudad"
+chʼkät:chʼkät N2 ; ! "silla"
+wäy:wäy N2 ; ! "tortilla"
+xrëq:xrëq N2 ; ! "sapo"
+chakäch:chakäch N2 ; ! "cesta"
+qʼejelonïk:qʼejelonïk N2 ; ! "saludo"
+qʼös:qʼös N2 ; ! "pienso"
+läq:läq N2 ; ! "plato"
+
+chʼabäl:chʼabäl N1 ; ! "lengua"
+äj:äj N1 ; ! "espiga"
+achibʼäl:achibʼäl N1 ; ! "imagen"
+kʼïx:kʼïx N1 ; ! "vergüenza"
+paläj:paläj N1 ; ! "cara"
+
+juxbʼäl:juxbʼäl N2 ; ! "rotulador"
+yojbʼäl:yojbʼäl N2 ; ! "borrador"
+samajibʼäl:samajibʼäl N2 ; ! "herramienta"
+oyonibʼäl:oyonibʼäl N2 ; ! "teléfono"
+chapbʼäl:chapbʼäl N2 ; ! "afiler"
+
+chʼakulaj:chʼakul N3/aj ; ! "cuerpo"
+chiʼaj:chiʼ N3/aj ; ! "boca"
+pamaj:pam N3/aj ; ! "estómago"
+jolomaj:jolom N3/aj ; ! "cabeza" ! TODO: p.64 jolon/m ?
+
+nimalaxel:nimal N3/axel ; ! "hermano/a mayor del mismo género"
+
+äk:äk N1 ; ! "gallina"
+ikäj:ikäj N1 ; ! "hacha"
+oj:oj N1 ; ! "aguacate"
+chun:chun N1 ; ! "cal"
+bʼey:bʼey N1 ; ! "camino"
+juyuʼ:juyuʼ N1 ; ! "montaña"
+kotzʼiʼj:kotzʼiʼj N1 ; ! "flor" ! TODO: p.63 kiotz'i'j
+tzʼiʼ:tzʼiʼ N1 ; ! "perro"
+kʼuxuʼ:kʼuxuʼ N1 ; ! "achiote"
+
+aqanaj:aqan N3/aj ; ! "pierna" ! TODO: p.65 waqän
+
+!ibʼöchʼ:ibʼöchʼ N4/il ; ! "vena"
+
+LEXICON Intr
+
+oyon:oyon IV ; ! "llamar"
+atin:atin IV ; ! "bañarse"
+tzʼuyeʼ:tzʼuyeʼ IV ; ! "sentarse"
+el:el IV ; ! "salir"
+wär:wär IV ; ! "dormir"
+
+
