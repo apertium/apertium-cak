@@ -9,7 +9,9 @@ Multichar_Symbols
 %<vaux%>               ! Verbo auxiliar
 %<prn%>                ! Pronombre
 %<adj%>                ! Adjetivo
+%<adv%>                ! Adverbio
 %<det%>                ! Determinante
+%<cnjsub%>             ! Conjunción subordinadora
 
 %<iv%>                 ! Intransitivo
 %<tv%>                 ! Transitivo
@@ -81,6 +83,7 @@ Pronombres ;
 Numerales ;
 Sustantivos ; 
 Adjetivos ;
+Adverbios ;
 
 Prefijos ;
 
@@ -208,6 +211,24 @@ LEXICON N3/aj
 %<n%>: Poss ;
 @D.Poss@%<n%>:@D.Poss@aj # ;
 
+LEXICON N5/iʼ
+
+%<n%>: Poss ;
+%<n%>%<pl%>:%>iʼ # ;
+@D.Poss@%<n%>:@D.Poss@ # ;
+
+LEXICON N5/aʼ
+
+%<n%>: Poss ;
+%<n%>%<pl%>:%>aʼ # ;
+@D.Poss@%<n%>:@D.Poss@ # ;
+
+LEXICON N5/bʼoniʼ
+
+%<n%>: Poss ;
+%<n%>%<pl%>:%>bʼoniʼ # ;
+@D.Poss@%<n%>:@D.Poss@ # ;
+
 LEXICON SUSTANTIVO
 ! Class to be determined.
 N1 ; 
@@ -225,6 +246,10 @@ LEXICON A
 
 %<adj%>: # ; 
 
+LEXICON ADV
+
+%<adv%>: # ; 
+
 LEXICON NUM 
 
 %<num%>: # ; 
@@ -236,6 +261,11 @@ LEXICON Misceláneas
 ajin%<vaux%>:ajin # ; 
 ajin%<vaux%>:tajin # ; 
 
+ta%<mod%>:ta # ;
+
+taq%<cnjsub%>:taq # ; 
+chuqaʼ%<cnjcoo%>:chuqaʼ # ; 
+
 ! kʼo = hay
 
 LEXICON Preposiciones 
@@ -245,7 +275,7 @@ pa%<pr%>:pan # ;
 
 LEXICON Determinantes
 
-ri%<det%>:ri # ;
+riʼ%<det%>:riʼ # ;
 
 LEXICON Pronombres
 
@@ -259,7 +289,8 @@ e%<prn%>%<pers%>:e # ;
 
 LEXICON Numerales 
 
-jun:jun NUM ; 
+jun:jun NUM ;  ! "uno"
+waqiʼ:waqiʼ NUM ; ! "seis"
 
 LEXICON Sustantivos
 
@@ -274,6 +305,7 @@ tinamït:tinamït N2 ; ! "ciudad"
 chʼkät:chʼkät N2 ; ! "silla"
 wäy:wäy N2 ; ! "tortilla"
 xrëq:xrëq N2 ; ! "sapo"
+xpëq:xpëq SUSTANTIVO ; ! "sapo, frog"
 chakäch:chakäch N2 ; ! "cesta"
 qʼejelonïk:qʼejelonïk N2 ; ! "saludo"
 qʼös:qʼös N2 ; ! "pienso"
@@ -293,12 +325,15 @@ chapbʼäl:chapbʼäl N2 ; ! "afiler"
 
 chʼakulaj:chʼakul N3/aj ; ! "cuerpo"
 chiʼaj:chiʼ N3/aj ; ! "boca"
+!chiʼaj:chiʼaj SUSTANTIVO-INALIENABLE ; ! "boca, mouth"
 pamaj:pam N3/aj ; ! "estómago"
 jolomaj:jolom N3/aj ; ! "cabeza" ! TODO: p.64 jolon/m ?
+!jolomaj:jolomaj SUSTANTIVO-INALIENABLE ; ! "cabeza, head"
 
 nimalaxel:nimal N3/axel ; ! "hermano/a mayor del mismo género"
 
 äk:äk N1 ; ! "gallina"
+äkʼ:äkʼ SUSTANTIVO ; ! "pollo, chicken"
 ikäj:ikäj N1 ; ! "hacha"
 oj:oj N1 ; ! "aguacate"
 chun:chun N1 ; ! "cal"
@@ -307,25 +342,42 @@ juyuʼ:juyuʼ N1 ; ! "montaña"
 kotzʼiʼj:kotzʼiʼj N1 ; ! "flor" ! TODO: p.63 kiotz'i'j
 tzʼiʼ:tzʼiʼ N1 ; ! "perro"
 kʼuxuʼ:kʼuxuʼ N1 ; ! "achiote"
+waq:waq N1 ; ! "cerdo"
+samaj:samaj N1 ; ! "trabajo"
 
 aqanaj:aqan N3/aj ; ! "pierna" ! TODO: p.65 waqän
+!aqanaj:aqanaj SUSTANTIVO-INALIENABLE ; ! "pierna, leg"
+
 
 !ibʼöchʼ:ibʼöchʼ N4/il ; ! "vena"
+
+utiw:utiw N5/aʼ ; ! ""
+umül:umül N5/iʼ ; ! "conejo, rabbit"
+bʼalam:bʼalam N5/iʼ ; ! "jaguar, jaguar"
+tzʼikïn:tzʼikïn N5/aʼ ; ! "pájaro, bird"
+kʼel:kʼel N5/aʼ ; ! ""
+kʼoy:kʼoy N5/iʼ ; ! ""
+akʼwal:akʼwal N5/aʼ ; ! "niño, child"
+alaʼ:alaʼ N5/bʼoniʼ ; ! ""
+xtän:xtän N5/iʼ ; ! "señorita, girl"
+achin:achin N5/aʼ ; ! ""
+ixöq:ixöq N5/iʼ ; ! "mujer, woman"
+winäq:winäq N5/iʼ ; ! "persona (ser humano), person (human being)"
+chiköp:chiköp N5/iʼ ; ! ""
+xikʼ:xikʼ N5/aʼ ; ! ""
+masat:masat N5/iʼ ; ! ""
+chʼumil:chʼumil N5/aʼ ; ! ""
+kʼoj:kʼoj N5/aʼ ; ! ""
 
 abʼäj:abʼäj SUSTANTIVO ; ! "piedra, stone"
 achamaqʼiʼ:achamaqʼiʼ SUSTANTIVO ; ! "indígena, indigenous"
 ajpatän:ajpatän SUSTANTIVO ; ! "cofradía, religious society"
-äkʼ:äkʼ SUSTANTIVO ; ! "pollo, chicken"
-akʼwal:akʼwal SUSTANTIVO ; ! "niño, boy"
-akʼwal:akʼwal SUSTANTIVO ; ! "niño, child"
 äm:äm SUSTANTIVO ; ! "araña, spider"
 aqaj:aqaj SUSTANTIVO ; ! "panal, honeycomb"
 aqʼomanel:aqʼomanel SUSTANTIVO ; ! "curandero, shaman, medicine man"
 atzʼam:atzʼam SUSTANTIVO ; ! "sal, salt"
-bʼalam:bʼalam SUSTANTIVO ; ! "jaguar, jaguar"
 bʼanobʼäl:bʼanobʼäl SUSTANTIVO ; ! "costumbre, religious custom"
 bʼaq:bʼaq SUSTANTIVO ; ! "hueso, bone"
-bʼey:bʼey SUSTANTIVO ; ! "camino, path"
 bʼixanel:bʼixanel SUSTANTIVO ; ! "cantor, singer"
 chʼabʼäl:chʼabʼäl SUSTANTIVO ; ! "idioma, language"
 chʼabʼ:chʼabʼ SUSTANTIVO ; ! "flecha, arrow"
@@ -335,13 +387,10 @@ chinchiʼy:chinchiʼy SUSTANTIVO ; ! "sonaja, chinchín, rattle"
 etamanel:etamanel SUSTANTIVO ; ! "sabio, wiseman"
 ibʼoy:ibʼoy SUSTANTIVO ; ! "armadillo, armadillo"
 ijaʼtz:ijaʼtz SUSTANTIVO ; ! "semilla, seed"
-ikäj:ikäj SUSTANTIVO ; ! "hacha, axe"
 ixkʼäq:ixkʼäq SUSTANTIVO ; ! "uña, fingernail"
-ixöq:ixöq SUSTANTIVO ; ! "mujer, woman"
 jikonel:jikonel SUSTANTIVO ; ! "sobadora, fertility massager"
 jiqʼobʼäl:jiqʼobʼäl SUSTANTIVO ; ! "fruta, fruit"
 jomeʼet:jomeʼet SUSTANTIVO ; ! "corteza, bark"
-juyuʼ:juyuʼ SUSTANTIVO ; ! "montaña, mountain"
 kaʼaj:kaʼaj SUSTANTIVO ; ! "rancho, ranch"
 kär:kär SUSTANTIVO ; ! "pescado, fish"
 kaxlan:kaxlan SUSTANTIVO ; ! "extranjero, forastero, foreigner, strange"
@@ -349,7 +398,6 @@ kʼaybʼäl:kʼaybʼäl SUSTANTIVO ; ! "mercado, market"
 kʼechelaj:kʼechelaj SUSTANTIVO ; ! "bosque, forest"
 kʼoj:kʼoj SUSTANTIVO ; ! "máscara, mask"
 kʼolaj:kʼolaj SUSTANTIVO ; ! "pelota, bola, ball"
-kotzʼiʼj:kotzʼiʼj SUSTANTIVO ; ! "flor, flower"
 lemaʼ:lemaʼ SUSTANTIVO ; ! "cuento, story"
 mes:mes SUSTANTIVO ; ! "gato, cat"
 molaj:molaj SUSTANTIVO ; ! "grupo-, group -"
@@ -382,20 +430,14 @@ tinamït:tinamït SUSTANTIVO ; ! "pueblo, town"
 toj:toj SUSTANTIVO ; ! "ofrenda, offering"
 tonkʼor:tonkʼor SUSTANTIVO ; ! "tambor (m), drum"
 tukur:tukur SUSTANTIVO ; ! "búho, owl"
-tzʼikïn:tzʼikïn SUSTANTIVO ; ! "pájaro, bird"
 tzinïn:tzinïn SUSTANTIVO ; ! "cascabel (m), shaker"
 tzʼiteʼ:tzʼiteʼ SUSTANTIVO ; ! "palo pito, red beans"
-tzʼiʼ:tzʼiʼ SUSTANTIVO ; ! "perro, dog"
 ükʼ:ükʼ SUSTANTIVO ; ! "piojo, louse"
-umül:umül SUSTANTIVO ; ! "conejo, rabbit"
 warabʼäl:warabʼäl SUSTANTIVO ; ! "posada, hospedaje, room"
 warabʼenïk:warabʼenïk SUSTANTIVO ; ! "velorio, wake"
 winaqiʼ:winaqiʼ SUSTANTIVO ; ! "personas, people"
-winäq:winäq SUSTANTIVO ; ! "persona (ser humano), person (human being)"
 xeʼel:xeʼel SUSTANTIVO ; ! "raíz, root"
 xiʼl:xiʼl SUSTANTIVO ; ! "grillo, cricket"
-xpëq:xpëq SUSTANTIVO ; ! "sapo, frog"
-xtän:xtän SUSTANTIVO ; ! "señorita, girl"
 xukulbʼäl:xukulbʼäl SUSTANTIVO ; ! "altar, altar"
 yaʼ:yaʼ SUSTANTIVO ; ! "agua, water"
 
@@ -416,14 +458,11 @@ yaʼ:yaʼ SUSTANTIVO ; ! "agua, water"
 !xanän:xanän SUSTANTIVO-GENERALMENTE-NO-POSEIDO ; ! "zancudo, mosquito"
 !
 !aqanaj:aqanaj SUSTANTIVO-INALIENABLE ; ! "pie, foot"
-!aqanaj:aqanaj SUSTANTIVO-INALIENABLE ; ! "pierna, leg"
 !atitaj:atitaj SUSTANTIVO-INALIENABLE ; ! "abuela materna, motherʼs mother"
 !atitaj:atitaj SUSTANTIVO-INALIENABLE ; ! "abuela paterna, fatherʼs mother"
 !chʼekaj:chʼekaj SUSTANTIVO-INALIENABLE ; ! "rodilla, knee"
-!chiʼaj:chiʼaj SUSTANTIVO-INALIENABLE ; ! "boca, mouth"
 !eyaj:eyaj SUSTANTIVO-INALIENABLE ; ! "diente, tooth"
 !ijaj:ijaj SUSTANTIVO-INALIENABLE ; ! "espalda, back"
-!jolomaj:jolomaj SUSTANTIVO-INALIENABLE ; ! "cabeza, head"
 !mamaʼaj:mamaʼaj SUSTANTIVO-INALIENABLE ; ! "abuelo paterno, fatherʼs father"
 !qʼabʼaj:qʼabʼaj SUSTANTIVO-INALIENABLE ; ! "mano, hand"
 !qulaj:qulaj SUSTANTIVO-INALIENABLE ; ! "cuello, neck"
@@ -445,6 +484,9 @@ yaʼ:yaʼ SUSTANTIVO ; ! "agua, water"
 !
 !kamïk:kamïk SUSTANTIVO-VERBAL ; ! "morir, die"
 
+tzij:tzij N1 ; ! "palabra"
+
+
 LEXICON Adjetivos
 
 ütz:ütz A ; ! "bueno, good"
@@ -465,6 +507,12 @@ ri’j:ri’j A ; ! "viejo, old"
 säq:säq A ; ! "blanco, white"
 setesïk:setesïk A ; ! "redondo / circular, round"
 
+LEXICON Adverbios
+
+kʼa:kʼa ADV ; ! "bien"
+kan:kan ADV ; ! "muy"
+chuqaʼ:chuqaʼ ADV ; ! "también" 
+
 LEXICON Intr
 
 oyon:oyon IV ; ! "llamar"
@@ -473,6 +521,7 @@ tzʼuyeʼ:tzʼuyeʼ IV ; ! "sentarse"
 el:el IV ; ! "salir"
 wär:wär IV ; ! "dormir"
 waʼ:waʼ IV ; ! "comer"
+samäj:samäj IV ; ! "trabajar"
 
 LEXICON Tran
 
