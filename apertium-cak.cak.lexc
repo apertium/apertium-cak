@@ -174,7 +174,7 @@ LEXICON PERS-TV-B ! Juego ergativo
 
 LEXICON PERS-IV-A-3
 
-Intr ; 
+%<s_sg3%>: Intr ; 
 
 LEXICON PERS-TV-A-3
 
@@ -229,6 +229,11 @@ LEXICON N5/bʼoniʼ
 %<n%>%<pl%>:%>bʼoniʼ # ;
 @D.Poss@%<n%>:@D.Poss@ # ;
 
+LEXICON N6 
+! Sustantivos relacionales
+
+%<n%>%<rel%>: Poss ;
+
 LEXICON SUSTANTIVO
 ! Class to be determined.
 N1 ; 
@@ -272,10 +277,18 @@ LEXICON Preposiciones
 
 pa%<pr%>:pa # ; 
 pa%<pr%>:pan # ; 
+chi%<pr%>:chi # ; 
 
 LEXICON Determinantes
 
+ri%<det%>:ri # ;
 riʼ%<det%>:riʼ # ;
+
+re%<det%>%<dem%>:re # ;
+reʼ%<det%>%<dem%>:reʼ # ;
+
+la%<det%>%<dem%>:la # ;
+laʼ%<det%>%<dem%>:laʼ # ;
 
 LEXICON Pronombres
 
@@ -287,12 +300,38 @@ at%<prn%>%<pers%>:at # ;
 ix%<prn%>%<pers%>:ix # ; 
 e%<prn%>%<pers%>:e # ; 
 
+rïn%<prn%>%<pos%>:rïn # ;
+rat%<prn%>%<pos%>:rat # ;
+rijaʼ%<prn%>%<pos%>:rijaʼ # ;
+röj%<prn%>%<pos%>:röj # ;
+rïx%<prn%>%<pos%>:rïx # ;
+rijeʼ%<prn%>%<pos%>:rijeʼ # ;
+
+ririʼ%<prn%>%<dem%>:ririʼ # ;
+rijaʼ%<prn%>%<pers%>:rijaʼ # ;
+
 LEXICON Numerales 
 
 jun:jun NUM ;  ! "uno"
 waqiʼ:waqiʼ NUM ; ! "seis"
 
+LEXICON Relacionales
+
+ichin:ichin N6 ; ! "de"
+oma:oma N6 ; ! ""
+oma:uma N6 ; ! "" ! Use/Sub
+ikʼin:ikʼin N6 ; ! ""
+!!
+ij:ij N6 ; ! ""
+xeʼ:xeʼ N6 ; ! ""
+kojöl:kojöl N6 ; ! ""
+xkïn:xkïn N6 ; ! ""
+wiʼ:wiʼ N6 ; ! ""
+tzaʼm:tzaʼm N6 ; ! ""
+
 LEXICON Sustantivos
+
+Relacionales ;
 
 wuj:wuj N1 ; ! "libro"
 poʼt:poʼt N1 ; ! "blusa"
@@ -522,6 +561,7 @@ el:el IV ; ! "salir"
 wär:wär IV ; ! "dormir"
 waʼ:waʼ IV ; ! "comer"
 samäj:samäj IV ; ! "trabajar"
+oqʼ:oqʼ IV ; ! "llorar"
 
 LEXICON Tran
 
