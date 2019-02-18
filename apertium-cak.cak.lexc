@@ -266,11 +266,14 @@ LEXICON TV
 %<v%>%<tv%>: # ; 
 @D.Prefijo@%<v%>%<tv%>%<inf%>:@D.Prefijo@%{≤%}%>%{o%}j # ;
 @R.Prefijo.1@%<v%>%<tv%>%<cmpl%>:@R.Prefijo.1@%{≤%}%>%{V%}täj # ; ! TODO: Does this only apply to passive / do we need to switch the agreement?
+@D.Prefijo@%<v%>%<tv%>%<ger_ins%>:@D.Prefijo@%{≤%}%>bʼäl # ;
+@D.Prefijo@%<v%>%<tv%>%<ger_ag%>:@D.Prefijo@%{≤%}%>%{V%}y # ; ! -öy/-üy p.97
 
 LEXICON IV 
 
 %<v%>%<iv%>: # ; 
-@D.Prefijo@%<v%>%<iv%>%<pp%>:@D.Prefijo@%>%{i%}näq # ;
+@D.Prefijo@%<v%>%<iv%>%<pp%>:@D.Prefijo@%{≤%}%>%{i%}näq # ;
+@D.Prefijo@%<v%>%<iv%>%<pp%>:@D.Prefijo@%{≤%}%>näq # ;
 
 LEXICON A 
 
@@ -843,6 +846,7 @@ samäj:samäj IV ; ! "trabajar"
 oqʼ:oqʼ IV ; ! "llorar"
 bʼe:bʼe IV ; ! "ir"
 kʼaseʼ:kʼaseʼ IV ; ! "vivir"
+aläx:aläx IV ; ! "nacer"
 
 LEXICON Tran
 

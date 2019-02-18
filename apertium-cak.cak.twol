@@ -52,10 +52,9 @@ Vx:0 <=> _ %>: :Vow  ;
 %{t%}:0 <=> _ %>: :Cns ; 
 
 "Lax to tense upon possession and infinitive"
-Vx:Vy <=> %>: ?* _ Cns: %{≤%}: ;
-          _ Cns: %{≤%}: %>: [ %{o%}: | %{V%}: ] ; 
-      where Vx in ( ï ë ä ö ) 
-            Vy in ( i e a o ) 
+Vx:Vy <=> _ Cns: %{≤%}: ;
+      where Vx in ( ï ë ä ö ü ) 
+            Vy in ( i e a o u ) 
       matched ; 
 
 !@ x >:0 t z ʼ ë:e t {≤}:0 >:0 {V}:e t ä j
