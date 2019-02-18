@@ -5,6 +5,7 @@
 Multichar_Symbols
 
 %<n%>                  ! Sustantivo
+%<np%>                 ! 
 %<v%>                  ! Verbo
 %<vaux%>               ! Verbo auxiliar
 %<prn%>                ! Pronombre
@@ -15,6 +16,9 @@ Multichar_Symbols
 
 %<iv%>                 ! Intransitivo
 %<tv%>                 ! Transitivo
+
+%<inf%>
+%<pp%>
 
 %<cmpl%>               ! Completivo
 %<incm%>               ! Incompletivo
@@ -63,6 +67,7 @@ Multichar_Symbols
 %{a%}                  ! Underlying -a- deletes before vowel
 %{i%}                  ! Underlying -i- deletes before vowel
 %{u%}                  ! Underlying -u- deletes before vowel
+%{o%}                  ! -uj o -oj
 %{n%}                  ! Para el posesivo de 1a persona, nu-,w-
 %{w%}                  ! -w- epentética
 %{t%}                  ! -t- en prefijos de persona
@@ -82,6 +87,7 @@ Determinantes ;
 Pronombres ; 
 Numerales ;
 Sustantivos ; 
+Propios ;
 Adjetivos ;
 Adverbios ;
 
@@ -92,6 +98,7 @@ Prefijos ;
 LEXICON Prefijos
 
 Possessives ;
+Ordinal ; 
 Verbal ;
 
 LEXICON Possessives 
@@ -106,6 +113,72 @@ LEXICON Possessives
 @P.Poss.Pl2@:@P.Poss.Pl2@i%{w%}%> Sustantivos ;
 @P.Poss.Pl3@:@P.Poss.Pl3@k%{i%}%> Sustantivos ;
 
+LEXICON Ordinal 
+
+@P.Poss.Sg3@:@P.Poss.Sg3@r%{u%}%> Numerales ;
+
+LEXICON Poss
+
+@R.Poss.Sg1@%<px1sg%>:@R.Poss.Sg1@ # ;
+@R.Poss.Sg2@%<px2sg%>:@R.Poss.Sg2@ # ;
+@R.Poss.Sg3@%<px3sg%>:@R.Poss.Sg3@ # ;
+@R.Poss.Pl1@%<px1pl%>:@R.Poss.Pl1@ # ;
+@R.Poss.Pl2@%<px2pl%>:@R.Poss.Pl2@ # ;
+@R.Poss.Pl3@%<px3pl%>:@R.Poss.Pl3@ # ;
+
+LEXICON N1 
+! Class 1 nouns: No change on possession
+%<n%>: Poss ;
+@D.Poss@%<n%>:@D.Poss@ # ;
+
+LEXICON N2
+! Class 2 nouns: Change from lax to tense vowel 
+! on possession
+%<n%>:%{≤%} Poss ;
+@D.Poss@%<n%>:@D.Poss@ # ;
+
+LEXICON N3/axel
+
+%<n%>: Poss ;
+@D.Poss@%<n%>:@D.Poss@axel # ;
+
+LEXICON N3/aj
+
+%<n%>: Poss ;
+@D.Poss@%<n%>:@D.Poss@aj # ;
+
+LEXICON N5/iʼ
+
+%<n%>: Poss ;
+%<n%>%<pl%>:%>iʼ # ;
+@D.Poss@%<n%>:@D.Poss@ # ;
+
+LEXICON N5/aʼ
+
+%<n%>: Poss ;
+%<n%>%<pl%>:%>aʼ # ;
+@D.Poss@%<n%>:@D.Poss@ # ;
+
+LEXICON N5/bʼoniʼ
+
+%<n%>: Poss ;
+%<n%>%<pl%>:%>bʼoniʼ # ;
+@D.Poss@%<n%>:@D.Poss@ # ;
+
+LEXICON N6 
+! Sustantivos relacionales
+
+%<n%>%<rel%>: Poss ;
+
+LEXICON SUSTANTIVO
+! Class to be determined.
+N1 ; 
+
+LEXICON NP-ANT
+
+%<np%>%<ant%>: #  ;
+
+
 LEXICON Verbal 
 
 ! Pres/Past/Pot
@@ -114,6 +187,7 @@ LEXICON Verbal
 
 @P.Prefijo.1@:@P.Prefijo.1@ Accidents ; 
                             Intr ; 
+                            Tran ; 
 
 LEXICON Accidents
 
@@ -180,67 +254,10 @@ LEXICON PERS-TV-A-3
 
 %<o_sg3%>: PERS-TV-B ; 
 
-
-LEXICON Poss
-
-@R.Poss.Sg1@%<px1sg%>:@R.Poss.Sg1@ # ;
-@R.Poss.Sg2@%<px2sg%>:@R.Poss.Sg2@ # ;
-@R.Poss.Sg3@%<px3sg%>:@R.Poss.Sg3@ # ;
-@R.Poss.Pl1@%<px1pl%>:@R.Poss.Pl1@ # ;
-@R.Poss.Pl2@%<px2pl%>:@R.Poss.Pl2@ # ;
-@R.Poss.Pl3@%<px3pl%>:@R.Poss.Pl3@ # ;
-
-LEXICON N1 
-! Class 1 nouns: No change on possession
-%<n%>: Poss ;
-@D.Poss@%<n%>:@D.Poss@ # ;
-
-LEXICON N2
-! Class 2 nouns: Change from lax to tense vowel 
-! on possession
-%<n%>:%{≤%} Poss ;
-@D.Poss@%<n%>:@D.Poss@ # ;
-
-LEXICON N3/axel
-
-%<n%>: Poss ;
-@D.Poss@%<n%>:@D.Poss@axel # ;
-
-LEXICON N3/aj
-
-%<n%>: Poss ;
-@D.Poss@%<n%>:@D.Poss@aj # ;
-
-LEXICON N5/iʼ
-
-%<n%>: Poss ;
-%<n%>%<pl%>:%>iʼ # ;
-@D.Poss@%<n%>:@D.Poss@ # ;
-
-LEXICON N5/aʼ
-
-%<n%>: Poss ;
-%<n%>%<pl%>:%>aʼ # ;
-@D.Poss@%<n%>:@D.Poss@ # ;
-
-LEXICON N5/bʼoniʼ
-
-%<n%>: Poss ;
-%<n%>%<pl%>:%>bʼoniʼ # ;
-@D.Poss@%<n%>:@D.Poss@ # ;
-
-LEXICON N6 
-! Sustantivos relacionales
-
-%<n%>%<rel%>: Poss ;
-
-LEXICON SUSTANTIVO
-! Class to be determined.
-N1 ; 
-
 LEXICON TV 
 
 %<v%>%<tv%>: # ; 
+@D.Prefijo@%<v%>%<tv%>%<inf%>:@D.Prefijo@%{≤%}%>%{o%}j # ;
 
 LEXICON IV 
 
@@ -255,9 +272,20 @@ LEXICON ADV
 
 %<adv%>: # ; 
 
-LEXICON NUM 
+LEXICON NUM1234
 
-%<num%>: # ; 
+@D.Prefijo@%<num%>:@D.Prefijo@ # ; 
+@R.Poss.Sg3@%<num%>%<ord%>:@R.Poss.Sg3@ # ; 
+
+LEXICON NUM-DIST
+
+%<num%>%<dist%>: # ; 
+
+LEXICON NUM5
+
+@D.Prefijo@%<num%>:@D.Prefijo@ # ; 
+@R.Poss.Sg3@%<num%>%<ord%>:@R.Poss.Sg3@ # ; 
+@D.Prefijo@%<num%>%<dist%>:@D.Prefijo@%>täq # ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -312,8 +340,31 @@ rijaʼ%<prn%>%<pers%>:rijaʼ # ;
 
 LEXICON Numerales 
 
-jun:jun NUM ;  ! "uno"
-waqiʼ:waqiʼ NUM ; ! "seis"
+jun:jun NUM1234 ;  ! "uno"
+kaʼiʼ:kaʼiʼ NUM1234 ; ! ""
+oxiʼ:oxiʼ NUM1234 ; ! ""
+kajiʼ:kajiʼ NUM1234 ; ! ""
+woʼoʼ:woʼoʼ NUM5 ; ! ""
+waqiʼ:waqiʼ NUM5 ; ! "seis"
+wuquʼ:wuquʼ NUM5 ; ! ""
+waqxaqiʼ:waqxaqiʼ NUM5 ; ! ""
+bʼelejeʼ:bʼelejeʼ NUM5 ; ! ""
+lajuj:lajuj NUM5 ; ! ""
+julajuj:julajuj NUM5 ; ! ""
+kabʼlajuj:kabʼlajuj NUM5 ; ! ""
+oxlajuj:oxlajuj NUM5 ; ! ""
+wolajuj:wolajuj NUM5 ; ! ""
+waqlajuj:waqlajuj NUM5 ; ! ""
+wuqlajuj:wuqlajuj NUM5 ; ! ""
+waqxaqlajuj:waqxaqlajuj NUM5 ; ! ""
+bʼelejlajuj:bʼelejlajuj NUM5 ; ! ""
+juwinäq:juwinäq NUM5 ; ! ""
+jukʼal:jukʼal NUM5 ; ! ""
+
+jun:jujun NUM-DIST ;  ! ""
+kaʼiʼ:kakaʼ NUM-DIST ; ! ""
+oxiʼ:oxʼox NUM-DIST ; ! ""
+kajiʼ:kajkäj NUM-DIST ; ! ""
 
 LEXICON Relacionales
 
@@ -525,6 +576,9 @@ yaʼ:yaʼ SUSTANTIVO ; ! "agua, water"
 
 tzij:tzij N1 ; ! "palabra"
 
+LEXICON Propios
+
+Luʼ:Luʼ NP-ANT ; ! ""
 
 LEXICON Adjetivos
 
@@ -551,6 +605,31 @@ LEXICON Adverbios
 kʼa:kʼa ADV ; ! "bien"
 kan:kan ADV ; ! "muy"
 chuqaʼ:chuqaʼ ADV ; ! "también" 
+chuwaʼq:chuwaʼq ADV ; ! "mañana"
+iwir:iwir ADV ; ! "ayer"
+
+wakami:wakami ADV ; ! ""
+chaqʼaʼ:chaqʼaʼ ADV ; ! ""
+jantapeʼ:jantapeʼ ADV ; ! ""
+ojer:ojer ADV ; ! ""
+myer:myer ADV ; ! ""
+tiqaqʼij:tiqaqʼij ADV ; ! ""
+paqʼij:paqʼij ADV ; ! ""
+kabʼij:kabʼij ADV ; ! ""
+kabʼijir:kabʼijir ADV ; ! ""
+junabʼir:junabʼir ADV ; ! ""
+
+näj:näj ADV ; ! ""
+waweʼ:waweʼ ADV ; ! ""
+
+chanim:chanim ADV ; ! ""
+ütz:ütz ADV ; ! ""
+eqal:eqal ADV ; ! ""
+jutaqil:jutaqil ADV ; ! ""
+aninäq:aninäq ADV ; ! ""
+
+qitzij:qitzij ADV ; ! ""
+
 
 LEXICON Intr
 
@@ -562,10 +641,14 @@ wär:wär IV ; ! "dormir"
 waʼ:waʼ IV ; ! "comer"
 samäj:samäj IV ; ! "trabajar"
 oqʼ:oqʼ IV ; ! "llorar"
+bʼe:bʼe IV ; ! "ir"
 
 LEXICON Tran
 
 tzʼu:tzʼu TV ; ! "see, look at"
 tzʼët:tzʼët TV ; ! "mirar, look at"
 bʼän:bʼän TV ; ! "hacer, do"
-
+naʼ:naʼ TV ; ! "sentir"
+löqʼ:löqʼ TV ; ! "comprar"
+tïk:tïk TV ; ! "sembrar"
+chäp:chäp TV ; ! "agarrar"

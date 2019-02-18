@@ -5,6 +5,7 @@ a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ï ö ü ʼ
 %{n%}:0 %{n%}:n %{n%}:w
 %{i%}:0 %{i%}:i
 %{u%}:0 %{u%}:u
+%{o%}:u %{o%}:o
 %{a%}:0 %{a%}:a
 %{ъ%}:0 %{ъ%}:ʼ
 %{t%}:0 %{t%}:t
@@ -49,8 +50,12 @@ Vx:0 <=> _ %>: :Vow  ;
 "Alternation of {t}"
 %{t%}:0 <=> _ %>: :Cns ; 
 
-"Lax to tense upon possession"
-Vx:Vy <=> %>: ?* _ Cns: %{≤%}: ; 
+"Lax to tense upon possession and infinitive"
+Vx:Vy <=> %>: ?* _ Cns: %{≤%}: ;
+          _ Cns: %{≤%}: %>: %{o%}: ; 
       where Vx in ( ï ë ä ö ) 
             Vy in ( i e a o ) 
       matched ; 
+
+"Alternation in infinitive suffix"
+%{o%}:u <=> :u ?* %>: _ ; 
