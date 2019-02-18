@@ -585,9 +585,11 @@ yaʼ:yaʼ SUSTANTIVO ; ! "agua, water"
 !kamïk:kamïk SUSTANTIVO-VERBAL ; ! "morir, die"
 
 tzij:tzij N1 ; ! "palabra"
-kʼaslen:kʼaslen N1 ; ! "palabra"
-kʼaslen:kʼaslem N1 ; ! "palabra"
-kʼaslemal:kʼaslemal N1 ; ! "palabra"
+kʼaslen:kʼaslen N1 ; ! ""
+kʼaslen:kʼaslem N1 ; ! ""
+kʼaslemal:kʼaslemal N1 ; ! ""
+ikʼ:ikʼ N1 ; ! "mes"
+
 
 LEXICON Propios
 
