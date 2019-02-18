@@ -13,6 +13,8 @@ Multichar_Symbols
 %<adv%>                ! Adverbio
 %<det%>                ! Determinante
 %<cnjsub%>             ! Conjunción subordinadora
+%<cm%>                 ! 
+%<sent%>               ! 
 
 %<iv%>                 ! Intransitivo
 %<tv%>                 ! Transitivo
@@ -94,6 +96,7 @@ Sustantivos ;
 Propios ;
 Adjetivos ;
 Adverbios ;
+Punctuación ;
 
 Prefijos ;
 
@@ -663,3 +666,34 @@ naʼ:naʼ TV ; ! "sentir"
 löqʼ:löqʼ TV ; ! "comprar"
 tïk:tïk TV ; ! "sembrar"
 chäp:chäp TV ; ! "agarrar"
+
+LEXICON Punctuación
+
+.%<sent%>:. # ;
+..%<sent%>:.. # ;
+...%<sent%>:... # ;
+%;%<sent%>:%; # ;
+%:%<sent%>:%: # ;
+%!%<sent%>:%! # ;
+%¡%<sent%>:%¡ # ; 
+%-%<guio%>:%- # ;
+%—%<guio%>:%— # ;
+%–%<guio%>:%– # ;
+,%<cm%>:, # ;
+%?%<sent%>:%? # ; 
+%¿%<lquest%>:%¿ # ; 
+%"%<sent%>:%" # ;
+%«%<lquot%>:%« # ;
+%»%<rquot%>:%» # ;
+%”%<rquot%>:%” # ;
+%“%<lquot%>:%“ # ;
+%(%<lpar%>:%( # ;
+（%<lpar%>:（ # ;
+%]%<rpar%>:%] # ;
+%[%<lpar%>:%[ # ;
+%)%<rpar%>:%) # ;
+）%<rpar%>:） # ;
+\%<sent%>:\ # ;
+/%<sent%>:/ # ;
+…%<sent%>:… # ;
+
