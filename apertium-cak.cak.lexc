@@ -5,7 +5,7 @@
 Multichar_Symbols
 
 %<n%>                  ! Sustantivo
-%<np%>                 ! 
+%<np%>                 ! Nombre propio
 %<v%>                  ! Verbo
 %<vaux%>               ! Verbo auxiliar
 %<prn%>                ! Pronombre
@@ -16,13 +16,15 @@ Multichar_Symbols
 
 %<iv%>                 ! Intransitivo
 %<tv%>                 ! Transitivo
+ 
+%<inf%>                ! Infinitivo 
+%<pp%>                 ! Participio pasado
 
-%<inf%>
-%<pp%>
+%<impf%>               ! Imperfectivo
+%<perf%>               ! Perfectivo
+%<pot%>                ! Potencial
 
 %<cmpl%>               ! Completivo
-%<incm%>               ! Incompletivo
-%<pot%>                ! Potencial
 
 %<s_sg1%>              ! Concordancia de sujeto de la 1ra persona singular
 %<s_sg2%>              ! Concordancia de sujeto de la 2da persona singular
@@ -62,6 +64,7 @@ Multichar_Symbols
 @D.Poss@               ! Posesivo prohibido
 
 @P.Prefijo.1@
+@R.Prefijo.1@
 @D.Prefijo@
 
 %{a%}                  ! Underlying -a- deletes before vowel
@@ -72,6 +75,7 @@ Multichar_Symbols
 %{w%}                  ! -w- epentética
 %{t%}                  ! -t- en prefijos de persona
 %{ъ%}                  ! -ʼ- en prefijos de persona
+%{V%}                  ! Vocal de raíz
 %{≤%}                  ! Marcador fonológico de sustantivos de la clase II 
 
 ʼ
@@ -258,6 +262,7 @@ LEXICON TV
 
 %<v%>%<tv%>: # ; 
 @D.Prefijo@%<v%>%<tv%>%<inf%>:@D.Prefijo@%{≤%}%>%{o%}j # ;
+@R.Prefijo.1@%<v%>%<tv%>%<cmpl%>:@R.Prefijo.1@%{≤%}%>%{V%}täj # ; ! TODO: Does this only apply to passive / do we need to switch the agreement?
 
 LEXICON IV 
 
@@ -300,6 +305,8 @@ taq%<cnjsub%>:taq # ;
 chuqaʼ%<cnjcoo%>:chuqaʼ # ; 
 
 ! kʼo = hay
+
+ti%<dim%>:ti # ; 
 
 LEXICON Preposiciones 
 
@@ -575,6 +582,9 @@ yaʼ:yaʼ SUSTANTIVO ; ! "agua, water"
 !kamïk:kamïk SUSTANTIVO-VERBAL ; ! "morir, die"
 
 tzij:tzij N1 ; ! "palabra"
+kʼaslen:kʼaslen N1 ; ! "palabra"
+kʼaslen:kʼaslem N1 ; ! "palabra"
+kʼaslemal:kʼaslemal N1 ; ! "palabra"
 
 LEXICON Propios
 
@@ -642,6 +652,7 @@ waʼ:waʼ IV ; ! "comer"
 samäj:samäj IV ; ! "trabajar"
 oqʼ:oqʼ IV ; ! "llorar"
 bʼe:bʼe IV ; ! "ir"
+kʼaseʼ:kʼaseʼ IV ; ! "vivir"
 
 LEXICON Tran
 

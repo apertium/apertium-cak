@@ -9,6 +9,7 @@ a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ï ö ü ʼ
 %{a%}:0 %{a%}:a
 %{ъ%}:0 %{ъ%}:ʼ
 %{t%}:0 %{t%}:t
+%{V%}:0 %{V%}:a %{V%}:e %{V%}:i %{V%}:o %{V%}:u
 
 %>:0
 %{≤%}:0
@@ -52,10 +53,22 @@ Vx:0 <=> _ %>: :Vow  ;
 
 "Lax to tense upon possession and infinitive"
 Vx:Vy <=> %>: ?* _ Cns: %{≤%}: ;
-          _ Cns: %{≤%}: %>: %{o%}: ; 
+          _ Cns: %{≤%}: %>: [ %{o%}: | %{V%}: ] ; 
       where Vx in ( ï ë ä ö ) 
             Vy in ( i e a o ) 
       matched ; 
 
+!@ x >:0 t z ʼ ë:e t {≤}:0 >:0 {V}:e t ä j
+
 "Alternation in infinitive suffix"
 %{o%}:u <=> :u ?* %>: _ ; 
+
+"Suffix vowel repeats root vowel"
+%{V%}:Vx <=> :Vy [ :Cns | :0 ]+ %>: _ ; 
+      where Vy in ( ä ë ï ö ü a e i o u ) 
+            Vx in ( a e i o u a e i o u ) 
+      matched ; 
+
+!@ x >:0 t z ʼ ë:e t {≤}:0 >:0 {V}:e t ä j
+
+
