@@ -13,8 +13,6 @@ Multichar_Symbols
 %<adv%>                ! Adverbio
 %<det%>                ! Determinante
 %<cnjsub%>             ! Conjunción subordinadora
-%<cm%>                 ! 
-%<sent%>               ! 
 
 %<iv%>                 ! Intransitivo
 %<tv%>                 ! Transitivo
@@ -27,6 +25,9 @@ Multichar_Symbols
 %<pot%>                ! Potencial
 
 %<cmpl%>               ! Completivo
+
+%<ant%>                ! Antropónimo
+%<top%>                ! Topónimo
 
 %<s_sg1%>              ! Concordancia de sujeto de la 1ra persona singular
 %<s_sg2%>              ! Concordancia de sujeto de la 2da persona singular
@@ -48,6 +49,9 @@ Multichar_Symbols
 %<px1pl%>              ! Posesivo, 1a plural
 %<px2pl%>              ! Posesivo, 2a plural
 %<px3pl%>              ! Posesivo, 3a plural
+
+%<cm%>                 ! 
+%<sent%>               ! 
 
 @P.Poss.Sg1@
 @P.Poss.Sg2@
@@ -185,6 +189,11 @@ LEXICON NP-ANT
 
 %<np%>%<ant%>: #  ;
 
+LEXICON NP-TOP
+
+%<np%>%<top%>: #  ;
+
+
 
 LEXICON Verbal 
 
@@ -200,6 +209,7 @@ LEXICON Accidents
 
 Impf ; 
 Perf ; 
+Pot ;
 
 LEXICON Impf
 
@@ -215,6 +225,7 @@ LEXICON Perf
 %<perf%>:x%> PERS-IV-A-3 ;
 
 %<perf%>:x%> PERS-TV-A ;
+%<perf%>:x%> PERS-TV-A-3 ;
 
 LEXICON Pot
 
@@ -222,6 +233,7 @@ LEXICON Pot
 %<pot%>:xt%> PERS-IV-A-3 ;
 
 %<pot%>:xk%> PERS-TV-A ;
+%<pot%>:xk%> PERS-TV-A-3 ;
 
 LEXICON PERS-IV-A ! Juego absolutivo
 
@@ -353,16 +365,17 @@ rijaʼ%<prn%>%<pers%>:rijaʼ # ;
 
 LEXICON Numerales 
 
+waʼix:waʼix NUM5 ; ! "cero"
 jun:jun NUM1234 ;  ! "uno"
-kaʼiʼ:kaʼiʼ NUM1234 ; ! ""
-oxiʼ:oxiʼ NUM1234 ; ! ""
-kajiʼ:kajiʼ NUM1234 ; ! ""
-woʼoʼ:woʼoʼ NUM5 ; ! ""
+kaʼiʼ:kaʼiʼ NUM1234 ; ! "dos"
+oxiʼ:oxiʼ NUM1234 ; ! "tres"
+kajiʼ:kajiʼ NUM1234 ; ! "cuatro"
+woʼoʼ:woʼoʼ NUM5 ; ! "cinco"
 waqiʼ:waqiʼ NUM5 ; ! "seis"
-wuquʼ:wuquʼ NUM5 ; ! ""
-waqxaqiʼ:waqxaqiʼ NUM5 ; ! ""
-bʼelejeʼ:bʼelejeʼ NUM5 ; ! ""
-lajuj:lajuj NUM5 ; ! ""
+wuquʼ:wuquʼ NUM5 ; ! "siete"
+waqxaqiʼ:waqxaqiʼ NUM5 ; ! "ocho"
+bʼelejeʼ:bʼelejeʼ NUM5 ; ! "nueve"
+lajuj:lajuj NUM5 ; ! "diez"
 julajuj:julajuj NUM5 ; ! ""
 kabʼlajuj:kabʼlajuj NUM5 ; ! ""
 oxlajuj:oxlajuj NUM5 ; ! ""
@@ -434,6 +447,8 @@ jolomaj:jolom N3/aj ; ! "cabeza" ! TODO: p.64 jolon/m ?
 !jolomaj:jolomaj SUSTANTIVO-INALIENABLE ; ! "cabeza, head"
 
 nimalaxel:nimal N3/axel ; ! "hermano/a mayor del mismo género"
+
+kem:kem N1 ; ! "tejido"
 
 äk:äk N1 ; ! "gallina"
 äkʼ:äkʼ SUSTANTIVO ; ! "pollo, chicken"
@@ -594,6 +609,8 @@ kʼaslemal:kʼaslemal N1 ; ! ""
 ikʼ:ikʼ N1 ; ! "mes"
 
 choy:choy N1 ; ! "laguna"
+mayabʼ:mayabʼ N1 ; ! ""
+kaqchikel:kaqchikel N1 ; ! ""
 
 abʼ:abʼ SUSTANTIVO ; ! "hamaca"
 abʼaj:abʼaj SUSTANTIVO ; ! "testículo"
@@ -783,6 +800,8 @@ LEXICON Propios
 
 Luʼ:Luʼ NP-ANT ; ! ""
 
+Iximcheʼ:Iximcheʼ NP-TOP ; ! ""
+
 LEXICON Adjetivos
 
 ütz:ütz A ; ! "bueno, good"
@@ -857,6 +876,7 @@ naʼ:naʼ TV ; ! "sentir"
 löqʼ:löqʼ TV ; ! "comprar"
 tïk:tïk TV ; ! "sembrar"
 chäp:chäp TV ; ! "agarrar"
+toʼ:toʼ TV ; ! "ayudar"
 
 LEXICON Punctuación
 
