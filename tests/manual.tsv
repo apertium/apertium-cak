@@ -13,12 +13,12 @@
 
 37	wäy<n>					wäy
 37	wäy<n><px1pl>				qaway
-37	winäq<n>					winäq
+37	winäq<n>				winäq
 37	winäq<n><px1pl>				qawinaq
-37	kinäqʼ<n>					kinäq
-37	kinäqʼ<n><px1pl>				qakinaqʼ
-37	tijobʼäl<n>					tijobʼäl
-37	tijobʼäl<n><px1pl>				qatijobʼal
+37	kinäqʼ<n>				kinäq
+37	kinäqʼ<n><px1pl>			qakinaqʼ
+37	tijobʼäl<n>				tijobʼäl
+37	tijobʼäl<n><px1pl>			qatijobʼal
 37	läq<n>					läq
 37	läq<n><px1pl>				qalaq
 
@@ -26,6 +26,36 @@
 62	jolom<n><px3sg>				rujolom
 62	kem<n><px1pl>				qakem
 62	kem<n><px3pl>				kikem
-62	toʼ<v><tv><perf><o_sg1><s_pl3>				xinitoʼ
-62	toʼ<v><tv><perf><o_sg2><s_pl1>				xatqatoʼ
-62	toʼ<v><tv><perf><o_pl1><s_pl3>				xojitoʼ
+62	toʼ<v><tv><perf><o_sg1><s_pl3>		xinitoʼ
+62	toʼ<v><tv><perf><o_sg2><s_pl1>		xatqatoʼ
+62	toʼ<v><tv><perf><o_pl1><s_pl3>		xojitoʼ
+
+64	toʼ<v><tv><perf><o_pl3><s_sg1>		xenutoʼ	
+64	toʼ<v><tv><perf><o_pl3><s_sg2>		xeʼatoʼ	
+64	toʼ<v><tv><perf><o_pl3><s_sg3>		xerutoʼ	
+64	toʼ<v><tv><perf><o_pl3><s_pl1>		xeqatoʼ	
+64	toʼ<v><tv><perf><o_pl3><s_pl2>		xeʼitoʼ	
+64	toʼ<v><tv><perf><o_pl3><s_pl3>		xekitoʼ	
+64	toʼ<v><tv><perf><o_sg3><s_sg3>		xutoʼ	
+
+64	ïl<v><tv><perf><o_pl3><s_sg1>		xewïl	
+64	ïl<v><tv><perf><o_pl3><s_sg2>		xeʼawïl	
+64	ïl<v><tv><perf><o_pl3><s_sg3>		xerïl	
+64	ïl<v><tv><perf><o_pl3><s_pl1>		xeqïl	
+64	ïl<v><tv><perf><o_pl3><s_pl2>		xeʼiwïl	
+64	ïl<v><tv><perf><o_pl3><s_pl2>		xekïl	
+64	ïl<v><tv><perf><o_sg3><s_sg3>		xwïl	
+
+66	ok<v><iv><perf><s_sg1>			xinok
+66	ok<v><iv><perf><s_sg2>			xatok
+66	ok<v><iv><perf><s_sg3>			xok
+66	ok<v><iv><perf><s_pl1>			xojok
+66	ok<v><iv><perf><s_pl2>			xixok
+66	ok<v><iv><perf><s_pl3>			xeʼok
+
+66	bʼe<v><iv><perf><s_sg1>			xibʼe
+66	bʼe<v><iv><perf><s_sg2>			xabʼe
+66	bʼe<v><iv><perf><s_sg3>			xbʼe
+66	bʼe<v><iv><perf><s_pl1>			xojbʼe
+66	bʼe<v><iv><perf><s_pl2>			xixbʼe
+66	bʼe<v><iv><perf><s_pl3>			xebʼe

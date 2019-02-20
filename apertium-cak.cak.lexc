@@ -181,6 +181,11 @@ LEXICON N6
 
 %<n%>%<rel%>: Poss ;
 
+LEXICON N7 
+! Siempre poseídos
+
+@D.Poss@%<n%>%<px3sg%>:@D.Poss@ # ; 
+
 LEXICON SUSTANTIVO
 ! Class to be determined.
 N1 ; 
@@ -318,6 +323,11 @@ ajin%<vaux%>:ajin # ;
 ajin%<vaux%>:tajin # ; 
 
 ta%<mod%>:ta # ;
+na%<mod%>:na # ; ! ""
+k'a%<mod%>:k'a # ; ! ""
+yan%<mod%>:yan # ; ! ""
+chïk%<mod%>:chïk # ; ! ""
+wi%<mod%>:wi # ; ! ""
 
 taq%<cnjsub%>:taq # ; 
 chuqaʼ%<cnjcoo%>:chuqaʼ # ; 
@@ -325,6 +335,15 @@ chuqaʼ%<cnjcoo%>:chuqaʼ # ;
 ! kʼo = hay
 
 ti%<dim%>:ti # ; 
+
+el%<dir%>:el # ; ! ""
+ok%<dir%>:ok # ; ! ""
+pe%<dir%>:pe # ; ! ""
+apon%<dir%>:apon # ; ! ""
+aqʼanij%<dir%>:aqʼanij # ; ! ""
+qaj%<dir%>:qaj # ; ! ""
+kan%<dir%>:kan # ; ! ""
+
 
 LEXICON Preposiciones 
 
@@ -406,6 +425,14 @@ xkïn:xkïn N6 ; ! ""
 wiʼ:wiʼ N6 ; ! ""
 tzaʼm:tzaʼm N6 ; ! ""
 
+xikin:xikin N6 ; ! ""
+wäch:wäch N6 ; ! ""
+chiʼ:chiʼ N6 ; ! ""
+pam:pam N6 ; ! ""
+
+kʼin:kʼin N6 ; ! ""
+qiʼ:qiʼ N6 ; ! ""
+
 LEXICON Sustantivos
 
 Relacionales ;
@@ -456,6 +483,7 @@ ikäj:ikäj N1 ; ! "hacha"
 oj:oj N1 ; ! "aguacate"
 chun:chun N1 ; ! "cal"
 bʼey:bʼey N1 ; ! "camino"
+nimabʼey:nimabʼey N1 ; ! "carretera"
 juyuʼ:juyuʼ N1 ; ! "montaña"
 kotzʼiʼj:kotzʼiʼj N1 ; ! "flor" ! TODO: p.63 kiotz'i'j
 tzʼiʼ:tzʼiʼ N1 ; ! "perro"
@@ -595,12 +623,21 @@ yaʼ:yaʼ SUSTANTIVO ; ! "agua, water"
 !
 !ronojel:ronojel SUSTANTIVO-RELACIONAL ; ! "todos, all"
 !
-!rujey:rujey SUSTANTIVO-SIEMPRE-POSEIDO ; ! "cola, tail"
-!ruxaq:ruxaq SUSTANTIVO-SIEMPRE-POSEIDO ; ! "hoja, leaf"
-!
 !jay:jay SUSTANTIVO-SUPLETIVO ; ! "casa, house/shelter"
+nimajay:nimajay N1 ; ! ""
 !
 !kamïk:kamïk SUSTANTIVO-VERBAL ; ! "morir, die"
+
+rujey:rujey N7 ; ! "cola, tail"
+ruxaq:ruxaq N7 ; ! "hoja, leaf"
+rey:rey N7 ; ! ""
+rij:rij N7 ; ! ""
+ronojel:ronojel N7 ; ! ""
+rajil:rajil N7 ; ! ""
+ruwiʼ:ruwiʼ N7 ; ! ""
+retal:retal N7 ; ! ""
+rutzʼaqat:rutzʼaqat N7 ; ! ""
+
 
 tzij:tzij N1 ; ! "palabra"
 kʼaslen:kʼaslen N1 ; ! ""
@@ -610,7 +647,11 @@ ikʼ:ikʼ N1 ; ! "mes"
 
 choy:choy N1 ; ! "laguna"
 mayabʼ:mayabʼ N1 ; ! ""
-kaqchikel:kaqchikel N1 ; ! ""
+
+kaqchikel:kaqchikel N5/aʼ ; ! ""
+kʼicheʼ:kʼicheʼ N5/aʼ ; ! ""
+mam:mam N5/iʼ ; ! ""
+kaxlan:kaxlan N5/iʼ ; ! ""
 
 abʼ:abʼ SUSTANTIVO ; ! "hamaca"
 abʼaj:abʼaj SUSTANTIVO ; ! "testículo"
@@ -795,6 +836,11 @@ yabʼil:yabʼil SUSTANTIVO ; ! "enfermedad, feto"
 yonilal:yonilal SUSTANTIVO ; ! "singularidad"
 yuqʼ:yuqʼ SUSTANTIVO ; ! "cicatriz"
 
+saqbʼäch:saqbʼäch N1 ; ! ""
+raxwäch:raxwäch N1 ; ! ""
+raxtew:raxtew N1 ; ! ""
+raxkej:raxkej N1 ; ! ""
+
 
 LEXICON Propios
 
@@ -866,6 +912,7 @@ oqʼ:oqʼ IV ; ! "llorar"
 bʼe:bʼe IV ; ! "ir"
 kʼaseʼ:kʼaseʼ IV ; ! "vivir"
 aläx:aläx IV ; ! "nacer"
+ok:ok IV ; ! "entrar"
 
 LEXICON Tran
 
@@ -877,6 +924,7 @@ löqʼ:löqʼ TV ; ! "comprar"
 tïk:tïk TV ; ! "sembrar"
 chäp:chäp TV ; ! "agarrar"
 toʼ:toʼ TV ; ! "ayudar"
+ïl:ïl TV ; ! "encontrar"
 
 LEXICON Punctuación
 
