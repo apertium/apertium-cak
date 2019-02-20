@@ -92,6 +92,7 @@ Multichar_Symbols
 LEXICON Root
 
 Misceláneas ; 
+Contracciones ; 
 Preposiciones ; 
 Determinantes ; 
 Pronombres ; 
@@ -201,7 +202,6 @@ LEXICON N9/il
 
 %<n%>:%>il Poss ;
 @D.Poss@%<n%>:@D.Poss@ # ;
-
 
 LEXICON N-JAY 
 ! Supletivo
@@ -372,6 +372,13 @@ kan%<dir%>:kan # ; ! ""
 
 cha%<quot%>:cha # ; ! ""
 
+LEXICON Contracciones
+
+chi%<pr%>%+re%<prn%>:chire # ;  ! Use/Sub ! TODO: Check this
+chi%<pr%>%+re%<prn%>:chre # ;  ! Use/Sub ! TODO: Check this
+
+chi%<pr%>%+pam%<n%>%<rel%>%<px3sg%>:chupam # ; ! Use/Sub ! TODO: Check this
+
 LEXICON Preposiciones 
 
 pa%<pr%>:pa # ; 
@@ -464,7 +471,6 @@ LEXICON Sustantivos
 
 Relacionales ;
 
-wuj:wuj N1 ; ! "libro"
 poʼt:poʼt N1 ; ! "blusa"
 chʼatal:chʼatal N1 ; ! "mesa"
 chachal:chachal N1 ; ! "collar"
@@ -927,6 +933,8 @@ bʼatzʼ:bʼatzʼ N1 ; ! ""
 
 kikʼ:kikʼ N9/el ; ! "sangre"
 bʼaq:bʼaq N9/il ; ! "hueso"
+wuj:wuj N9/il ; ! "libro"
+ibʼochʼ:ibʼochʼ N9/il ; ! ""
 
 N-JAY ; ! "casa"
 
