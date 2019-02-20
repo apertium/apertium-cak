@@ -192,6 +192,16 @@ LEXICON N8
 
 @D.Poss@%<n%>:@D.Poss@ # ; 
 
+LEXICON N9/el
+
+%<n%>:%>el Poss ;
+@D.Poss@%<n%>:@D.Poss@ # ;
+
+LEXICON N9/il
+
+%<n%>:%>il Poss ;
+@D.Poss@%<n%>:@D.Poss@ # ;
+
 
 LEXICON N-JAY 
 ! Supletivo
@@ -360,6 +370,7 @@ aqʼanij%<dir%>:aqʼanij # ; ! ""
 qaj%<dir%>:qaj # ; ! ""
 kan%<dir%>:kan # ; ! ""
 
+cha%<quot%>:cha # ; ! ""
 
 LEXICON Preposiciones 
 
@@ -538,7 +549,6 @@ ajpatän:ajpatän SUSTANTIVO ; ! "cofradía, religious society"
 aqaj:aqaj SUSTANTIVO ; ! "panal, honeycomb"
 aqʼomanel:aqʼomanel SUSTANTIVO ; ! "curandero, shaman, medicine man"
 atzʼam:atzʼam SUSTANTIVO ; ! "sal, salt"
-bʼaq:bʼaq SUSTANTIVO ; ! "hueso, bone"
 bʼixanel:bʼixanel SUSTANTIVO ; ! "cantor, singer"
 chʼabʼ:chʼabʼ SUSTANTIVO ; ! "flecha, arrow"
 chaj:chaj SUSTANTIVO ; ! "cenizas, ashes"
@@ -853,6 +863,71 @@ raxwäch:raxwäch N1 ; ! ""
 raxtew:raxtew N1 ; ! ""
 raxkej:raxkej N1 ; ! ""
 
+tijobʼäl:tijobʼäl N1 ; ! "escuela"
+champomal:champomal N1 ; ! "gobierno"
+ruqʼaʼ:ruqʼaʼ N1 ; ! "mano, manga"
+bʼanikil:bʼanikil N1 ; ! "tamaño, forma"
+
+kikotemal:kikotemal N1 ; ! ""
+etamabʼäl:etamabʼäl N1 ; ! ""
+oxtzʼik:oxtzʼik N1 ; ! ""
+kabʼraqän:kabʼraqän N1 ; ! ""
+sikʼäj:sikʼäj N1 ; ! "apazote"
+mebʼaʼil:mebʼaʼil N1 ; ! "pobreza"
+eyaʼ:eyaʼ N1 ; ! "pericón"
+eleqʼ:eleqʼ N1 ; ! "asalot, robo"
+rubʼanikil:rubʼanikil N1 ; ! "condición, estado"
+qʼopoj:qʼopoj N1 ; ! "señorita"
+xeʼ:xeʼ N1 ; ! ""
+ya:ya N1 ; ! ""
+chʼaqap:chʼaqap N1 ; ! ""
+rutemebʼal:rutemebʼal N1 ; ! ""
+kïy:kïy N1 ; ! "apellido, dolor"
+jäbʼ:jäbʼ N1 ; ! "aguacero"
+ajaw:ajaw N1 ; ! "cacique, señor"
+tuj:tuj N1 ; ! "regaño"
+rajawal:rajawal N1 ; ! "dueño, díos"
+nimawinäq:nimawinäq N1 ; ! "pedidor"
+kʼiyirisanem:kʼiyirisanem N1 ; ! "desarrollo"
+bʼonil:bʼonil N1 ; ! "colorante"
+bʼeyomäl:bʼeyomäl N1 ; ! "riqueza"
+waybʼäl:waybʼäl N1 ; ! "comedor, cocina"
+uchuqʼabʼil:uchuqʼabʼil N1 ; ! "energía, fuerza, materia"
+tzʼibʼ:tzʼibʼ N1 ; ! "letra, escritura"
+raybʼäl:raybʼäl N1 ; ! "deseo"
+ruwawinäq:ruwawinäq N1 ; ! "mal de ojo"
+qʼanajäl:qʼanajäl N1 ; ! ""
+nukʼusamajel:nukʼusamajel N1 ; ! ""
+munil:munil N1 ; ! ""
+kʼuxatzʼibʼ:kʼuxatzʼibʼ N1 ; ! ""
+kʼatän:kʼatän N1 ; ! ""
+kaqajäl:kaqajäl N1 ; ! ""
+chʼobʼonem:chʼobʼonem N1 ; ! ""
+bʼeyal:bʼeyal N1 ; ! "regla, norma, procedimiento"
+achkʼuljay:achkʼuljay N1 ; ! "vecino"
+tojonel:tojonel N1 ; ! "pagador"
+yawabʼil:yawabʼil N1 ; ! "enfermedad"
+taqöy:taqöy N1 ; ! "mandador"
+talutzij:talutzij N1 ; ! "radio"
+sachik:sachik N1 ; ! "conjuntivitis"
+saqakotzʼiʼj:saqakotzʼiʼj N1 ; ! "monja blanca"
+saqʼul:saqʼul N1 ; ! ""
+qʼuch:qʼuch N1 ; ! "trabajo mútuo"
+rayibʼäl:rayibʼäl N1 ; ! "objetivo"
+qʼenum:qʼenum N1 ; ! "jocote"
+qʼajaribʼäl:qʼajaribʼäl N1 ; ! "predicado"
+loqʼ:loqʼ N1 ; ! "amor, cariño"
+kemchiʼ:kemchiʼ N1 ; ! "gramática"
+kʼayinel:kʼayinel N1 ; ! "vendedor"
+kamisabʼäl:kamisabʼäl N1 ; ! "instrumento"
+jöbʼ:jöbʼ N1 ; ! "aguacero"
+ajtikoʼn:ajtikoʼn N1 ; ! ""
+ajpopiʼ:ajpopiʼ N1 ; ! ""
+bʼatzʼ:bʼatzʼ N1 ; ! ""
+
+kikʼ:kikʼ N9/el ; ! "sangre"
+bʼaq:bʼaq N9/il ; ! "hueso"
+
 N-JAY ; ! "casa"
 
 LEXICON Propios
@@ -862,6 +937,17 @@ Luʼ:Luʼ NP-ANT ; ! ""
 Iximcheʼ:Iximcheʼ NP-TOP ; ! ""
 
 LEXICON Adjetivos
+
+kʼo:kʼo A ; ! ""  ! TODO: This is like `var' in Turkish
+
+kʼatän:kʼatän A ; ! "caliente"
+qʼequʼm:qʼequʼm A ; ! "oscuro"
+sipan:sipan A ; ! "gratuita"
+samajelaʼ:samajelaʼ A ; ! ""
+kʼayew:kʼayew A ; ! ""
+tew:tew A ; ! "frío"
+kikotem:kikotem A ; ! "contento"
+tzʼaqät:tzʼaqät A ; ! "completo"
 
 ütz:ütz A ; ! "bueno, good"
 al:al A ; ! "pesado (que pesa), heavy"
@@ -897,6 +983,7 @@ iwir:iwir ADV ; ! "ayer"
 
 wakami:wakami ADV ; ! ""
 chaqʼaʼ:chaqʼaʼ ADV ; ! ""
+chaqʼaʼ:chaqʼa ADV ; ! "" ! Use/Sub
 jantapeʼ:jantapeʼ ADV ; ! ""
 ojer:ojer ADV ; ! ""
 myer:myer ADV ; ! ""
