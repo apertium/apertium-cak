@@ -1,7 +1,7 @@
 all: cak.gen.hfst cak.mor.hfst cak.mor.hfstol
 
 cak.lexc.hfst: apertium-cak.cak.lexc
-	hfst-lexc $< -o $@
+	hfst-lexc --Werror $< -o $@
 
 cak.twol.hfst: apertium-cak.cak.twol
 	hfst-twolc $< -o $@
