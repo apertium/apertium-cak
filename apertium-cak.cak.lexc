@@ -332,6 +332,8 @@ LEXICON NUM5
 
 LEXICON Misceláneas
 
+man%<neg%>:man # ; 
+
 ajin%<vaux%>:ajin # ; 
 ajin%<vaux%>:tajin # ; 
 
@@ -340,6 +342,7 @@ na%<mod%>:na # ; ! ""
 k'a%<mod%>:k'a # ; ! ""
 yan%<mod%>:yan # ; ! ""
 chïk%<mod%>:chïk # ; ! ""
+chïk%<mod%>:chik # ; ! "" ! Use/Sub
 wi%<mod%>:wi # ; ! ""
 
 taq%<cnjsub%>:taq # ; 
@@ -877,6 +880,12 @@ räx:räx A ; ! "verde, green"
 ri’j:ri’j A ; ! "viejo, old"
 säq:säq A ; ! "blanco, white"
 setesïk:setesïk A ; ! "redondo / circular, round"
+
+kʼatzinel:kʼatzinel A ; ! "importante"
+loqʼoläj:loqʼoläj A ; ! "santo"
+jebʼël:jebʼël A ; ! "bonito, lindo"
+nimaläj:nimaläj A ; ! "ilustre"
+kʼakʼaʼ:kʼakʼaʼ A ; ! "nuevo"
 
 LEXICON Adverbios
 
