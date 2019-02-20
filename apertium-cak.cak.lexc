@@ -357,6 +357,8 @@ wi%<mod%>:wi # ; ! ""
 
 taq%<cnjsub%>:taq # ; 
 chuqaʼ%<cnjcoo%>:chuqaʼ # ; 
+chuqaʼ%<cnjcoo%>:chuqa # ;  ! Use/Sub
+töq%<cnjsub%>:töq # ; 
 
 ! kʼo = hay
 
@@ -983,9 +985,12 @@ kʼakʼaʼ:kʼakʼaʼ A ; ! "nuevo"
 
 LEXICON Adverbios
 
+xa:xa ADV ; ! "sólo"
+
 kʼa:kʼa ADV ; ! "bien"
 kan:kan ADV ; ! "muy"
 chuqaʼ:chuqaʼ ADV ; ! "también" 
+chuqaʼ:chuqa ADV ; ! "también"  ! Use/Sub 
 chuwaʼq:chuwaʼq ADV ; ! "mañana"
 iwir:iwir ADV ; ! "ayer"
 
