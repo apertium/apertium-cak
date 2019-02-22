@@ -89,6 +89,7 @@ Multichar_Symbols
 %{w%}                  ! -w- epentética
 %{t%}                  ! -t- en prefijos de persona
 %{ъ%}                  ! -ʼ- en prefijos de persona
+%{r%}
 %{V%}                  ! Vocal de raíz
 %{≤%}                  ! Marcador fonológico de sustantivos de la clase II 
 
@@ -308,7 +309,8 @@ LEXICON PERS-TV-B ! Juego ergativo
 
 %<s_sg1%>:%{n%}%{u%}%> Tran ;
 %<s_sg2%>:a%{w%}%> Tran ;
-%<s_sg3%>:r%{u%}%> Tran ;
+!%<s_sg3%>:r%{u%}%> Tran ;
+%<s_sg3%>:%{r%}u%> Tran ;
 %<s_pl1%>:q%{a%}%> Tran ;
 %<s_pl2%>:i%{w%}%> Tran ;
 %<s_pl3%>:k%{i%}%> Tran ;
@@ -348,11 +350,29 @@ LEXICON TV
 
 LEXICON TV/ej
 
-@D.Pass.SinSujeto@%<v%>%<tv%>:@D.Pass.SinSujeto@%>%{V%}j            # ; 
+@D.Pass.SinSujeto@%<v%>%<tv%>:@D.Pass.SinSujeto@%>ej            # ; 
 @D.Prefijo@%<v%>%<tv%>%<pp%>:@D.Prefijo@%>%{o%}m                    # ; ! Prefix: -; Suffix: -{o}m;  
 @D.Prefijo@%<v%>%<tv%>%<subs%>:@D.Prefijo@%>ik                      # ; ! Prefix: -; Suffix: -ik;     ! FIXME: Possession
 @R.Pass.SinSujeto@%<v%>%<tv%>%<pass%>:@R.Pass.SinSujeto@%>%{V%}x    V-TV-COMMON ;
 %<v%>%<tv%>:                                                        V-COMMON ; 
+
+LEXICON TV/ij
+
+@D.Pass.SinSujeto@%<v%>%<tv%>:@D.Pass.SinSujeto@%>ij            # ; 
+@D.Prefijo@%<v%>%<tv%>%<pp%>:@D.Prefijo@%>%{o%}m                    # ; ! Prefix: -; Suffix: -{o}m;  
+@D.Prefijo@%<v%>%<tv%>%<subs%>:@D.Prefijo@%>ik                      # ; ! Prefix: -; Suffix: -ik;     ! FIXME: Possession
+@R.Pass.SinSujeto@%<v%>%<tv%>%<pass%>:@R.Pass.SinSujeto@%>%{V%}x    V-TV-COMMON ;
+%<v%>%<tv%>:                                                        V-COMMON ; 
+
+LEXICON TV/uj
+
+@D.Pass.SinSujeto@%<v%>%<tv%>:@D.Pass.SinSujeto@%>uj            # ; 
+@D.Prefijo@%<v%>%<tv%>%<pp%>:@D.Prefijo@%>%{o%}m                    # ; ! Prefix: -; Suffix: -{o}m;  
+@D.Prefijo@%<v%>%<tv%>%<subs%>:@D.Prefijo@%>ik                      # ; ! Prefix: -; Suffix: -ik;     ! FIXME: Possession
+@R.Pass.SinSujeto@%<v%>%<tv%>%<pass%>:@R.Pass.SinSujeto@%>%{V%}x    V-TV-COMMON ;
+%<v%>%<tv%>:                                                        V-COMMON ; 
+
+
 
 LEXICON IV 
 
@@ -1122,6 +1142,10 @@ tik:tik TV ; ! "sembrar"
 yuq:yuq TV ; ! "amarrar"
 pil:pil TV ; ! "raspar"
 
+chʼäy:chʼäy TV ; ! "pegar"
+
+paxij:pax TV/ij ; ! "romper"
+kʼutuj:kʼut TV/uj ; ! "preguntar"
 
 LEXICON Punctuación
 

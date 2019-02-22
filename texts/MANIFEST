@@ -1,0 +1,28 @@
+npass:	
+
+@article{npass,
+	author = {George Aaron Broadwell and Lachlan Duncan},
+	title = {A New Passive in Kaqchikel},
+	journal = {Linguistic Discovery},
+	volume = 1,
+	issue = 2,
+	doi = {10.1349/PS1.1537-0852.A.161},
+	year = 2002
+}
+
+gdik99:
+
+@book{gdik99,
+	title = {Gramática del idioma Kaqchikel},
+	year = 1999
+}
+
+mrk16:
+
+@book{mrk16,
+	author = {Pakal B'alam Rodriguez Guaján},
+	title = {Rutz'ib'axik ri Kaqchikel --- Manual de Redacción Kaqchikel},
+	publisher = {Editorial Maya' Wuj},
+	place = {Ciudad de Guatemala},
+	year = 2016
+}

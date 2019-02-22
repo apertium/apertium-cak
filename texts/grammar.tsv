@@ -1,8 +1,14 @@
-# TODO: Check xru- vs. xu-
-79	A Kanek xruchäp jun kuk.		Kanek agarró una ardilla.
-79	Jun kuk xchäp ruma a Kanek.	Una ardilla fue agarrada por Kanek.
-79	A Xwan xruq'etej xta Kante'l.	Juan abrazó a Candelaria.
-79	Ixta Kante'l xq'etex ruma a Xwan.	Candelaria fue abrazada por Juan.
-80	Ri achi xruk'axaj ri qach'abäl.		El señor escuchó nuestra palabra.
-80	Ri qach'abäl xk'axäx ruma ri achin.	Nuestra palabra fue escuchada por el señor.
-80	Ri achin xk'axan ri qach'abäl.		El señor escuchó nuestra palabra.
+gdik99		79	A Kanek xuchäp jun kuk.			Kanek agarró una ardilla.
+gdik99		79	Jun kuk xchäp ruma a Kanek.		Una ardilla fue agarrada por Kanek.
+gdik99		79	A Xwan xuqʼetej xta Kanteʼl.		Juan abrazó a Candelaria.
+gdik99		79	Ixta Kanteʼl xqʼetex ruma a Xwan.	Candelaria fue abrazada por Juan.
+gdik99		80	Ri achi xukʼaxaj ri qachʼabäl.		El señor escuchó nuestra palabra.
+gdik99		80	Ri qachʼabäl xkʼaxäx ruma ri achin.	Nuestra palabra fue escuchada por el señor.
+gdik99		80	Ri achin xkʼaxan ri qachʼabäl.		El señor escuchó nuestra palabra.
+npass		_	Ri achin xuchʼäy ri tzʼiʼ.		The man hit the dog.
+npass		_	Xupaxij ri achin ri bʼojoy.		The man broke the pot.
+npass		_	Xinkikʼutuj.				They asked me.
+npass		_	Xewär.					They slept.
+npass		_	Yerunäq kan ri alabʼom.			She was bothering the children.
+npass		_	Ri achin xuchʼäy ri tzʼiʼ.		The man hit the dog.
+npass		_	Ri tzʼiʼ xchʼay romaʼ ri achin.		The dog was hit by the man.
