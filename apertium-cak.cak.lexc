@@ -20,6 +20,9 @@ Multichar_Symbols
 %<inf%>                ! Infinitivo 
 %<pp%>                 ! Participio pasado
 
+%<m%>
+%<f%>
+
 %<impf%>               ! Imperfectivo
 %<perf%>               ! Perfectivo
 %<pot%>                ! Potencial
@@ -72,6 +75,10 @@ Multichar_Symbols
 @P.Prefijo.1@
 @R.Prefijo.1@
 @D.Prefijo@
+
+@P.Pass.SinSujeto@
+@R.Pass.SinSujeto@
+@D.Pass.SinSujeto@
 
 %{a%}                  ! Underlying -a- deletes before vowel
 %{i%}                  ! Underlying -i- deletes before vowel
@@ -255,6 +262,9 @@ LEXICON Perf
 %<perf%>:x%> PERS-TV-A ;
 %<perf%>:x%> PERS-TV-A-3 ;
 
+@P.Pass.SinSujeto@%<perf%>:@P.Pass.SinSujeto@x%> PERS-TV-A-PASS ;
+@P.Pass.SinSujeto@%<perf%>:@P.Pass.SinSujeto@x%> PERS-TV-A-3-PASS ;
+
 LEXICON Pot
 
 %<pot%>:xk%> PERS-IV-A ;
@@ -281,6 +291,15 @@ LEXICON PERS-TV-A ! Juego absolutivo
 %<o_pl2%>:ix%>     PERS-TV-B ; ! y-ix-el, y-ix-wär  = -ix-
 %<o_pl3%>:e%{ъ%}%> PERS-TV-B ; ! y-e'-el, y-e-wär   = -e{ъ}-
 
+LEXICON PERS-TV-A-PASS ! Juego absolutivo
+
+%<s_sg1%>:i%{n%}%> Tran ; ! y-in-el, y-i-wär   = -i{n}-
+%<s_sg2%>:a%{t%}%> Tran ; ! y-at-el, y-a-wär   = -a{t}-
+                               ! n-Ø-el , ni-Ø-wär  = -n{i}-
+%<s_pl1%>:oj%>     Tran ; ! y-oj-el, y-oj-wär  = -oj-
+%<s_pl2%>:ix%>     Tran ; ! y-ix-el, y-ix-wär  = -ix-
+%<s_pl3%>:e%{ъ%}%> Tran ; ! y-e'-el, y-e-wär   = -e{ъ}-
+
 LEXICON PERS-TV-B ! Juego ergativo
 
 ! _ Cns: nu-, a-, ru-, qa-, i-, ki-
@@ -301,13 +320,36 @@ LEXICON PERS-TV-A-3
 
 %<o_sg3%>: PERS-TV-B ; 
 
+LEXICON PERS-TV-A-3-PASS
+
+%<s_sg3%>: Tran ; 
+
+LEXICON V-TV-COMMON
+
+! TODO: Does this only apply to passive / do we need to switch the agreement?
+@R.Prefijo.1@%<cmpl%>:@R.Prefijo.1@%{≤%}%>%{V%}täj         # ; ! Prefix: +; Suffix: -{V}täj
+                                                           # ; 
+
 LEXICON TV 
 
-%<v%>%<tv%>: # ; 
+@D.Pass.SinSujeto@%<v%>%<tv%>:@D.Pass.SinSujeto@           # ; 
+
+@D.Prefijo@%<v%>%<tv%>%<inf%>:@D.Prefijo@%{≤%}%>%{o%}j     # ; ! Prefix: -; Suffix: -{o}j; 
+@D.Prefijo@%<v%>%<tv%>%<ger_ins%>:@D.Prefijo@%{≤%}%>bʼäl   # ; ! Prefix: -; Suffix: -bʼäl; 
+! FIXME: -öy/-üy p.97
+@D.Prefijo@%<v%>%<tv%>%<ger_ag%>:@D.Prefijo@%{≤%}%>%{V%}y  # ; ! Prefix: -; Suffix: -{V}y; tzʼetbʼäl
+
+@R.Pass.SinSujeto@%<v%>%<tv%>%<pass%>:@R.Pass.SinSujeto@   V-TV-COMMON ;
+%<v%>%<tv%>:                                               V-TV-COMMON ; 
+
+LEXICON TV/ej
+
+@D.Pass.SinSujeto@%<v%>%<tv%>:@D.Pass.SinSujeto@%>%{V%}j # ; 
 @D.Prefijo@%<v%>%<tv%>%<inf%>:@D.Prefijo@%{≤%}%>%{o%}j # ;
 @R.Prefijo.1@%<v%>%<tv%>%<cmpl%>:@R.Prefijo.1@%{≤%}%>%{V%}täj # ; ! TODO: Does this only apply to passive / do we need to switch the agreement?
 @D.Prefijo@%<v%>%<tv%>%<ger_ins%>:@D.Prefijo@%{≤%}%>bʼäl # ;
 @D.Prefijo@%<v%>%<tv%>%<ger_ag%>:@D.Prefijo@%{≤%}%>%{V%}y # ; ! -öy/-üy p.97
+@R.Pass.SinSujeto@%<v%>%<tv%>%<pass%>:@R.Pass.SinSujeto@%>%{V%}x # ; 
 
 LEXICON IV 
 
@@ -397,6 +439,10 @@ reʼ%<det%>%<dem%>:reʼ # ;
 
 la%<det%>%<dem%>:la # ;
 laʼ%<det%>%<dem%>:laʼ # ;
+
+a%<det%>%<m%>:a # ; 
+xta%<det%>%<f%>:xta # ; 
+ixta%<det%>%<f%>:ixta # ; 
 
 LEXICON Pronombres
 
@@ -926,7 +972,7 @@ qʼenum:qʼenum N1 ; ! "jocote"
 qʼajaribʼäl:qʼajaribʼäl N1 ; ! "predicado"
 loqʼ:loqʼ N1 ; ! "amor, cariño"
 kemchiʼ:kemchiʼ N1 ; ! "gramática"
-kʼayinel:kʼayinel N1 ; ! "vendedor"
+kʼayinel:kʼayinel N5/aʼ ; ! "vendedor"
 kamisabʼäl:kamisabʼäl N1 ; ! "instrumento"
 jöbʼ:jöbʼ N1 ; ! "aguacero"
 ajtikoʼn:ajtikoʼn N1 ; ! ""
@@ -942,13 +988,21 @@ N-JAY ; ! "casa"
 
 LEXICON Propios
 
+! Masc
 Luʼ:Luʼ NP-ANT ; ! ""
+Kanek:Kanek NP-ANT ; ! ""
+Xwan:Xwan NP-ANT ; ! ""
+Palaʼs:Palaʼs NP-ANT ; ! ""
+
+! Fem
+Kanteʼl:Kanteʼl NP-ANT ; ! ""
 
 Iximcheʼ:Iximcheʼ NP-TOP ; ! ""
 
 LEXICON Adjetivos
 
 kʼo:kʼo A ; ! ""  ! TODO: This is like `var' in Turkish
+kʼïy:kʼïy A ; ! "mucho" 
 
 kʼatän:kʼatän A ; ! "caliente"
 qʼequʼm:qʼequʼm A ; ! "oscuro"
@@ -1052,6 +1106,10 @@ qʼät:qʼät TV ; ! "prohibir"
 tun:tun TV ; ! "juntar"
 xïm:xïm TV ; ! "amarrar"
 kʼwaj:kʼwaj TV ; ! "llevar"
+
+qʼetej:qʼet TV/ej ; ! "abrazar"
+kamisaj:kamis TV/ej ; ! "matar"
+kʼaxaj:kʼax TV/ej ; ! "escuchar"
 
 LEXICON Punctuación
 
