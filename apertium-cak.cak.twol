@@ -6,6 +6,7 @@ a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ï ö ü ʼ
 %{i%}:0 %{i%}:i
 %{u%}:0 %{u%}:u
 %{o%}:u %{o%}:o
+%{ö%}:ü %{ö%}:ö
 %{a%}:0 %{a%}:a
 %{ъ%}:0 %{ъ%}:ʼ
 %{t%}:0 %{t%}:t
@@ -60,7 +61,10 @@ Vx:Vy <=> _ Cns: %{≤%}: ;
 !@ x >:0 t z ʼ ë:e t {≤}:0 >:0 {V}:e t ä j
 
 "Alternation in infinitive suffix"
-%{o%}:u <=> :u ?* %>: _ ; 
+Vx:Vy <=> :u ?* %>: _ ; 
+       where Vx in ( %{ö%} %{o%} ) 
+             Vy in (   ü     u   ) 
+       matched ; 
 
 "Suffix vowel repeats root vowel"
 %{V%}:Vx <=> :Vy [ :Cns | :0 ]+ %>: _ ; 
