@@ -324,6 +324,7 @@ LEXICON PERS-TV-A-3-PASS
 
 %<s_sg3%>: Tran ; 
 
+
 LEXICON V-TV-COMMON
 
 ! TODO: Does this only apply to passive / do we need to switch the agreement?
@@ -335,9 +336,14 @@ LEXICON TV
 @D.Pass.SinSujeto@%<v%>%<tv%>:@D.Pass.SinSujeto@           # ; 
 
 @D.Prefijo@%<v%>%<tv%>%<inf%>:@D.Prefijo@%{≤%}%>%{o%}j     # ; ! Prefix: -; Suffix: -{o}j; 
-@D.Prefijo@%<v%>%<tv%>%<ger_ins%>:@D.Prefijo@%{≤%}%>bʼäl   # ; ! Prefix: -; Suffix: -bʼäl; 
-! FIXME: -öy/-üy p.97
-@D.Prefijo@%<v%>%<tv%>%<ger_ag%>:@D.Prefijo@%{≤%}%>%{V%}y  # ; ! Prefix: -; Suffix: -{V}y; tzʼetbʼäl
+@D.Prefijo@%<v%>%<tv%>%<ger_ins%>:@D.Prefijo@%{≤%}%>bʼäl   # ; ! Prefix: -; Suffix: -bʼäl; tzʼetbʼäl
+! FIXME: -öy/-üy p.97 / p.81
+@D.Prefijo@%<v%>%<tv%>%<ger_ag1%>:@D.Prefijo@%{≤%}%>%{V%}y  # ; ! Prefix: -; Suffix: -{V}y; 
+@D.Prefijo@%<v%>%<tv%>%<ger_ag2%>:@D.Prefijo@%{≤%}%>nel     # ; ! Prefix: -; Suffix: -nel; 
+
+@D.Prefijo@%<v%>%<tv%>%<pp%>:@D.Prefijo@%>%{o%}m            # ; ! Prefix: -; Suffix: -{o}m;  
+
+@D.Prefijo@%<v%>%<tv%>%<subs%>:@D.Prefijo@%>ik              # ; ! Prefix: -; Suffix: -ik;  
 
 @R.Pass.SinSujeto@%<v%>%<tv%>%<pass%>:@R.Pass.SinSujeto@   V-TV-COMMON ;
 %<v%>%<tv%>:                                               V-TV-COMMON ; 
@@ -348,8 +354,11 @@ LEXICON TV/ej
 @D.Prefijo@%<v%>%<tv%>%<inf%>:@D.Prefijo@%{≤%}%>%{o%}j # ;
 @R.Prefijo.1@%<v%>%<tv%>%<cmpl%>:@R.Prefijo.1@%{≤%}%>%{V%}täj # ; ! TODO: Does this only apply to passive / do we need to switch the agreement?
 @D.Prefijo@%<v%>%<tv%>%<ger_ins%>:@D.Prefijo@%{≤%}%>bʼäl # ;
-@D.Prefijo@%<v%>%<tv%>%<ger_ag%>:@D.Prefijo@%{≤%}%>%{V%}y # ; ! -öy/-üy p.97
+@D.Prefijo@%<v%>%<tv%>%<ger_ag1%>:@D.Prefijo@%{≤%}%>%{V%}y # ; ! -öy/-üy p.97
+@D.Prefijo@%<v%>%<tv%>%<ger_ag2%>:@D.Prefijo@%{≤%}%>nel     # ; ! Prefix: -; Suffix: -nel; 
 @R.Pass.SinSujeto@%<v%>%<tv%>%<pass%>:@R.Pass.SinSujeto@%>%{V%}x # ; 
+
+@D.Prefijo@%<v%>%<tv%>%<subs%>:@D.Prefijo@%>ik              # ; ! Prefix: -; Suffix: -ik;  
 
 LEXICON IV 
 
@@ -1110,6 +1119,13 @@ kʼwaj:kʼwaj TV ; ! "llevar"
 qʼetej:qʼet TV/ej ; ! "abrazar"
 kamisaj:kamis TV/ej ; ! "matar"
 kʼaxaj:kʼax TV/ej ; ! "escuchar"
+
+retz:retz TV ; ! "romper"
+tzaq:tzaq TV ; ! "botar"
+tik:tik TV ; ! "sembrar"
+yuq:yuq TV ; ! "amarrar"
+pil:pil TV ; ! "raspar"
+
 
 LEXICON Punctuación
 
