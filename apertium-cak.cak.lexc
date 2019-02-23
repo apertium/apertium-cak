@@ -423,6 +423,7 @@ wi%<mod%>:wi # ; ! ""
 
 taq%<cnjsub%>:taq # ; ! ""
 chi%<cnjsub%>:chi # ; ! "" ! Complementiser
+y%<cnjcoo%>:y # ; ! "" ! Use/Sub ! Use/Loan ! Src/npass
 chuqaʼ%<cnjcoo%>:chuqaʼ # ; 
 chuqaʼ%<cnjcoo%>:chuqa # ;  ! Use/Sub
 töq%<cnjsub%>:töq # ; 
@@ -672,6 +673,7 @@ kʼoj:kʼoj SUSTANTIVO ; ! "máscara, mask"
 kʼolaj:kʼolaj SUSTANTIVO ; ! "pelota, bola, ball"
 lemaʼ:lemaʼ SUSTANTIVO ; ! "cuento, story"
 mes:mes SUSTANTIVO ; ! "gato, cat"
+mes:meʼs SUSTANTIVO ; ! "gato, cat" ! Use/Sub ! Src/npass
 molaj:molaj SUSTANTIVO ; ! "grupo-, group -"
 moloj:moloj SUSTANTIVO ; ! "junta, reunión, meeting"
 nimaʼaj:nimaʼaj SUSTANTIVO ; ! "bambú, bamboo"
@@ -798,6 +800,7 @@ chʼajchʼojil:chʼajchʼojil SUSTANTIVO ; ! "higiene"
 chʼaʼoj:chʼaʼoj SUSTANTIVO ; ! "delito"
 chʼetem:chʼetem SUSTANTIVO ; ! "costumbre"
 chʼichʼ:chʼichʼ SUSTANTIVO ; ! "vehículo"
+chʼichʼ:chʼich SUSTANTIVO ; ! "vehículo" ! Use/Sub ! Src/npass
 chïk:chïk SUSTANTIVO ; ! "partícula"
 chikopil:chikopil SUSTANTIVO ; ! "virus"
 chituy:chituy SUSTANTIVO ; ! "ministerio"
