@@ -216,6 +216,7 @@ LEXICON N-JAY
 ! Supletivo
 
 jay%<n%>:jay # ;
+jay%<n%>:jaʼy # ; ! Use/Sub ! Src/npass
 jay%<n%>%<px1sg%>:qochoch # ;
 
 LEXICON SUSTANTIVO
@@ -423,6 +424,9 @@ wi%<mod%>:wi # ; ! ""
 
 taq%<cnjsub%>:taq # ; ! ""
 chi%<cnjsub%>:chi # ; ! "" ! Complementiser
+we%<cnjsub%>:we # ;
+we%<cnjsub%>:wi # ; ! Use/Sub 
+we%<cnjsub%>:wä # ; ! Use/Sub ! Src/kwo
 y%<cnjcoo%>:y # ; ! "" ! Use/Sub ! Use/Loan ! Src/npass
 chuqaʼ%<cnjcoo%>:chuqaʼ # ; 
 chuqaʼ%<cnjcoo%>:chuqa # ;  ! Use/Sub
@@ -442,12 +446,15 @@ kan%<dir%>:kan # ; ! ""
 
 cha%<quot%>:cha # ; ! ""
 
+ja%<foc%>:ja # ; ! ""
+
 LEXICON Contracciones
 
 chi%<pr%>%+re%<prn%>:chire # ;  ! Use/Sub ! TODO: Check this
 chi%<pr%>%+re%<prn%>:chre # ;  ! Use/Sub ! TODO: Check this
 
-chi%<pr%>%+rïn%<prn%>:chwe # ;  ! Use/Sub ! TODO: Check this
+chi%<pr%>%+rïn%<prn%>:chwe # ;  ! Use/Sub ! Src/npass ! TODO: Check this
+chi%<pr%>%+rïn%<prn%>:chweʼ # ;  ! Use/Sub ! Src/kwo ! TODO: Check this
 
 chi%<pr%>%+pam%<n%>%<rel%>%<px3sg%>:chupam # ; ! Use/Sub ! TODO: Check this
 
@@ -483,6 +490,7 @@ ix%<prn%>%<pers%>:ix # ;
 e%<prn%>%<pers%>:e # ; 
 
 rïn%<prn%>%<pos%>:rïn # ;
+rïn%<prn%>%<pos%>:rin # ; ! Use/Sub ! Src/kwo
 rat%<prn%>%<pos%>:rat # ;
 rijaʼ%<prn%>%<pos%>:rijaʼ # ;
 röj%<prn%>%<pos%>:röj # ;
@@ -667,6 +675,7 @@ aqʼomabʼäl:aqʼomabʼäl N2 ; ! "farmacología"
 jomeʼet:jomeʼet SUSTANTIVO ; ! "corteza, bark"
 kaʼaj:kaʼaj SUSTANTIVO ; ! "rancho, ranch"
 kär:kär SUSTANTIVO ; ! "pescado, fish"
+kär:käʼr SUSTANTIVO ; ! "pescado, fish" ! Use/Sub ! Src/kwo
 kaxlan:kaxlan SUSTANTIVO ; ! "extranjero, forastero, foreigner, strange"
 kʼechelaj:kʼechelaj SUSTANTIVO ; ! "bosque, forest"
 kʼoj:kʼoj SUSTANTIVO ; ! "máscara, mask"
@@ -1021,6 +1030,7 @@ wuj:wuj N9/il ; ! "libro"
 ibʼochʼ:ibʼochʼ N9/il ; ! ""
 
 alabʼom:alabʼom N1 ; ! "niño" ! FIXME: alabʼon(?)
+ixjayil:ixjayil N1 ; ! "mujer"
 
 N-JAY ; ! "casa"
 
@@ -1031,6 +1041,8 @@ Luʼ:Luʼ NP-ANT ; ! ""
 Kanek:Kanek NP-ANT ; ! ""
 Xwan:Xwan NP-ANT ; ! ""
 Juan:Juan NP-ANT ; ! ""
+Manuel:Manuel NP-ANT ; ! ""
+Ramon:Ramon NP-ANT ; ! ""
 Palaʼs:Palaʼs NP-ANT ; ! ""
 
 ! Fem
@@ -1139,6 +1151,7 @@ tzʼët:tzʼët TV ; ! "mirar, look at"
 bʼän:bʼän TV ; ! "hacer, do"
 naʼ:naʼ TV ; ! "sentir"
 löqʼ:löqʼ TV ; ! "comprar"
+löqʼ:loqʼ TV ; ! "comprar" ! Use/Sub ! Src/kwo
 tïk:tïk TV ; ! "sembrar"
 chäp:chäp TV ; ! "agarrar"
 toʼ:toʼ TV ; ! "ayudar"
@@ -1154,7 +1167,7 @@ kamisaj:kamis TV/ej ; ! "matar"
 kʼaxaj:kʼax TV/ej ; ! "escuchar"
 
 retz:retz TV ; ! "romper"
-tzaq:tzaq TV ; ! "botar"
+tzäq:tzäq TV ; ! "botar"
 tik:tik TV ; ! "sembrar"
 yuq:yuq TV ; ! "amarrar"
 pil:pil TV ; ! "raspar"
@@ -1164,10 +1177,13 @@ chʼäy:chʼäy TV ; ! "pegar"
 paxij:pax TV/ij ; ! "romper"
 kʼutuj:kʼut TV/uj ; ! "preguntar"
 
+awaʼrisaj:awaʼris TV/ej ; ! ""
+
 näq:näq TV ; ! "molestar"
 tij:tij TV ; ! "comer"
 
 bʼij:bʼij TV ; ! "decir"
+bʼaʼ:bʼaʼ TV ; ! "morder"
 
 LEXICON Punctuación
 

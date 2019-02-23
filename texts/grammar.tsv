@@ -57,4 +57,33 @@ npass		_	Ri wäʼy xkitij romaʼ ri achin.  			The tortilla was eaten by the man
 npass		_	Ri wäʼy xtij romaʼ ri achin.  				The tortilla was eaten by the man.
 npass		_	A Juan y Maria xebʼax romaʼ jun kumätz.			Juan and Maria were bitten by a snake.
 npass		_	Ri alabʼoniʼ xekitij ri wäʼy.				The boys ate the tortillas.
-
+kwo		_	Xubʼa ri tzʼiʼ ri meʼs.					The dog bit the cat.
+kwo		_	Ri tzʼiʼ xubʼa ri meʼs.					The dog bit the cat.
+kwo		_	Xroqotaj ri tzʼiʼ ri meʼs.				The dog chased the cat.
+kwo		_	Xroqotaj ri meʼs ri tzʼiʼ.				The cat chased the dog.
+kwo		_	Xroqotaj jun meʼs ri tzʼiʼ.				The dog chased a cat.
+kwo		_	Xuloqʼ ri wäʼy Maria.					Maria bought the tortillas.
+kwo		_	Xroqotaj ri xta Maria ri a Juan.			Juan chased Maria.
+kwo		_	Xroqotaj ri xta Maria ri a Juan.			Maria chased Juan.
+kwo		_	Xubʼa jun tzʼiʼ ri a Juan.				Juan bit a dog.
+kwo		_	Jun tzʼiʼ xbʼaʼo ri a Juan.				A dog bit Juan.
+kwo		_	Nibʼaʼon jun tzʼiʼ.					A dog is barking.
+kwo		_	Xirubʼaʼ jun tzʼiʼ rin.					A dog bit me.
+kwo		_	Xirubʼaʼ jun tzʼiʼ.					A dog bit me.
+kwo		_	Jun tzʼiʼ nibʼaʼon.					A dog is barking.
+kwo		_	Jun tzʼiʼ xibʼaʼo.					A dog bit me.
+kwo		_	Jun tzʼiʼ xibʼaʼo rin.					A dog bit me.
+kwo		_	Nukanoj rixjayil a Manuel rijaʼ.			She is looking for Manuelʼs wife.
+kwo		_	Rixjayil a Manuel nukanoj rijaʼ.			Manuelʼs wife is looking for him.
+kwo		_	Iwir xroqotaj ri tzʼiʼ ri meʼs.				Yesterday the dog chased the cat.
+kwo		_	Iwir ri tzʼiʼ xroqotaj ri meʼs.				Yesterday the dog chased the cat.
+kwo		_	Xkanox a Manuel romaʼ ri rixjay il.			Manuel was sought by his wife.
+kwo		_	Xkikanoj a Manuel romaʼ ri rixjayil.			Manuel was sought by his wife.
+kwo		_	Xoqotäx ri achin romaʼ jun tzʼiʼ.			The man was chased by a dog.
+kwo		_	Xkoqotaj ri achin romaʼ jun tzʼiʼ.			The man was chased by a dog.
+kwo		_	Rin man wetaman ta wä ri tzʼiʼ xroqotaj ri achin.	I donʼt know if the dog chased the man.
+kwo		_	A Manuel xubʼij chweʼ chi ri tzʼiʼ xubʼaʼ ri a Ramon.	Manuel told me that the dog bit Ramon.
+#
+kwo		_	Ja ri wäʼy xuloqʼ Maria.				It was the tortillas that Maria bought.
+#
+kwo		_	Ri käʼr xuyawaʼrisaj ri wixjayil.			The fish made my wife sick.

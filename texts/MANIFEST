@@ -1,5 +1,3 @@
-npass:	
-
 @article{npass,
 	author = {George Aaron Broadwell and Lachlan Duncan},
 	title = {A New Passive in Kaqchikel},
@@ -10,14 +8,10 @@ npass:
 	year = 2002
 }
 
-gdik99:
-
 @book{gdik99,
 	title = {Gramática del idioma Kaqchikel},
 	year = 1999
 }
-
-mrk16:
 
 @book{mrk16,
 	author = {Pakal B'alam Rodriguez Guaján},
@@ -25,4 +19,35 @@ mrk16:
 	publisher = {Editorial Maya' Wuj},
 	place = {Ciudad de Guatemala},
 	year = 2016
+}
+
+@book{lua06,
+	author = {R. McKenna Brown and Judith M. Maxwell and Walter E. Little},
+	title = {¿La ütz awäch? Introduction to Kaqchikel Maya Language},
+	publisher = {University of Texas Press},
+	place = {Austin},
+	year = 2006
+}
+
+@book{gdimk04,
+	author = {Mario Perfecto Tema Bautista and Juan Alvarez Ramírez and Juan Antonio Moran Mus},
+	title = {Rutzijoxik Rucholik Ri Kaqchikel Ch'ab'äl --- Gramática Descriptiva Del Idioma Maya Kaqchikel},
+	publisher = {Academia de Lenguas Mayas de Guatemala},	
+	year = 2004
+}
+
+
+García Matzar, Pedro (Lolmay), and José Obispo Rodríguez Guaján (Pakal B’alam).
+Rukemik ri Kaqchikel Chi’: Gramática Kaqchikel
+Guatemala City:
+Editorial Cholsamaj Okma.
+1997
+
+
+
+@inproceedings{kwo00,
+George Aaron Broadwell
+Word order and markedness in Kaqchikel
+Proceedings of the LFG00 Conference
+2000
 }
