@@ -334,7 +334,6 @@ LEXICON V-COMMON
 @D.Prefijo@%<ger_ag1%>:@D.Prefijo@%{≤%}%>%{ö%}y                     # ; ! Prefix: -; Suffix: -{ö}y;
 @D.Prefijo@%<ger_ag2%>:@D.Prefijo@%{≤%}%>nel                        # ; ! Prefix: -; Suffix: -nel; 
                                                                     V-TV-COMMON ; 
-
 LEXICON V-TV-COMMON
 
 ! TODO: Does this only apply to passive / do we need to switch the agreement?
@@ -446,6 +445,8 @@ LEXICON Contracciones
 chi%<pr%>%+re%<prn%>:chire # ;  ! Use/Sub ! TODO: Check this
 chi%<pr%>%+re%<prn%>:chre # ;  ! Use/Sub ! TODO: Check this
 
+chi%<pr%>%+rïn%<prn%>:chwe # ;  ! Use/Sub ! TODO: Check this
+
 chi%<pr%>%+pam%<n%>%<rel%>%<px3sg%>:chupam # ; ! Use/Sub ! TODO: Check this
 
 LEXICON Preposiciones 
@@ -483,8 +484,10 @@ rïn%<prn%>%<pos%>:rïn # ;
 rat%<prn%>%<pos%>:rat # ;
 rijaʼ%<prn%>%<pos%>:rijaʼ # ;
 röj%<prn%>%<pos%>:röj # ;
+röj%<prn%>%<pos%>:roj # ; ! Use/Sub ! Src/npass
 rïx%<prn%>%<pos%>:rïx # ;
 rijeʼ%<prn%>%<pos%>:rijeʼ # ;
+rijeʼ%<prn%>%<pos%>:rije # ; ! Use/Sub ! Src/npass
 
 ririʼ%<prn%>%<dem%>:ririʼ # ;
 rijaʼ%<prn%>%<pers%>:rijaʼ # ;
@@ -523,6 +526,7 @@ LEXICON Relacionales
 ichin:ichin N6 ; ! "de"
 oma:oma N6 ; ! ""
 oma:uma N6 ; ! "" ! Use/Sub
+oma:omaʼ N6 ; ! "" ! Use/Sub ! Src/npass
 ikʼin:ikʼin N6 ; ! ""
 !!
 ij:ij N6 ; ! ""
@@ -553,6 +557,7 @@ tzʼibʼabʼäl:tzʼibʼabʼäl N2 ; ! "boligrafo"
 tinamït:tinamït N2 ; ! "ciudad"
 chʼkät:chʼkät N2 ; ! "silla"
 wäy:wäy N2 ; ! "tortilla"
+wäy:wäʼy N2 ; ! "tortilla" ! Use/Sub ! Src/npass
 xrëq:xrëq N2 ; ! "sapo"
 xpëq:xpëq SUSTANTIVO ; ! "sapo, frog"
 chakäch:chakäch N2 ; ! "cesta"
@@ -686,7 +691,8 @@ qʼolonel:qʼolonel SUSTANTIVO ; ! "payaso, clown"
 ruwachʼulew:ruwachʼulew SUSTANTIVO ; ! "mundo, world"
 sanayiʼ:sanayiʼ SUSTANTIVO ; ! "arena, sand"
 sanïk:sanïk SUSTANTIVO ; ! "hormiga, ant"
-saqmoloʼ:saqmoloʼ SUSTANTIVO ; ! "huevo, egg"
+saqmoloʼ:saqmoloʼ SUSTANTIVO ; ! "huevo"
+saqmoloʼ:saqmolo SUSTANTIVO ; ! "huevo" ! Use/Sub ! Src/npass
 saseʼ:saseʼ SUSTANTIVO ; ! "hígado, liver"
 tijonel:tijonel SUSTANTIVO ; ! "maestro, teacher"
 tinamït:tinamït SUSTANTIVO ; ! "pueblo, town"
@@ -786,6 +792,7 @@ bʼeyomal:bʼeyomal SUSTANTIVO ; ! "riqueza"
 bʼij:bʼij SUSTANTIVO ; ! "indicación"
 bʼis:bʼis SUSTANTIVO ; ! "tristeza"
 bʼojoʼy:bʼojoʼy SUSTANTIVO ; ! "olla"
+bʼojoʼy:bʼojoy SUSTANTIVO ; ! "olla" ! Use/Sub ! Src/npass
 chʼajchʼojil:chʼajchʼojil SUSTANTIVO ; ! "higiene"
 chʼaʼoj:chʼaʼoj SUSTANTIVO ; ! "delito"
 chʼetem:chʼetem SUSTANTIVO ; ! "costumbre"
@@ -1009,6 +1016,8 @@ bʼaq:bʼaq N9/il ; ! "hueso"
 wuj:wuj N9/il ; ! "libro"
 ibʼochʼ:ibʼochʼ N9/il ; ! ""
 
+alabʼom:alabʼom N1 ; ! "niño" ! FIXME: alabʼon(?)
+
 N-JAY ; ! "casa"
 
 LEXICON Propios
@@ -1017,6 +1026,7 @@ LEXICON Propios
 Luʼ:Luʼ NP-ANT ; ! ""
 Kanek:Kanek NP-ANT ; ! ""
 Xwan:Xwan NP-ANT ; ! ""
+Juan:Juan NP-ANT ; ! ""
 Palaʼs:Palaʼs NP-ANT ; ! ""
 
 ! Fem
@@ -1117,6 +1127,8 @@ kos:kos IV ; ! "cansarse"
 
 LEXICON Tran
 
+ajoʼ:ajoʼ TV ; ! "querer"
+
 tzʼu:tzʼu TV ; ! "see, look at"
 tzʼët:tzʼët TV ; ! "mirar, look at"
 bʼän:bʼän TV ; ! "hacer, do"
@@ -1146,6 +1158,9 @@ chʼäy:chʼäy TV ; ! "pegar"
 
 paxij:pax TV/ij ; ! "romper"
 kʼutuj:kʼut TV/uj ; ! "preguntar"
+
+näq:näq TV ; ! "molestar"
+tij:tij TV ; ! "comer"
 
 LEXICON Punctuación
 

@@ -1,14 +1,47 @@
-gdik99		79	A Kanek xuchäp jun kuk.			Kanek agarró una ardilla.
-gdik99		79	Jun kuk xchäp ruma a Kanek.		Una ardilla fue agarrada por Kanek.
-gdik99		79	A Xwan xuqʼetej xta Kanteʼl.		Juan abrazó a Candelaria.
-gdik99		79	Ixta Kanteʼl xqʼetex ruma a Xwan.	Candelaria fue abrazada por Juan.
-gdik99		80	Ri achi xukʼaxaj ri qachʼabäl.		El señor escuchó nuestra palabra.
-gdik99		80	Ri qachʼabäl xkʼaxäx ruma ri achin.	Nuestra palabra fue escuchada por el señor.
-gdik99		80	Ri achin xkʼaxan ri qachʼabäl.		El señor escuchó nuestra palabra.
-npass		_	Ri achin xuchʼäy ri tzʼiʼ.		The man hit the dog.
-npass		_	Xupaxij ri achin ri bʼojoy.		The man broke the pot.
-npass		_	Xinkikʼutuj.				They asked me.
-npass		_	Xewär.					They slept.
-npass		_	Yerunäq kan ri alabʼom.			She was bothering the children.
-npass		_	Ri achin xuchʼäy ri tzʼiʼ.		The man hit the dog.
-npass		_	Ri tzʼiʼ xchʼay romaʼ ri achin.		The dog was hit by the man.
+gdik99		79	A Kanek xuchäp jun kuk.					Kanek agarró una ardilla.
+gdik99		79	Jun kuk xchäp ruma a Kanek.				Una ardilla fue agarrada por Kanek.
+gdik99		79	A Xwan xuqʼetej xta Kanteʼl.				Juan abrazó a Candelaria.
+gdik99		79	Ixta Kanteʼl xqʼetex ruma a Xwan.			Candelaria fue abrazada por Juan.
+gdik99		80	Ri achi xukʼaxaj ri qachʼabäl.				El señor escuchó nuestra palabra.
+gdik99		80	Ri qachʼabäl xkʼaxäx ruma ri achin.			Nuestra palabra fue escuchada por el señor.
+gdik99		80	Ri achin xkʼaxan ri qachʼabäl.				El señor escuchó nuestra palabra.
+npass		_	Ri achin xuchʼäy ri tzʼiʼ.				The man hit the dog.
+npass		_	Xupaxij ri achin ri bʼojoy.				The man broke the pot.
+npass		_	Xinkikʼutuj.						They asked me.
+npass		_	Xewär.							They slept.
+npass		_	Yerunäq kan ri alabʼom.					She was bothering the children.
+npass		_	Ri achin xuchʼäy ri tzʼiʼ.				The man hit the dog.
+npass		_	Ri tzʼiʼ xchʼay romaʼ ri achin.				The dog was hit by the man.
+npass		_	Ri a Juan xutij riwäʼy.					Juan ate the tortilla.
+npass		_	Ri wäʼy xtij romaʼ ri a Juan.				The tortilla was eaten by Juan.
+npass		_	Xupaxij ri achin ri bʼojoy.				The man broke the pot.
+npass		_	Ri bʼojoy xpaxix romaʼ ri achin.			The pot was broken by the man.
+npass		_	Ri tzʼiʼ xchapatäj romaʼ ri achin.			The dog has been grabbed by the man.
+npass		_	Ri bʼojoy xpaxitäj komaʼ rije.				The pot has been broken by them.
+npass		_	Ri tzʼiʼ xkichäp romaʼ ri achin.			The dog was grabbedby the man.
+npass		_	Ri bʼojoy xkipaxij romaʼ rijaʼ.				The pot was broken by him.
+npass		_	Ri bʼojoy xkipaxij romaʼ rijaʼ.				The pot was broken by him.
+npass		_	Ri bʼojoy xkipaxij komaʼ rijeʼ.				The pot was broken by them.
+npass		_	Ri bʼojoy xkipaxij qomaʼ roj.				The pot was broken by us.
+npass		_	Ri tzʼiʼ xkitzʼet awomaʼ rat.				The dog was seen by you.
+npass		_	Rin xinkitzʼet awomaʼ rat.				I was seen by you.
+npass		_	Rat xatkitzʼet womaʼ rin.				You were seen by me.
+npass		_	Roj xojkitzʼet awomaʼ rat.				We were seen by you.
+npass		_	Rin xinkibʼaʼ romaʼ ri tzʼiʼ.				I was bitten by the dog.
+npass		_	Rin xinkibʼaʼ romaʼ ri tzʼiʼ.				They bit me because of the dog.
+npass		_	A Juan xutzʼubʼaj xta Maria rikʼi ruraybʼäl.		Juan kissed Maria voluntarily.
+npass		_	Xta Maria xtzʼubʼäx romaʼ a Juan rikʼi ruraybʼäl.	Maria was kissed by Juan voluntarily.
+npass		_	Xta Maria xkitzʼubʼaj romaʼ a Juan rikʼi ruraybʼäl.	Maria was kissed by Juan voluntarily.
+npass		_	A Juan nrajoʼ chi nuloqʼ saqmolo.			Juan wishes he could buy eggs.
+npass		_	A Juan nrajoʼ nuloqʼ saqmolo.				Juan wants to buy eggs.
+npass		_	A Juan nrajoʼ chi nuloqʼ saqmolo.			Juan_i wants him_j to buy eggs.
+npass		_	A Juan nrajoʼ chi rijaʼ nuloqʼ saqmolo.			Juan_i wants him_j to buy eggs.
+npass		_	A Juan xubʼij chwe chi ja ri tzʼiʼ xbaʼoʼ.		Juan_1 told me that it was the dog that bit him_1.
+npass		_	A Juan xubʼij chwe xbʼax romaʼ ri tzʼiʼ.		Juan_1 told me that he_1 was bitten by the dog.
+npass		_	A Juan xubʼij chwe chi xbʼax romaʼ ri tzʼiʼ.		Juan_1 told me that he_1 was bitten by the dog.
+npass		_	A Juan xubʼij chwe xkibʼaʼ romaʼ ri tzʼiʼ.		Juan_1 told me that he_1 was bitten by the dog.
+npass		_	A Juan xubʼij chwe chi xkibʼaʼ romaʼ ri tzʼiʼ.		Juan_1 told me that he_1 was bitten by the dog.
+npass		_	Chike xb’ax roma’ jun tz’i’?				Who was bitten by a dog?
+npass		_	Chike achin xkib’a’ roma’ jun tz’i’?			Which man was bitten by a dog?
+npass		_	Roma’ achike tz’i’ xkib’a’ ri a Juan?			Which dog was Juan bitten by?
+
