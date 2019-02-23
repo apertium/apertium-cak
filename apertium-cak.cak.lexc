@@ -421,7 +421,8 @@ chïk%<mod%>:chïk # ; ! ""
 chïk%<mod%>:chik # ; ! "" ! Use/Sub
 wi%<mod%>:wi # ; ! ""
 
-taq%<cnjsub%>:taq # ; 
+taq%<cnjsub%>:taq # ; ! ""
+chi%<cnjsub%>:chi # ; ! "" ! Complementiser
 chuqaʼ%<cnjcoo%>:chuqaʼ # ; 
 chuqaʼ%<cnjcoo%>:chuqa # ;  ! Use/Sub
 töq%<cnjsub%>:töq # ; 
@@ -1031,6 +1032,7 @@ Palaʼs:Palaʼs NP-ANT ; ! ""
 
 ! Fem
 Kanteʼl:Kanteʼl NP-ANT ; ! ""
+Maria:Maria NP-ANT ; ! ""
 
 Iximcheʼ:Iximcheʼ NP-TOP ; ! ""
 
@@ -1161,6 +1163,8 @@ kʼutuj:kʼut TV/uj ; ! "preguntar"
 
 näq:näq TV ; ! "molestar"
 tij:tij TV ; ! "comer"
+
+bʼij:bʼij TV ; ! "decir"
 
 LEXICON Punctuación
 
