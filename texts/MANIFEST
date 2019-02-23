@@ -37,17 +37,17 @@
 }
 
 
-García Matzar, Pedro (Lolmay), and José Obispo Rodríguez Guaján (Pakal B’alam).
-Rukemik ri Kaqchikel Chi’: Gramática Kaqchikel
-Guatemala City:
-Editorial Cholsamaj Okma.
-1997
-
-
+@book{gk01,
+	author = {Pedro García Matzar and José Obispo Rodríguez},
+	title = {Rukemik ri Kaqchikel Chi’: Gramática Kaqchikel},
+	place = {Guatemala City},
+	publisher = {Editorial Cholsamaj Okma},
+	year = 2001
+}
 
 @inproceedings{kwo00,
-George Aaron Broadwell
-Word order and markedness in Kaqchikel
-Proceedings of the LFG00 Conference
-2000
+	author = {George Aaron Broadwell},
+	title = {Word order and markedness in Kaqchikel},
+	booktitle = {Proceedings of the LFG00 Conference},
+	year = 2000
 }

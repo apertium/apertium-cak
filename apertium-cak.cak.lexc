@@ -1184,6 +1184,9 @@ tij:tij TV ; ! "comer"
 
 bʼij:bʼij TV ; ! "decir"
 bʼaʼ:bʼaʼ TV ; ! "morder"
+bʼaʼ:bʼa TV ; ! "morder" ! Use/Sub ! Src/kwo
+
+qot:qot TV ; ! ""
 
 LEXICON Punctuación
 
