@@ -179,12 +179,14 @@ LEXICON N5/iʼ
 
 %<n%>: Poss ;
 %<n%>%<pl%>:%{≤%}%>iʼ # ;
+%<n%>%<pl%>:%{≤%}%>i # ; ! Use/Sub ! Src/wiki
 @D.Poss@%<n%>:@D.Poss@ # ;
 
 LEXICON N5/aʼ
 
 %<n%>: Poss ;
 %<n%>%<pl%>:%>aʼ # ;
+%<n%>%<pl%>:%>a # ; ! Use/Sub ! Src/wiki
 @D.Poss@%<n%>:@D.Poss@ # ;
 
 LEXICON N5/bʼoniʼ
@@ -229,6 +231,10 @@ jay%<n%>%<px1sg%>:qochoch # ;
 LEXICON SUSTANTIVO
 ! Class to be determined.
 N1 ; 
+
+LEXICON NP-AL
+
+%<np%>%<al%>: #  ;
 
 LEXICON NP-ANT
 
@@ -440,7 +446,8 @@ we%<cnjsub%>:wä # ; ! Use/Sub ! Src/kwo
 y%<cnjcoo%>:y # ; ! "" ! Use/Sub ! Use/Loan ! Src/npass
 chuqaʼ%<cnjcoo%>:chuqaʼ # ; 
 chuqaʼ%<cnjcoo%>:chuqa # ;  ! Use/Sub
-töq%<cnjsub%>:töq # ; 
+töq%<cnjsub%>:töq # ; ! "cuando"
+töq%<cnjsub%>:toq # ; ! "cuando" ! Use/Sub
 
 ! kʼo = hay
 
@@ -468,7 +475,10 @@ chi%<pr%>%+re%<prn%>:chre # ;  ! Use/Sub ! TODO: Check this
 chi%<pr%>%+rïn%<prn%>:chwe # ;  ! Use/Sub ! Src/npass ! TODO: Check this
 chi%<pr%>%+rïn%<prn%>:chweʼ # ;  ! Use/Sub ! Src/kwo ! TODO: Check this
 
+chi%<pr%>%+rat%<prn%>:chawe # ;  ! Use/Sub ! Src/wiki
+
 chi%<pr%>%+pam%<n%>%<rel%>%<px3sg%>:chupam # ; ! Use/Sub ! TODO: Check this
+chi%<pr%>%+wäch%<n%>%<rel%>%<px3sg%>:chuwäch # ; ! Use/Sub ! TODO: Check this
 
 LEXICON Preposiciones 
 
@@ -549,6 +559,7 @@ ichin:ichin N6 ; ! "de"
 oma:oma N6 ; ! ""
 oma:uma N6 ; ! "" ! Use/Sub
 oma:omaʼ N6 ; ! "" ! Use/Sub ! Src/npass
+oma:umaʼ N6 ; ! "" ! Use/Sub ! Src/wiki
 ikʼin:ikʼin N6 ; ! ""
 !!
 ij:ij N6 ; ! ""
@@ -797,6 +808,7 @@ choy:choy N1 ; ! "laguna"
 mayabʼ:mayabʼ N1 ; ! ""
 
 kaqchikel:kaqchikel N5/aʼ ; ! ""
+kaqchikel:kaqchekel N5/aʼ ; ! "" ! Use/Sub ! Err/orth ! Src/wiki
 kʼicheʼ:kʼicheʼ N5/aʼ ; ! ""
 mam:mam N5/iʼ ; ! ""
 kaxlan:kaxlan N5/iʼ ; ! ""
@@ -1053,10 +1065,21 @@ alabʼom:alabʼom N1 ; ! "niño" ! FIXME: alabʼon(?)
 ixjayil:ixjayil N1 ; ! "mujer"
 
 bʼiʼ:bʼiʼ N1 ; ! "nombre"
+aj:aj N1 ; ! "caña, bomba"
+
+amaqʼ:amaqʼ N1 ; ! "nación, pueblo"
+
+chʼabʼ:chʼabʼ N1 ; ! "flecha, dardo"
+chʼabʼ:chʼab N1 ; ! "flecha, dardo" ! Use/Sub ! Src/wiki
+
+kiʼ:kiʼ N1 ; ! "dulzura"
 
 N-JAY ; ! "casa"
 
 LEXICON Propios
+
+San:San NP-AL ; ! ""
+Santa:Santa NP-AL ; ! ""
 
 ! Masc
 Luʼ:Luʼ NP-ANT ; ! ""
@@ -1090,6 +1113,7 @@ Demetrio:Demetrio NP-ANT ; ! ""
 ! Fem
 Kanteʼl:Kanteʼl NP-ANT ; ! ""
 Maria:Maria NP-ANT ; ! ""
+María:María NP-ANT ; ! ""
 Ixkikʼ:Ixkikʼ NP-ANT ; ! ""
 Nikteʼ:Nikteʼ NP-ANT ; ! ""
 Ixqʼanil:Ixqʼanil NP-ANT ; ! ""
@@ -1101,14 +1125,34 @@ Ixsuʼm:Ixsuʼm NP-ANT ; ! ""
 Gonzáles:Gonzáles NP-COG ; ! ""
 
 Iximcheʼ:Iximcheʼ NP-TOP ; ! ""
+Tzʼolojyaʼ:Tzʼolojyaʼ NP-TOP ; ! ""
+Kʼaxalaʼ:Kʼaxalaʼ NP-TOP ; ! ""
+Chuwila:Chuwila NP-TOP ; ! ""
+Nawaljaʼ:Nawaljaʼ NP-TOP ; ! ""
+Ajacheʼl:Ajacheʼl NP-TOP ; ! ""
+Chwiʼmeqʼenyaʼ:Chwiʼmeqʼenyaʼ NP-TOP ; ! ""
 Asunción:Asunción NP-TOP ; ! ""
 Qʼän:Qʼän NP-TOP ; ! ""
+Iximulew:Iximulew NP-TOP ; ! ""
 
 LEXICON Adjetivos
 
 kʼo:kʼo A ; ! ""  ! TODO: This is like `var' in Turkish
 kʼo:kʼoj A ; ! ""  ! TODO: This is like `var' in Turkish
+manaq:manaq A ; ! "" ! TODO: Like Turkish `yok'
 kʼïy:kʼïy A ; ! "mucho" 
+
+majun:majun A ; ! "ningun"
+majun:manjun A ; ! "ningun"
+
+español:español A ; ! "" ! Use/Barb ! Use/Sub
+
+mayaʼ:mayaʼ A ; ! "" ! FIXME: check
+
+tikirel:tikirel A ; ! "eficiente"
+
+jalajöj:jalajöj A ; ! "variado, diverso"
+jalajöj:jalajoj A ; ! "variado, diverso" ! Use/Sub ! Src/wiki
 
 jukumaj:jukumaj A ; ! "temprano" 
 
@@ -1148,6 +1192,7 @@ kʼakʼaʼ:kʼakʼaʼ A ; ! "nuevo"
 LEXICON Adverbios
 
 xa:xa ADV ; ! "sólo"
+xa:xe ADV ; ! "sólo" 
 
 yalan:yalan ADV ; ! "muy"
 
@@ -1204,6 +1249,8 @@ kʼïx:kʼïx IV ; ! "avergonzarse"
 kos:kos IV ; ! "cansarse"
 
 käm:käm IV ; ! "morir"
+
+qa:qa IV ; ! "descender"
 
 LEXICON Tran
 
