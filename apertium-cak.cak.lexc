@@ -390,6 +390,11 @@ LEXICON TV/aj
 @D.Pass.SinSujeto@%<v%>%<tv%>:@D.Pass.SinSujeto@%>aj            # ; 
                                                                 TV/Vj ; 
 
+LEXICON TV/oj
+
+@D.Pass.SinSujeto@%<v%>%<tv%>:@D.Pass.SinSujeto@%>oj            # ; 
+                                                                TV/Vj ; 
+
 LEXICON IV 
 
 %<v%>%<iv%>: # ; 
@@ -654,7 +659,8 @@ xtän:xtän N5/iʼ ; ! "señorita, girl"
 achin:achin N5/aʼ ; ! ""
 achin:achiʼ N5/aʼ ; ! "hombre" ! Use/Sub ! TODO: check mdrk p. 18?
 ixöq:ixöq N5/iʼ ; ! "mujer"
-winäq:winäq N5/iʼ ; ! "persona (ser humano), person (human being)"
+winäq:winäq N5/iʼ ; ! "persona, ser humano"
+winäq:winaq N5/iʼ ; ! "persona, ser humano" ! Use/Sub ! Src/wiki
 chiköp:chiköp N5/iʼ ; ! ""
 xikʼ:xikʼ N5/aʼ ; ! ""
 masat:masat N5/iʼ ; ! ""
@@ -782,7 +788,6 @@ raxyaʼ:raxyaʼ N1 ; ! "agua fría"
 teʼej:teʼ N3/ej ; ! "madre, mother"
 tiʼij:tiʼ N3/ej ; ! "carne, meat"
 
-!ronojel:ronojel SUSTANTIVO-RELACIONAL ; ! "todos, all"
 !
 nimajay:nimajay N1 ; ! ""
 !
@@ -792,7 +797,9 @@ rujey:rujey N7 ; ! "cola, tail"
 ruxaq:ruxaq N7 ; ! "hoja, leaf"
 rey:rey N7 ; ! ""
 rij:rij N7 ; ! ""
+!ronojel:ronojel SUSTANTIVO-RELACIONAL ; ! "todos, all"
 ronojel:ronojel N7 ; ! ""
+ronojel:onojel N1 ; ! "" ! Src/wiki
 rajil:rajil N7 ; ! ""
 ruwiʼ:ruwiʼ N7 ; ! ""
 retal:retal N7 ; ! ""
@@ -1061,7 +1068,8 @@ bʼaq:bʼaq N9/il ; ! "hueso"
 wuj:wuj N9/il ; ! "libro"
 ibʼochʼ:ibʼochʼ N9/il ; ! ""
 
-alabʼom:alabʼom N1 ; ! "niño" ! FIXME: alabʼon(?)
+alabʼom:alabʼom N5/iʼ ; ! "niño" ! FIXME: alabʼon(?)
+alabʼom:alabʼon N5/iʼ ; ! "niño" ! FIXME: alabʼon(?)
 ixjayil:ixjayil N1 ; ! "mujer"
 
 bʼiʼ:bʼiʼ N1 ; ! "nombre"
@@ -1188,6 +1196,10 @@ loqʼoläj:loqʼoläj A ; ! "santo"
 jebʼël:jebʼël A ; ! "bonito, lindo"
 nimaläj:nimaläj A ; ! "ilustre"
 kʼakʼaʼ:kʼakʼaʼ A ; ! "nuevo"
+kʼakʼaʼ:kʼakʼa A ; ! "nuevo" ! Use/Sub ! Src/wiki
+
+choj:choj A ; ! "simple"
+chöj:chöj A ; ! "recto"
 
 LEXICON Adverbios
 
@@ -1299,6 +1311,8 @@ bʼaʼ:bʼa TV ; ! "morder" ! Use/Sub ! Src/kwo
 qot:qot TV ; ! ""
 
 tzʼibʼaj:tzʼibʼ TV/aj ; ! "escribir"
+
+tijoj:tij TV/oj ; ! "enseñar"
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
