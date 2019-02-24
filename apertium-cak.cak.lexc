@@ -349,31 +349,30 @@ LEXICON TV
 @R.Pass.SinSujeto@%<v%>%<tv%>%<pass%>:@R.Pass.SinSujeto@            V-TV-COMMON ;
 %<v%>%<tv%>:                                                        V-COMMON ; 
 
+LEXICON TV/Vj
+
+@D.Prefijo@%<v%>%<tv%>%<pp%>:@D.Prefijo@%>%{o%}m                    # ; ! Prefix: -; Suffix: -{o}m;  
+@D.Prefijo@%<v%>%<tv%>%<subs%>:@D.Prefijo@%>ik                      # ; ! Prefix: -; Suffix: -ik;     ! FIXME: Possession
+@R.Pass.SinSujeto@%<v%>%<tv%>%<pass%>:@R.Pass.SinSujeto@%>%{V%}x    V-TV-COMMON ;
+%<v%>%<tv%>:                                                        V-COMMON ; 
+
 LEXICON TV/ej
 
 @D.Pass.SinSujeto@%<v%>%<tv%>:@D.Pass.SinSujeto@%>ej            # ; 
-@D.Prefijo@%<v%>%<tv%>%<pp%>:@D.Prefijo@%>%{o%}m                    # ; ! Prefix: -; Suffix: -{o}m;  
-@D.Prefijo@%<v%>%<tv%>%<subs%>:@D.Prefijo@%>ik                      # ; ! Prefix: -; Suffix: -ik;     ! FIXME: Possession
-@R.Pass.SinSujeto@%<v%>%<tv%>%<pass%>:@R.Pass.SinSujeto@%>%{V%}x    V-TV-COMMON ;
-%<v%>%<tv%>:                                                        V-COMMON ; 
-
+                                                                TV/Vj ; 
 LEXICON TV/ij
 
 @D.Pass.SinSujeto@%<v%>%<tv%>:@D.Pass.SinSujeto@%>ij            # ; 
-@D.Prefijo@%<v%>%<tv%>%<pp%>:@D.Prefijo@%>%{o%}m                    # ; ! Prefix: -; Suffix: -{o}m;  
-@D.Prefijo@%<v%>%<tv%>%<subs%>:@D.Prefijo@%>ik                      # ; ! Prefix: -; Suffix: -ik;     ! FIXME: Possession
-@R.Pass.SinSujeto@%<v%>%<tv%>%<pass%>:@R.Pass.SinSujeto@%>%{V%}x    V-TV-COMMON ;
-%<v%>%<tv%>:                                                        V-COMMON ; 
-
+                                                                TV/Vj ; 
 LEXICON TV/uj
 
 @D.Pass.SinSujeto@%<v%>%<tv%>:@D.Pass.SinSujeto@%>uj            # ; 
-@D.Prefijo@%<v%>%<tv%>%<pp%>:@D.Prefijo@%>%{o%}m                    # ; ! Prefix: -; Suffix: -{o}m;  
-@D.Prefijo@%<v%>%<tv%>%<subs%>:@D.Prefijo@%>ik                      # ; ! Prefix: -; Suffix: -ik;     ! FIXME: Possession
-@R.Pass.SinSujeto@%<v%>%<tv%>%<pass%>:@R.Pass.SinSujeto@%>%{V%}x    V-TV-COMMON ;
-%<v%>%<tv%>:                                                        V-COMMON ; 
+                                                                TV/Vj ; 
 
+LEXICON TV/aj
 
+@D.Pass.SinSujeto@%<v%>%<tv%>:@D.Pass.SinSujeto@%>aj            # ; 
+                                                                TV/Vj ; 
 
 LEXICON IV 
 
@@ -622,7 +621,8 @@ aqanaj:aqan N3/aj ; ! "pierna" ! TODO: p.65 waqän
 !ibʼöchʼ:ibʼöchʼ N4/il ; ! "vena"
 
 utiw:utiw N5/aʼ ; ! ""
-umül:umül N5/iʼ ; ! "conejo, rabbit"
+xex:xex N5/aʼ ; ! "ladino, invasor"
+umül:umül N5/iʼ ; ! "conejo"
 bʼalam:bʼalam N5/iʼ ; ! "jaguar, jaguar"
 tzʼikïn:tzʼikïn N5/aʼ ; ! "pájaro, bird"
 kʼel:kʼel N5/aʼ ; ! ""
@@ -737,23 +737,26 @@ sïbʼ:sïbʼ N8 ; ! "humo, smoke"
 sutzʼ:sutzʼ N8 ; ! "nube, cloud"
 xanän:xanän N8 ; ! "zancudo, mosquito"
 
-!aqanaj:aqanaj SUSTANTIVO-INALIENABLE ; ! "pie, foot"
-!atitaj:atitaj SUSTANTIVO-INALIENABLE ; ! "abuela materna, motherʼs mother"
-!atitaj:atitaj SUSTANTIVO-INALIENABLE ; ! "abuela paterna, fatherʼs mother"
-!chʼekaj:chʼekaj SUSTANTIVO-INALIENABLE ; ! "rodilla, knee"
-!eyaj:eyaj SUSTANTIVO-INALIENABLE ; ! "diente, tooth"
-!ijaj:ijaj SUSTANTIVO-INALIENABLE ; ! "espalda, back"
-!mamaʼaj:mamaʼaj SUSTANTIVO-INALIENABLE ; ! "abuelo paterno, fatherʼs father"
-!qʼabʼaj:qʼabʼaj SUSTANTIVO-INALIENABLE ; ! "mano, hand"
-!qulaj:qulaj SUSTANTIVO-INALIENABLE ; ! "cuello, neck"
-!tataʼaj:tataʼaj SUSTANTIVO-INALIENABLE ; ! "padre, father"
+aqanaj:aqan N3/aj ; ! "pie, foot"
+atitaj:atit N3/aj ; ! "abuela materna, motherʼs mother"
+atitaj:atit N3/aj ; ! "abuela paterna, fatherʼs mother"
+chʼekaj:chʼek N3/aj ; ! "rodilla, knee"
+eyaj:ey N3/aj ; ! "diente, tooth"
+ijaj:ij N3/aj ; ! "espalda, back"
+mamaʼaj:mamaʼ N3/aj ; ! "abuelo paterno, fatherʼs father"
+qʼabʼaj:qʼabʼ N3/aj ; ! "mano, hand"
+qulaj:qul N3/aj ; ! "cuello, neck"
+tataʼaj:tataʼ N3/aj ; ! "padre, father"
+tzamaj:tzam N3/aj ; ! "nariz, nose"
+tzʼumaj:tzʼum N3/aj ; ! "seno, breast"
+wachaj:wach N3/aj ; ! "ojo, eye"
+wiʼaj:wiʼ N3/aj ; ! "cabello, hair"
+xikinaj:xikin N3/aj ; ! "oído, ear"
+
+qatiʼt%<n%>:qatiʼt # ; ! "" 
+
 !teʼej:teʼej SUSTANTIVO-INALIENABLE ; ! "madre, mother"
 !tiʼij:tiʼij SUSTANTIVO-INALIENABLE ; ! "carne, meat"
-!tzamaj:tzamaj SUSTANTIVO-INALIENABLE ; ! "nariz, nose"
-!tzʼumaj:tzʼumaj SUSTANTIVO-INALIENABLE ; ! "seno, breast"
-!wachaj:wachaj SUSTANTIVO-INALIENABLE ; ! "ojo, eye"
-!wiʼaj:wiʼaj SUSTANTIVO-INALIENABLE ; ! "cabello, hair"
-!xikinaj:xikinaj SUSTANTIVO-INALIENABLE ; ! "oído, ear"
 !
 !ronojel:ronojel SUSTANTIVO-RELACIONAL ; ! "todos, all"
 !
@@ -1052,6 +1055,8 @@ Ramon:Ramon NP-ANT ; ! ""
 Palaʼs:Palaʼs NP-ANT ; ! ""
 Qʼanel:Qʼanel NP-ANT ; ! ""
 Yaxpak:Yaxpak NP-ANT ; ! ""
+Kawoq:Kawoq NP-ANT ; ! ""
+Kajiʼ:Kajiʼ NP-ANT ; ! ""
 Pakal:Pakal NP-ANT ; ! ""
 Bʼalam:Bʼalam NP-ANT ; ! ""
 
@@ -1179,8 +1184,8 @@ xïm:xïm TV ; ! "amarrar"
 kʼwaj:kʼwaj TV ; ! "llevar"
 
 qʼetej:qʼet TV/ej ; ! "abrazar"
-kamisaj:kamis TV/ej ; ! "matar"
-kʼaxaj:kʼax TV/ej ; ! "escuchar"
+kamisaj:kamis TV/aj ; ! "matar"
+kʼaxaj:kʼax TV/aj ; ! "escuchar"
 
 retz:retz TV ; ! "romper"
 tzäq:tzäq TV ; ! "botar"
@@ -1193,7 +1198,7 @@ chʼäy:chʼäy TV ; ! "pegar"
 paxij:pax TV/ij ; ! "romper"
 kʼutuj:kʼut TV/uj ; ! "preguntar"
 
-awaʼrisaj:awaʼris TV/ej ; ! ""
+awaʼrisaj:awaʼris TV/aj ; ! ""
 
 näq:näq TV ; ! "molestar"
 tij:tij TV ; ! "comer"
@@ -1203,6 +1208,8 @@ bʼaʼ:bʼaʼ TV ; ! "morder"
 bʼaʼ:bʼa TV ; ! "morder" ! Use/Sub ! Src/kwo
 
 qot:qot TV ; ! ""
+
+tzʼibʼaj:tzʼibʼ TV/aj ; ! "escribir"
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
