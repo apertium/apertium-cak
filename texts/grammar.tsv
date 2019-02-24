@@ -1,101 +1,115 @@
-gdik99		79	A Kanek xuchäp jun kuk.					Kanek agarró una ardilla.
-gdik99		79	Jun kuk xchäp ruma a Kanek.				Una ardilla fue agarrada por Kanek.
-gdik99		79	A Xwan xuqʼetej xta Kanteʼl.				Juan abrazó a Candelaria.
-gdik99		79	Ixta Kanteʼl xqʼetex ruma a Xwan.			Candelaria fue abrazada por Juan.
-gdik99		80	Ri achi xukʼaxaj ri qachʼabäl.				El señor escuchó nuestra palabra.
-gdik99		80	Ri qachʼabäl xkʼaxäx ruma ri achin.			Nuestra palabra fue escuchada por el señor.
-gdik99		80	Ri achin xkʼaxan ri qachʼabäl.				El señor escuchó nuestra palabra.
-npass		_	Ri achin xuchʼäy ri tzʼiʼ.				The man hit the dog.
-npass		_	Xupaxij ri achin ri bʼojoy.				The man broke the pot.
-npass		_	Xinkikʼutuj.						They asked me.
-npass		_	Xewär.							They slept.
-npass		_	Yerunäq kan ri alabʼom.					She was bothering the children.
-npass		_	Ri achin xuchʼäy ri tzʼiʼ.				The man hit the dog.
-npass		_	Ri tzʼiʼ xchʼay romaʼ ri achin.				The dog was hit by the man.
-npass		_	Ri a Juan xutij riwäʼy.					Juan ate the tortilla.
-npass		_	Ri wäʼy xtij romaʼ ri a Juan.				The tortilla was eaten by Juan.
-npass		_	Xupaxij ri achin ri bʼojoy.				The man broke the pot.
-npass		_	Ri bʼojoy xpaxix romaʼ ri achin.			The pot was broken by the man.
-npass		_	Ri tzʼiʼ xchapatäj romaʼ ri achin.			The dog has been grabbed by the man.
-npass		_	Ri bʼojoy xpaxitäj komaʼ rije.				The pot has been broken by them.
-npass		_	Ri tzʼiʼ xkichäp romaʼ ri achin.			The dog was grabbedby the man.
-npass		_	Ri bʼojoy xkipaxij romaʼ rijaʼ.				The pot was broken by him.
-npass		_	Ri bʼojoy xkipaxij romaʼ rijaʼ.				The pot was broken by him.
-npass		_	Ri bʼojoy xkipaxij komaʼ rijeʼ.				The pot was broken by them.
-npass		_	Ri bʼojoy xkipaxij qomaʼ roj.				The pot was broken by us.
-npass		_	Ri tzʼiʼ xkitzʼet awomaʼ rat.				The dog was seen by you.
-npass		_	Rin xinkitzʼet awomaʼ rat.				I was seen by you.
-npass		_	Rat xatkitzʼet womaʼ rin.				You were seen by me.
-npass		_	Roj xojkitzʼet awomaʼ rat.				We were seen by you.
-npass		_	Rin xinkibʼaʼ romaʼ ri tzʼiʼ.				I was bitten by the dog.
-npass		_	Rin xinkibʼaʼ romaʼ ri tzʼiʼ.				They bit me because of the dog.
-npass		_	A Juan xutzʼubʼaj xta Maria rikʼi ruraybʼäl.		Juan kissed Maria voluntarily.
-npass		_	Xta Maria xtzʼubʼäx romaʼ a Juan rikʼi ruraybʼäl.	Maria was kissed by Juan voluntarily.
-npass		_	Xta Maria xkitzʼubʼaj romaʼ a Juan rikʼi ruraybʼäl.	Maria was kissed by Juan voluntarily.
-npass		_	A Juan nrajoʼ chi nuloqʼ saqmolo.			Juan wishes he could buy eggs.
-npass		_	A Juan nrajoʼ nuloqʼ saqmolo.				Juan wants to buy eggs.
-npass		_	A Juan nrajoʼ chi nuloqʼ saqmolo.			Juan_i wants him_j to buy eggs.
-npass		_	A Juan nrajoʼ chi rijaʼ nuloqʼ saqmolo.			Juan_i wants him_j to buy eggs.
-npass		_	A Juan xubʼij chwe chi ja ri tzʼiʼ xbaʼoʼ.		Juan_1 told me that it was the dog that bit him_1.
-npass		_	A Juan xubʼij chwe xbʼax romaʼ ri tzʼiʼ.		Juan_1 told me that he_1 was bitten by the dog.
-npass		_	A Juan xubʼij chwe chi xbʼax romaʼ ri tzʼiʼ.		Juan_1 told me that he_1 was bitten by the dog.
-npass		_	A Juan xubʼij chwe xkibʼaʼ romaʼ ri tzʼiʼ.		Juan_1 told me that he_1 was bitten by the dog.
-npass		_	A Juan xubʼij chwe chi xkibʼaʼ romaʼ ri tzʼiʼ.		Juan_1 told me that he_1 was bitten by the dog.
-npass		_	Chike xbʼax romaʼ jun tzʼiʼ?				Who was bitten by a dog?
-npass		_	Chike achin xkibʼaʼ romaʼ jun tzʼiʼ?			Which man was bitten by a dog?
-npass		_	Romaʼ achike tzʼiʼ xkibʼaʼ ri a Juan?			Which dog was Juan bitten by?
-npass		_	Ma jun achiʼ xbʼax romaʼ ri tzʼiʼ.			No man was bitten by a dog.
-npass		_	Man romaʼ ta jun Kaqchikel xeleqʼäx ri nuchʼich.	It wasnʼt a Kaqchikel my car was stolen by.
-npass		_	Jun meʼs xkibʼaʼ romaʼ ri tzʼiʼ.			A cat was bitten by the dog.
-npass		_	Jun meʼs xbʼax romaʼ ri tzʼiʼ.				A cat was bitten by the dog.
-npass		_	Xbʼax jun meʼs romaʼ ri tzʼiʼ.				A cat was bitten by the dog.
-npass		_	A Juan nrajoʼ jun chʼich.				Juan wants a car.
-npass		_	Jun chʼich najowäx romaʼ a Juan.			A car is wanted by Juan.
-npass		_	Ri cheʼ xutzäq ri jaʼy.					The tree knocked down the house.
-npass		_	Ri jaʼy xtzaq romaʼ ri cheʼ.				The house was knocked down by the tree.
-npass		_	Ri wäʼy xkitij romaʼ ri achin.  			The tortilla was eaten by the man.
-npass		_	Ri wäʼy xtij romaʼ ri achin.  				The tortilla was eaten by the man.
-npass		_	A Juan y Maria xebʼax romaʼ jun kumätz.			Juan and Maria were bitten by a snake.
-npass		_	Ri alabʼoniʼ xekitij ri wäʼy.				The boys ate the tortillas.
-kwo		_	Xubʼa ri tzʼiʼ ri meʼs.					The dog bit the cat.
-kwo		_	Ri tzʼiʼ xubʼa ri meʼs.					The dog bit the cat.
-kwo		_	Xroqotaj ri tzʼiʼ ri meʼs.				The dog chased the cat.
-kwo		_	Xroqotaj ri meʼs ri tzʼiʼ.				The cat chased the dog.
-kwo		_	Xroqotaj jun meʼs ri tzʼiʼ.				The dog chased a cat.
-kwo		_	Xuloqʼ ri wäʼy Maria.					Maria bought the tortillas.
-kwo		_	Xroqotaj ri xta Maria ri a Juan.			Juan chased Maria.
-kwo		_	Xroqotaj ri xta Maria ri a Juan.			Maria chased Juan.
-kwo		_	Xubʼa jun tzʼiʼ ri a Juan.				Juan bit a dog.
-kwo		_	Jun tzʼiʼ xbʼaʼo ri a Juan.				A dog bit Juan.
-kwo		_	Nibʼaʼon jun tzʼiʼ.					A dog is barking.
-kwo		_	Xirubʼaʼ jun tzʼiʼ rin.					A dog bit me.
-kwo		_	Xirubʼaʼ jun tzʼiʼ.					A dog bit me.
-kwo		_	Jun tzʼiʼ nibʼaʼon.					A dog is barking.
-kwo		_	Jun tzʼiʼ xibʼaʼo.					A dog bit me.
-kwo		_	Jun tzʼiʼ xibʼaʼo rin.					A dog bit me.
-kwo		_	Nukanoj rixjayil a Manuel rijaʼ.			She is looking for Manuelʼs wife.
-kwo		_	Rixjayil a Manuel nukanoj rijaʼ.			Manuelʼs wife is looking for him.
-kwo		_	Iwir xroqotaj ri tzʼiʼ ri meʼs.				Yesterday the dog chased the cat.
-kwo		_	Iwir ri tzʼiʼ xroqotaj ri meʼs.				Yesterday the dog chased the cat.
-kwo		_	Xkanox a Manuel romaʼ ri rixjay il.			Manuel was sought by his wife.
-kwo		_	Xkikanoj a Manuel romaʼ ri rixjayil.			Manuel was sought by his wife.
-kwo		_	Xoqotäx ri achin romaʼ jun tzʼiʼ.			The man was chased by a dog.
-kwo		_	Xkoqotaj ri achin romaʼ jun tzʼiʼ.			The man was chased by a dog.
-kwo		_	Rin man wetaman ta wä ri tzʼiʼ xroqotaj ri achin.	I donʼt know if the dog chased the man.
-kwo		_	A Manuel xubʼij chweʼ chi ri tzʼiʼ xubʼaʼ ri a Ramon.	Manuel told me that the dog bit Ramon.
+gdik99		79	A Kanek xuchäp jun kuk.						Kanek agarró una ardilla.
+gdik99		79	Jun kuk xchäp ruma a Kanek.					Una ardilla fue agarrada por Kanek.
+gdik99		79	A Xwan xuqʼetej xta Kanteʼl.					Juan abrazó a Candelaria.
+gdik99		79	Ixta Kanteʼl xqʼetex ruma a Xwan.				Candelaria fue abrazada por Juan.
+gdik99		80	Ri achi xukʼaxaj ri qachʼabäl.					El señor escuchó nuestra palabra.
+gdik99		80	Ri qachʼabäl xkʼaxäx ruma ri achin.				Nuestra palabra fue escuchada por el señor.
+gdik99		80	Ri achin xkʼaxan ri qachʼabäl.					El señor escuchó nuestra palabra.
+npass		_	Ri achin xuchʼäy ri tzʼiʼ.					The man hit the dog.
+npass		_	Xupaxij ri achin ri bʼojoy.					The man broke the pot.
+npass		_	Xinkikʼutuj.							They asked me.
+npass		_	Xewär.								They slept.
+npass		_	Yerunäq kan ri alabʼom.						She was bothering the children.
+npass		_	Ri achin xuchʼäy ri tzʼiʼ.					The man hit the dog.
+npass		_	Ri tzʼiʼ xchʼay romaʼ ri achin.					The dog was hit by the man.
+npass		_	Ri a Juan xutij riwäʼy.						Juan ate the tortilla.
+npass		_	Ri wäʼy xtij romaʼ ri a Juan.					The tortilla was eaten by Juan.
+npass		_	Xupaxij ri achin ri bʼojoy.					The man broke the pot.
+npass		_	Ri bʼojoy xpaxix romaʼ ri achin.				The pot was broken by the man.
+npass		_	Ri tzʼiʼ xchapatäj romaʼ ri achin.				The dog has been grabbed by the man.
+npass		_	Ri bʼojoy xpaxitäj komaʼ rije.					The pot has been broken by them.
+npass		_	Ri tzʼiʼ xkichäp romaʼ ri achin.				The dog was grabbedby the man.
+npass		_	Ri bʼojoy xkipaxij romaʼ rijaʼ.					The pot was broken by him.
+npass		_	Ri bʼojoy xkipaxij romaʼ rijaʼ.					The pot was broken by him.
+npass		_	Ri bʼojoy xkipaxij komaʼ rijeʼ.					The pot was broken by them.
+npass		_	Ri bʼojoy xkipaxij qomaʼ roj.					The pot was broken by us.
+npass		_	Ri tzʼiʼ xkitzʼet awomaʼ rat.					The dog was seen by you.
+npass		_	Rin xinkitzʼet awomaʼ rat.					I was seen by you.
+npass		_	Rat xatkitzʼet womaʼ rin.					You were seen by me.
+npass		_	Roj xojkitzʼet awomaʼ rat.					We were seen by you.
+npass		_	Rin xinkibʼaʼ romaʼ ri tzʼiʼ.					I was bitten by the dog.
+npass		_	Rin xinkibʼaʼ romaʼ ri tzʼiʼ.					They bit me because of the dog.
+npass		_	A Juan xutzʼubʼaj xta Maria rikʼi ruraybʼäl.			Juan kissed Maria voluntarily.
+npass		_	Xta Maria xtzʼubʼäx romaʼ a Juan rikʼi ruraybʼäl.		Maria was kissed by Juan voluntarily.
+npass		_	Xta Maria xkitzʼubʼaj romaʼ a Juan rikʼi ruraybʼäl.		Maria was kissed by Juan voluntarily.
+npass		_	A Juan nrajoʼ chi nuloqʼ saqmolo.				Juan wishes he could buy eggs.
+npass		_	A Juan nrajoʼ nuloqʼ saqmolo.					Juan wants to buy eggs.
+npass		_	A Juan nrajoʼ chi nuloqʼ saqmolo.				Juan_i wants him_j to buy eggs.
+npass		_	A Juan nrajoʼ chi rijaʼ nuloqʼ saqmolo.				Juan_i wants him_j to buy eggs.
+npass		_	A Juan xubʼij chwe chi ja ri tzʼiʼ xbaʼoʼ.			Juan_1 told me that it was the dog that bit him_1.
+npass		_	A Juan xubʼij chwe xbʼax romaʼ ri tzʼiʼ.			Juan_1 told me that he_1 was bitten by the dog.
+npass		_	A Juan xubʼij chwe chi xbʼax romaʼ ri tzʼiʼ.			Juan_1 told me that he_1 was bitten by the dog.
+npass		_	A Juan xubʼij chwe xkibʼaʼ romaʼ ri tzʼiʼ.			Juan_1 told me that he_1 was bitten by the dog.
+npass		_	A Juan xubʼij chwe chi xkibʼaʼ romaʼ ri tzʼiʼ.			Juan_1 told me that he_1 was bitten by the dog.
+npass		_	Chike xbʼax romaʼ jun tzʼiʼ?					Who was bitten by a dog?
+npass		_	Chike achin xkibʼaʼ romaʼ jun tzʼiʼ?				Which man was bitten by a dog?
+npass		_	Romaʼ achike tzʼiʼ xkibʼaʼ ri a Juan?				Which dog was Juan bitten by?
+npass		_	Ma jun achiʼ xbʼax romaʼ ri tzʼiʼ.				No man was bitten by a dog.
+npass		_	Man romaʼ ta jun Kaqchikel xeleqʼäx ri nuchʼich.		It wasnʼt a Kaqchikel my car was stolen by.
+npass		_	Jun meʼs xkibʼaʼ romaʼ ri tzʼiʼ.				A cat was bitten by the dog.
+npass		_	Jun meʼs xbʼax romaʼ ri tzʼiʼ.					A cat was bitten by the dog.
+npass		_	Xbʼax jun meʼs romaʼ ri tzʼiʼ.					A cat was bitten by the dog.
+npass		_	A Juan nrajoʼ jun chʼich.					Juan wants a car.
+npass		_	Jun chʼich najowäx romaʼ a Juan.				A car is wanted by Juan.
+npass		_	Ri cheʼ xutzäq ri jaʼy.						The tree knocked down the house.
+npass		_	Ri jaʼy xtzaq romaʼ ri cheʼ.					The house was knocked down by the tree.
+npass		_	Ri wäʼy xkitij romaʼ ri achin.  				The tortilla was eaten by the man.
+npass		_	Ri wäʼy xtij romaʼ ri achin.  					The tortilla was eaten by the man.
+npass		_	A Juan y Maria xebʼax romaʼ jun kumätz.				Juan and Maria were bitten by a snake.
+npass		_	Ri alabʼoniʼ xekitij ri wäʼy.					The boys ate the tortillas.
+kwo		_	Xubʼa ri tzʼiʼ ri meʼs.						The dog bit the cat.
+kwo		_	Ri tzʼiʼ xubʼa ri meʼs.						The dog bit the cat.
+kwo		_	Xroqotaj ri tzʼiʼ ri meʼs.					The dog chased the cat.
+kwo		_	Xroqotaj ri meʼs ri tzʼiʼ.					The cat chased the dog.
+kwo		_	Xroqotaj jun meʼs ri tzʼiʼ.					The dog chased a cat.
+kwo		_	Xuloqʼ ri wäʼy Maria.						Maria bought the tortillas.
+kwo		_	Xroqotaj ri xta Maria ri a Juan.				Juan chased Maria.
+kwo		_	Xroqotaj ri xta Maria ri a Juan.				Maria chased Juan.
+kwo		_	Xubʼa jun tzʼiʼ ri a Juan.					Juan bit a dog.
+kwo		_	Jun tzʼiʼ xbʼaʼo ri a Juan.					A dog bit Juan.
+kwo		_	Nibʼaʼon jun tzʼiʼ.						A dog is barking.
+kwo		_	Xirubʼaʼ jun tzʼiʼ rin.						A dog bit me.
+kwo		_	Xirubʼaʼ jun tzʼiʼ.						A dog bit me.
+kwo		_	Jun tzʼiʼ nibʼaʼon.						A dog is barking.
+kwo		_	Jun tzʼiʼ xibʼaʼo.						A dog bit me.
+kwo		_	Jun tzʼiʼ xibʼaʼo rin.						A dog bit me.
+kwo		_	Nukanoj rixjayil a Manuel rijaʼ.				She is looking for Manuelʼs wife.
+kwo		_	Rixjayil a Manuel nukanoj rijaʼ.				Manuelʼs wife is looking for him.
+kwo		_	Iwir xroqotaj ri tzʼiʼ ri meʼs.					Yesterday the dog chased the cat.
+kwo		_	Iwir ri tzʼiʼ xroqotaj ri meʼs.					Yesterday the dog chased the cat.
+kwo		_	Xkanox a Manuel romaʼ ri rixjay il.				Manuel was sought by his wife.
+kwo		_	Xkikanoj a Manuel romaʼ ri rixjayil.				Manuel was sought by his wife.
+kwo		_	Xoqotäx ri achin romaʼ jun tzʼiʼ.				The man was chased by a dog.
+kwo		_	Xkoqotaj ri achin romaʼ jun tzʼiʼ.				The man was chased by a dog.
+kwo		_	Rin man wetaman ta wä ri tzʼiʼ xroqotaj ri achin.		I donʼt know if the dog chased the man.
+kwo		_	A Manuel xubʼij chweʼ chi ri tzʼiʼ xubʼaʼ ri a Ramon.		Manuel told me that the dog bit Ramon.
 #
-kwo		_	Ja ri wäʼy xuloqʼ Maria.				It was the tortillas that Maria bought.
+kwo		_	Ja ri wäʼy xuloqʼ Maria.					It was the tortillas that Maria bought.
 #
-kwo		_	Ri käʼr xuyawaʼrisaj ri wixjayil.			The fish made my wife sick.
-mdrk		183	Xutzʼibʼaj jun ütz wuj ri a Kajiʼ Kawoq.		Kajiʼ Kawoq escribió un buen libro.
-mdrk		183	Ri xexaʼ, xekikamisaj ri qatiʼt qamamaʼ.		Los invasores masacraron a nuestros abuelos.
-mdrk		184	Xeʼatin pa raxyaʼ ri nuteʼ nutataʼ.			Mis papas se bañaron en agua fría.
-mdrk		184	Wakami xojatin pa raxyaʼ.				Hoy nos bañamos en agua fría.
-mdrk		184	Iwir, yalan jukumaj xewaʼ ri samajelaʼ.			Los trabajadores comieron muy temprano, ayer.
-mdrk		184	Iwir, waweʼ Pan Qʼän xikʼo el jun ti kej.		Ayer pasó un venadito, aquí en Antigua.
-mdrk		187	Yalan yawaʼ ri ixta Ixkikʼ.				Ixkikʼ está muy enferma.
-mdrk		187	Kʼoj chi rochoch ri ma Yaxpak.				Don Yaxpak está en su casa.
-mdrk		187	E tijonelaʼ ri ajqʼijaʼ.				Los ajqʼijaʼ son maestros.
-mdrk		187	Kʼoj kaʼiʼ ruwuj ri ma Qʼanel.				Don Qʼanel tiene dos libros.
-mdrk		187	Pakal Bʼalam nubʼiʼ.					Mi nombre es Pakal Bʼalam.
-mdrk		187	Wakami ruqʼij ri ixta Ixqʼanil.				Hoy es cumpleaños de Ixqʼanil.
+kwo		_	Ri käʼr xuyawaʼrisaj ri wixjayil.				The fish made my wife sick.
+mdrk		183	Xutzʼibʼaj jun ütz wuj ri a Kajiʼ Kawoq.			Kajiʼ Kawoq escribió un buen libro.
+mdrk		183	Ri xexaʼ, xekikamisaj ri qatiʼt qamamaʼ.			Los invasores masacraron a nuestros abuelos.
+mdrk		184	Xeʼatin pa raxyaʼ ri nuteʼ nutataʼ.				Mis papas se bañaron en agua fría.
+mdrk		184	Wakami xojatin pa raxyaʼ.					Hoy nos bañamos en agua fría.
+mdrk		184	Iwir, yalan jukumaj xewaʼ ri samajelaʼ.				Los trabajadores comieron muy temprano, ayer.
+mdrk		184	Iwir, waweʼ Pan Qʼän xikʼo el jun ti kej.			Ayer pasó un venadito, aquí en Antigua.
+mdrk		184	Miʼer xpax jun läq.						Hace un rato se quebró un trasto.
+mdrk		184	Ri xexaʼ, xkiporoj ronojel ri qawuj.				Los invasores quemaron todos nuestros libros.
+mdrk		184	Ri a Waykan, xukül pa jay.					Waykan está hincando en el cuarto.
+mdrk		185	Ri a Kaʼibʼil, ri a Kajil, xebʼe kʼayin rukʼin ri a Noʼj.	Kaʼibʼil y Kajil se fueron vender con Noʼj.
+mdrk		185	Chi ixoqiʼ, chi achiʼaʼ, jebʼel yesamäj.			Hombres y mujeres trabajan bien.
+mdrk		185	Ri ma Waykan, xuqʼetej ri ixta Nikteʼ.				Don Waykan abrazó a Nikteʼ.
+mdrk		185	Ri ma Waykan xqʼeten richin ri ixta Nikteʼ.			Don Waykan abrazó a Nikteʼ.
+mdrk		185	Ri ixta Nikteʼ xqʼetex, ruma ri ma Waykan.			Nikteʼ fue abrazada por don Waykan.
+mdrk		185	Xkäm ri tzʼiʼ.							El perro murió.
+mdrk		185	Yawaʼ ri ma Raxcheʼ.						Don Raxcheʼ está enfermo.
+mdrk		186	Xbʼe pa tinamït ri a Bʼalam.					Bʼalam fue a la ciudad.
+mdrk		186	Wakami, yalan jukumaj xeʼikʼo el ri ajqʼijaʼ.			Los sacerdotes Mayas pasaron muy temprano, hoy.
+mdrk		187	Xulöqʼ jun wexaj ri a Saq Chʼen.				Saq Chʼen compró un pantalón.
+mdrk		187	Ri ma Raxcheʼ, xusipaj jun ruq ri ruteʼ.			Raxcheʼ le regaló un corte a su madre.
+mdrk		187	Yalan yawaʼ ri ixta Ixkikʼ.					Ixkikʼ está muy enferma.
+mdrk		187	Kʼoj chi rochoch ri ma Yaxpak.					Don Yaxpak está en su casa.
+mdrk		187	E tijonelaʼ ri ajqʼijaʼ.					Los ajqʼijaʼ son maestros.
+mdrk		187	Kʼoj kaʼiʼ ruwuj ri ma Qʼanel.					Don Qʼanel tiene dos libros.
+mdrk		187	Pakal Bʼalam nubʼiʼ.						Mi nombre es Pakal Bʼalam.
+mdrk		187	Wakami ruqʼij ri ixta Ixqʼanil.					Hoy es cumpleaños de Ixqʼanil.

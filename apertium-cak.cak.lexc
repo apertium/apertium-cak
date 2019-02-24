@@ -30,6 +30,7 @@ Multichar_Symbols
 %<cmpl%>               ! Completivo
 
 %<ant%>                ! Antropónimo
+%<cog%>                ! Cognomen
 %<top%>                ! Topónimo
 
 %<s_sg1%>              ! Concordancia de sujeto de la 1ra persona singular
@@ -177,7 +178,7 @@ LEXICON N3/ej
 LEXICON N5/iʼ
 
 %<n%>: Poss ;
-%<n%>%<pl%>:%>iʼ # ;
+%<n%>%<pl%>:%{≤%}%>iʼ # ;
 @D.Poss@%<n%>:@D.Poss@ # ;
 
 LEXICON N5/aʼ
@@ -233,6 +234,10 @@ LEXICON NP-ANT
 
 %<np%>%<ant%>: #  ;
 
+LEXICON NP-COG
+
+%<np%>%<cog%>: #  ;
+
 LEXICON NP-TOP
 
 %<np%>%<top%>: #  ;
@@ -280,7 +285,7 @@ LEXICON Pot
 %<pot%>:xt%> PERS-IV-A-3 ;
 
 %<pot%>:xk%> PERS-TV-A ;
-%<pot%>:xk%> PERS-TV-A-3 ;
+%<pot%>:xt%> PERS-TV-A-3 ;
 
 LEXICON PERS-IV-A ! Juego absolutivo
 
@@ -636,7 +641,8 @@ akʼwal:akʼwal N5/aʼ ; ! "niño, child"
 alaʼ:alaʼ N5/bʼoniʼ ; ! ""
 xtän:xtän N5/iʼ ; ! "señorita, girl"
 achin:achin N5/aʼ ; ! ""
-ixöq:ixöq N5/iʼ ; ! "mujer, woman"
+achin:achiʼ N5/aʼ ; ! "hombre" ! Use/Sub ! TODO: check mdrk p. 18?
+ixöq:ixöq N5/iʼ ; ! "mujer"
 winäq:winäq N5/iʼ ; ! "persona (ser humano), person (human being)"
 chiköp:chiköp N5/iʼ ; ! ""
 xikʼ:xikʼ N5/aʼ ; ! ""
@@ -1066,14 +1072,36 @@ Kawoq:Kawoq NP-ANT ; ! ""
 Kajiʼ:Kajiʼ NP-ANT ; ! ""
 Pakal:Pakal NP-ANT ; ! ""
 Bʼalam:Bʼalam NP-ANT ; ! ""
+Waykan:Waykan NP-ANT ; ! ""
+Raxcheʼ:Raxcheʼ NP-ANT ; ! ""
+Noʼj:Noʼj NP-ANT ; ! ""
+Kaʼibʼil:Kaʼibʼil NP-ANT ; ! ""
+Kajil:Kajil NP-ANT ; ! ""
+Anselmo:Anselmo NP-ANT ; ! ""
+Félix:Félix NP-ANT ; ! ""
+Guillermo:Guillermo NP-ANT ; ! ""
+Isidro:Isidro NP-ANT ; ! ""
+José:José NP-ANT ; ! ""
+Jorge:Jorge NP-ANT ; ! ""
+Martín:Martín NP-ANT ; ! ""
+Pedro:Pedro NP-ANT ; ! ""
+Demetrio:Demetrio NP-ANT ; ! ""
 
 ! Fem
 Kanteʼl:Kanteʼl NP-ANT ; ! ""
 Maria:Maria NP-ANT ; ! ""
 Ixkikʼ:Ixkikʼ NP-ANT ; ! ""
+Nikteʼ:Nikteʼ NP-ANT ; ! ""
 Ixqʼanil:Ixqʼanil NP-ANT ; ! ""
+Antonieta:Antonieta  NP-ANT ; ! ""
+Ixsuʼm:Ixsuʼm NP-ANT ; ! ""
+
+! Cog
+
+Gonzáles:Gonzáles NP-COG ; ! ""
 
 Iximcheʼ:Iximcheʼ NP-TOP ; ! ""
+Asunción:Asunción NP-TOP ; ! ""
 Qʼän:Qʼän NP-TOP ; ! ""
 
 LEXICON Adjetivos
@@ -1122,6 +1150,8 @@ LEXICON Adverbios
 xa:xa ADV ; ! "sólo"
 
 yalan:yalan ADV ; ! "muy"
+
+miʼer:miʼer ADV ; ! "desde hoy, hace un rato"
 
 kʼa:kʼa ADV ; ! "bien"
 kan:kan ADV ; ! "muy"
@@ -1172,6 +1202,8 @@ ok:ok IV ; ! "entrar"
 
 kʼïx:kʼïx IV ; ! "avergonzarse"
 kos:kos IV ; ! "cansarse"
+
+käm:käm IV ; ! "morir"
 
 LEXICON Tran
 
