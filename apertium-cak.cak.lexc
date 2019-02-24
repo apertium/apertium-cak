@@ -407,6 +407,11 @@ LEXICON A
 
 %<adj%>: # ; 
 
+LEXICON A-PL
+
+%<adj%>%<pl%>: # ; 
+
+
 LEXICON ADV
 
 %<adv%>: # ; 
@@ -443,6 +448,8 @@ chïk%<mod%>:chïk # ; ! ""
 chïk%<mod%>:chik # ; ! "" ! Use/Sub
 wi%<mod%>:wi # ; ! ""
 
+apo%<aux%>:apo # ; ! ""
+
 taq%<cnjsub%>:taq # ; ! ""
 chi%<cnjsub%>:chi # ; ! "" ! Complementiser
 we%<cnjsub%>:we # ;
@@ -471,6 +478,8 @@ cha%<quot%>:cha # ; ! ""
 ja%<foc%>:ja # ; ! ""
 
 ma%<n%>:ma # ; ! "Don"
+
+matyox%<ij%>:matyox # ; ! "gracías"
 
 LEXICON Contracciones
 
@@ -528,6 +537,8 @@ rijeʼ%<prn%>%<pos%>:rije # ; ! Use/Sub ! Src/npass
 
 ririʼ%<prn%>%<dem%>:ririʼ # ;
 rijaʼ%<prn%>%<pers%>:rijaʼ # ;
+
+achike%<prn%>%<itg%>:achike # ; 
 
 LEXICON Numerales 
 
@@ -1075,6 +1086,7 @@ alabʼom:alabʼon N5/iʼ ; ! "niño" ! FIXME: alabʼon(?)
 ixjayil:ixjayil N1 ; ! "mujer"
 
 bʼiʼ:bʼiʼ N1 ; ! "nombre"
+bʼiʼ:biʼ N1 ; ! "nombre" ! Use/Sub ! Src/wiki
 aj:aj N1 ; ! "caña, bomba"
 
 amaqʼ:amaqʼ N1 ; ! "nación, pueblo"
@@ -1084,6 +1096,11 @@ chʼabʼ:chʼab N1 ; ! "flecha, dardo" ! Use/Sub ! Src/wiki
 
 kiʼ:kiʼ N1 ; ! "dulzura"
 
+anaʼ:anaʼ N1 ; ! "hermana"
+chaqʼ:chaqʼ N1 ; ! "hermano mayor"
+
+ulewal:ulewal N1 ; ! "matería"
+
 N-JAY ; ! "casa"
 
 LEXICON Propios
@@ -1091,6 +1108,8 @@ LEXICON Propios
 San:San NP-AL ; ! ""
 Santa:Santa NP-AL ; ! ""
 Firefox:Firefox NP-AL ; ! ""
+Mozilla:Mozilla NP-AL ; ! ""
+Qʼaqʼawitz:Qʼaqʼawitz NP-AL ; ! ""
 
 ! Masc
 Luʼ:Luʼ NP-ANT ; ! ""
@@ -1136,6 +1155,7 @@ Ixsuʼm:Ixsuʼm NP-ANT ; ! ""
 Gonzáles:Gonzáles NP-COG ; ! ""
 
 Iximcheʼ:Iximcheʼ NP-TOP ; ! ""
+Armita:Armita NP-TOP ; ! ""
 Tzʼolojyaʼ:Tzʼolojyaʼ NP-TOP ; ! ""
 Kʼaxalaʼ:Kʼaxalaʼ NP-TOP ; ! ""
 Chuwila:Chuwila NP-TOP ; ! ""
@@ -1160,6 +1180,10 @@ majun:manjun A ; ! "ningun"
 español:español A ; ! "" ! Use/Barb ! Use/Sub
 
 mayaʼ:mayaʼ A ; ! "" ! FIXME: check
+
+nïm:nïm A ; ! "grande"
+nïm:nim A ; ! "grande" ! Use/Sub ! Src/wiki
+nïm:nimaʼq A-PL ; ! "grandes"
 
 tikirel:tikirel A ; ! "eficiente"
 
@@ -1225,6 +1249,7 @@ wakami:wakami ADV ; ! ""
 chaqʼaʼ:chaqʼaʼ ADV ; ! ""
 chaqʼaʼ:chaqʼa ADV ; ! "" ! Use/Sub
 jantapeʼ:jantapeʼ ADV ; ! ""
+jantapeʼ:jantape ADV ; ! "" ! Use/Sub ! Src/wiki
 ojer:ojer ADV ; ! ""
 myer:myer ADV ; ! ""
 tiqaqʼij:tiqaqʼij ADV ; ! ""
@@ -1302,6 +1327,8 @@ chʼäy:chʼäy TV ; ! "pegar"
 
 paxij:pax TV/ij ; ! "romper"
 kʼutuj:kʼut TV/uj ; ! "preguntar"
+
+matyoxij:matyox TV/ij ; ! "dar las gracías"
 
 awaʼrisaj:awaʼris TV/aj ; ! ""
 
