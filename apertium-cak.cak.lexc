@@ -593,6 +593,7 @@ taqkil:taqkil N1 ; ! "recado"
 
 tzʼibʼabʼäl:tzʼibʼabʼäl N2 ; ! "boligrafo"
 tinamït:tinamït N2 ; ! "ciudad"
+tinamït:tinamit N2 ; ! "ciudad" ! Use/Sub ! Src/wiki
 chʼkät:chʼkät N2 ; ! "silla"
 wäy:wäy N2 ; ! "tortilla"
 wäy:wäʼy N2 ; ! "tortilla" ! Use/Sub ! Src/npass
@@ -1066,6 +1067,7 @@ bʼatzʼ:bʼatzʼ N1 ; ! ""
 kikʼ:kikʼ N9/el ; ! "sangre"
 bʼaq:bʼaq N9/il ; ! "hueso"
 wuj:wuj N9/il ; ! "libro"
+sikʼiwuj:sikʼiwuj N9/il ; ! "libro"
 ibʼochʼ:ibʼochʼ N9/il ; ! ""
 
 alabʼom:alabʼom N5/iʼ ; ! "niño" ! FIXME: alabʼon(?)
@@ -1088,6 +1090,7 @@ LEXICON Propios
 
 San:San NP-AL ; ! ""
 Santa:Santa NP-AL ; ! ""
+Firefox:Firefox NP-AL ; ! ""
 
 ! Masc
 Luʼ:Luʼ NP-ANT ; ! ""
@@ -1149,6 +1152,7 @@ kʼo:kʼo A ; ! ""  ! TODO: This is like `var' in Turkish
 kʼo:kʼoj A ; ! ""  ! TODO: This is like `var' in Turkish
 manaq:manaq A ; ! "" ! TODO: Like Turkish `yok'
 kʼïy:kʼïy A ; ! "mucho" 
+kʼïy:kʼiy A ; ! "mucho"  ! Use/Sub ! Src/wiki
 
 majun:majun A ; ! "ningun"
 majun:manjun A ; ! "ningun"
