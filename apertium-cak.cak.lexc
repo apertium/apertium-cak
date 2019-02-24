@@ -210,6 +210,7 @@ LEXICON N9/el
 LEXICON N9/il
 
 %<n%>:%>il Poss ;
+%<n%>: Poss ; ! Use/Sub ! Src/mdrk
 @D.Poss@%<n%>:@D.Poss@ # ;
 
 LEXICON N-JAY 
@@ -447,6 +448,8 @@ kan%<dir%>:kan # ; ! ""
 cha%<quot%>:cha # ; ! ""
 
 ja%<foc%>:ja # ; ! ""
+
+ma%<n%>:ma # ; ! "Don"
 
 LEXICON Contracciones
 
@@ -706,7 +709,8 @@ sanïk:sanïk SUSTANTIVO ; ! "hormiga, ant"
 saqmoloʼ:saqmoloʼ SUSTANTIVO ; ! "huevo"
 saqmoloʼ:saqmolo SUSTANTIVO ; ! "huevo" ! Use/Sub ! Src/npass
 saseʼ:saseʼ SUSTANTIVO ; ! "hígado, liver"
-tijonel:tijonel SUSTANTIVO ; ! "maestro, teacher"
+tijonel:tijonel N5/aʼ ; ! "maestro, teacher"
+ajqʼij:ajqʼij N5/aʼ ; ! ""
 tinamït:tinamït SUSTANTIVO ; ! "pueblo, town"
 toj:toj SUSTANTIVO ; ! "ofrenda, offering"
 tonkʼor:tonkʼor SUSTANTIVO ; ! "tambor (m), drum"
@@ -1032,6 +1036,8 @@ ibʼochʼ:ibʼochʼ N9/il ; ! ""
 alabʼom:alabʼom N1 ; ! "niño" ! FIXME: alabʼon(?)
 ixjayil:ixjayil N1 ; ! "mujer"
 
+bʼiʼ:bʼiʼ N1 ; ! "nombre"
+
 N-JAY ; ! "casa"
 
 LEXICON Propios
@@ -1044,16 +1050,23 @@ Juan:Juan NP-ANT ; ! ""
 Manuel:Manuel NP-ANT ; ! ""
 Ramon:Ramon NP-ANT ; ! ""
 Palaʼs:Palaʼs NP-ANT ; ! ""
+Qʼanel:Qʼanel NP-ANT ; ! ""
+Yaxpak:Yaxpak NP-ANT ; ! ""
+Pakal:Pakal NP-ANT ; ! ""
+Bʼalam:Bʼalam NP-ANT ; ! ""
 
 ! Fem
 Kanteʼl:Kanteʼl NP-ANT ; ! ""
 Maria:Maria NP-ANT ; ! ""
+Ixkikʼ:Ixkikʼ NP-ANT ; ! ""
+Ixqʼanil:Ixqʼanil NP-ANT ; ! ""
 
 Iximcheʼ:Iximcheʼ NP-TOP ; ! ""
 
 LEXICON Adjetivos
 
 kʼo:kʼo A ; ! ""  ! TODO: This is like `var' in Turkish
+kʼo:kʼoj A ; ! ""  ! TODO: This is like `var' in Turkish
 kʼïy:kʼïy A ; ! "mucho" 
 
 kʼatän:kʼatän A ; ! "caliente"
@@ -1093,6 +1106,8 @@ LEXICON Adverbios
 
 xa:xa ADV ; ! "sólo"
 
+yalan:yalan ADV ; ! "muy"
+
 kʼa:kʼa ADV ; ! "bien"
 kan:kan ADV ; ! "muy"
 chuqaʼ:chuqaʼ ADV ; ! "también" 
@@ -1123,6 +1138,7 @@ aninäq:aninäq ADV ; ! ""
 
 qitzij:qitzij ADV ; ! ""
 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Intr
 
@@ -1187,6 +1203,8 @@ bʼaʼ:bʼaʼ TV ; ! "morder"
 bʼaʼ:bʼa TV ; ! "morder" ! Use/Sub ! Src/kwo
 
 qot:qot TV ; ! ""
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Punctuación
 
