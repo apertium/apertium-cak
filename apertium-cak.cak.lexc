@@ -169,6 +169,11 @@ LEXICON N3/aj
 %<n%>: Poss ;
 @D.Poss@%<n%>:@D.Poss@aj # ;
 
+LEXICON N3/ej
+
+%<n%>: Poss ;
+@D.Poss@%<n%>:@D.Poss@ej # ;
+
 LEXICON N5/iʼ
 
 %<n%>: Poss ;
@@ -755,9 +760,11 @@ xikinaj:xikin N3/aj ; ! "oído, ear"
 
 qatiʼt%<n%>:qatiʼt # ; ! "" 
 
-!teʼej:teʼej SUSTANTIVO-INALIENABLE ; ! "madre, mother"
-!tiʼij:tiʼij SUSTANTIVO-INALIENABLE ; ! "carne, meat"
-!
+raxyaʼ:raxyaʼ N1 ; ! "agua fría"
+
+teʼej:teʼ N3/ej ; ! "madre, mother"
+tiʼij:tiʼ N3/ej ; ! "carne, meat"
+
 !ronojel:ronojel SUSTANTIVO-RELACIONAL ; ! "todos, all"
 !
 nimajay:nimajay N1 ; ! ""
@@ -1067,12 +1074,15 @@ Ixkikʼ:Ixkikʼ NP-ANT ; ! ""
 Ixqʼanil:Ixqʼanil NP-ANT ; ! ""
 
 Iximcheʼ:Iximcheʼ NP-TOP ; ! ""
+Qʼän:Qʼän NP-TOP ; ! ""
 
 LEXICON Adjetivos
 
 kʼo:kʼo A ; ! ""  ! TODO: This is like `var' in Turkish
 kʼo:kʼoj A ; ! ""  ! TODO: This is like `var' in Turkish
 kʼïy:kʼïy A ; ! "mucho" 
+
+jukumaj:jukumaj A ; ! "temprano" 
 
 kʼatän:kʼatän A ; ! "caliente"
 qʼequʼm:qʼequʼm A ; ! "oscuro"
