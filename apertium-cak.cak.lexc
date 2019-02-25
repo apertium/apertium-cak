@@ -493,6 +493,7 @@ chi%<pr%>%+rat%<prn%>:chawe # ;  ! Use/Sub ! Src/wiki
 
 chi%<pr%>%+pam%<n%>%<rel%>%<px3sg%>:chupam # ; ! Use/Sub ! TODO: Check this
 chi%<pr%>%+wäch%<n%>%<rel%>%<px3sg%>:chuwäch # ; ! Use/Sub ! TODO: Check this
+chi%<pr%>%+wäch%<n%>%<rel%>%<px3sg%>:chwäch # ; ! Use/Sub ! TODO: Check this
 
 LEXICON Preposiciones 
 
@@ -873,6 +874,7 @@ etamabʼalil:etamabʼalil SUSTANTIVO ; ! "ciencia"
 etamanïk:etamanïk SUSTANTIVO ; ! "sabiduría"
 etzʼanem:etzʼanem SUSTANTIVO ; ! "ajedrez, lotería"
 ixim:ixim SUSTANTIVO ; ! "maíz"
+ixim:ixïm SUSTANTIVO ; ! "maíz" ! Use/Sub ! Src/wiki
 ixkanul:ixkanul SUSTANTIVO ; ! "volcán"
 ja:ja SUSTANTIVO ; ! "adverbio"
 jachoj:jachoj SUSTANTIVO ; ! "desmembración, división"
@@ -1101,11 +1103,19 @@ chaqʼ:chaqʼ N1 ; ! "hermano mayor"
 
 ulewal:ulewal N1 ; ! "matería"
 
+tʼas:tʼas N1 ; ! "nominal, membrana"
+
+poqonabʼäl:poqonabʼäl N1 ; ! "tormento, fatiga"
+nimatijobʼäl:nimatijobʼäl N1 ; ! ""
+ajowabʼäl:ajowabʼäl N1 ; ! "amor"
+
 N-JAY ; ! "casa"
 
 LEXICON Propios
 
 San:San NP-AL ; ! ""
+Wikiwuj:Wikiwuj NP-AL ; ! ""
+Wikipetyaʼ:Wikipetyaʼ NP-AL ; ! ""
 Santa:Santa NP-AL ; ! ""
 Firefox:Firefox NP-AL ; ! ""
 Mozilla:Mozilla NP-AL ; ! ""
@@ -1113,6 +1123,7 @@ Qʼaqʼawitz:Qʼaqʼawitz NP-AL ; ! ""
 
 ! Masc
 Luʼ:Luʼ NP-ANT ; ! ""
+Cojti:Cojti NP-ANT ; ! ""
 Kanek:Kanek NP-ANT ; ! ""
 Xwan:Xwan NP-ANT ; ! ""
 Juan:Juan NP-ANT ; ! ""
@@ -1165,6 +1176,7 @@ Chwiʼmeqʼenyaʼ:Chwiʼmeqʼenyaʼ NP-TOP ; ! ""
 Asunción:Asunción NP-TOP ; ! ""
 Qʼän:Qʼän NP-TOP ; ! ""
 Iximulew:Iximulew NP-TOP ; ! ""
+Guatemala:Guatemala NP-TOP ; ! ""
 
 LEXICON Adjetivos
 
@@ -1293,6 +1305,12 @@ käm:käm IV ; ! "morir"
 
 qa:qa IV ; ! "descender"
 
+tikïr:tikïr IV ; ! "poder, empezar"
+
+sokotäj:sokotäj IV ; ! "cortar"
+silon:silon IV ; ! "moverse"
+yawäj:yawäj IV ; ! "enfermarse"
+
 LEXICON Tran
 
 ajoʼ:ajoʼ TV ; ! "querer"
@@ -1344,8 +1362,17 @@ qot:qot TV ; ! ""
 tzʼibʼaj:tzʼibʼ TV/aj ; ! "escribir"
 
 tijoj:tij TV/oj ; ! "enseñar"
+siloj:sil TV/oj ; ! "mover"
+
+chaʼ:chaʼ TV ; ! "elegir, escoger"
+
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON DIGITLEX
+
+%<num%>: # ; 
 
 LEXICON Punctuación
 
@@ -1377,3 +1404,4 @@ LEXICON Punctuación
 /%<sent%>:/ # ;
 …%<sent%>:… # ;
 
+< [ %0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]+ > DIGITLEX ; 
