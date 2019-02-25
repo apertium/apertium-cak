@@ -220,6 +220,7 @@ LEXICON N9/il
 %<n%>:%>il Poss ;
 %<n%>: Poss ; ! Use/Sub ! Src/mdrk
 @D.Poss@%<n%>:@D.Poss@ # ;
+@D.Poss@%<n%>:@D.Poss@%>il # ; ! bʼaqil ! Src/wiki
 
 LEXICON N-JAY 
 ! Supletivo
@@ -421,6 +422,10 @@ LEXICON NUM1234
 @D.Prefijo@%<num%>:@D.Prefijo@ # ; 
 @R.Poss.Sg3@%<num%>%<ord%>:@R.Poss.Sg3@ # ; 
 
+LEXICON NUM-ORD
+
+%<num%>%<ord%>: # ; 
+
 LEXICON NUM-DIST
 
 %<num%>%<dist%>: # ; 
@@ -461,6 +466,8 @@ chuqaʼ%<cnjcoo%>:chuqa # ;  ! Use/Sub
 töq%<cnjsub%>:töq # ; ! "cuando"
 töq%<cnjsub%>:toq # ; ! "cuando" ! Use/Sub
 
+achiʼel%<cnjsub%>:achiʼel # ; ! "como" ! FIXE: Check
+
 ! kʼo = hay
 
 ti%<dim%>:ti # ; 
@@ -477,9 +484,8 @@ cha%<quot%>:cha # ; ! ""
 
 ja%<foc%>:ja # ; ! ""
 
-ma%<n%>:ma # ; ! "Don"
-
 matyox%<ij%>:matyox # ; ! "gracías"
+ni%<ij%>:ni # ; ! "no"
 
 LEXICON Contracciones
 
@@ -494,6 +500,7 @@ chi%<pr%>%+rat%<prn%>:chawe # ;  ! Use/Sub ! Src/wiki
 chi%<pr%>%+pam%<n%>%<rel%>%<px3sg%>:chupam # ; ! Use/Sub ! TODO: Check this
 chi%<pr%>%+wäch%<n%>%<rel%>%<px3sg%>:chuwäch # ; ! Use/Sub ! TODO: Check this
 chi%<pr%>%+wäch%<n%>%<rel%>%<px3sg%>:chwäch # ; ! Use/Sub ! TODO: Check this
+chi%<pr%>%+wäch%<n%>%<rel%>%<px3pl%>:chikiwäch # ; ! Use/Sub ! TODO: Check this
 
 LEXICON Preposiciones 
 
@@ -512,9 +519,13 @@ reʼ%<det%>%<dem%>:reʼ # ;
 la%<det%>%<dem%>:la # ;
 laʼ%<det%>%<dem%>:laʼ # ;
 
+tat%<det%>%<m%>:tat # ; 
+ma%<det%>%<m%>:ma # ; 
 a%<det%>%<m%>:a # ; 
 xta%<det%>%<f%>:xta # ; 
 ixta%<det%>%<f%>:ixta # ; 
+nan%<det%>%<f%>:nan # ; 
+te%<det%>%<f%>:te # ; 
 
 LEXICON Pronombres
 
@@ -544,10 +555,22 @@ achike%<prn%>%<itg%>:achike # ;
 LEXICON Numerales 
 
 waʼix:waʼix NUM5 ; ! "cero"
+
 jun:jun NUM1234 ;  ! "uno"
+jun:nabʼëy NUM-ORD ; ! "primero"
+jun:nabʼey NUM-ORD ; ! "primero" ! Use/Sub ! Src/wiki
+jun:nabey NUM-ORD ; ! "primero" ! Use/Sub ! Src/wiki
+
 kaʼiʼ:kaʼiʼ NUM1234 ; ! "dos"
+kaʼiʼ:kaʼn NUM-ORD ; ! "segundo"
+kaʼiʼ:rukaʼn NUM-ORD ; ! "segundo"
+
 oxiʼ:oxiʼ NUM1234 ; ! "tres"
+oxiʼ:rox NUM-ORD ; ! "tercero"
+
 kajiʼ:kajiʼ NUM1234 ; ! "cuatro"
+kajiʼ:rukaj NUM-ORD ; ! "cuarto"
+
 woʼoʼ:woʼoʼ NUM5 ; ! "cinco"
 waqiʼ:waqiʼ NUM5 ; ! "seis"
 wuquʼ:wuquʼ NUM5 ; ! "siete"
@@ -593,6 +616,8 @@ pam:pam N6 ; ! ""
 
 kʼin:kʼin N6 ; ! ""
 qiʼ:qiʼ N6 ; ! ""
+
+jujunal:jujunal N6 ; ! ""
 
 LEXICON Sustantivos
 
@@ -674,6 +699,7 @@ achin:achiʼ N5/aʼ ; ! "hombre" ! Use/Sub ! TODO: check mdrk p. 18?
 ixöq:ixöq N5/iʼ ; ! "mujer"
 winäq:winäq N5/iʼ ; ! "persona, ser humano"
 winäq:winaq N5/iʼ ; ! "persona, ser humano" ! Use/Sub ! Src/wiki
+winäq:winaqʼ N5/iʼ ; ! "persona, ser humano" ! Use/Sub ! Src/wiki
 chiköp:chiköp N5/iʼ ; ! ""
 xikʼ:xikʼ N5/aʼ ; ! ""
 masat:masat N5/iʼ ; ! ""
@@ -1029,7 +1055,7 @@ mebʼaʼil:mebʼaʼil N1 ; ! "pobreza"
 eyaʼ:eyaʼ N1 ; ! "pericón"
 eleqʼ:eleqʼ N1 ; ! "asalot, robo"
 rubʼanikil:rubʼanikil N1 ; ! "condición, estado"
-qʼopoj:qʼopoj N1 ; ! "señorita"
+qʼopoj:qʼopoj N5/iʼ ; ! "señorita"
 xeʼ:xeʼ N1 ; ! ""
 ya:ya N1 ; ! ""
 chʼaqap:chʼaqap N1 ; ! ""
@@ -1109,6 +1135,15 @@ poqonabʼäl:poqonabʼäl N1 ; ! "tormento, fatiga"
 nimatijobʼäl:nimatijobʼäl N1 ; ! ""
 ajowabʼäl:ajowabʼäl N1 ; ! "amor"
 
+labʼal:labʼal N1 ; ! "guerra"
+winaqirem:winaqirem N1 ; ! "sociedad"
+
+xul:xul N1 ; ! "chirimiya"
+xak:xak N1 ; ! "paso"
+
+wexaj:wexaj N1 ; ! "pantalón"
+uq:uq N1 ; ! "corte"
+
 N-JAY ; ! "casa"
 
 LEXICON Propios
@@ -1156,14 +1191,32 @@ Kanteʼl:Kanteʼl NP-ANT ; ! ""
 Maria:Maria NP-ANT ; ! ""
 María:María NP-ANT ; ! ""
 Ixkikʼ:Ixkikʼ NP-ANT ; ! ""
+Ixchel:Ixchel NP-ANT ; ! ""
 Nikteʼ:Nikteʼ NP-ANT ; ! ""
+Nikʼteʼ:Nikʼteʼ NP-ANT ; ! ""
 Ixqʼanil:Ixqʼanil NP-ANT ; ! ""
 Antonieta:Antonieta  NP-ANT ; ! ""
 Ixsuʼm:Ixsuʼm NP-ANT ; ! ""
 
+! ?
+
+Saq:Saq NP-ANT ; ! ""
+Chʼen:Chʼen NP-ANT ; ! ""
+
 ! Cog
 
 Gonzáles:Gonzáles NP-COG ; ! ""
+
+! Top
+
+Verapaz:Verapaz NP-TOP ; ! ""
+Asunción:Asunción NP-TOP ; ! ""
+Chimaltenango:Chimaltenango NP-TOP ; ! ""
+Sololá:Sololá NP-TOP ; ! ""
+Sacatepéquez:Sacatepéquez NP-TOP ; ! ""
+México:México NP-TOP ; ! ""
+Suchitepéquez:Suchitepéquez NP-TOP ; ! ""
+Guatemala:Guatemala NP-TOP ; ! ""
 
 Iximcheʼ:Iximcheʼ NP-TOP ; ! ""
 Armita:Armita NP-TOP ; ! ""
@@ -1173,16 +1226,15 @@ Chuwila:Chuwila NP-TOP ; ! ""
 Nawaljaʼ:Nawaljaʼ NP-TOP ; ! ""
 Ajacheʼl:Ajacheʼl NP-TOP ; ! ""
 Chwiʼmeqʼenyaʼ:Chwiʼmeqʼenyaʼ NP-TOP ; ! ""
-Asunción:Asunción NP-TOP ; ! ""
 Qʼän:Qʼän NP-TOP ; ! ""
 Iximulew:Iximulew NP-TOP ; ! ""
-Guatemala:Guatemala NP-TOP ; ! ""
 
 LEXICON Adjetivos
 
 kʼo:kʼo A ; ! ""  ! TODO: This is like `var' in Turkish
 kʼo:kʼoj A ; ! ""  ! TODO: This is like `var' in Turkish
 manaq:manaq A ; ! "" ! TODO: Like Turkish `yok'
+manaq:manäq A ; ! "" ! TODO: Like Turkish `yok' ! Use/Sub ! FIXME: check 
 kʼïy:kʼïy A ; ! "mucho" 
 kʼïy:kʼiy A ; ! "mucho"  ! Use/Sub ! Src/wiki
 
@@ -1233,7 +1285,8 @@ setesïk:setesïk A ; ! "redondo / circular, round"
 
 kʼatzinel:kʼatzinel A ; ! "importante"
 loqʼoläj:loqʼoläj A ; ! "santo"
-jebʼël:jebʼël A ; ! "bonito, lindo"
+jebʼel:jebʼel A ; ! "bonito, lindo" 
+jebʼel:jebʼël A ; ! "bonito, lindo" ! Use/Sub 
 nimaläj:nimaläj A ; ! "ilustre"
 kʼakʼaʼ:kʼakʼaʼ A ; ! "nuevo"
 kʼakʼaʼ:kʼakʼa A ; ! "nuevo" ! Use/Sub ! Src/wiki
@@ -1242,6 +1295,8 @@ choj:choj A ; ! "simple"
 chöj:chöj A ; ! "recto"
 
 LEXICON Adverbios
+
+ke:ke ADV ; ! "" ! < ke ri' ! mdrk p.158
 
 xa:xa ADV ; ! "sólo"
 xa:xe ADV ; ! "sólo" 
@@ -1254,6 +1309,7 @@ kʼa:kʼa ADV ; ! "bien"
 kan:kan ADV ; ! "muy"
 chuqaʼ:chuqaʼ ADV ; ! "también" 
 chuqaʼ:chuqa ADV ; ! "también"  ! Use/Sub 
+chuqaʼ:chuqʼa ADV ; ! "también"  ! Use/Sub 
 chuwaʼq:chuwaʼq ADV ; ! "mañana"
 iwir:iwir ADV ; ! "ayer"
 
@@ -1299,6 +1355,7 @@ aläx:aläx IV ; ! "nacer"
 ok:ok IV ; ! "entrar"
 
 kʼïx:kʼïx IV ; ! "avergonzarse"
+kʼastäj:kʼastäj IV ; ! "despertarse"
 kos:kos IV ; ! "cansarse"
 
 käm:käm IV ; ! "morir"
@@ -1310,6 +1367,11 @@ tikïr:tikïr IV ; ! "poder, empezar"
 sokotäj:sokotäj IV ; ! "cortar"
 silon:silon IV ; ! "moverse"
 yawäj:yawäj IV ; ! "enfermarse"
+
+! Como 'entender' < Xq'ax pa ruwi' 
+qʼax:qʼax IV ; ! "quedar, dejar pasar, entender" 
+
+pe:pe IV ; ! "venir" ! Src/mdrk
 
 LEXICON Tran
 
@@ -1366,6 +1428,14 @@ siloj:sil TV/oj ; ! "mover"
 
 chaʼ:chaʼ TV ; ! "elegir, escoger"
 
+kʼëx:kʼëx TV ; ! "cambiar, intercambiar"
+kʼëq:kʼëq TV ; ! "botar"
+
+sipaj:sip TV/aj ; ! "regalar"
+
+sök:sök TV ; ! "cortar"
+
+yaʼ:yaʼ TV ; ! "dar, poner"
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
