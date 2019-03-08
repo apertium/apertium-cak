@@ -358,7 +358,7 @@ LEXICON V-TV-COMMON
 ! TODO: Does this only apply to passive / do we need to switch the agreement?
 @R.Prefijo.1@%<cmpl%>:@R.Prefijo.1@%{≤%}%>%{V%}täj                  # ; ! Prefix: +; Suffix: -{V}täj
 @R.Prefijo.1@%<apo%>:@R.Prefijo.1@%{≤%}%>o                          # ; ! Prefix: +; Suffix: -o
-@R.Prefijo.1@%<apn%>:@R.Prefijo.1@%{≤%}%>%{V%}n                          # ; ! Prefix: +; Suffix: -n
+@R.Prefijo.1@%<apn%>:@R.Prefijo.1@%{≤%}%>%{i%}n                     # ; ! Prefix: +; Suffix: -n      ! FIXME: xk'ayin // nito'on
                                                                     # ; 
 LEXICON TV 
 
@@ -449,7 +449,7 @@ ajin%<vaux%>:tajin # ;
 
 ta%<mod%>:ta # ;
 na%<mod%>:na # ; ! ""
-k'a%<mod%>:k'a # ; ! ""
+kʼa%<mod%>:kʼa # ; ! ""
 yan%<mod%>:yan # ; ! ""
 chïk%<mod%>:chïk # ; ! ""
 chïk%<mod%>:chik # ; ! "" ! Use/Sub
@@ -458,6 +458,7 @@ wi%<mod%>:wi # ; ! ""
 apo%<aux%>:apo # ; ! ""
 
 taq%<cnjsub%>:taq # ; ! ""
+kʼari%<cnjsub%>:kʼari # ; ! "entonces"
 chi%<cnjsub%>:chi # ; ! "" ! Complementiser
 we%<cnjsub%>:we # ;
 we%<cnjsub%>:wi # ; ! Use/Sub 
@@ -632,6 +633,7 @@ chachal:chachal N1 ; ! "collar"
 taqkil:taqkil N1 ; ! "recado"
 
 tzʼibʼabʼäl:tzʼibʼabʼäl N2 ; ! "boligrafo"
+tzʼibʼabʼäl:tzʼibabʼäl N2 ; ! "boligrafo" ! Use/Sub ! Src/gdik
 tinamït:tinamït N2 ; ! "ciudad"
 tinamït:tinamit N2 ; ! "ciudad" ! Use/Sub ! Src/wiki
 chʼkät:chʼkät N2 ; ! "silla"
@@ -670,6 +672,7 @@ kem:kem N1 ; ! "tejido"
 äk:äk N1 ; ! "gallina"
 äkʼ:äkʼ SUSTANTIVO ; ! "pollo, chicken"
 ikäj:ikäj N1 ; ! "hacha"
+ikäj:ikej N1 ; ! "hacha" ! Use/Sub ! Src/gdik
 oj:oj N1 ; ! "aguacate"
 chun:chun N1 ; ! "cal"
 bʼey:bʼey N1 ; ! "camino"
@@ -756,6 +759,7 @@ kʼolaj:kʼolaj SUSTANTIVO ; ! "pelota, bola, ball"
 lemaʼ:lemaʼ SUSTANTIVO ; ! "cuento, story"
 mes:mes SUSTANTIVO ; ! "gato, cat"
 mes:meʼs SUSTANTIVO ; ! "gato, cat" ! Use/Sub ! Src/npass
+syan:syan N1 ; ! "gato"
 molaj:molaj SUSTANTIVO ; ! "grupo-, group -"
 moloj:moloj SUSTANTIVO ; ! "junta, reunión, meeting"
 nimaʼaj:nimaʼaj SUSTANTIVO ; ! "bambú, bamboo"
@@ -1080,6 +1084,7 @@ raybʼäl:raybʼäl N1 ; ! "deseo"
 ruwawinäq:ruwawinäq N1 ; ! "mal de ojo"
 qʼanajäl:qʼanajäl N1 ; ! ""
 nukʼusamajel:nukʼusamajel N1 ; ! ""
+samajel:samajel N1 ; ! "trabajador" 
 munil:munil N1 ; ! ""
 kʼuxatzʼibʼ:kʼuxatzʼibʼ N1 ; ! ""
 kʼatän:kʼatän N1 ; ! ""
@@ -1147,6 +1152,8 @@ xak:xak N1 ; ! "paso"
 
 wexaj:wexaj N1 ; ! "pantalón"
 uq:uq N1 ; ! "corte"
+
+kʼajol:kʼajol N1 ; ! "hijo"
 
 N-JAY ; ! "casa"
 
@@ -1361,6 +1368,7 @@ waʼ:waʼ IV ; ! "comer"
 samäj:samäj IV ; ! "trabajar"
 oqʼ:oqʼ IV ; ! "llorar"
 bʼe:bʼe IV ; ! "ir"
+paʼeʼ:paʼeʼ IV ; ! "pararse"
 kʼaseʼ:kʼaseʼ IV ; ! "vivir"
 aläx:aläx IV ; ! "nacer"
 ok:ok IV ; ! "entrar"
@@ -1419,6 +1427,7 @@ pil:pil TV ; ! "raspar"
 
 chʼäy:chʼäy TV ; ! "pegar"
 
+kʼayij:kʼay TV/ij ; ! "vender"
 paxij:pax TV/ij ; ! "romper"
 kʼutuj:kʼut TV/uj ; ! "preguntar"
 
@@ -1465,7 +1474,11 @@ pajoj:paj TV/oj  ; ! "pesar"
 tʼuj:tʼ TV/uj  ; ! "palpitar"
 weqoj:weq TV/oj  ; ! "adornar, aderezar"
 xiloj:xil TV/oj  ; ! "desmenuzar"
+taqoj:taq TV/oj ; ! "mandar, decretar"
 xoloj:xol TV/oj  ; ! "mezclar"
+
+purij:pur TV/ij ; ! "morder"
+!chapo:chapo TV ; ! "regañar"
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
