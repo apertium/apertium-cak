@@ -1,10 +1,18 @@
 gdik99		79	A Kanek xuchäp jun kuk.						Kanek agarró una ardilla.
-gdik99		79	Jun kuk xchäp ruma a Kanek.					Una ardilla fue agarrada por Kanek.
+mdik99		79	Jun kuk xchäp ruma a Kanek.					Una ardilla fue agarrada por Kanek.
 gdik99		79	A Xwan xuqʼetej xta Kanteʼl.					Juan abrazó a Candelaria.
 gdik99		79	Ixta Kanteʼl xqʼetex ruma a Xwan.				Candelaria fue abrazada por Juan.
 gdik99		80	Ri achi xukʼaxaj ri qachʼabäl.					El señor escuchó nuestra palabra.
 gdik99		80	Ri qachʼabäl xkʼaxäx ruma ri achin.				Nuestra palabra fue escuchada por el señor.
 gdik99		80	Ri achin xkʼaxan ri qachʼabäl.					El señor escuchó nuestra palabra.
+gdik99		128	Ixta Saqijix xuq'etej ma Saq B'alam.				Saqijix abrazó a don Saq B'alam.
+gdik99		128	Ma Saqteqaw xutz'ät xta Mari'y.					Saqteqaw vio a María.
+gdik99		128	Xta Mari'y xtz'at ruma ma Saqteqaw.				María fue vista por Saqteqaw.
+gdik99		129	Ri kuk xuroch xta Mari'y.					La ardilla arañó a María.
+gdik99		129	Man ja' ta ri kuk xrocho xta Mari'y.				No fue la ardilla la que arañó a María.
+gdik99		130	A Pala's xuq'etej xta Kata'l.					Francisco abrazó a Catarina.
+gdik99		130	Man ja' ta a Pala's xq'eten xta Kata'l.				No fue Francisco quien abrazó a Catarina.
+gdik99		130	¿Achike xq'eten xta Kata'l?					¿Quién abrazó a Catarina?
 npass		_	Ri achin xuchʼäy ri tzʼiʼ.					The man hit the dog.
 npass		_	Xupaxij ri achin ri bʼojoy.					The man broke the pot.
 npass		_	Xinkikʼutuj.							They asked me.

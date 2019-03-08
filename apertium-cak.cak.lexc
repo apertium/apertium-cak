@@ -357,13 +357,15 @@ LEXICON V-TV-COMMON
 
 ! TODO: Does this only apply to passive / do we need to switch the agreement?
 @R.Prefijo.1@%<cmpl%>:@R.Prefijo.1@%{≤%}%>%{V%}täj                  # ; ! Prefix: +; Suffix: -{V}täj
+@R.Prefijo.1@%<apo%>:@R.Prefijo.1@%{≤%}%>o                          # ; ! Prefix: +; Suffix: -o
+@R.Prefijo.1@%<apn%>:@R.Prefijo.1@%{≤%}%>%{V%}n                          # ; ! Prefix: +; Suffix: -n
                                                                     # ; 
 LEXICON TV 
 
 @D.Pass.SinSujeto@%<v%>%<tv%>:@D.Pass.SinSujeto@                    # ; 
 @D.Prefijo@%<v%>%<tv%>%<pp%>:@D.Prefijo@%>%{o%}m                    # ; ! Prefix: -; Suffix: -{o}m;  
 @D.Prefijo@%<v%>%<tv%>%<subs%>:@D.Prefijo@%>ik                      # ; ! Prefix: -; Suffix: -ik;     ! FIXME: Possession
-@R.Pass.SinSujeto@%<v%>%<tv%>%<pass%>:@R.Pass.SinSujeto@            V-TV-COMMON ;
+@R.Pass.SinSujeto@%<v%>%<tv%>%<pass%>:@R.Pass.SinSujeto@%{≤%}            V-TV-COMMON ;
 %<v%>%<tv%>:                                                        V-COMMON ; 
 
 LEXICON TV/Vj
@@ -551,6 +553,7 @@ ririʼ%<prn%>%<dem%>:ririʼ # ;
 rijaʼ%<prn%>%<pers%>:rijaʼ # ;
 
 achike%<prn%>%<itg%>:achike # ; 
+!achike%<prn%>%<itg%>:a% chike # ;  ! Use/Sub ! Src/gdik
 
 LEXICON Numerales 
 
@@ -1192,12 +1195,16 @@ Demetrio:Demetrio NP-ANT ; ! ""
 Kanteʼl:Kanteʼl NP-ANT ; ! ""
 Maria:Maria NP-ANT ; ! ""
 María:María NP-ANT ; ! ""
+Mariʼy:Mariʼy NP-ANT ; ! ""
+Saqteqaw:Saqteqaw NP-ANT ; ! ""
+Saqijix:Saqijix NP-ANT ; ! ""
 Ixkikʼ:Ixkikʼ NP-ANT ; ! ""
 Ixchel:Ixchel NP-ANT ; ! ""
 Nikteʼ:Nikteʼ NP-ANT ; ! ""
 Nikʼteʼ:Nikʼteʼ NP-ANT ; ! ""
 Ixqʼanil:Ixqʼanil NP-ANT ; ! ""
 Antonieta:Antonieta  NP-ANT ; ! ""
+Kataʼl:Kataʼl NP-ANT ; ! ""
 Ixsuʼm:Ixsuʼm NP-ANT ; ! ""
 
 ! ?
@@ -1208,6 +1215,7 @@ Chʼen:Chʼen NP-ANT ; ! ""
 ! Cog
 
 Gonzáles:Gonzáles NP-COG ; ! ""
+Neruda:Neruda NP-COG ; ! ""
 
 ! Top
 
@@ -1384,6 +1392,7 @@ ajoʼ:ajoʼ TV ; ! "querer"
 
 tzʼu:tzʼu TV ; ! "see, look at"
 tzʼët:tzʼët TV ; ! "mirar, look at"
+tzʼët:tzʼät TV ; ! "mirar, look at" ! Use/Sub ! Src/gdik
 bʼän:bʼän TV ; ! "hacer, do"
 naʼ:naʼ TV ; ! "sentir"
 löqʼ:löqʼ TV ; ! "comprar"
@@ -1447,6 +1456,7 @@ kiraj:kir TV/aj  ; ! "extender"
 kiroj:kir TV/oj  ; ! "desatar"
 kʼisoj:kʼis TV/oj  ; ! "acabar"
 kʼojoj:kʼoj TV/oj  ; ! "remendar"
+rochoj:roch TV/oj ; ! "arañar"
 majoj:maj TV/oj  ; ! "quitar"
 muquj:muq TV/uj  ; ! "enterrar"
 !nabʼeyej:nabʼey TV/ej  ; ! "adelantarse"
