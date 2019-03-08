@@ -458,6 +458,7 @@ wi%<mod%>:wi # ; ! ""
 apo%<aux%>:apo # ; ! ""
 
 taq%<cnjsub%>:taq # ; ! ""
+taj%<cnjsub%>:taj # ; ! ""  = taq?
 kʼari%<cnjsub%>:kʼari # ; ! "entonces"
 chi%<cnjsub%>:chi # ; ! "" ! Complementiser
 we%<cnjsub%>:we # ;
@@ -1479,6 +1480,8 @@ xoloj:xol TV/oj  ; ! "mezclar"
 
 purij:pur TV/ij ; ! "morder"
 !chapo:chapo TV ; ! "regañar"
+
+kʼwaj:kʼw TV/aj ; ! "llevar"
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
