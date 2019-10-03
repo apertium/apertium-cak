@@ -902,19 +902,19 @@
 # sent_id = npass:50cbfcea02
 # text = Xupaxij ri achin ri bʼojoy.
 # text[spa] = The man broke the pot.
-# labels = incomplete
+# labels =
 "<Xupaxij>"
-	"paxij" v tv perf o_sg3 s_sg3
+       "paxij" v tv perf o_sg3 s_sg3 @root #1->0
 "<ri>"
-	"ri" det
+       "ri" det @det #2->3
 "<achin>"
-	"achin" n
+       "achin" n @obj #3->1
 "<ri>"
-	"ri" det
+       "ri" det @det #4->5
 "<bʼojoy>"
-	"bʼojoʼy" n
+       "bʼojoʼy" n @nsubj #5->1
 "<.>"
-	"." sent
+       "." sent @punct #6->1
 
 # sent_id = npass:7a3596089f
 # text = Xinkikʼutuj.
