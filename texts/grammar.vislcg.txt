@@ -124,8 +124,8 @@
 	"." sent
 
 # sent_id = gdik99:fd0a5ae3c1
-# text = Ixta Saqijix xuq'etej ma Saq B'alam.
-# text[spa] = Saqijix abrazó a don Saq B'alam.
+# text = Ixta Saqijix xuqʼetej ma Saq Bʼalam.
+# text[spa] = Saqijix abrazó a don Saq Bʼalam.
 # labels = incomplete ex:128
 "<Ixta>"
 	"ixta" det f
@@ -144,7 +144,7 @@
 	"." sent
 
 # sent_id = gdik99:83e8224b80
-# text = Ma Saqteqaw xutz'ät xta Mari'y.
+# text = Ma Saqteqaw xutzʼät xta Mariʼy.
 # text[spa] = Saqteqaw vio a María.
 # labels = incomplete ex:128
 "<Ma>"
@@ -161,7 +161,7 @@
 	"." sent
 
 # sent_id = gdik99:652373b35f
-# text = Xta Mari'y xtz'at ruma ma Saqteqaw.
+# text = Xta Mariʼy xtzʼat ruma ma Saqteqaw.
 # text[spa] = María fue vista por Saqteqaw.
 # labels = incomplete ex:128
 "<Xta>"
@@ -180,7 +180,7 @@
 	"." sent
 
 # sent_id = gdik99:fa23ac6313
-# text = Ri kuk xuroch xta Mari'y.
+# text = Ri kuk xuroch xta Mariʼy.
 # text[spa] = La ardilla arañó a María.
 # labels = incomplete ex:129
 "<Ri>"
@@ -197,7 +197,7 @@
 	"." sent
 
 # sent_id = gdik99:38bd678574
-# text = Man ja' ta ri kuk xrocho xta Mari'y.
+# text = Man jaʼ ta ri kuk xrocho xta Mariʼy.
 # text[spa] = No fue la ardilla la que arañó a María.
 # labels = incomplete ex:129
 "<Man>"
@@ -220,7 +220,7 @@
 	"." sent
 
 # sent_id = gdik99:d73c642e8a
-# text = A Pala's xuq'etej xta Kata'l.
+# text = A Palaʼs xuqʼetej xta Kataʼl.
 # text[spa] = Francisco abrazó a Catarina.
 # labels = incomplete ex:130
 "<A>"
@@ -237,7 +237,7 @@
 	"." sent
 
 # sent_id = gdik99:b3d77606d4
-# text = Man ja' ta a Pala's xq'eten xta Kata'l.
+# text = Man jaʼ ta a Palaʼs xqʼeten xta Kataʼl.
 # text[spa] = No fue Francisco quien abrazó a Catarina.
 # labels = incomplete ex:130
 "<Man>"
@@ -260,7 +260,7 @@
 	"." sent
 
 # sent_id = gdik99:c6d816d531
-# text = ¿Achike xq'eten xta Kata'l?
+# text = ¿Achike xqʼeten xta Kataʼl?
 # text[spa] = ¿Quién abrazó a Catarina?
 # labels = incomplete ex:130
 "<¿>"
@@ -279,7 +279,7 @@
 	"." sent
 
 # sent_id = gdik99:f3b5cb1000
-# text = A Xwan xuk'ayij xajab' pa k'ayb'äl.
+# text = A Xwan xukʼayij xajabʼ pa kʼaybʼäl.
 # text[spa] = Juan vendió zapatos en el mercado.
 # labels = ex:130
 "<A>"
@@ -298,7 +298,7 @@
 	"." sent @punct #7->3
 
 # sent_id = gdik99:e27380e3df
-# text = A Xwan xk'ayin pa k'ayb'äl.
+# text = A Xwan xkʼayin pa kʼaybʼäl.
 # text[spa] = Juan vendió en el mercado.
 # labels = incomplete ex:130
 "<A>"
@@ -316,7 +316,7 @@
 	"." sent
 
 # sent_id = gdik99:57414188e3
-# text = Nutata' xpa'e' pa ri' jun ikej.
+# text = Nutataʼ xpaʼeʼ pa riʼ jun ikej.
 # text[spa] = Mi papá se paró sobre un hacha.
 # labels = incomplete ex:131
 "<Nutataʼ>"
@@ -336,7 +336,7 @@
 	"." sent
 
 # sent_id = gdik99:f4776586a6
-# text = Nutata' xupalib'ej jun ikej.
+# text = Nutataʼ xupalibʼej jun ikej.
 # text[spa] = Sobre un hacha se paró mi papá.
 # labels = incomplete ex:131
 "<Nutataʼ>"
@@ -352,7 +352,7 @@
 	"." sent
 
 # sent_id = gdik99:7262de8e0b
-# text = A Xwan xuq'etej xta Mari'y.
+# text = A Xwan xuqʼetej xta Mariʼy.
 # text[spa] = Juan abrazó a María.
 # labels = incomplete ex:132
 "<A>"
@@ -369,7 +369,7 @@
 	"." sent
 
 # sent_id = gdik99:fa102c5f66
-# text = Xta Mari'y xq'etex ruma a Xwan.
+# text = Xta Mariʼy xqʼetex ruma a Xwan.
 # text[spa] = María fue abrazada por Juan.
 # labels = incomplete ex:132
 "<Xta>"
@@ -388,7 +388,7 @@
 	"." sent
 
 # sent_id = gdik99:e56a77c49c
-# text = Pa juyu' xnutäq wi nuk'ajol.
+# text = Pa juyuʼ xnutäq wi nukʼajol.
 # text[spa] = Al monte mandé a mi hijo.
 # labels = incomplete ex:132
 "<Pa>"
@@ -406,7 +406,7 @@
 	"." sent
 
 # sent_id = gdik99:19ad81a613
-# text = Xnutäq pa juyu' nuk'ajol.
+# text = Xnutäq pa juyuʼ nukʼajol.
 # text[spa] = Mandé a mi hijo al monte.
 # labels = incomplete ex:133
 "<Xnutäq>"
@@ -421,7 +421,7 @@
 	"." sent
 
 # sent_id = gdik99:b933ab48a4
-# text = A Xwan xuchäp jun äk'.
+# text = A Xwan xuchäp jun äkʼ.
 # text[spa] = Juan agarró una gallina.
 # labels = incomplete ex:133
 "<A>"
@@ -438,7 +438,7 @@
 	"." sent
 
 # sent_id = gdik99:1fdfd88f84
-# text = ¿Achike xchapo ri äk'.
+# text = ¿Achike xchapo ri äkʼ.
 # text[spa] = ¿Quién agarró la gallina?
 # labels = ex:133
 "<¿>"
@@ -455,7 +455,7 @@
 	"?" sent @punct #6->3
 
 # sent_id = gdik99:41c8db44d0
-# text = Ri tz'i' xupurij jun syan.
+# text = Ri tzʼiʼ xupurij jun syan.
 # text[spa] = El perro mordió a un gato.
 # labels = incomplete ex:133
 "<Ri>"
@@ -472,7 +472,7 @@
 	"." sent
 
 # sent_id = gdik99:bb609dd88e
-# text = Man ja' ritz'i' xpurin ri jun syan.
+# text = Man jaʼ ritzʼiʼ xpurin ri jun syan.
 # text[spa] = No fue el perro el que mordió al gato.
 # labels = incomplete ex:134
 "<Man>"
@@ -493,7 +493,7 @@
 	"." sent
 
 # sent_id = gdik99:69c5fb5211
-# text = K'o ch'abäq pa b'ey ruma ri' xintzaq.
+# text = Kʼo chʼabäq pa bʼey ruma riʼ xintzaq.
 # text[spa] = Había lodo en el camino, por eso me caí.
 # labels = incomplete ex:134
 "<Kʼo>"
@@ -514,7 +514,7 @@
 	"." sent
 
 # sent_id = gdik99:bbacaef422
-# text = Xinel el pa b'ey k'ari xintz'ät jun xtän.
+# text = Xinel el pa bʼey kʼari xintzʼät jun xtän.
 # text[spa] = Salí al camino y entonces vi a una joven.
 # labels = incomplete ex:134
 "<Xinel>"
@@ -538,7 +538,7 @@
 	"." sent
 
 # sent_id = gdik99:96eb14c1ab
-# text = Ri nuchaq' yalan jo'onel xb'e pa juyu'.
+# text = Ri nuchaqʼ yalan joʼonel xbʼe pa juyuʼ.
 # text[spa] = Mi hermano muy cariñoso se fue al monte.
 # labels = incomplete ex:135
 "<Ri>"
@@ -559,7 +559,7 @@
 	"." sent
 
 # sent_id = gdik99:5958f49fc2
-# text = Ri nuchaq' xb'e pa juyu'.
+# text = Ri nuchaqʼ xbʼe pa juyuʼ.
 # text[spa] = Mi hermano se fue al monte.
 # labels = incomplete ex:135
 "<Ri>"
@@ -625,7 +625,7 @@
 	"." sent
 
 # sent_id = gdik99:590cd47d1e
-# text = A Pala's xutz'ät rutz'i'.
+# text = A Palaʼs xutzʼät rutzʼiʼ.
 # text[spa] = Francisco vio a su perro.
 # labels = incomplete ex:137
 "<A>"
@@ -640,7 +640,7 @@
 	"." sent
 
 # sent_id = gdik99:dc2135f1d4
-# text = Rutz'i' niqotan kuk.
+# text = Rutzʼiʼ niqotan kuk.
 # text[spa] = Su perro corretea ardillas.
 # labels = incomplete ex:137
 "<Rutzʼiʼ>"
@@ -653,7 +653,7 @@
 	"." sent
 
 # sent_id = gdik99:e1229071fe
-# text = A Pala's xutz'ät rutz'i' ri niqotan kuk.
+# text = A Palaʼs xutzʼät rutzʼiʼ ri niqotan kuk.
 # text[spa] = Francisco vio a su perro que corretea ardillas.
 # labels = incomplete ex:137
 "<A>"
@@ -674,7 +674,7 @@
 	"." sent
 
 # sent_id = gdik99:41d96b4d4f
-# text = Ri tz'ib'ab'äl nim rutza'm.
+# text = Ri tzʼibʼabʼäl nim rutzaʼm.
 # text[spa] = Mi lápiz tiene punta grande.
 # labels = incomplete ex:137
 "<Ri>"
@@ -689,7 +689,7 @@
 	"." sent
 
 # sent_id = gdik99:7e4b374ad5
-# text = Xqajuch' ri wuj rik'in ri tz'ib'ab'äl.
+# text = Xqajuchʼ ri wuj rikʼin ri tzʼibʼabʼäl.
 # text[spa] = Rayé el papel con el lápiz.
 # labels = incomplete ex:137
 "<Xqajuchʼ>"
@@ -708,7 +708,7 @@
 	"." sent
 
 # sent_id = gdik99:d92935fcf6
-# text = Ri tz'ib'ab'äl chojrik'in xqajuch' ri wuj nim rutza'n.
+# text = Ri tzʼibʼabʼäl chojrikʼin xqajuchʼ ri wuj nim rutzaʼn.
 # text[spa] = El lápiz con que rayamos el papel tiene punta grande.
 # labels = incomplete ex:137
 "<Ri>"
@@ -742,7 +742,7 @@
 	"." sent
 
 # sent_id = gdik99:4b3b880197
-# text = Xnujis oq'ej.
+# text = Xnujis oqʼej.
 # text[spa] = Lloré mucho.
 # labels = incomplete ex:138
 "<Xnujis>"
@@ -753,7 +753,7 @@
 	"." sent
 
 # sent_id = gdik99:0eb95eb30f
-# text = Xinb'e pa loq'oj.
+# text = Xinbʼe pa loqʼoj.
 # text[spa] = Fui a comprar.
 # labels = incomplete ex:138
 "<Xinbʼe>"
@@ -766,7 +766,7 @@
 	"." sent
 
 # sent_id = gdik99:fc1f2b7bc9
-# text = Xel pa b'inen.
+# text = Xel pa bʼinen.
 # text[spa] = Salió a caminar.
 # labels = incomplete ex:138
 "<Xel>"
@@ -779,7 +779,7 @@
 	"." sent
 
 # sent_id = gdik99:087562078c
-# text = Ninjo' yinel.
+# text = Ninjoʼ yinel.
 # text[spa] = Quiero salir.
 # labels = incomplete ex:139
 "<Ninjoʼ>"
@@ -790,7 +790,7 @@
 	"." sent
 
 # sent_id = gdik99:216fcd9b98
-# text = Ninjo' chi ntel.
+# text = Ninjoʼ chi ntel.
 # text[spa] = Quiero que salga.
 # labels = incomplete ex:139
 "<Ninjoʼ>"
@@ -804,7 +804,7 @@
 	"." sent
 
 # sent_id = gdik99:801aeba3d9
-# text = K'o chik pa tuj taj xinok.
+# text = Kʼo chik pa tuj taj xinok.
 # text[spa] = Ya estaba en el temascal cuando entré.
 # labels = incomplete ex:139
 "<Kʼo>"
@@ -823,7 +823,7 @@
 	"." sent
 
 # sent_id = gdik99:18e8febacb
-# text = Xnusipaj ri kotz'ij chawe richin yinajo'.
+# text = Xnusipaj ri kotzʼij chawe richin yinajoʼ.
 # text[spa] = Te regalé la flor para que me quieras.
 # labels = incomplete ex:139
 "<Xnusipaj>"
@@ -843,7 +843,7 @@
 	"." sent
 
 # sent_id = gdik99:8d7cfa2213
-# text = A Xwan xwa' ruma ninum chik.
+# text = A Xwan xwaʼ ruma ninum chik.
 # text[spa] = Juan comió porque ya tenía hambre.
 # labels = incomplete ex:139
 "<A>"
@@ -862,7 +862,7 @@
 	"." sent
 
 # sent_id = gdik99:284224ce6e
-# text = Wi naya' aq'a' chwe yatink'waj wik'in.
+# text = Wi nayaʼ aqʼaʼ chwe yatinkʼwaj wikʼin.
 # text[spa] = Si me das la mano te llevo conmigo.
 # labels = incomplete ex:140
 "<Wi>"
@@ -2572,7 +2572,7 @@
 	"." sent
 
 # sent_id = mdrk:f510d9fd7c
-# text = Ja ri a Waykan xto'o wichin.
+# text = Ja ri a Waykan xtoʼo wichin.
 # text[spa] = Fue Waykan quien me ayudó.
 # labels = incomplete ex:160
 "<Ja>"
@@ -2593,7 +2593,7 @@
 	"." sent
 
 # sent_id = mdrk:8610ec43eb
-# text = Ja ru a Waykan xinto'o.
+# text = Ja ru a Waykan xintoʼo.
 # text[spa] = Fue Waykan quien me ayudó.
 # labels = incomplete ex:160
 "<Ja>"
@@ -2611,7 +2611,7 @@
 	"." sent
 
 # sent_id = mdrk:331ba510ff
-# text = Kan pa ch'ich' xatpe wi.
+# text = Kan pa chʼichʼ xatpe wi.
 # text[spa] = En camioneta te fuiste.
 # labels = incomplete ex:160
 "<Kan>"
