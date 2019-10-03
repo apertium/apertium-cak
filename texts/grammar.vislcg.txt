@@ -1,0 +1,3177 @@
+# sent_id = gdik99:3c233d7c4d
+# text = A Kanek xuchäp jun kuk.
+# text[spa] = Kanek agarró una ardilla.
+# labels = ex:79
+"<A>"
+	"a" det m @det #1->2
+"<Kanek>"
+	"Kanek" np ant @nsubj #2->3
+"<xuchäp>"
+	"chäp" v tv perf o_sg3 s_sg3 @root #3->0
+"<jun>"
+	"jun" num @nummod #4->5
+"<kuk>"
+	"kuk" n @obj #5->3
+"<.>"
+	"." sent @punct #6->3
+
+# sent_id = mdik99:e75fb8b43d
+# text = Jun kuk xchäp ruma a Kanek.
+# text[spa] = Una ardilla fue agarrada por Kanek.
+# labels = incomplete ex:79
+"<Jun>"
+	"jun" num
+"<kuk>"
+	"kuk" n
+"<xchäp>"
+	"chäp" v tv perf s_sg3
+"<ruma>"
+	"oma" n rel px3sg
+"<a>"
+	"a" det m
+"<Kanek>"
+	"Kanek" np ant
+"<.>"
+	"." sent
+
+# sent_id = gdik99:31fcb693d8
+# text = A Xwan xuqʼetej xta Kanteʼl.
+# text[spa] = Juan abrazó a Candelaria.
+# labels = incomplete ex:79
+"<A>"
+	"a" det m
+"<Xwan>"
+	"Xwan" np ant
+"<xuqʼetej>"
+	"qʼetej" v tv perf o_sg3 s_sg3
+"<xta>"
+	"xta" det f
+"<Kanteʼl>"
+	"Kanteʼl" np ant
+"<.>"
+	"." sent
+
+# sent_id = gdik99:031a6fa6b9
+# text = Ixta Kanteʼl xqʼetex ruma a Xwan.
+# text[spa] = Candelaria fue abrazada por Juan.
+# labels = incomplete ex:79
+"<Ixta>"
+	"ixta" det f
+"<Kanteʼl>"
+	"Kanteʼl" np ant
+"<xqʼetex>"
+	"qʼetej" v tv pass perf s_sg3
+"<ruma>"
+	"oma" n rel px3sg
+"<a>"
+	"a" det m
+"<Xwan>"
+	"Xwan" np ant
+"<.>"
+	"." sent
+
+# sent_id = gdik99:cfdcea193d
+# text = Ri achi xukʼaxaj ri qachʼabäl.
+# text[spa] = El señor escuchó nuestra palabra.
+# labels = incomplete ex:80
+"<Ri>"
+	"ri" det
+"<achi>"
+	"*achi"
+"<xukʼaxaj>"
+	"kʼaxaj" v tv perf o_sg3 s_sg3
+"<ri>"
+	"ri" det
+"<qachʼabäl>"
+	"chʼabäl" n px1pl
+"<.>"
+	"." sent
+
+# sent_id = gdik99:82b406c79f
+# text = Ri qachʼabäl xkʼaxäx ruma ri achin.
+# text[spa] = Nuestra palabra fue escuchada por el señor.
+# labels = incomplete ex:80
+"<Ri>"
+	"ri" det
+"<qachʼabäl>"
+	"chʼabäl" n px1pl
+"<xkʼaxäx>"
+	"*xkʼaxäx"
+"<ruma>"
+	"oma" n rel px3sg
+"<ri>"
+	"ri" det
+"<achin>"
+	"achin" n
+"<.>"
+	"." sent
+
+# sent_id = gdik99:7cdb3eeb25
+# text = Ri achin xkʼaxan ri qachʼabäl.
+# text[spa] = El señor escuchó nuestra palabra.
+# labels = incomplete ex:80
+"<Ri>"
+	"ri" det
+"<achin>"
+	"achin" n
+"<xkʼaxan>"
+	"*xkʼaxan"
+"<ri>"
+	"ri" det
+"<qachʼabäl>"
+	"chʼabäl" n px1pl
+"<.>"
+	"." sent
+
+# sent_id = gdik99:fd0a5ae3c1
+# text = Ixta Saqijix xuq'etej ma Saq B'alam.
+# text[spa] = Saqijix abrazó a don Saq B'alam.
+# labels = incomplete ex:128
+"<Ixta>"
+	"ixta" det f
+"<Saqijix>"
+	"Saqijix" np ant
+"<xuqʼetej>"
+	"qʼetej" v tv perf o_sg3 s_sg3
+"<ma>"
+	"ma" det m
+"<Saq>"
+	"Saq" np ant
+"<Bʼalam>"
+	"Bʼalam" np ant
+	"bʼalam" n
+"<.>"
+	"." sent
+
+# sent_id = gdik99:83e8224b80
+# text = Ma Saqteqaw xutz'ät xta Mari'y.
+# text[spa] = Saqteqaw vio a María.
+# labels = incomplete ex:128
+"<Ma>"
+	"ma" det m
+"<Saqteqaw>"
+	"Saqteqaw" np ant
+"<xutzʼät>"
+	"tzʼët" v tv perf o_sg3 s_sg3
+"<xta>"
+	"xta" det f
+"<Mariʼy>"
+	"Mariʼy" np ant
+"<.>"
+	"." sent
+
+# sent_id = gdik99:652373b35f
+# text = Xta Mari'y xtz'at ruma ma Saqteqaw.
+# text[spa] = María fue vista por Saqteqaw.
+# labels = incomplete ex:128
+"<Xta>"
+	"xta" det f
+"<Mariʼy>"
+	"Mariʼy" np ant
+"<xtzʼat>"
+	"tzʼët" v tv pass perf s_sg3
+"<ruma>"
+	"oma" n rel px3sg
+"<ma>"
+	"ma" det m
+"<Saqteqaw>"
+	"Saqteqaw" np ant
+"<.>"
+	"." sent
+
+# sent_id = gdik99:fa23ac6313
+# text = Ri kuk xuroch xta Mari'y.
+# text[spa] = La ardilla arañó a María.
+# labels = incomplete ex:129
+"<Ri>"
+	"ri" det
+"<kuk>"
+	"kuk" n
+"<xuroch>"
+	"rochoj" v tv perf o_sg3 s_sg3
+"<xta>"
+	"xta" det f
+"<Mariʼy>"
+	"Mariʼy" np ant
+"<.>"
+	"." sent
+
+# sent_id = gdik99:38bd678574
+# text = Man ja' ta ri kuk xrocho xta Mari'y.
+# text[spa] = No fue la ardilla la que arañó a María.
+# labels = incomplete ex:129
+"<Man>"
+	"man" neg
+"<jaʼ>"
+	"*jaʼ"
+"<ta>"
+	"ta" mod
+"<ri>"
+	"ri" det
+"<kuk>"
+	"kuk" n
+"<xrocho>"
+	"rochoj" v tv apo perf s_sg3
+"<xta>"
+	"xta" det f
+"<Mariʼy>"
+	"Mariʼy" np ant
+"<.>"
+	"." sent
+
+# sent_id = gdik99:d73c642e8a
+# text = A Pala's xuq'etej xta Kata'l.
+# text[spa] = Francisco abrazó a Catarina.
+# labels = incomplete ex:130
+"<A>"
+	"a" det m
+"<Palaʼs>"
+	"Palaʼs" np ant
+"<xuqʼetej>"
+	"qʼetej" v tv perf o_sg3 s_sg3
+"<xta>"
+	"xta" det f
+"<Kataʼl>"
+	"Kataʼl" np ant
+"<.>"
+	"." sent
+
+# sent_id = gdik99:b3d77606d4
+# text = Man ja' ta a Pala's xq'eten xta Kata'l.
+# text[spa] = No fue Francisco quien abrazó a Catarina.
+# labels = incomplete ex:130
+"<Man>"
+	"man" neg
+"<jaʼ>"
+	"*jaʼ"
+"<ta>"
+	"ta" mod
+"<a>"
+	"a" det m
+"<Palaʼs>"
+	"Palaʼs" np ant
+"<xqʼeten>"
+	"*xqʼeten"
+"<xta>"
+	"xta" det f
+"<Kataʼl>"
+	"Kataʼl" np ant
+"<.>"
+	"." sent
+
+# sent_id = gdik99:c6d816d531
+# text = ¿Achike xq'eten xta Kata'l?
+# text[spa] = ¿Quién abrazó a Catarina?
+# labels = incomplete ex:130
+"<¿>"
+	"¿" lquest
+"<Achike>"
+	"achike" prn itg
+"<xqʼeten>"
+	"*xqʼeten"
+"<xta>"
+	"xta" det f
+"<Kataʼl>"
+	"Kataʼl" np ant
+"<?>"
+	"?" sent
+"<.>"
+	"." sent
+
+# sent_id = gdik99:f3b5cb1000
+# text = A Xwan xuk'ayij xajab' pa k'ayb'äl.
+# text[spa] = Juan vendió zapatos en el mercado.
+# labels = ex:130
+"<A>"
+	"a" det m @det #1->2
+"<Xwan>"
+	"Xwan" np ant @nsubj #2->3
+"<xukʼayij>"
+	"kʼayij" v tv perf o_sg3 s_sg3 @root #3->0
+"<xajabʼ>"
+	"xajabʼ" n @obj #4->3
+"<pa>"
+	"pa" pr @case #5->6
+"<kʼaybʼäl>"
+	"kʼaybʼäl" n @obl #6->3
+"<.>"
+	"." sent @punct #7->3
+
+# sent_id = gdik99:e27380e3df
+# text = A Xwan xk'ayin pa k'ayb'äl.
+# text[spa] = Juan vendió en el mercado.
+# labels = incomplete ex:130
+"<A>"
+	"a" det m
+"<Xwan>"
+	"Xwan" np ant
+"<xkʼayin>"
+	"kʼayij" v tv apn perf s_sg3
+"<pa>"
+	"pa" pr
+"<kʼaybʼäl>"
+	"kʼaybʼäl" n
+	"kʼayij" v tv ger_ins
+"<.>"
+	"." sent
+
+# sent_id = gdik99:57414188e3
+# text = Nutata' xpa'e' pa ri' jun ikej.
+# text[spa] = Mi papá se paró sobre un hacha.
+# labels = incomplete ex:131
+"<Nutataʼ>"
+	"tataʼaj" n px1sg
+"<xpaʼeʼ>"
+	"paʼeʼ" v iv perf s_sg3
+"<pa>"
+	"pa" pr
+"<riʼ>"
+	"riʼ" det
+"<jun>"
+	"jun" num
+"<ikej>"
+	"ikäj" n
+	"kej" n px2pl
+"<.>"
+	"." sent
+
+# sent_id = gdik99:f4776586a6
+# text = Nutata' xupalib'ej jun ikej.
+# text[spa] = Sobre un hacha se paró mi papá.
+# labels = incomplete ex:131
+"<Nutataʼ>"
+	"tataʼaj" n px1sg
+"<xupalibʼej>"
+	"*xupalibʼej"
+"<jun>"
+	"jun" num
+"<ikej>"
+	"ikäj" n
+	"kej" n px2pl
+"<.>"
+	"." sent
+
+# sent_id = gdik99:7262de8e0b
+# text = A Xwan xuq'etej xta Mari'y.
+# text[spa] = Juan abrazó a María.
+# labels = incomplete ex:132
+"<A>"
+	"a" det m
+"<Xwan>"
+	"Xwan" np ant
+"<xuqʼetej>"
+	"qʼetej" v tv perf o_sg3 s_sg3
+"<xta>"
+	"xta" det f
+"<Mariʼy>"
+	"Mariʼy" np ant
+"<.>"
+	"." sent
+
+# sent_id = gdik99:fa102c5f66
+# text = Xta Mari'y xq'etex ruma a Xwan.
+# text[spa] = María fue abrazada por Juan.
+# labels = incomplete ex:132
+"<Xta>"
+	"xta" det f
+"<Mariʼy>"
+	"Mariʼy" np ant
+"<xqʼetex>"
+	"qʼetej" v tv pass perf s_sg3
+"<ruma>"
+	"oma" n rel px3sg
+"<a>"
+	"a" det m
+"<Xwan>"
+	"Xwan" np ant
+"<.>"
+	"." sent
+
+# sent_id = gdik99:e56a77c49c
+# text = Pa juyu' xnutäq wi nuk'ajol.
+# text[spa] = Al monte mandé a mi hijo.
+# labels = incomplete ex:132
+"<Pa>"
+	"pa" pr
+"<juyuʼ>"
+	"juyuʼ" n
+"<xnutäq>"
+	"*xnutäq"
+"<wi>"
+	"we" cnjsub
+	"wi" mod
+"<nukʼajol>"
+	"kʼajol" n px1sg
+"<.>"
+	"." sent
+
+# sent_id = gdik99:19ad81a613
+# text = Xnutäq pa juyu' nuk'ajol.
+# text[spa] = Mandé a mi hijo al monte.
+# labels = incomplete ex:133
+"<Xnutäq>"
+	"*Xnutäq"
+"<pa>"
+	"pa" pr
+"<juyuʼ>"
+	"juyuʼ" n
+"<nukʼajol>"
+	"kʼajol" n px1sg
+"<.>"
+	"." sent
+
+# sent_id = gdik99:b933ab48a4
+# text = A Xwan xuchäp jun äk'.
+# text[spa] = Juan agarró una gallina.
+# labels = incomplete ex:133
+"<A>"
+	"a" det m
+"<Xwan>"
+	"Xwan" np ant
+"<xuchäp>"
+	"chäp" v tv perf o_sg3 s_sg3
+"<jun>"
+	"jun" num
+"<äkʼ>"
+	"äkʼ" n
+"<.>"
+	"." sent
+
+# sent_id = gdik99:1fdfd88f84
+# text = ¿Achike xchapo ri äk'.
+# text[spa] = ¿Quién agarró la gallina?
+# labels = ex:133
+"<¿>"
+	"¿" lquest @punct #1->3
+"<Achike>"
+	"achike" prn itg @nsubj #2->3
+"<xchapo>"
+	"chäp" v tv apo perf s_sg3 @root #3->0
+"<ri>"
+	"ri" det @det #4->5
+"<äkʼ>"
+	"äkʼ" n @obj #5->3
+"<?>"
+	"?" sent @punct #6->3
+
+# sent_id = gdik99:41c8db44d0
+# text = Ri tz'i' xupurij jun syan.
+# text[spa] = El perro mordió a un gato.
+# labels = incomplete ex:133
+"<Ri>"
+	"ri" det
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<xupurij>"
+	"purij" v tv perf o_sg3 s_sg3
+"<jun>"
+	"jun" num
+"<syan>"
+	"syan" n
+"<.>"
+	"." sent
+
+# sent_id = gdik99:bb609dd88e
+# text = Man ja' ritz'i' xpurin ri jun syan.
+# text[spa] = No fue el perro el que mordió al gato.
+# labels = incomplete ex:134
+"<Man>"
+	"man" neg
+"<jaʼ>"
+	"*jaʼ"
+"<ritzʼiʼ>"
+	"*ritzʼiʼ"
+"<xpurin>"
+	"purij" v tv apn perf s_sg3
+"<ri>"
+	"ri" det
+"<jun>"
+	"jun" num
+"<syan>"
+	"syan" n
+"<.>"
+	"." sent
+
+# sent_id = gdik99:69c5fb5211
+# text = K'o ch'abäq pa b'ey ruma ri' xintzaq.
+# text[spa] = Había lodo en el camino, por eso me caí.
+# labels = incomplete ex:134
+"<Kʼo>"
+	"kʼo" adj
+"<chʼabäq>"
+	"*chʼabäq"
+"<pa>"
+	"pa" pr
+"<bʼey>"
+	"bʼey" n
+"<ruma>"
+	"oma" n rel px3sg
+"<riʼ>"
+	"riʼ" det
+"<xintzaq>"
+	"*xintzaq"
+"<.>"
+	"." sent
+
+# sent_id = gdik99:bbacaef422
+# text = Xinel el pa b'ey k'ari xintz'ät jun xtän.
+# text[spa] = Salí al camino y entonces vi a una joven.
+# labels = incomplete ex:134
+"<Xinel>"
+	"el" v iv perf s_sg1
+"<el>"
+	"el" dir
+	"el" v iv
+"<pa>"
+	"pa" pr
+"<bʼey>"
+	"bʼey" n
+"<kʼari>"
+	"kʼari" cnjsub
+"<xintzʼät>"
+	"*xintzʼät"
+"<jun>"
+	"jun" num
+"<xtän>"
+	"xtän" n
+"<.>"
+	"." sent
+
+# sent_id = gdik99:96eb14c1ab
+# text = Ri nuchaq' yalan jo'onel xb'e pa juyu'.
+# text[spa] = Mi hermano muy cariñoso se fue al monte.
+# labels = incomplete ex:135
+"<Ri>"
+	"ri" det
+"<nuchaqʼ>"
+	"chaqʼ" n px1sg
+"<yalan>"
+	"yalan" adv
+"<joʼonel>"
+	"*joʼonel"
+"<xbʼe>"
+	"bʼe" v iv perf s_sg3
+"<pa>"
+	"pa" pr
+"<juyuʼ>"
+	"juyuʼ" n
+"<.>"
+	"." sent
+
+# sent_id = gdik99:5958f49fc2
+# text = Ri nuchaq' xb'e pa juyu'.
+# text[spa] = Mi hermano se fue al monte.
+# labels = incomplete ex:135
+"<Ri>"
+	"ri" det
+"<nuchaqʼ>"
+	"chaqʼ" n px1sg
+"<xbʼe>"
+	"bʼe" v iv perf s_sg3
+"<pa>"
+	"pa" pr
+"<juyuʼ>"
+	"juyuʼ" n
+"<.>"
+	"." sent
+
+# sent_id = gdik99:25c10ff1f8
+# text = Ri achin samajel.
+# text[spa] = Mi hombre es trabajador.
+# labels = incomplete ex:136
+"<Ri>"
+	"ri" det
+"<achin>"
+	"achin" n
+"<samajel>"
+	"samajel" n
+"<.>"
+	"." sent
+
+# sent_id = gdik99:b7b027dbf1
+# text = Ri achin xchapon chwe.
+# text[spa] = El señor me regañó.
+# labels = incomplete ex:136
+"<Ri>"
+	"ri" det
+"<achin>"
+	"achin" n
+"<xchapon>"
+	"*xchapon"
+"<chwe>"
+	"chi" pr @case
+		"rïn" prn @obl
+"<.>"
+	"." sent
+
+# sent_id = gdik99:bbfd3d9239
+# text = Ri achin ri xchapon chwe samajel.
+# text[spa] = El señor que me regañó es trabajador.
+# labels = incomplete ex:136
+"<Ri>"
+	"ri" det
+"<achin>"
+	"achin" n
+"<ri>"
+	"ri" det
+"<xchapon>"
+	"*xchapon"
+"<chwe>"
+	"chi" pr
+		"rïn" prn
+"<samajel>"
+	"samajel" n
+"<.>"
+	"." sent
+
+# sent_id = gdik99:590cd47d1e
+# text = A Pala's xutz'ät rutz'i'.
+# text[spa] = Francisco vio a su perro.
+# labels = incomplete ex:137
+"<A>"
+	"a" det m
+"<Palaʼs>"
+	"Palaʼs" np ant
+"<xutzʼät>"
+	"tzʼët" v tv perf o_sg3 s_sg3
+"<rutzʼiʼ>"
+	"tzʼiʼ" n px3sg
+"<.>"
+	"." sent
+
+# sent_id = gdik99:dc2135f1d4
+# text = Rutz'i' niqotan kuk.
+# text[spa] = Su perro corretea ardillas.
+# labels = incomplete ex:137
+"<Rutzʼiʼ>"
+	"tzʼiʼ" n px3sg
+"<niqotan>"
+	"*niqotan"
+"<kuk>"
+	"kuk" n
+"<.>"
+	"." sent
+
+# sent_id = gdik99:e1229071fe
+# text = A Pala's xutz'ät rutz'i' ri niqotan kuk.
+# text[spa] = Francisco vio a su perro que corretea ardillas.
+# labels = incomplete ex:137
+"<A>"
+	"a" det m
+"<Palaʼs>"
+	"Palaʼs" np ant
+"<xutzʼät>"
+	"tzʼët" v tv perf o_sg3 s_sg3
+"<rutzʼiʼ>"
+	"tzʼiʼ" n px3sg
+"<ri>"
+	"ri" det
+"<niqotan>"
+	"*niqotan"
+"<kuk>"
+	"kuk" n
+"<.>"
+	"." sent
+
+# sent_id = gdik99:41d96b4d4f
+# text = Ri tz'ib'ab'äl nim rutza'm.
+# text[spa] = Mi lápiz tiene punta grande.
+# labels = incomplete ex:137
+"<Ri>"
+	"ri" det
+"<tzʼibʼabʼäl>"
+	"tzʼibʼabʼäl" n
+"<nim>"
+	"nïm" adj
+"<rutzaʼm>"
+	"tzaʼm" n rel px3sg
+"<.>"
+	"." sent
+
+# sent_id = gdik99:7e4b374ad5
+# text = Xqajuch' ri wuj rik'in ri tz'ib'ab'äl.
+# text[spa] = Rayé el papel con el lápiz.
+# labels = incomplete ex:137
+"<Xqajuchʼ>"
+	"*Xqajuchʼ"
+"<ri>"
+	"ri" det
+"<wuj>"
+	"wuj" n
+"<rikʼin>"
+	"ikʼin" n rel px3sg
+"<ri>"
+	"ri" det
+"<tzʼibʼabʼäl>"
+	"tzʼibʼabʼäl" n
+"<.>"
+	"." sent
+
+# sent_id = gdik99:d92935fcf6
+# text = Ri tz'ib'ab'äl chojrik'in xqajuch' ri wuj nim rutza'n.
+# text[spa] = El lápiz con que rayamos el papel tiene punta grande.
+# labels = incomplete ex:137
+"<Ri>"
+	"ri" det
+"<tzʼibʼabʼäl>"
+	"tzʼibʼabʼäl" n
+"<chojrikʼin>"
+	"*chojrikʼin"
+"<xqajuchʼ>"
+	"*xqajuchʼ"
+"<ri>"
+	"ri" det
+"<wuj>"
+	"wuj" n
+"<nim>"
+	"nïm" adj
+"<rutzaʼn>"
+	"*rutzaʼn"
+"<.>"
+	"." sent
+
+# sent_id = gdik99:054eb059d1
+# text = Xuchäp elen.
+# text[spa] = Yo empiezo a salir.
+# labels = incomplete ex:138
+"<Xuchäp>"
+	"chäp" v tv perf o_sg3 s_sg3
+"<elen>"
+	"*elen"
+"<.>"
+	"." sent
+
+# sent_id = gdik99:4b3b880197
+# text = Xnujis oq'ej.
+# text[spa] = Lloré mucho.
+# labels = incomplete ex:138
+"<Xnujis>"
+	"*Xnujis"
+"<oqʼej>"
+	"oqʼej" n
+"<.>"
+	"." sent
+
+# sent_id = gdik99:0eb95eb30f
+# text = Xinb'e pa loq'oj.
+# text[spa] = Fui a comprar.
+# labels = incomplete ex:138
+"<Xinbʼe>"
+	"*Xinbʼe"
+"<pa>"
+	"pa" pr
+"<loqʼoj>"
+	"löqʼ" v tv inf
+"<.>"
+	"." sent
+
+# sent_id = gdik99:fc1f2b7bc9
+# text = Xel pa b'inen.
+# text[spa] = Salió a caminar.
+# labels = incomplete ex:138
+"<Xel>"
+	"el" v iv perf s_sg3
+"<pa>"
+	"pa" pr
+"<bʼinen>"
+	"*bʼinen"
+"<.>"
+	"." sent
+
+# sent_id = gdik99:087562078c
+# text = Ninjo' yinel.
+# text[spa] = Quiero salir.
+# labels = incomplete ex:139
+"<Ninjoʼ>"
+	"*Ninjoʼ"
+"<yinel>"
+	"el" v iv impf s_sg1
+"<.>"
+	"." sent
+
+# sent_id = gdik99:216fcd9b98
+# text = Ninjo' chi ntel.
+# text[spa] = Quiero que salga.
+# labels = incomplete ex:139
+"<Ninjoʼ>"
+	"*Ninjoʼ"
+"<chi>"
+	"chi" pr
+	"chi" cnjsub
+"<ntel>"
+	"*ntel"
+"<.>"
+	"." sent
+
+# sent_id = gdik99:801aeba3d9
+# text = K'o chik pa tuj taj xinok.
+# text[spa] = Ya estaba en el temascal cuando entré.
+# labels = incomplete ex:139
+"<Kʼo>"
+	"kʼo" adj
+"<chik>"
+	"chïk" mod
+"<pa>"
+	"pa" pr
+"<tuj>"
+	"tuj" n
+"<taj>"
+	"taj" cnjsub
+"<xinok>"
+	"ok" v iv perf s_sg1
+"<.>"
+	"." sent
+
+# sent_id = gdik99:18e8febacb
+# text = Xnusipaj ri kotz'ij chawe richin yinajo'.
+# text[spa] = Te regalé la flor para que me quieras.
+# labels = incomplete ex:139
+"<Xnusipaj>"
+	"sipaj" v tv perf o_sg3 s_sg1
+"<ri>"
+	"ri" det
+"<kotzʼij>"
+	"*kotzʼij"
+"<chawe>"
+	"chi" pr
+		"rat" prn
+"<richin>"
+	"ichin" n rel px3sg
+"<yinajoʼ>"
+	"*yinajoʼ"
+"<.>"
+	"." sent
+
+# sent_id = gdik99:8d7cfa2213
+# text = A Xwan xwa' ruma ninum chik.
+# text[spa] = Juan comió porque ya tenía hambre.
+# labels = incomplete ex:139
+"<A>"
+	"a" det m
+"<Xwan>"
+	"Xwan" np ant
+"<xwaʼ>"
+	"waʼ" v iv perf s_sg3
+"<ruma>"
+	"oma" n rel px3sg
+"<ninum>"
+	"*ninum"
+"<chik>"
+	"chïk" mod
+"<.>"
+	"." sent
+
+# sent_id = gdik99:284224ce6e
+# text = Wi naya' aq'a' chwe yatink'waj wik'in.
+# text[spa] = Si me das la mano te llevo conmigo.
+# labels = incomplete ex:140
+"<Wi>"
+	"we" cnjsub
+	"wi" mod
+"<nayaʼ>"
+	"yaʼ" v tv impf o_sg3 s_sg2
+"<aqʼaʼ>"
+	"aqʼaʼ" n
+"<chwe>"
+	"chi" pr
+		"rïn" prn
+"<yatinkʼwaj>"
+	"*yatinkʼwaj"
+"<wikʼin>"
+	"ikʼin" n rel px1sg
+"<.>"
+	"." sent
+
+# sent_id = npass:1e090a4eaf
+# text = Ri achin xuchʼäy ri tzʼiʼ.
+# text[spa] = The man hit the dog.
+# labels = incomplete ex: 
+"<Ri>"
+	"ri" det
+"<achin>"
+	"achin" n
+"<xuchʼäy>"
+	"chʼäy" v tv perf o_sg3 s_sg3
+"<ri>"
+	"ri" det
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<.>"
+	"." sent
+
+# sent_id = npass:50cbfcea02
+# text = Xupaxij ri achin ri bʼojoy.
+# text[spa] = The man broke the pot.
+# labels = incomplete ex: 
+"<Xupaxij>"
+	"paxij" v tv perf o_sg3 s_sg3
+"<ri>"
+	"ri" det
+"<achin>"
+	"achin" n
+"<ri>"
+	"ri" det
+"<bʼojoy>"
+	"bʼojoʼy" n
+"<.>"
+	"." sent
+
+# sent_id = npass:7a3596089f
+# text = Xinkikʼutuj.
+# text[spa] = They asked me.
+# labels = incomplete ex: 
+"<Xinkikʼutuj>"
+	"*Xinkikʼutuj"
+"<.>"
+	"." sent
+
+# sent_id = npass:4fc1ffe13e
+# text = Xewär.
+# text[spa] = They slept.
+# labels = incomplete ex: 
+"<Xewär>"
+	"wär" v iv perf s_pl3
+"<.>"
+	"." sent
+
+# sent_id = npass:56730e6e9a
+# text = Yerunäq kan ri alabʼom.
+# text[spa] = She was bothering the children.
+# labels = incomplete ex: 
+"<Yerunäq>"
+	"näq" v tv impf o_pl3 s_sg3
+"<kan>"
+	"kan" dir
+	"kan" adv
+	"kan" n
+"<ri>"
+	"ri" det
+"<alabʼom>"
+	"alabʼom" n
+"<.>"
+	"." sent
+
+# sent_id = npass:1e090a4eaf
+# text = Ri achin xuchʼäy ri tzʼiʼ.
+# text[spa] = The man hit the dog.
+# labels = incomplete ex: 
+"<Ri>"
+	"ri" det
+"<achin>"
+	"achin" n
+"<xuchʼäy>"
+	"chʼäy" v tv perf o_sg3 s_sg3
+"<ri>"
+	"ri" det
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<.>"
+	"." sent
+
+# sent_id = npass:8028f3c7f5
+# text = Ri tzʼiʼ xchʼay romaʼ ri achin.
+# text[spa] = The dog was hit by the man.
+# labels = incomplete ex: 
+"<Ri>"
+	"ri" det
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<xchʼay>"
+	"chʼäy" v tv pass perf s_sg3
+"<romaʼ>"
+	"oma" n rel px3sg
+"<ri>"
+	"ri" det
+"<achin>"
+	"achin" n
+"<.>"
+	"." sent
+
+# sent_id = npass:905ebbe47a
+# text = Ri a Juan xutij riwäʼy.
+# text[spa] = Juan ate the tortilla.
+# labels = incomplete ex: 
+"<Ri>"
+	"ri" det
+"<a>"
+	"a" det m
+"<Juan>"
+	"Juan" np ant
+"<xutij>"
+	"tijoj" v tv perf o_sg3 s_sg3
+	"tij" v tv perf o_sg3 s_sg3
+"<riwäʼy>"
+	"*riwäʼy"
+"<.>"
+	"." sent
+
+# sent_id = npass:2438430e84
+# text = Ri wäʼy xtij romaʼ ri a Juan.
+# text[spa] = The tortilla was eaten by Juan.
+# labels = incomplete ex: 
+"<Ri>"
+	"ri" det
+"<wäʼy>"
+	"wäy" n
+"<xtij>"
+	"tijoj" v tv perf s_sg3
+	"tij" v tv perf s_sg3
+	"tij" v tv pass perf s_sg3
+"<romaʼ>"
+	"oma" n rel px3sg
+"<ri>"
+	"ri" det
+"<a>"
+	"a" det m
+"<Juan>"
+	"Juan" np ant
+"<.>"
+	"." sent
+
+# sent_id = npass:50cbfcea02
+# text = Xupaxij ri achin ri bʼojoy.
+# text[spa] = The man broke the pot.
+# labels = 
+"<Xupaxij>"
+	"paxij" v tv perf o_sg3 s_sg3 @root #1->0
+"<ri>"
+	"ri" det @det #2->3
+"<achin>"
+	"achin" n @obj #3->1
+"<ri>"
+	"ri" det @det #4->5
+"<bʼojoy>"
+	"bʼojoʼy" n @nsubj #5->1
+"<.>"
+	"." sent @punct #6->1
+
+# sent_id = npass:f0f5da8454
+# text = Ri bʼojoy xpaxix romaʼ ri achin.
+# text[spa] = The pot was broken by the man.
+# labels = incomplete ex: 
+"<Ri>"
+	"ri" det
+"<bʼojoy>"
+	"bʼojoʼy" n
+"<xpaxix>"
+	"*xpaxix"
+"<romaʼ>"
+	"oma" n rel px3sg
+"<ri>"
+	"ri" det
+"<achin>"
+	"achin" n
+"<.>"
+	"." sent
+
+# sent_id = npass:f7792f04f8
+# text = Ri tzʼiʼ xchapatäj romaʼ ri achin.
+# text[spa] = The dog has been grabbed by the man.
+# labels = incomplete ex: 
+"<Ri>"
+	"ri" det
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<xchapatäj>"
+	"chäp" v tv pass cmpl perf s_sg3
+	"chäp" v tv cmpl perf s_sg3
+"<romaʼ>"
+	"oma" n rel px3sg
+"<ri>"
+	"ri" det
+"<achin>"
+	"achin" n
+"<.>"
+	"." sent
+
+# sent_id = npass:9619e62cd0
+# text = Ri bʼojoy xpaxitäj komaʼ rije.
+# text[spa] = The pot has been broken by them.
+# labels = incomplete ex: 
+"<Ri>"
+	"ri" det
+"<bʼojoy>"
+	"bʼojoʼy" n
+"<xpaxitäj>"
+	"*xpaxitäj"
+"<komaʼ>"
+	"oma" n rel px3pl
+"<rije>"
+	"rijeʼ" prn pos
+"<.>"
+	"." sent
+
+# sent_id = npass:6e930f909c
+# text = Ri tzʼiʼ xkichäp romaʼ ri achin.
+# text[spa] = The dog was grabbedby the man.
+# labels = incomplete ex: 
+"<Ri>"
+	"ri" det
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<xkichäp>"
+	"chäp" v tv perf o_sg3 s_pl3
+"<romaʼ>"
+	"oma" n rel px3sg
+"<ri>"
+	"ri" det
+"<achin>"
+	"achin" n
+"<.>"
+	"." sent
+
+# sent_id = npass:5b8076c4eb
+# text = Ri bʼojoy xkipaxij romaʼ rijaʼ.
+# text[spa] = The pot was broken by him.
+# labels = incomplete ex: 
+"<Ri>"
+	"ri" det
+"<bʼojoy>"
+	"bʼojoʼy" n
+"<xkipaxij>"
+	"paxij" v tv perf o_sg3 s_pl3
+"<romaʼ>"
+	"oma" n rel px3sg
+"<rijaʼ>"
+	"rijaʼ" prn pers
+	"rijaʼ" prn pos
+"<.>"
+	"." sent
+
+# sent_id = npass:5b8076c4eb
+# text = Ri bʼojoy xkipaxij romaʼ rijaʼ.
+# text[spa] = The pot was broken by him.
+# labels = incomplete ex: 
+"<Ri>"
+	"ri" det
+"<bʼojoy>"
+	"bʼojoʼy" n
+"<xkipaxij>"
+	"paxij" v tv perf o_sg3 s_pl3
+"<romaʼ>"
+	"oma" n rel px3sg
+"<rijaʼ>"
+	"rijaʼ" prn pers
+	"rijaʼ" prn pos
+"<.>"
+	"." sent
+
+# sent_id = npass:ce1a199051
+# text = Ri bʼojoy xkipaxij komaʼ rijeʼ.
+# text[spa] = The pot was broken by them.
+# labels = incomplete ex: 
+"<Ri>"
+	"ri" det
+"<bʼojoy>"
+	"bʼojoʼy" n
+"<xkipaxij>"
+	"paxij" v tv perf o_sg3 s_pl3
+"<komaʼ>"
+	"oma" n rel px3pl
+"<rijeʼ>"
+	"rijeʼ" prn pos
+"<.>"
+	"." sent
+
+# sent_id = npass:14ce7d6144
+# text = Ri bʼojoy xkipaxij qomaʼ roj.
+# text[spa] = The pot was broken by us.
+# labels = incomplete ex: 
+"<Ri>"
+	"ri" det
+"<bʼojoy>"
+	"bʼojoʼy" n
+"<xkipaxij>"
+	"paxij" v tv perf o_sg3 s_pl3
+"<qomaʼ>"
+	"oma" n rel px1pl
+"<roj>"
+	"oj" n px3sg
+	"röj" prn pos
+"<.>"
+	"." sent
+
+# sent_id = npass:662a20ad68
+# text = Ri tzʼiʼ xkitzʼet awomaʼ rat.
+# text[spa] = The dog was seen by you.
+# labels = incomplete ex: 
+"<Ri>"
+	"ri" det
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<xkitzʼet>"
+	"*xkitzʼet"
+"<awomaʼ>"
+	"oma" n rel px2sg
+"<rat>"
+	"rat" prn pos
+"<.>"
+	"." sent
+
+# sent_id = npass:07f2091453
+# text = Rin xinkitzʼet awomaʼ rat.
+# text[spa] = I was seen by you.
+# labels = incomplete ex: 
+"<Rin>"
+	"rïn" prn pos
+"<xinkitzʼet>"
+	"*xinkitzʼet"
+"<awomaʼ>"
+	"oma" n rel px2sg
+"<rat>"
+	"rat" prn pos
+"<.>"
+	"." sent
+
+# sent_id = npass:7ee8122060
+# text = Rat xatkitzʼet womaʼ rin.
+# text[spa] = You were seen by me.
+# labels = incomplete ex: 
+"<Rat>"
+	"rat" prn pos
+"<xatkitzʼet>"
+	"*xatkitzʼet"
+"<womaʼ>"
+	"oma" n rel px1sg
+"<rin>"
+	"rïn" prn pos
+"<.>"
+	"." sent
+
+# sent_id = npass:7550c40bb7
+# text = Roj xojkitzʼet awomaʼ rat.
+# text[spa] = We were seen by you.
+# labels = incomplete ex: 
+"<Roj>"
+	"oj" n px3sg
+	"röj" prn pos
+"<xojkitzʼet>"
+	"*xojkitzʼet"
+"<awomaʼ>"
+	"oma" n rel px2sg
+"<rat>"
+	"rat" prn pos
+"<.>"
+	"." sent
+
+# sent_id = npass:0fdd246a5f
+# text = Rin xinkibʼaʼ romaʼ ri tzʼiʼ.
+# text[spa] = I was bitten by the dog.
+# labels = incomplete ex: 
+"<Rin>"
+	"rïn" prn pos
+"<xinkibʼaʼ>"
+	"*xinkibʼaʼ"
+"<romaʼ>"
+	"oma" n rel px3sg
+"<ri>"
+	"ri" det
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<.>"
+	"." sent
+
+# sent_id = npass:2f848cc315
+# text = Rin xinkibʼaʼ romaʼ ri tzʼiʼ.
+# text[spa] = They bit me because of the dog.
+# labels = incomplete ex: 
+"<Rin>"
+	"rïn" prn pos
+"<xinkibʼaʼ>"
+	"*xinkibʼaʼ"
+"<romaʼ>"
+	"oma" n rel px3sg
+"<ri>"
+	"ri" det
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<.>"
+	"." sent
+
+# sent_id = npass:8ea5e128b6
+# text = A Juan xutzʼubʼaj xta Maria rikʼi ruraybʼäl.
+# text[spa] = Juan kissed Maria voluntarily.
+# labels = incomplete ex: 
+"<A>"
+	"a" det m
+"<Juan>"
+	"Juan" np ant
+"<xutzʼubʼaj>"
+	"*xutzʼubʼaj"
+"<xta>"
+	"xta" det f
+"<Maria>"
+	"Maria" np ant
+"<rikʼi>"
+	"*rikʼi"
+"<ruraybʼäl>"
+	"raybʼäl" n px3sg
+"<.>"
+	"." sent
+
+# sent_id = npass:3ef4fe5cfe
+# text = Xta Maria xtzʼubʼäx romaʼ a Juan rikʼi ruraybʼäl.
+# text[spa] = Maria was kissed by Juan voluntarily.
+# labels = incomplete ex: 
+"<Xta>"
+	"xta" det f
+"<Maria>"
+	"Maria" np ant
+"<xtzʼubʼäx>"
+	"*xtzʼubʼäx"
+"<romaʼ>"
+	"oma" n rel px3sg
+"<a>"
+	"a" det m
+"<Juan>"
+	"Juan" np ant
+"<rikʼi>"
+	"*rikʼi"
+"<ruraybʼäl>"
+	"raybʼäl" n px3sg
+"<.>"
+	"." sent
+
+# sent_id = npass:1a6ab7746a
+# text = Xta Maria xkitzʼubʼaj romaʼ a Juan rikʼi ruraybʼäl.
+# text[spa] = Maria was kissed by Juan voluntarily.
+# labels = incomplete ex: 
+"<Xta>"
+	"xta" det f
+"<Maria>"
+	"Maria" np ant
+"<xkitzʼubʼaj>"
+	"*xkitzʼubʼaj"
+"<romaʼ>"
+	"oma" n rel px3sg
+"<a>"
+	"a" det m
+"<Juan>"
+	"Juan" np ant
+"<rikʼi>"
+	"*rikʼi"
+"<ruraybʼäl>"
+	"raybʼäl" n px3sg
+"<.>"
+	"." sent
+
+# sent_id = npass:d6d4304643
+# text = A Juan nrajoʼ chi nuloqʼ saqmolo.
+# text[spa] = Juan wishes he could buy eggs.
+# labels = incomplete ex: 
+"<A>"
+	"a" det m
+"<Juan>"
+	"Juan" np ant
+"<nrajoʼ>"
+	"*nrajoʼ"
+"<chi>"
+	"chi" pr
+	"chi" cnjsub
+"<nuloqʼ>"
+	"loqʼ" n px1sg
+"<saqmolo>"
+	"saqmoloʼ" n
+"<.>"
+	"." sent
+
+# sent_id = npass:d42ff818b3
+# text = A Juan nrajoʼ nuloqʼ saqmolo.
+# text[spa] = Juan wants to buy eggs.
+# labels = incomplete ex: 
+"<A>"
+	"a" det m
+"<Juan>"
+	"Juan" np ant
+"<nrajoʼ>"
+	"*nrajoʼ"
+"<nuloqʼ>"
+	"loqʼ" n px1sg
+"<saqmolo>"
+	"saqmoloʼ" n
+"<.>"
+	"." sent
+
+# sent_id = npass:1c4e1f75f8
+# text = A Juan nrajoʼ chi nuloqʼ saqmolo.
+# text[spa] = Juan i wants him j to buy eggs.
+# labels = incomplete ex: 
+"<A>"
+	"a" det m
+"<Juan>"
+	"Juan" np ant
+"<nrajoʼ>"
+	"*nrajoʼ"
+"<chi>"
+	"chi" pr
+	"chi" cnjsub
+"<nuloqʼ>"
+	"loqʼ" n px1sg
+"<saqmolo>"
+	"saqmoloʼ" n
+"<.>"
+	"." sent
+
+# sent_id = npass:f10511a78a
+# text = A Juan nrajoʼ chi rijaʼ nuloqʼ saqmolo.
+# text[spa] = Juan i wants him j to buy eggs.
+# labels = incomplete ex: 
+"<A>"
+	"a" det m
+"<Juan>"
+	"Juan" np ant
+"<nrajoʼ>"
+	"*nrajoʼ"
+"<chi>"
+	"chi" pr
+	"chi" cnjsub
+"<rijaʼ>"
+	"rijaʼ" prn pers
+	"rijaʼ" prn pos
+"<nuloqʼ>"
+	"loqʼ" n px1sg
+"<saqmolo>"
+	"saqmoloʼ" n
+"<.>"
+	"." sent
+
+# sent_id = npass:88b9a7f0d7
+# text = A Juan xubʼij chwe chi ja ri tzʼiʼ xbaʼoʼ.
+# text[spa] = Juan 1 told me that it was the dog that bit him 1.
+# labels = incomplete ex: 
+"<A>"
+	"a" det m
+"<Juan>"
+	"Juan" np ant
+"<xubʼij>"
+	"bʼij" v tv perf o_sg3 s_sg3
+"<chwe>"
+	"chi" pr
+		"rïn" prn
+"<chi>"
+	"chi" pr
+	"chi" cnjsub
+"<ja>"
+	"ja" foc
+	"ja" n
+"<ri>"
+	"ri" det
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<xbaʼoʼ>"
+	"*xbaʼoʼ"
+"<.>"
+	"." sent
+
+# sent_id = npass:a37366c39b
+# text = A Juan xubʼij chwe xbʼax romaʼ ri tzʼiʼ.
+# text[spa] = Juan 1 told me that he 1 was bitten by the dog.
+# labels = incomplete ex: 
+"<A>"
+	"a" det m
+"<Juan>"
+	"Juan" np ant
+"<xubʼij>"
+	"bʼij" v tv perf o_sg3 s_sg3
+"<chwe>"
+	"chi" pr
+		"rïn" prn
+"<xbʼax>"
+	"*xbʼax"
+"<romaʼ>"
+	"oma" n rel px3sg
+"<ri>"
+	"ri" det
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<.>"
+	"." sent
+
+# sent_id = npass:df8ebe9b08
+# text = A Juan xubʼij chwe chi xbʼax romaʼ ri tzʼiʼ.
+# text[spa] = Juan 1 told me that he 1 was bitten by the dog.
+# labels = incomplete ex: 
+"<A>"
+	"a" det m
+"<Juan>"
+	"Juan" np ant
+"<xubʼij>"
+	"bʼij" v tv perf o_sg3 s_sg3
+"<chwe>"
+	"chi" pr
+		"rïn" prn
+"<chi>"
+	"chi" pr
+	"chi" cnjsub
+"<xbʼax>"
+	"*xbʼax"
+"<romaʼ>"
+	"oma" n rel px3sg
+"<ri>"
+	"ri" det
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<.>"
+	"." sent
+
+# sent_id = npass:efd58331c8
+# text = A Juan xubʼij chwe xkibʼaʼ romaʼ ri tzʼiʼ.
+# text[spa] = Juan 1 told me that he 1 was bitten by the dog.
+# labels = incomplete ex: 
+"<A>"
+	"a" det m
+"<Juan>"
+	"Juan" np ant
+"<xubʼij>"
+	"bʼij" v tv perf o_sg3 s_sg3
+"<chwe>"
+	"chi" pr
+		"rïn" prn
+"<xkibʼaʼ>"
+	"bʼaʼ" v tv perf o_sg3 s_pl3
+"<romaʼ>"
+	"oma" n rel px3sg
+"<ri>"
+	"ri" det
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<.>"
+	"." sent
+
+# sent_id = npass:a5087b28a5
+# text = A Juan xubʼij chwe chi xkibʼaʼ romaʼ ri tzʼiʼ.
+# text[spa] = Juan 1 told me that he 1 was bitten by the dog.
+# labels = incomplete ex: 
+"<A>"
+	"a" det m
+"<Juan>"
+	"Juan" np ant
+"<xubʼij>"
+	"bʼij" v tv perf o_sg3 s_sg3
+"<chwe>"
+	"chi" pr
+		"rïn" prn
+"<chi>"
+	"chi" pr
+	"chi" cnjsub
+"<xkibʼaʼ>"
+	"bʼaʼ" v tv perf o_sg3 s_pl3
+"<romaʼ>"
+	"oma" n rel px3sg
+"<ri>"
+	"ri" det
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<.>"
+	"." sent
+
+# sent_id = npass:fc6aca861e
+# text = Chike xbʼax romaʼ jun tzʼiʼ?
+# text[spa] = Who was bitten by a dog?
+# labels = incomplete ex: 
+"<Chike>"
+	"*Chike"
+"<xbʼax>"
+	"*xbʼax"
+"<romaʼ>"
+	"oma" n rel px3sg
+"<jun>"
+	"jun" num
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<?>"
+	"?" sent
+"<.>"
+	"." sent
+
+# sent_id = npass:0dac07d507
+# text = Chike achin xkibʼaʼ romaʼ jun tzʼiʼ?
+# text[spa] = Which man was bitten by a dog?
+# labels = incomplete ex: 
+"<Chike>"
+	"*Chike"
+"<achin>"
+	"achin" n
+"<xkibʼaʼ>"
+	"bʼaʼ" v tv perf o_sg3 s_pl3
+"<romaʼ>"
+	"oma" n rel px3sg
+"<jun>"
+	"jun" num
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<?>"
+	"?" sent
+"<.>"
+	"." sent
+
+# sent_id = npass:39743d836e
+# text = Romaʼ achike tzʼiʼ xkibʼaʼ ri a Juan?
+# text[spa] = Which dog was Juan bitten by?
+# labels = incomplete ex: 
+"<Romaʼ>"
+	"oma" n rel px3sg
+"<achike>"
+	"achike" prn itg
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<xkibʼaʼ>"
+	"bʼaʼ" v tv perf o_sg3 s_pl3
+"<ri>"
+	"ri" det
+"<a>"
+	"a" det m
+"<Juan>"
+	"Juan" np ant
+"<?>"
+	"?" sent
+"<.>"
+	"." sent
+
+# sent_id = npass:423b67e3bb
+# text = Ma jun achiʼ xbʼax romaʼ ri tzʼiʼ.
+# text[spa] = No man was bitten by a dog.
+# labels = incomplete ex: 
+"<Ma>"
+	"ma" det m
+"<jun>"
+	"jun" num
+"<achiʼ>"
+	"achin" n
+	"chiʼaj" n px2sg
+	"chiʼ" n rel px2sg
+"<xbʼax>"
+	"*xbʼax"
+"<romaʼ>"
+	"oma" n rel px3sg
+"<ri>"
+	"ri" det
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<.>"
+	"." sent
+
+# sent_id = npass:b32009ab0c
+# text = Man romaʼ ta jun Kaqchikel xeleqʼäx ri nuchʼich.
+# text[spa] = It wasnʼt a Kaqchikel my car was stolen by.
+# labels = incomplete ex: 
+"<Man>"
+	"man" neg
+"<romaʼ>"
+	"oma" n rel px3sg
+"<ta>"
+	"ta" mod
+"<jun>"
+	"jun" num
+"<Kaqchikel>"
+	"kaqchikel" n
+"<xeleqʼäx>"
+	"*xeleqʼäx"
+"<ri>"
+	"ri" det
+"<nuchʼich>"
+	"chʼichʼ" n px1sg
+"<.>"
+	"." sent
+
+# sent_id = npass:dc17576474
+# text = Jun meʼs xkibʼaʼ romaʼ ri tzʼiʼ.
+# text[spa] = A cat was bitten by the dog.
+# labels = incomplete ex: 
+"<Jun>"
+	"jun" num
+"<meʼs>"
+	"mes" n
+"<xkibʼaʼ>"
+	"bʼaʼ" v tv perf o_sg3 s_pl3
+"<romaʼ>"
+	"oma" n rel px3sg
+"<ri>"
+	"ri" det
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<.>"
+	"." sent
+
+# sent_id = npass:2f733d1d53
+# text = Jun meʼs xbʼax romaʼ ri tzʼiʼ.
+# text[spa] = A cat was bitten by the dog.
+# labels = incomplete ex: 
+"<Jun>"
+	"jun" num
+"<meʼs>"
+	"mes" n
+"<xbʼax>"
+	"*xbʼax"
+"<romaʼ>"
+	"oma" n rel px3sg
+"<ri>"
+	"ri" det
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<.>"
+	"." sent
+
+# sent_id = npass:631cfa5b3d
+# text = Xbʼax jun meʼs romaʼ ri tzʼiʼ.
+# text[spa] = A cat was bitten by the dog.
+# labels = incomplete ex: 
+"<Xbʼax>"
+	"*Xbʼax"
+"<jun>"
+	"jun" num
+"<meʼs>"
+	"mes" n
+"<romaʼ>"
+	"oma" n rel px3sg
+"<ri>"
+	"ri" det
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<.>"
+	"." sent
+
+# sent_id = npass:be2b540596
+# text = A Juan nrajoʼ jun chʼich.
+# text[spa] = Juan wants a car.
+# labels = incomplete ex: 
+"<A>"
+	"a" det m
+"<Juan>"
+	"Juan" np ant
+"<nrajoʼ>"
+	"*nrajoʼ"
+"<jun>"
+	"jun" num
+"<chʼich>"
+	"chʼichʼ" n
+"<.>"
+	"." sent
+
+# sent_id = npass:7bb0051387
+# text = Jun chʼich najowäx romaʼ a Juan.
+# text[spa] = A car is wanted by Juan.
+# labels = incomplete ex: 
+"<Jun>"
+	"jun" num
+"<chʼich>"
+	"chʼichʼ" n
+"<najowäx>"
+	"*najowäx"
+"<romaʼ>"
+	"oma" n rel px3sg
+"<a>"
+	"a" det m
+"<Juan>"
+	"Juan" np ant
+"<.>"
+	"." sent
+
+# sent_id = npass:0302f8d3eb
+# text = Ri cheʼ xutzäq ri jaʼy.
+# text[spa] = The tree knocked down the house.
+# labels = incomplete ex: 
+"<Ri>"
+	"ri" det
+"<cheʼ>"
+	"cheʼ" n
+"<xutzäq>"
+	"tzäq" v tv perf o_sg3 s_sg3
+"<ri>"
+	"ri" det
+"<jaʼy>"
+	"jay" n
+"<.>"
+	"." sent
+
+# sent_id = npass:c91813e016
+# text = Ri jaʼy xtzaq romaʼ ri cheʼ.
+# text[spa] = The house was knocked down by the tree.
+# labels = incomplete ex: 
+"<Ri>"
+	"ri" det
+"<jaʼy>"
+	"jay" n
+"<xtzaq>"
+	"tzäq" v tv pass perf s_sg3
+"<romaʼ>"
+	"oma" n rel px3sg
+"<ri>"
+	"ri" det
+"<cheʼ>"
+	"cheʼ" n
+"<.>"
+	"." sent
+
+# sent_id = npass:4a68b630fe
+# text = Ri wäʼy xkitij romaʼ ri achin.  
+# text[spa] = The tortilla was eaten by the man.
+# labels = incomplete ex: 
+"<Ri>"
+	"ri" det
+"<wäʼy>"
+	"wäy" n
+"<xkitij>"
+	"tijoj" v tv perf o_sg3 s_pl3
+	"tij" v tv perf o_sg3 s_pl3
+"<romaʼ>"
+	"oma" n rel px3sg
+"<ri>"
+	"ri" det
+"<achin>"
+	"achin" n
+"<.>"
+	"." sent
+  
+# sent_id = npass:d95769c798
+# text = Ri wäʼy xtij romaʼ ri achin.  
+# text[spa] = The tortilla was eaten by the man.
+# labels = incomplete ex: 
+"<Ri>"
+	"ri" det
+"<wäʼy>"
+	"wäy" n
+"<xtij>"
+	"tijoj" v tv perf s_sg3
+	"tij" v tv perf s_sg3
+	"tij" v tv pass perf s_sg3
+"<romaʼ>"
+	"oma" n rel px3sg
+"<ri>"
+	"ri" det
+"<achin>"
+	"achin" n
+"<.>"
+	"." sent
+  
+# sent_id = npass:61f1a673c8
+# text = A Juan y Maria xebʼax romaʼ jun kumätz.
+# text[spa] = Juan and Maria were bitten by a snake.
+# labels = incomplete ex: 
+"<A>"
+	"a" det m
+"<Juan>"
+	"Juan" np ant
+"<y>"
+	"y" cnjcoo
+"<Maria>"
+	"Maria" np ant
+"<xebʼax>"
+	"*xebʼax"
+"<romaʼ>"
+	"oma" n rel px3sg
+"<jun>"
+	"jun" num
+"<kumätz>"
+	"kumätz" n
+"<.>"
+	"." sent
+
+# sent_id = npass:df437474ab
+# text = Ri alabʼoniʼ xekitij ri wäʼy.
+# text[spa] = The boys ate the tortillas.
+# labels = incomplete ex: 
+"<Ri>"
+	"ri" det
+"<alabʼoniʼ>"
+	"alabʼom" n pl
+"<xekitij>"
+	"tijoj" v tv perf o_pl3 s_pl3
+	"tij" v tv perf o_pl3 s_pl3
+"<ri>"
+	"ri" det
+"<wäʼy>"
+	"wäy" n
+"<.>"
+	"." sent
+
+# sent_id = kwo:b993717c7a
+# text = Xubʼa ri tzʼiʼ ri meʼs.
+# text[spa] = The dog bit the cat.
+# labels = incomplete ex: 
+"<Xubʼa>"
+	"bʼaʼ" v tv perf o_sg3 s_sg3
+"<ri>"
+	"ri" det
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<ri>"
+	"ri" det
+"<meʼs>"
+	"mes" n
+"<.>"
+	"." sent
+
+# sent_id = kwo:ce3d59c7c3
+# text = Ri tzʼiʼ xubʼa ri meʼs.
+# text[spa] = The dog bit the cat.
+# labels = incomplete ex: 
+"<Ri>"
+	"ri" det
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<xubʼa>"
+	"bʼaʼ" v tv perf o_sg3 s_sg3
+"<ri>"
+	"ri" det
+"<meʼs>"
+	"mes" n
+"<.>"
+	"." sent
+
+# sent_id = kwo:69ec5a3e7d
+# text = Xroqotaj ri tzʼiʼ ri meʼs.
+# text[spa] = The dog chased the cat.
+# labels = incomplete ex: 
+"<Xroqotaj>"
+	"*Xroqotaj"
+"<ri>"
+	"ri" det
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<ri>"
+	"ri" det
+"<meʼs>"
+	"mes" n
+"<.>"
+	"." sent
+
+# sent_id = kwo:5b56c57819
+# text = Xroqotaj ri meʼs ri tzʼiʼ.
+# text[spa] = The cat chased the dog.
+# labels = incomplete ex: 
+"<Xroqotaj>"
+	"*Xroqotaj"
+"<ri>"
+	"ri" det
+"<meʼs>"
+	"mes" n
+"<ri>"
+	"ri" det
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<.>"
+	"." sent
+
+# sent_id = kwo:598ac85d82
+# text = Xroqotaj jun meʼs ri tzʼiʼ.
+# text[spa] = The dog chased a cat.
+# labels = incomplete ex: 
+"<Xroqotaj>"
+	"*Xroqotaj"
+"<jun>"
+	"jun" num
+"<meʼs>"
+	"mes" n
+"<ri>"
+	"ri" det
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<.>"
+	"." sent
+
+# sent_id = kwo:06a61707e9
+# text = Xuloqʼ ri wäʼy Maria.
+# text[spa] = Maria bought the tortillas.
+# labels = incomplete ex: 
+"<Xuloqʼ>"
+	"löqʼ" v tv perf o_sg3 s_sg3
+"<ri>"
+	"ri" det
+"<wäʼy>"
+	"wäy" n
+"<Maria>"
+	"Maria" np ant
+"<.>"
+	"." sent
+
+# sent_id = kwo:17eb20e77f
+# text = Xroqotaj ri xta Maria ri a Juan.
+# text[spa] = Juan chased Maria.
+# labels = incomplete ex: 
+"<Xroqotaj>"
+	"*Xroqotaj"
+"<ri>"
+	"ri" det
+"<xta>"
+	"xta" det f
+"<Maria>"
+	"Maria" np ant
+"<ri>"
+	"ri" det
+"<a>"
+	"a" det m
+"<Juan>"
+	"Juan" np ant
+"<.>"
+	"." sent
+
+# sent_id = kwo:3ad3450eea
+# text = Xroqotaj ri xta Maria ri a Juan.
+# text[spa] = Maria chased Juan.
+# labels = incomplete ex: 
+"<Xroqotaj>"
+	"*Xroqotaj"
+"<ri>"
+	"ri" det
+"<xta>"
+	"xta" det f
+"<Maria>"
+	"Maria" np ant
+"<ri>"
+	"ri" det
+"<a>"
+	"a" det m
+"<Juan>"
+	"Juan" np ant
+"<.>"
+	"." sent
+
+# sent_id = kwo:fa35533bbe
+# text = Xubʼa jun tzʼiʼ ri a Juan.
+# text[spa] = Juan bit a dog.
+# labels = incomplete ex: 
+"<Xubʼa>"
+	"bʼaʼ" v tv perf o_sg3 s_sg3
+"<jun>"
+	"jun" num
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<ri>"
+	"ri" det
+"<a>"
+	"a" det m
+"<Juan>"
+	"Juan" np ant
+"<.>"
+	"." sent
+
+# sent_id = kwo:8897796ccf
+# text = Jun tzʼiʼ xbʼaʼo ri a Juan.
+# text[spa] = A dog bit Juan.
+# labels = incomplete ex: 
+"<Jun>"
+	"jun" num
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<xbʼaʼo>"
+	"bʼaʼ" v tv apo perf s_sg3
+	"bʼaʼ" v tv pass apo perf s_sg3
+"<ri>"
+	"ri" det
+"<a>"
+	"a" det m
+"<Juan>"
+	"Juan" np ant
+"<.>"
+	"." sent
+
+# sent_id = kwo:717f4ade1e
+# text = Nibʼaʼon jun tzʼiʼ.
+# text[spa] = A dog is barking.
+# labels = incomplete ex: 
+"<Nibʼaʼon>"
+	"*Nibʼaʼon"
+"<jun>"
+	"jun" num
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<.>"
+	"." sent
+
+# sent_id = kwo:63cead18cd
+# text = Xirubʼaʼ jun tzʼiʼ rin.
+# text[spa] = A dog bit me.
+# labels = incomplete ex: 
+"<Xirubʼaʼ>"
+	"bʼaʼ" v tv perf o_sg1 s_sg3
+"<jun>"
+	"jun" num
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<rin>"
+	"rïn" prn pos
+"<.>"
+	"." sent
+
+# sent_id = kwo:47e3d84fc7
+# text = Xirubʼaʼ jun tzʼiʼ.
+# text[spa] = A dog bit me.
+# labels = incomplete ex: 
+"<Xirubʼaʼ>"
+	"bʼaʼ" v tv perf o_sg1 s_sg3
+"<jun>"
+	"jun" num
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<.>"
+	"." sent
+
+# sent_id = kwo:ad22d26d1a
+# text = Jun tzʼiʼ nibʼaʼon.
+# text[spa] = A dog is barking.
+# labels = incomplete ex: 
+"<Jun>"
+	"jun" num
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<nibʼaʼon>"
+	"*nibʼaʼon"
+"<.>"
+	"." sent
+
+# sent_id = kwo:6f31ca5781
+# text = Jun tzʼiʼ xibʼaʼo.
+# text[spa] = A dog bit me.
+# labels = incomplete ex: 
+"<Jun>"
+	"jun" num
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<xibʼaʼo>"
+	"bʼaʼ" v tv apo perf o_sg3 s_pl2
+	"bʼaʼ" v tv apo perf s_sg1
+	"bʼaʼ" v tv pass apo perf s_sg1
+"<.>"
+	"." sent
+
+# sent_id = kwo:622669a7a1
+# text = Jun tzʼiʼ xibʼaʼo rin.
+# text[spa] = A dog bit me.
+# labels = incomplete ex: 
+"<Jun>"
+	"jun" num
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<xibʼaʼo>"
+	"bʼaʼ" v tv apo perf o_sg3 s_pl2
+	"bʼaʼ" v tv apo perf s_sg1
+	"bʼaʼ" v tv pass apo perf s_sg1
+"<rin>"
+	"rïn" prn pos
+"<.>"
+	"." sent
+
+# sent_id = kwo:5e59818a7d
+# text = Nukanoj rixjayil a Manuel rijaʼ.
+# text[spa] = She is looking for Manuelʼs wife.
+# labels = incomplete ex: 
+"<Nukanoj>"
+	"*Nukanoj"
+"<rixjayil>"
+	"ixjayil" n px3sg
+"<a>"
+	"a" det m
+"<Manuel>"
+	"Manuel" np ant
+"<rijaʼ>"
+	"rijaʼ" prn pers
+	"rijaʼ" prn pos
+"<.>"
+	"." sent
+
+# sent_id = kwo:ad482e7e4a
+# text = Rixjayil a Manuel nukanoj rijaʼ.
+# text[spa] = Manuelʼs wife is looking for him.
+# labels = incomplete ex: 
+"<Rixjayil>"
+	"ixjayil" n px3sg
+"<a>"
+	"a" det m
+"<Manuel>"
+	"Manuel" np ant
+"<nukanoj>"
+	"*nukanoj"
+"<rijaʼ>"
+	"rijaʼ" prn pers
+	"rijaʼ" prn pos
+"<.>"
+	"." sent
+
+# sent_id = kwo:dc6388f17f
+# text = Iwir xroqotaj ri tzʼiʼ ri meʼs.
+# text[spa] = Yesterday the dog chased the cat.
+# labels = incomplete ex: 
+"<Iwir>"
+	"iwir" adv
+"<xroqotaj>"
+	"*xroqotaj"
+"<ri>"
+	"ri" det
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<ri>"
+	"ri" det
+"<meʼs>"
+	"mes" n
+"<.>"
+	"." sent
+
+# sent_id = kwo:6936ba6e9a
+# text = Iwir ri tzʼiʼ xroqotaj ri meʼs.
+# text[spa] = Yesterday the dog chased the cat.
+# labels = incomplete ex: 
+"<Iwir>"
+	"iwir" adv
+"<ri>"
+	"ri" det
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<xroqotaj>"
+	"*xroqotaj"
+"<ri>"
+	"ri" det
+"<meʼs>"
+	"mes" n
+"<.>"
+	"." sent
+
+# sent_id = kwo:59a7d95c48
+# text = Xkanox a Manuel romaʼ ri rixjay il.
+# text[spa] = Manuel was sought by his wife.
+# labels = incomplete ex: 
+"<Xkanox>"
+	"*Xkanox"
+"<a>"
+	"a" det m
+"<Manuel>"
+	"Manuel" np ant
+"<romaʼ>"
+	"oma" n rel px3sg
+"<ri>"
+	"ri" det
+"<rixjay>"
+	"*rixjay"
+"<il>"
+	"*il"
+"<.>"
+	"." sent
+
+# sent_id = kwo:cb1e723b4e
+# text = Xkikanoj a Manuel romaʼ ri rixjayil.
+# text[spa] = Manuel was sought by his wife.
+# labels = incomplete ex: 
+"<Xkikanoj>"
+	"*Xkikanoj"
+"<a>"
+	"a" det m
+"<Manuel>"
+	"Manuel" np ant
+"<romaʼ>"
+	"oma" n rel px3sg
+"<ri>"
+	"ri" det
+"<rixjayil>"
+	"ixjayil" n px3sg
+"<.>"
+	"." sent
+
+# sent_id = kwo:1e09d4576a
+# text = Xoqotäx ri achin romaʼ jun tzʼiʼ.
+# text[spa] = The man was chased by a dog.
+# labels = incomplete ex: 
+"<Xoqotäx>"
+	"*Xoqotäx"
+"<ri>"
+	"ri" det
+"<achin>"
+	"achin" n
+"<romaʼ>"
+	"oma" n rel px3sg
+"<jun>"
+	"jun" num
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<.>"
+	"." sent
+
+# sent_id = kwo:109b24ff71
+# text = Xkoqotaj ri achin romaʼ jun tzʼiʼ.
+# text[spa] = The man was chased by a dog.
+# labels = incomplete ex: 
+"<Xkoqotaj>"
+	"*Xkoqotaj"
+"<ri>"
+	"ri" det
+"<achin>"
+	"achin" n
+"<romaʼ>"
+	"oma" n rel px3sg
+"<jun>"
+	"jun" num
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<.>"
+	"." sent
+
+# sent_id = kwo:3de5929cf1
+# text = Rin man wetaman ta wä ri tzʼiʼ xroqotaj ri achin.
+# text[spa] = I donʼt know if the dog chased the man.
+# labels = incomplete ex: 
+"<Rin>"
+	"rïn" prn pos
+"<man>"
+	"man" neg
+"<wetaman>"
+	"*wetaman"
+"<ta>"
+	"ta" mod
+"<wä>"
+	"we" cnjsub
+"<ri>"
+	"ri" det
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<xroqotaj>"
+	"*xroqotaj"
+"<ri>"
+	"ri" det
+"<achin>"
+	"achin" n
+"<.>"
+	"." sent
+
+# sent_id = kwo:bfa46728c3
+# text = A Manuel xubʼij chweʼ chi ri tzʼiʼ xubʼaʼ ri a Ramon.
+# text[spa] = Manuel told me that the dog bit Ramon.
+# labels = incomplete ex: 
+"<A>"
+	"a" det m
+"<Manuel>"
+	"Manuel" np ant
+"<xubʼij>"
+	"bʼij" v tv perf o_sg3 s_sg3
+"<chweʼ>"
+	"chi" pr
+		"rïn" prn
+"<chi>"
+	"chi" pr
+	"chi" cnjsub
+"<ri>"
+	"ri" det
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<xubʼaʼ>"
+	"bʼaʼ" v tv perf o_sg3 s_sg3
+"<ri>"
+	"ri" det
+"<a>"
+	"a" det m
+"<Ramon>"
+	"Ramon" np ant
+"<.>"
+	"." sent
+
+# sent_id = #:9762053d4d
+# text = #
+# text[spa] = #
+# labels = incomplete ex:#
+#
+"<.>"
+	"." sent
+
+# sent_id = kwo:cb901c277b
+# text = Ja ri wäʼy xuloqʼ Maria.
+# text[spa] = It was the tortillas that Maria bought.
+# labels = incomplete ex: 
+"<Ja>"
+	"ja" foc
+	"ja" n
+"<ri>"
+	"ri" det
+"<wäʼy>"
+	"wäy" n
+"<xuloqʼ>"
+	"löqʼ" v tv perf o_sg3 s_sg3
+"<Maria>"
+	"Maria" np ant
+"<.>"
+	"." sent
+
+# sent_id = #:9762053d4d
+# text = #
+# text[spa] = #
+# labels = incomplete ex:#
+#
+"<.>"
+	"." sent
+
+# sent_id = kwo:e0ef821021
+# text = Ri käʼr xuyawaʼrisaj ri wixjayil.
+# text[spa] = The fish made my wife sick.
+# labels = incomplete ex: 
+"<Ri>"
+	"ri" det
+"<käʼr>"
+	"kär" n
+"<xuyawaʼrisaj>"
+	"*xuyawaʼrisaj"
+"<ri>"
+	"ri" det
+"<wixjayil>"
+	"ixjayil" n px1sg
+"<.>"
+	"." sent
+
+# sent_id = mdrk:fbabedde83
+# text = Toq xpe ri ixta Nikʼteʼ, xbʼe ri a Waykan.
+# text[spa] = Cuando vino Nikʼteʼ, se fue Waykan.
+# labels = incomplete ex:159
+"<Toq>"
+	"töq" cnjsub
+"<xpe>"
+	"pe" v iv perf s_sg3
+"<ri>"
+	"ri" det
+"<ixta>"
+	"ixta" det f
+"<Nikʼteʼ>"
+	"Nikʼteʼ" np ant
+"<,>"
+	"," cm
+"<xbʼe>"
+	"bʼe" v iv perf s_sg3
+"<ri>"
+	"ri" det
+"<a>"
+	"a" det m
+"<Waykan>"
+	"Waykan" np ant
+"<.>"
+	"." sent
+
+# sent_id = mdrk:39d755d09c
+# text = Ri ixta Ixchel xwär, kʼa riʼ chuqa xkʼastäj.
+# text[spa] = Ixchel durmió pero también despertó.
+# labels = incomplete ex:159
+"<Ri>"
+	"ri" det
+"<ixta>"
+	"ixta" det f
+"<Ixchel>"
+	"Ixchel" np ant
+"<xwär>"
+	"wär" v iv perf s_sg3
+"<,>"
+	"," cm
+"<kʼa>"
+	"kʼa" mod
+	"kʼa" adv
+"<riʼ>"
+	"riʼ" det
+"<chuqa>"
+	"chuqaʼ" cnjcoo
+	"chuqaʼ" adv
+"<xkʼastäj>"
+	"kʼastäj" v iv perf s_sg3
+"<.>"
+	"." sent
+
+# sent_id = mdrk:4b5f13e761
+# text = We yojbʼe, yojchʼaqeʼ.
+# text[spa] = Si nos vamos, nos mojamos.
+# labels = incomplete ex:159
+"<We>"
+	"we" cnjsub
+"<yojbʼe>"
+	"bʼe" v iv impf s_pl1
+"<,>"
+	"," cm
+"<yojchʼaqeʼ>"
+	"chʼaqeʼ" v iv impf s_pl1
+"<.>"
+	"." sent
+
+# sent_id = mdrk:d040f82295
+# text = Xbʼe pa tinamït ri a Kanek.
+# text[spa] = Kanek fue a la ciudad.
+# labels = incomplete ex:159
+"<Xbʼe>"
+	"bʼe" v iv perf s_sg3
+"<pa>"
+	"pa" pr
+"<tinamït>"
+	"tinamït" n
+"<ri>"
+	"ri" det
+"<a>"
+	"a" det m
+"<Kanek>"
+	"Kanek" np ant
+"<.>"
+	"." sent
+
+# sent_id = mdrk:110bcffe6f
+# text = Ri a Kanek xbʼe rukʼin ruteʼ.
+# text[spa] = Kanek fue con su madre.
+# labels = incomplete ex:159
+"<Ri>"
+	"ri" det
+"<a>"
+	"a" det m
+"<Kanek>"
+	"Kanek" np ant
+"<xbʼe>"
+	"bʼe" v iv perf s_sg3
+"<rukʼin>"
+	"kʼin" n rel px3sg
+"<ruteʼ>"
+	"teʼej" n px3sg
+"<.>"
+	"." sent
+
+# sent_id = mdrk:058a413331
+# text = Ri a Kot xuchöy jun cheʼ rukʼin ri ikäj.
+# text[spa] = Kot cortó un árbol con una hacha.
+# labels = incomplete ex:160
+"<Ri>"
+	"ri" det
+"<a>"
+	"a" det m
+"<Kot>"
+	"Kot" np ant
+"<xuchöy>"
+	"*xuchöy"
+"<jun>"
+	"jun" num
+"<cheʼ>"
+	"cheʼ" n
+"<rukʼin>"
+	"kʼin" n rel px3sg
+"<ri>"
+	"ri" det
+"<ikäj>"
+	"ikäj" n
+"<.>"
+	"." sent
+
+# sent_id = mdrk:9d1a7b3ebe
+# text = Ri a Kot xuyaʼ ri wuj chi re ruteʼ.
+# text[spa] = Kot le dio el libro a su madre.
+# labels = incomplete ex:160
+"<Ri>"
+	"ri" det
+"<a>"
+	"a" det m
+"<Kot>"
+	"Kot" np ant
+"<xuyaʼ>"
+	"yaʼ" v tv perf o_sg3 s_sg3
+"<ri>"
+	"ri" det
+"<wuj>"
+	"wuj" n
+"<chi>"
+	"chi" pr
+	"chi" cnjsub
+"<re>"
+	"re" det dem
+"<ruteʼ>"
+	"teʼej" n px3sg
+"<.>"
+	"." sent
+
+# sent_id = mdrk:f510d9fd7c
+# text = Ja ri a Waykan xto'o wichin.
+# text[spa] = Fue Waykan quien me ayudó.
+# labels = incomplete ex:160
+"<Ja>"
+	"ja" foc
+	"ja" n
+"<ri>"
+	"ri" det
+"<a>"
+	"a" det m
+"<Waykan>"
+	"Waykan" np ant
+"<xtoʼo>"
+	"toʼ" v tv apo perf s_sg3
+	"toʼ" v tv pass apo perf s_sg3
+"<wichin>"
+	"ichin" n rel px1sg
+"<.>"
+	"." sent
+
+# sent_id = mdrk:8610ec43eb
+# text = Ja ru a Waykan xinto'o.
+# text[spa] = Fue Waykan quien me ayudó.
+# labels = incomplete ex:160
+"<Ja>"
+	"ja" foc
+	"ja" n
+"<ru>"
+	"*ru"
+"<a>"
+	"a" det m
+"<Waykan>"
+	"Waykan" np ant
+"<xintoʼo>"
+	"*xintoʼo"
+"<.>"
+	"." sent
+
+# sent_id = mdrk:331ba510ff
+# text = Kan pa ch'ich' xatpe wi.
+# text[spa] = En camioneta te fuiste.
+# labels = incomplete ex:160
+"<Kan>"
+	"kan" dir
+	"kan" adv
+	"kan" n
+"<pa>"
+	"pa" pr
+"<chʼichʼ>"
+	"chʼichʼ" n
+"<xatpe>"
+	"pe" v iv perf s_sg2
+"<wi>"
+	"we" cnjsub
+	"wi" mod
+"<.>"
+	"." sent
+
+# sent_id = mdrk:cfd4520caf
+# text = Xa chi awaqän xatpe wi.
+# text[spa] = Te fuiste a pie.
+# labels = incomplete ex:160
+"<Xa>"
+	"xa" adv
+"<chi>"
+	"chi" pr
+	"chi" cnjsub
+"<awaqän>"
+	"aqän" n px2sg
+"<xatpe>"
+	"pe" v iv perf s_sg2
+"<wi>"
+	"we" cnjsub
+	"wi" mod
+"<.>"
+	"." sent
+
+# sent_id = mdrk:ca509c65f3
+# text = Xutzʼibʼaj jun ütz wuj ri a Kajiʼ Kawoq.
+# text[spa] = Kajiʼ Kawoq escribió un buen libro.
+# labels = incomplete ex:183
+"<Xutzʼibʼaj>"
+	"tzʼibʼaj" v tv perf o_sg3 s_sg3
+"<jun>"
+	"jun" num
+"<ütz>"
+	"ütz" adj
+	"ütz" adv
+"<wuj>"
+	"wuj" n
+"<ri>"
+	"ri" det
+"<a>"
+	"a" det m
+"<Kajiʼ>"
+	"Kajiʼ" np ant
+	"kajiʼ" num
+"<Kawoq>"
+	"Kawoq" np ant
+"<.>"
+	"." sent
+
+# sent_id = mdrk:4c78167fac
+# text = Ri xexaʼ, xekikamisaj ri qatiʼt qamamaʼ.
+# text[spa] = Los invasores masacraron a nuestros abuelos.
+# labels = incomplete ex:183
+"<Ri>"
+	"ri" det
+"<xexaʼ>"
+	"xex" n pl
+	"xaʼ" v tv perf s_pl3
+	"xaʼ" v tv pass perf s_pl3
+"<,>"
+	"," cm
+"<xekikamisaj>"
+	"kamisaj" v tv perf o_pl3 s_pl3
+"<ri>"
+	"ri" det
+"<qatiʼt>"
+	"qatiʼt" n
+"<qamamaʼ>"
+	"mamaʼaj" n px1pl
+"<.>"
+	"." sent
+
+# sent_id = mdrk:b305a190ec
+# text = Xeʼatin pa raxyaʼ ri nuteʼ nutataʼ.
+# text[spa] = Mis papas se bañaron en agua fría.
+# labels = incomplete ex:184
+"<Xeʼatin>"
+	"atin" v iv perf s_pl3
+"<pa>"
+	"pa" pr
+"<raxyaʼ>"
+	"raxyaʼ" n
+"<ri>"
+	"ri" det
+"<nuteʼ>"
+	"teʼej" n px1sg
+"<nutataʼ>"
+	"tataʼaj" n px1sg
+"<.>"
+	"." sent
+
+# sent_id = mdrk:f817aac50e
+# text = Wakami xojatin pa raxyaʼ.
+# text[spa] = Hoy nos bañamos en agua fría.
+# labels = incomplete ex:184
+"<Wakami>"
+	"wakami" adv
+"<xojatin>"
+	"atin" v iv perf s_pl1
+"<pa>"
+	"pa" pr
+"<raxyaʼ>"
+	"raxyaʼ" n
+"<.>"
+	"." sent
+
+# sent_id = mdrk:4e146739ea
+# text = Iwir, yalan jukumaj xewaʼ ri samajelaʼ.
+# text[spa] = Los trabajadores comieron muy temprano, ayer.
+# labels = incomplete ex:184
+"<Iwir>"
+	"iwir" adv
+"<,>"
+	"," cm
+"<yalan>"
+	"yalan" adv
+"<jukumaj>"
+	"jukumaj" adj
+"<xewaʼ>"
+	"waʼ" v iv perf s_pl3
+"<ri>"
+	"ri" det
+"<samajelaʼ>"
+	"samajelaʼ" adj
+"<.>"
+	"." sent
+
+# sent_id = mdrk:7def65f376
+# text = Iwir, waweʼ Pan Qʼän xikʼo el jun ti kej.
+# text[spa] = Ayer pasó un venadito, aquí en Antigua.
+# labels = incomplete ex:184
+"<Iwir>"
+	"iwir" adv
+"<,>"
+	"," cm
+"<waweʼ>"
+	"waweʼ" adv
+"<Pan>"
+	"pa" pr
+"<Qʼän>"
+	"Qʼän" np top
+"<xikʼo>"
+	"*xikʼo"
+"<el>"
+	"el" dir
+	"el" v iv
+"<jun>"
+	"jun" num
+"<ti>"
+	"ti" dim
+"<kej>"
+	"kej" n
+"<.>"
+	"." sent
+
+# sent_id = mdrk:18895560e9
+# text = Miʼer xpax jun läq.
+# text[spa] = Hace un rato se quebró un trasto.
+# labels = incomplete ex:184
+"<Miʼer>"
+	"miʼer" adv
+"<xpax>"
+	"paxij" v tv perf s_sg3
+"<jun>"
+	"jun" num
+"<läq>"
+	"läq" n
+"<.>"
+	"." sent
+
+# sent_id = mdrk:8c792ebf6e
+# text = Ri xexaʼ, xkiporoj ronojel ri qawuj.
+# text[spa] = Los invasores quemaron todos nuestros libros.
+# labels = incomplete ex:184
+"<Ri>"
+	"ri" det
+"<xexaʼ>"
+	"xex" n pl
+	"xaʼ" v tv perf s_pl3
+	"xaʼ" v tv pass perf s_pl3
+"<,>"
+	"," cm
+"<xkiporoj>"
+	"*xkiporoj"
+"<ronojel>"
+	"ronojel" n px3sg
+"<ri>"
+	"ri" det
+"<qawuj>"
+	"wuj" n px1pl
+"<.>"
+	"." sent
+
+# sent_id = mdrk:d04b211b86
+# text = Ri a Waykan, xukül pa jay.
+# text[spa] = Waykan está hincando en el cuarto.
+# labels = incomplete ex:184
+"<Ri>"
+	"ri" det
+"<a>"
+	"a" det m
+"<Waykan>"
+	"Waykan" np ant
+"<,>"
+	"," cm
+"<xukül>"
+	"*xukül"
+"<pa>"
+	"pa" pr
+"<jay>"
+	"jay" n
+"<.>"
+	"." sent
+
+# sent_id = mdrk:2d3044d1da
+# text = Ri a Kaʼibʼil, ri a Kajil, xebʼe kʼayin rukʼin ri a Noʼj.
+# text[spa] = Kaʼibʼil y Kajil se fueron vender con Noʼj.
+# labels = incomplete ex:185
+"<Ri>"
+	"ri" det
+"<a>"
+	"a" det m
+"<Kaʼibʼil>"
+	"Kaʼibʼil" np ant
+"<,>"
+	"," cm
+"<ri>"
+	"ri" det
+"<a>"
+	"a" det m
+"<Kajil>"
+	"Kajil" np ant
+	"ajil" n px3pl
+"<,>"
+	"," cm
+"<xebʼe>"
+	"bʼe" v iv perf s_pl3
+"<kʼayin>"
+	"*kʼayin"
+"<rukʼin>"
+	"kʼin" n rel px3sg
+"<ri>"
+	"ri" det
+"<a>"
+	"a" det m
+"<Noʼj>"
+	"Noʼj" np ant
+"<.>"
+	"." sent
+
+# sent_id = mdrk:4473656148
+# text = Chi ixoqiʼ, chi achiʼaʼ, jebʼel yesamäj.
+# text[spa] = Hombres y mujeres trabajan bien.
+# labels = incomplete ex:185
+"<Chi>"
+	"chi" pr
+	"chi" cnjsub
+"<ixoqiʼ>"
+	"ixöq" n pl
+"<,>"
+	"," cm
+"<chi>"
+	"chi" pr
+	"chi" cnjsub
+"<achiʼaʼ>"
+	"achin" n pl
+"<,>"
+	"," cm
+"<jebʼel>"
+	"jebʼel" adj
+"<yesamäj>"
+	"samäj" v iv impf s_pl3
+"<.>"
+	"." sent
+
+# sent_id = mdrk:ccc8ca2583
+# text = Ri ma Waykan, xuqʼetej ri ixta Nikteʼ.
+# text[spa] = Don Waykan abrazó a Nikteʼ.
+# labels = incomplete ex:185
+"<Ri>"
+	"ri" det
+"<ma>"
+	"ma" det m
+"<Waykan>"
+	"Waykan" np ant
+"<,>"
+	"," cm
+"<xuqʼetej>"
+	"qʼetej" v tv perf o_sg3 s_sg3
+"<ri>"
+	"ri" det
+"<ixta>"
+	"ixta" det f
+"<Nikteʼ>"
+	"Nikteʼ" np ant
+"<.>"
+	"." sent
+
+# sent_id = mdrk:8568c2abad
+# text = Ri ma Waykan xqʼeten richin ri ixta Nikteʼ.
+# text[spa] = Don Waykan abrazó a Nikteʼ.
+# labels = incomplete ex:185
+"<Ri>"
+	"ri" det
+"<ma>"
+	"ma" det m
+"<Waykan>"
+	"Waykan" np ant
+"<xqʼeten>"
+	"*xqʼeten"
+"<richin>"
+	"ichin" n rel px3sg
+"<ri>"
+	"ri" det
+"<ixta>"
+	"ixta" det f
+"<Nikteʼ>"
+	"Nikteʼ" np ant
+"<.>"
+	"." sent
+
+# sent_id = mdrk:8989d1a589
+# text = Ri ixta Nikteʼ xqʼetex, ruma ri ma Waykan.
+# text[spa] = Nikteʼ fue abrazada por don Waykan.
+# labels = incomplete ex:185
+"<Ri>"
+	"ri" det
+"<ixta>"
+	"ixta" det f
+"<Nikteʼ>"
+	"Nikteʼ" np ant
+"<xqʼetex>"
+	"qʼetej" v tv pass perf s_sg3
+"<,>"
+	"," cm
+"<ruma>"
+	"oma" n rel px3sg
+"<ri>"
+	"ri" det
+"<ma>"
+	"ma" det m
+"<Waykan>"
+	"Waykan" np ant
+"<.>"
+	"." sent
+
+# sent_id = mdrk:23fefdfd5d
+# text = Xkäm ri tzʼiʼ.
+# text[spa] = El perro murió.
+# labels = incomplete ex:185
+"<Xkäm>"
+	"käm" v iv perf s_sg3
+"<ri>"
+	"ri" det
+"<tzʼiʼ>"
+	"tzʼiʼ" n
+"<.>"
+	"." sent
+
+# sent_id = mdrk:399c3d70a4
+# text = Yawaʼ ri ma Raxcheʼ.
+# text[spa] = Don Raxcheʼ está enfermo.
+# labels = incomplete ex:185
+"<Yawaʼ>"
+	"waʼ" v iv impf s_sg2
+"<ri>"
+	"ri" det
+"<ma>"
+	"ma" det m
+"<Raxcheʼ>"
+	"Raxcheʼ" np ant
+"<.>"
+	"." sent
+
+# sent_id = mdrk:7bea7efa6e
+# text = Xbʼe pa tinamït ri a Bʼalam.
+# text[spa] = Bʼalam fue a la ciudad.
+# labels = incomplete ex:186
+"<Xbʼe>"
+	"bʼe" v iv perf s_sg3
+"<pa>"
+	"pa" pr
+"<tinamït>"
+	"tinamït" n
+"<ri>"
+	"ri" det
+"<a>"
+	"a" det m
+"<Bʼalam>"
+	"Bʼalam" np ant
+	"bʼalam" n
+"<.>"
+	"." sent
+
+# sent_id = mdrk:7275a7f930
+# text = Wakami, yalan jukumaj xeʼikʼo el ri ajqʼijaʼ.
+# text[spa] = Los sacerdotes Mayas pasaron muy temprano, hoy.
+# labels = incomplete ex:186
+"<Wakami>"
+	"wakami" adv
+"<,>"
+	"," cm
+"<yalan>"
+	"yalan" adv
+"<jukumaj>"
+	"jukumaj" adj
+"<xeʼikʼo>"
+	"*xeʼikʼo"
+"<el>"
+	"el" dir
+	"el" v iv
+"<ri>"
+	"ri" det
+"<ajqʼijaʼ>"
+	"ajqʼij" n pl
+"<.>"
+	"." sent
+
+# sent_id = mdrk:c205e3722b
+# text = Xulöqʼ jun wexaj ri a Saq Chʼen.
+# text[spa] = Saq Chʼen compró un pantalón.
+# labels = incomplete ex:187
+"<Xulöqʼ>"
+	"löqʼ" v tv perf o_sg3 s_sg3
+"<jun>"
+	"jun" num
+"<wexaj>"
+	"wexaj" n
+"<ri>"
+	"ri" det
+"<a>"
+	"a" det m
+"<Saq>"
+	"Saq" np ant
+"<Chʼen>"
+	"Chʼen" np ant
+"<.>"
+	"." sent
+
+# sent_id = mdrk:371f69c812
+# text = Ri ma Raxcheʼ, xusipaj jun ruq ri ruteʼ.
+# text[spa] = Raxcheʼ le regaló un corte a su madre.
+# labels = incomplete ex:187
+"<Ri>"
+	"ri" det
+"<ma>"
+	"ma" det m
+"<Raxcheʼ>"
+	"Raxcheʼ" np ant
+"<,>"
+	"," cm
+"<xusipaj>"
+	"sipaj" v tv perf o_sg3 s_sg3
+"<jun>"
+	"jun" num
+"<ruq>"
+	"uq" n px3sg
+"<ri>"
+	"ri" det
+"<ruteʼ>"
+	"teʼej" n px3sg
+"<.>"
+	"." sent
+
+# sent_id = mdrk:d927bbdbd7
+# text = Kʼoj chi rochoch ri ma Yaxpak.
+# text[spa] = Don Yaxpak está en su casa.
+# labels = incomplete ex:187
+"<Kʼoj>"
+	"kʼojoj" v tv
+	"kʼoj" n
+	"kʼo" adj
+"<chi>"
+	"chi" pr
+	"chi" cnjsub
+"<rochoch>"
+	"ochoch" n px3sg
+"<ri>"
+	"ri" det
+"<ma>"
+	"ma" det m
+"<Yaxpak>"
+	"Yaxpak" np ant
+"<.>"
+	"." sent
+
+# sent_id = mdrk:cb46cf397f
+# text = E tijonelaʼ ri ajqʼijaʼ.
+# text[spa] = Los ajqʼijaʼ son maestros.
+# labels = incomplete ex:187
+"<E>"
+	"e" prn pers
+"<tijonelaʼ>"
+	"tijonel" n pl
+"<ri>"
+	"ri" det
+"<ajqʼijaʼ>"
+	"ajqʼij" n pl
+"<.>"
+	"." sent
+
+# sent_id = mdrk:81050a25e2
+# text = Kʼoj kaʼiʼ ruwuj ri ma Qʼanel.
+# text[spa] = Don Qʼanel tiene dos libros.
+# labels = ex:187
+"<Kʼoj>"
+	"kʼojoj" v tv @root #1->0
+"<kaʼiʼ>"
+	"kaʼiʼ" num @nummod #2->3
+"<ruwuj>"
+	"wuj" n px3sg @obj #3->1
+"<ri>"
+	"ri" det @det #4->6
+"<ma>"
+	"ma" det m @det #5->6
+"<Qʼanel>"
+	"Qʼanel" np ant @nsubj #6->1
+"<.>"
+	"." sent @punct #7->1
+
+# sent_id = mdrk:80be44a80c
+# text = Pakal Bʼalam nubʼiʼ.
+# text[spa] = Mi nombre es Pakal Bʼalam.
+# labels = ex:187
+"<Pakal>"
+	"Pakal" np ant @root #1->0
+"<Bʼalam>"
+	"Bʼalam" np ant @fixed #2->1
+"<nubʼiʼ>"
+	"bʼiʼ" n px1sg @nsubj #3->1
+"<.>"
+	"." sent @punct #4->1
+
+# sent_id = mdrk:6dafad052c
+# text = Wakami ruqʼij ri ixta Ixqʼanil.
+# text[spa] = Hoy es cumpleaños de Ixqʼanil.
+# labels = incomplete ex:187
+"<Wakami>"
+	"wakami" adv
+"<ruqʼij>"
+	"qʼij" n px3sg
+"<ri>"
+	"ri" det
+"<ixta>"
+	"ixta" det f
+"<Ixqʼanil>"
+	"Ixqʼanil" np ant
+"<.>"
+	"." sent
+

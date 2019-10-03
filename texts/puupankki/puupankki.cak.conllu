@@ -1,0 +1,46 @@
+# sent_id = gdik99:3c233d7c4d
+# text = A Kanek xuchäp jun kuk.
+# text[spa] = Kanek agarró una ardilla.
+# labels = ex:79
+1	A	a	DET	det	Gender=Masc	2	det	_	_
+2	Kanek	Kanek	PROPN	np	_	3	nsubj	_	_
+3	xuchäp	chäp	VERB	v	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Valency=2	0	root	_	_
+4	jun	jun	NUM	num	_	5	nummod	_	_
+5	kuk	kuk	NOUN	n	_	3	obj	_	_
+6	.	.	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = gdik99:f3b5cb1000
+# text = A Xwan xuk'ayij xajab' pa k'ayb'äl.
+# text[spa] = Juan vendió zapatos en el mercado.
+# labels = ex:130
+1	A	a	DET	det	Gender=Masc	2	det	_	_
+2	Xwan	Xwan	PROPN	np	_	3	nsubj	_	_
+3	xukʼayij	kʼayij	VERB	v	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Valency=2	0	root	_	_
+4	xajabʼ	xajabʼ	NOUN	n	_	3	obj	_	_
+5	pa	pa	ADP	pr	_	6	case	_	_
+6	kʼaybʼäl	kʼaybʼäl	NOUN	n	_	3	obl	_	_
+7	.	.	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = gdik99:1fdfd88f84
+# text = ¿Achike xchapo ri äk'.
+# text[spa] = ¿Quién agarró la gallina?
+# labels = ex:133
+1	¿	¿	PUNCT	lquest	_	3	punct	_	_
+2	Achike	achike	PRON	prn	PronType=Int	3	nsubj	_	_
+3	xchapo	chäp	VERB	v	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Valency=2	0	root	_	_
+4	ri	ri	DET	det	_	5	det	_	_
+5	äkʼ	äkʼ	NOUN	n	_	3	obj	_	_
+6	?	?	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = npass:50cbfcea02
+# text = Xupaxij ri achin ri bʼojoy.
+# text[spa] = The man broke the pot.
+# labels = ex: 
+1	Xupaxij	paxij	VERB	v	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Valency=2	0	root	_	_
+2	ri	ri	DET	det	_	3	det	_	_
+3	achin	achin	NOUN	n	_	1	obj	_	_
+4	ri	ri	DET	det	_	5	det	_	_
+5	bʼojoy	bʼojoʼy	NOUN	n	_	1	nsubj	_	_
+6	.	.	PUNCT	sent	_	1	punct	_	_
+
+
