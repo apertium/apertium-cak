@@ -491,6 +491,8 @@ ja%<foc%>:ja # ; ! ""
 matyox%<ij%>:matyox # ; ! "gracías"
 ni%<ij%>:ni # ; ! "no"
 
+!%<perf%>%<o_sg3%>%<s_sg3%>:xu # ;  ! Use/Sub
+
 LEXICON Contracciones
 
 chi%<pr%>%+re%<prn%>:chire # ;  ! Use/Sub ! TODO: Check this
@@ -1261,8 +1263,11 @@ manaq:manäq A ; ! "" ! TODO: Like Turkish `yok' ! Use/Sub ! FIXME: check
 kʼïy:kʼïy A ; ! "mucho" 
 kʼïy:kʼiy A ; ! "mucho"  ! Use/Sub ! Src/wiki
 
+
+chinojel:chinojel A ; ! "entero, todo" ! FIXME: check
+
 majun:majun A ; ! "ningun"
-majun:manjun A ; ! "ningun" ! Usr/Sub
+majun:manjun A ; ! "ningun" ! Use/Sub
 
 español:español A ; ! "" ! Use/Barb ! Use/Sub
 
@@ -1408,6 +1413,7 @@ ajoʼ:ajoʼ TV ; ! "querer"
 tzʼu:tzʼu TV ; ! "see, look at"
 tzʼët:tzʼët TV ; ! "mirar, look at"
 tzʼët:tzʼät TV ; ! "mirar, look at" ! Use/Sub ! Src/gdik
+tzʼët:tzʼat TV ; ! "mirar, look at" ! Use/Sub ! Src/story
 bʼän:bʼän TV ; ! "hacer, do"
 naʼ:naʼ TV ; ! "sentir"
 löqʼ:löqʼ TV ; ! "comprar"
@@ -1446,6 +1452,7 @@ näq:näq TV ; ! "molestar"
 tij:tij TV ; ! "comer"
 
 bʼij:bʼij TV ; ! "decir"
+bʼij:bʼïj TV ; ! "decir" ! Use/Sub ! Src/story
 bʼaʼ:bʼaʼ TV ; ! "morder"
 bʼaʼ:bʼa TV ; ! "morder" ! Use/Sub ! Src/kwo
 
@@ -1488,6 +1495,7 @@ purij:pur TV/ij ; ! "morder"
 !chapo:chapo TV ; ! "regañar"
 
 kʼwaj:kʼw TV/aj ; ! "llevar"
+
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
