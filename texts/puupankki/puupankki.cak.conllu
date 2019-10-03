@@ -10,7 +10,7 @@
 6	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = gdik99:f3b5cb1000
-# text = A Xwan xuk'ayij xajab' pa k'ayb'äl.
+# text = A Xwan xukʼayij xajabʼ pa kʼaybʼäl.
 # text[spa] = Juan vendió zapatos en el mercado.
 # labels = ex:130
 1	A	a	DET	det	Gender=Masc	2	det	_	_
@@ -22,7 +22,7 @@
 7	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = gdik99:1fdfd88f84
-# text = ¿Achike xchapo ri äk'.
+# text = ¿Achike xchapo ri äkʼ.
 # text[spa] = ¿Quién agarró la gallina?
 # labels = ex:133
 1	¿	¿	PUNCT	lquest	_	3	punct	_	_
@@ -32,15 +32,25 @@
 5	äkʼ	äkʼ	NOUN	n	_	3	obj	_	_
 6	?	?	PUNCT	sent	_	3	punct	_	_
 
-# sent_id = npass:50cbfcea02
-# text = Xupaxij ri achin ri bʼojoy.
-# text[spa] = The man broke the pot.
-# labels = ex: 
-1	Xupaxij	paxij	VERB	v	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Valency=2	0	root	_	_
-2	ri	ri	DET	det	_	3	det	_	_
-3	achin	achin	NOUN	n	_	1	obj	_	_
-4	ri	ri	DET	det	_	5	det	_	_
-5	bʼojoy	bʼojoʼy	NOUN	n	_	1	nsubj	_	_
-6	.	.	PUNCT	sent	_	1	punct	_	_
+# sent_id = mdrk:81050a25e2
+# text = Kʼoj kaʼiʼ ruwuj ri ma Qʼanel.
+# text[spa] = Don Qʼanel tiene dos libros.
+# labels = ex:187
+1	Kʼoj	kʼojoj	VERB	v	Valency=2	0	root	_	_
+2	kaʼiʼ	kaʼiʼ	NUM	num	_	3	nummod	_	_
+3	ruwuj	wuj	NOUN	n	Number[psor]=Sing|Person[psor]=3	1	obj	_	_
+4	ri	ri	DET	det	_	6	det	_	_
+5	ma	ma	DET	det	Gender=Masc	6	det	_	_
+6	Qʼanel	Qʼanel	PROPN	np	_	1	nsubj	_	_
+7	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = mdrk:80be44a80c
+# text = Pakal Bʼalam nubʼiʼ.
+# text[spa] = Mi nombre es Pakal Bʼalam.
+# labels = ex:187
+1	Pakal	Pakal	PROPN	np	_	0	root	_	_
+2	Bʼalam	Bʼalam	PROPN	np	_	1	fixed	_	_
+3	nubʼiʼ	bʼiʼ	NOUN	n	Number[psor]=Sing|Person[psor]=1	1	nsubj	_	_
+4	.	.	PUNCT	sent	_	1	punct	_	_
 
 
