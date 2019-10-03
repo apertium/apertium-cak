@@ -503,6 +503,7 @@ chi%<pr%>%+rat%<prn%>:chawe # ;  ! Use/Sub ! Src/wiki
 
 chi%<pr%>%+pam%<n%>%<rel%>%<px3sg%>:chupam # ; ! Use/Sub ! TODO: Check this
 chi%<pr%>%+wäch%<n%>%<rel%>%<px3sg%>:chuwäch # ; ! Use/Sub ! TODO: Check this
+chi%<pr%>%+wäch%<n%>%<rel%>%<px3sg%>:chuwach # ; ! Use/Sub ! Src/story ! TODO: Check this
 chi%<pr%>%+wäch%<n%>%<rel%>%<px3sg%>:chwäch # ; ! Use/Sub ! TODO: Check this
 chi%<pr%>%+wäch%<n%>%<rel%>%<px3pl%>:chikiwäch # ; ! Use/Sub ! TODO: Check this
 
@@ -691,9 +692,11 @@ aqanaj:aqan N3/aj ; ! "pierna" ! TODO: p.65 waqän
 
 !ibʼöchʼ:ibʼöchʼ N4/il ; ! "vena"
 
-utiw:utiw N5/aʼ ; ! ""
+utiw:utiw N5/aʼ ; ! "coyote"
+utiw:utïw N5/aʼ ; ! "coyote" ! Use/Sub ! Src/story
 xex:xex N5/aʼ ; ! "ladino, invasor"
 umül:umül N5/iʼ ; ! "conejo"
+umül:umul N5/iʼ ; ! "conejo" ! Use/Sub ! Src/story
 bʼalam:bʼalam N5/iʼ ; ! "jaguar, jaguar"
 tzʼikïn:tzʼikïn N5/aʼ ; ! "pájaro, bird"
 kʼel:kʼel N5/aʼ ; ! ""
@@ -712,6 +715,8 @@ xikʼ:xikʼ N5/aʼ ; ! ""
 masat:masat N5/iʼ ; ! ""
 chʼumil:chʼumil N5/aʼ ; ! ""
 kʼoj:kʼoj N5/aʼ ; ! ""
+
+nuxtiʼn:nuxtiʼn SUSTANTIVO ; ! "tuna"
 
 abʼäj:abʼäj SUSTANTIVO ; ! "piedra, stone"
 achamaqʼiʼ:achamaqʼiʼ SUSTANTIVO ; ! "indígena, indigenous"
@@ -1257,7 +1262,7 @@ kʼïy:kʼïy A ; ! "mucho"
 kʼïy:kʼiy A ; ! "mucho"  ! Use/Sub ! Src/wiki
 
 majun:majun A ; ! "ningun"
-majun:manjun A ; ! "ningun"
+majun:manjun A ; ! "ningun" ! Usr/Sub
 
 español:español A ; ! "" ! Use/Barb ! Use/Sub
 
@@ -1285,6 +1290,7 @@ kikotem:kikotem A ; ! "contento"
 tzʼaqät:tzʼaqät A ; ! "completo"
 
 ütz:ütz A ; ! "bueno, good"
+ütz:utz A ; ! "bueno, good" ! Use/Sub ! Src/story
 al:al A ; ! "pesado (que pesa), heavy"
 chäq’:chäq’ A ; ! "maduro, ripe"
 k’ak’a’:k’ak’a’ A ; ! "nuevo, new"
