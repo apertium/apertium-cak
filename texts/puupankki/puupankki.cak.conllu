@@ -32,6 +32,17 @@
 5	äkʼ	äkʼ	NOUN	n	_	3	obj	_	Tags=
 6	?	?	PUNCT	sent	_	3	punct	_	Tags=
 
+# sent_id = gdik99:41c8db44d0
+# text = Ri tzʼiʼ xupurij jun syan.
+# text[spa] = El perro mordió a un gato.
+# labels = ex:133
+1	Ri	ri	DET	det	_	2	det	_	Tags=
+2	tzʼiʼ	tzʼiʼ	NOUN	n	_	3	nsubj	_	Tags=
+3	xupurij	purij	VERB	v	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Valency=2	0	root	_	Tags=tv,perf,osg3,ssg3
+4	jun	jun	NUM	num	_	5	nummod	_	Tags=
+5	syan	syan	NOUN	n	_	3	obj	_	Tags=
+6	.	.	PUNCT	sent	_	3	punct	_	Tags=
+
 # sent_id = mdrk:81050a25e2
 # text = Kʼoj kaʼiʼ ruwuj ri ma Qʼanel.
 # text[spa] = Don Qʼanel tiene dos libros.

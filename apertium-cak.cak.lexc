@@ -470,7 +470,9 @@ chuqaʼ%<cnjcoo%>:chuqa # ;  ! Use/Sub
 töq%<cnjsub%>:töq # ; ! "cuando"
 töq%<cnjsub%>:toq # ; ! "cuando" ! Use/Sub
 
-achiʼel%<cnjsub%>:achiʼel # ; ! "como" ! FIXE: Check
+kʼin%<cnjcoo%>:kʼin # ; ! "y" ! FIXME: check
+
+achiʼel%<cnjsub%>:achiʼel # ; ! "como" ! FIXME: Check
 
 ! kʼo = hay
 
@@ -713,6 +715,7 @@ winäq:winäq N5/iʼ ; ! "persona, ser humano"
 winäq:winaq N5/iʼ ; ! "persona, ser humano" ! Use/Sub ! Src/wiki
 winäq:winaqʼ N5/iʼ ; ! "persona, ser humano" ! Use/Sub ! Src/wiki
 chiköp:chiköp N5/iʼ ; ! ""
+chiköp:chikop N5/iʼ ; ! "" ! Use/Sub ! Src/story
 xikʼ:xikʼ N5/aʼ ; ! ""
 masat:masat N5/iʼ ; ! ""
 chʼumil:chʼumil N5/aʼ ; ! ""
@@ -845,7 +848,6 @@ tiʼij:tiʼ N3/ej ; ! "carne, meat"
 !
 nimajay:nimajay N1 ; ! ""
 !
-!kamïk:kamïk SUSTANTIVO-VERBAL ; ! "morir, die"
 
 rujey:rujey N7 ; ! "cola, tail"
 ruxaq:ruxaq N7 ; ! "hoja, leaf"
@@ -925,7 +927,9 @@ juchʼ:juchʼ SUSTANTIVO ; ! "guión"
 junaʼ:junaʼ SUSTANTIVO ; ! "año, edad"
 kaj:kaj SUSTANTIVO ; ! "cielo, rancho"
 kajulew:kajulew SUSTANTIVO ; ! "universo"
+!kamïk:kamïk SUSTANTIVO-VERBAL ; ! "morir, die"
 kamïk:kamïk SUSTANTIVO ; ! "muerte"
+kamïk:kamik SUSTANTIVO ; ! "muerte" ! Use/Sub ! Src/story
 kamixaʼ:kamixaʼ SUSTANTIVO ; ! "camisa"
 kan:kan SUSTANTIVO ; ! "serpiente"
 kaqʼiqʼ:kaqʼiqʼ SUSTANTIVO ; ! "aire"
@@ -1165,6 +1169,8 @@ kʼajol:kʼajol N1 ; ! "hijo"
 
 N-JAY ; ! "casa"
 
+Dios:Dios N1 ; ! ""
+
 LEXICON Propios
 
 San:San NP-AL ; ! ""
@@ -1205,6 +1211,7 @@ Jorge:Jorge NP-ANT ; ! ""
 Martín:Martín NP-ANT ; ! ""
 Pedro:Pedro NP-ANT ; ! ""
 Demetrio:Demetrio NP-ANT ; ! ""
+Jesús:Jesús NP-ANT ; ! ""
 
 ! Fem
 Kanteʼl:Kanteʼl NP-ANT ; ! ""
@@ -1318,11 +1325,15 @@ loqʼoläj:loqʼoläj A ; ! "santo"
 jebʼel:jebʼel A ; ! "bonito, lindo" 
 jebʼel:jebʼël A ; ! "bonito, lindo" ! Use/Sub 
 nimaläj:nimaläj A ; ! "ilustre"
+nimaläj:nimalaj A ; ! "ilustre" ! Use/Sub ! Src/story
 kʼakʼaʼ:kʼakʼaʼ A ; ! "nuevo"
 kʼakʼaʼ:kʼakʼa A ; ! "nuevo" ! Use/Sub ! Src/wiki
 
 choj:choj A ; ! "simple"
 chöj:chöj A ; ! "recto"
+
+qäs:qäs A ; ! "sabroso"
+qäs:qas A ; ! "sabroso" ! Use/Sub ! Src/story
 
 LEXICON Adverbios
 
@@ -1357,6 +1368,7 @@ kabʼijir:kabʼijir ADV ; ! ""
 junabʼir:junabʼir ADV ; ! ""
 
 näj:näj ADV ; ! ""
+näj:naj ADV ; ! "lejos" ! Use/Sub ! Src/story
 waweʼ:waweʼ ADV ; ! ""
 
 chanim:chanim ADV ; ! ""
@@ -1364,6 +1376,7 @@ chanim:chanim ADV ; ! ""
 eqal:eqal ADV ; ! ""
 jutaqil:jutaqil ADV ; ! ""
 aninäq:aninäq ADV ; ! ""
+aninäq:aninaq ADV ; ! "" ! Use/Sub ! Src/story
 
 qitzij:qitzij ADV ; ! ""
 

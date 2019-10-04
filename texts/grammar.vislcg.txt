@@ -457,19 +457,19 @@
 # sent_id = gdik99:41c8db44d0
 # text = Ri tzʼiʼ xupurij jun syan.
 # text[spa] = El perro mordió a un gato.
-# labels = incomplete ex:133
+# labels = ex:133
 "<Ri>"
-	"ri" det
+	"ri" det @det #1->2
 "<tzʼiʼ>"
-	"tzʼiʼ" n
+	"tzʼiʼ" n @nsubj #2->3
 "<xupurij>"
-	"purij" v tv perf o_sg3 s_sg3
+	"purij" v tv perf o_sg3 s_sg3 @root #3->0
 "<jun>"
-	"jun" num
+	"jun" num @nummod #4->5
 "<syan>"
-	"syan" n
+	"syan" n @obj #5->3
 "<.>"
-	"." sent
+	"." sent @punct #6->3
 
 # sent_id = gdik99:bb609dd88e
 # text = Man jaʼ ritzʼiʼ xpurin ri jun syan.
