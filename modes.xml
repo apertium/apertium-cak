@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+
+  <mode name="cak-morph" install="yes">
+    <pipeline>
+      <program name="sed &quot;s/['’]/ʼ/g&quot;"/>
+      <program name="hfst-proc -w">
+        <file name="cak.automorf.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="cak-segmenter" install="yes">
+    <pipeline>
+      <program name="sed &quot;s/['’]/ʼ/g&quot;"/>
+      <program name="hfst-proc">
+        <file name="cak.autoseg.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="cak-disam" install="yes">
+    <pipeline>
+      <program name="sed &quot;s/['’]/ʼ/g&quot;"/>
+      <program name="hfst-proc -w">
+        <file name="cak.automorf.hfst"/>
+      </program>
+      <program name="cg-conv -a -l"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="cak.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="cak-tagger" install="yes">
+    <pipeline>
+      <program name="sed &quot;s/['’]/ʼ/g&quot;"/>
+      <program name="hfst-proc -w">
+        <file name="cak.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -1 -n">
+        <file name="cak.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+</modes>

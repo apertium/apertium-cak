@@ -499,6 +499,7 @@ LEXICON Contracciones
 
 chi%<pr%>%+re%<prn%>:chire # ;  ! Use/Sub ! TODO: Check this
 chi%<pr%>%+re%<prn%>:chre # ;  ! Use/Sub ! TODO: Check this
+chi%<pr%>%+re%<prn%>:chiraʼ # ;  ! Use/Sub ! TODO: Check this
 
 chi%<pr%>%+rïn%<prn%>:chwe # ;  ! Use/Sub ! Src/npass ! TODO: Check this
 chi%<pr%>%+rïn%<prn%>:chweʼ # ;  ! Use/Sub ! Src/kwo ! TODO: Check this
@@ -670,6 +671,7 @@ chiʼaj:chiʼ N3/aj ; ! "boca"
 pamaj:pam N3/aj ; ! "estómago"
 jolomaj:jolom N3/aj ; ! "cabeza" ! TODO: p.64 jolon/m ?
 !jolomaj:jolomaj SUSTANTIVO-INALIENABLE ; ! "cabeza, head"
+
 
 nimalaxel:nimal N3/axel ; ! "hermano/a mayor del mismo género"
 
@@ -1380,6 +1382,9 @@ aninäq:aninaq ADV ; ! "" ! Use/Sub ! Src/story
 
 qitzij:qitzij ADV ; ! ""
 
+naqaj:naqaj ADV ; ! "cerca"
+naqaj:naqäj ADV ; ! "cerca" ! Use/Sub ! Src/story
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Intr
@@ -1397,6 +1402,8 @@ paʼeʼ:paʼeʼ IV ; ! "pararse"
 kʼaseʼ:kʼaseʼ IV ; ! "vivir"
 aläx:aläx IV ; ! "nacer"
 ok:ok IV ; ! "entrar"
+
+oqa:oqa IV ; ! "llegar"
 
 kʼïx:kʼïx IV ; ! "avergonzarse"
 kʼastäj:kʼastäj IV ; ! "despertarse"
@@ -1509,7 +1516,7 @@ purij:pur TV/ij ; ! "morder"
 
 kʼwaj:kʼw TV/aj ; ! "llevar"
 
-
+qas:qas TV ; ! "aplacar"
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
