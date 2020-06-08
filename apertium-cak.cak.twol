@@ -13,7 +13,7 @@ a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ï ö ü ʼ
 %{t%}:0 %{t%}:t
 %{V%}:0 %{V%}:a %{V%}:e %{V%}:i %{V%}:o %{V%}:u
 
-!%>:0
+%>:%>
 %{≤%}:0
 
 ; 
