@@ -1,0 +1,7 @@
+LIST Det = det ; 
+
+LIST @det = @det ;
+
+SECTION
+
+MAP @det TARGET Det ;
