@@ -3,7 +3,7 @@
 # text[spa] = Kanek agarró una ardilla.
 # labels = example:79
 "<A>"
-	"a" det m @det #1->2
+	"a" clf m @det #1->2
 "<Kanek>"
 	"Kanek" np ant @nsubj #2->3
 "<xuchäp>"
@@ -28,7 +28,7 @@
 "<ruma>"
 	"oma" n rel px3sg
 "<a>"
-	"a" det m
+	"a" clf m
 "<Kanek>"
 	"Kanek" np ant
 "<.>"
@@ -39,13 +39,13 @@
 # text[spa] = Juan abrazó a Candelaria.
 # labels = incomplete example:79
 "<A>"
-	"a" det m
+	"a" clf m
 "<Xwan>"
 	"Xwan" np ant
 "<xuqʼetej>"
 	"qʼetej" v tv perf o_sg3 s_sg3
 "<xta>"
-	"xta" det f
+	"xta" clf f
 "<Kanteʼl>"
 	"Kanteʼl" np ant
 "<.>"
@@ -56,7 +56,7 @@
 # text[spa] = Candelaria fue abrazada por Juan.
 # labels = incomplete example:79
 "<Ixta>"
-	"ixta" det f
+	"ixta" clf f
 "<Kanteʼl>"
 	"Kanteʼl" np ant
 "<xqʼetex>"
@@ -64,7 +64,7 @@
 "<ruma>"
 	"oma" n rel px3sg
 "<a>"
-	"a" det m
+	"a" clf m
 "<Xwan>"
 	"Xwan" np ant
 "<.>"
@@ -128,13 +128,13 @@
 # text[spa] = Saqijix abrazó a don Saq B'alam.
 # labels = incomplete example:128
 "<Ixta>"
-	"ixta" det f
+	"ixta" clf f
 "<Saqijix>"
 	"Saqijix" np ant
 "<xuqʼetej>"
 	"qʼetej" v tv perf o_sg3 s_sg3
 "<ma>"
-	"ma" det m
+	"ma" clf m
 "<Saq>"
 	"Saq" np ant
 "<Bʼalam>"
@@ -148,13 +148,13 @@
 # text[spa] = Saqteqaw vio a María.
 # labels = incomplete example:128
 "<Ma>"
-	"ma" det m
+	"ma" clf m
 "<Saqteqaw>"
 	"Saqteqaw" np ant
 "<xutzʼät>"
 	"tzʼët" v tv perf o_sg3 s_sg3
 "<xta>"
-	"xta" det f
+	"xta" clf f
 "<Mariʼy>"
 	"Mariʼy" np ant
 "<.>"
@@ -165,7 +165,7 @@
 # text[spa] = María fue vista por Saqteqaw.
 # labels = incomplete example:128
 "<Xta>"
-	"xta" det f
+	"xta" clf f
 "<Mariʼy>"
 	"Mariʼy" np ant
 "<xtzʼat>"
@@ -173,7 +173,7 @@
 "<ruma>"
 	"oma" n rel px3sg
 "<ma>"
-	"ma" det m
+	"ma" clf m
 "<Saqteqaw>"
 	"Saqteqaw" np ant
 "<.>"
@@ -190,7 +190,7 @@
 "<xuroch>"
 	"rochoj" v tv perf o_sg3 s_sg3
 "<xta>"
-	"xta" det f
+	"xta" clf f
 "<Mariʼy>"
 	"Mariʼy" np ant
 "<.>"
@@ -213,7 +213,7 @@
 "<xrocho>"
 	"rochoj" v tv apo perf s_sg3
 "<xta>"
-	"xta" det f
+	"xta" clf f
 "<Mariʼy>"
 	"Mariʼy" np ant
 "<.>"
@@ -224,13 +224,13 @@
 # text[spa] = Francisco abrazó a Catarina.
 # labels = incomplete example:130
 "<A>"
-	"a" det m
+	"a" clf m
 "<Palaʼs>"
 	"Palaʼs" np ant
 "<xuqʼetej>"
 	"qʼetej" v tv perf o_sg3 s_sg3
 "<xta>"
-	"xta" det f
+	"xta" clf f
 "<Kataʼl>"
 	"Kataʼl" np ant
 "<.>"
@@ -247,13 +247,13 @@
 "<ta>"
 	"ta" mod
 "<a>"
-	"a" det m
+	"a" clf m
 "<Palaʼs>"
 	"Palaʼs" np ant
 "<xqʼeten>"
 	"*xqʼeten"
 "<xta>"
-	"xta" det f
+	"xta" clf f
 "<Kataʼl>"
 	"Kataʼl" np ant
 "<.>"
@@ -270,7 +270,7 @@
 "<xqʼeten>"
 	"*xqʼeten"
 "<xta>"
-	"xta" det f
+	"xta" clf f
 "<Kataʼl>"
 	"Kataʼl" np ant
 "<?>"
@@ -283,7 +283,7 @@
 # text[spa] = Juan vendió zapatos en el mercado.
 # labels = example:130
 "<A>"
-	"a" det m @det #1->2
+	"a" clf m @det #1->2
 "<Xwan>"
 	"Xwan" np ant @nsubj #2->3
 "<xukʼayij>"
@@ -302,7 +302,7 @@
 # text[spa] = Juan vendió en el mercado.
 # labels = incomplete example:130
 "<A>"
-	"a" det m
+	"a" clf m
 "<Xwan>"
 	"Xwan" np ant
 "<xkʼayin>"
@@ -356,13 +356,13 @@
 # text[spa] = Juan abrazó a María.
 # labels = incomplete example:132
 "<A>"
-	"a" det m
+	"a" clf m
 "<Xwan>"
 	"Xwan" np ant
 "<xuqʼetej>"
 	"qʼetej" v tv perf o_sg3 s_sg3
 "<xta>"
-	"xta" det f
+	"xta" clf f
 "<Mariʼy>"
 	"Mariʼy" np ant
 "<.>"
@@ -373,7 +373,7 @@
 # text[spa] = María fue abrazada por Juan.
 # labels = incomplete example:132
 "<Xta>"
-	"xta" det f
+	"xta" clf f
 "<Mariʼy>"
 	"Mariʼy" np ant
 "<xqʼetex>"
@@ -381,7 +381,7 @@
 "<ruma>"
 	"oma" n rel px3sg
 "<a>"
-	"a" det m
+	"a" clf m
 "<Xwan>"
 	"Xwan" np ant
 "<.>"
@@ -425,7 +425,7 @@
 # text[spa] = Juan agarró una gallina.
 # labels = incomplete example:133
 "<A>"
-	"a" det m
+	"a" clf m
 "<Xwan>"
 	"Xwan" np ant
 "<xuchäp>"
@@ -629,7 +629,7 @@
 # text[spa] = Francisco vio a su perro.
 # labels = incomplete example:137
 "<A>"
-	"a" det m
+	"a" clf m
 "<Palaʼs>"
 	"Palaʼs" np ant
 "<xutzʼät>"
@@ -657,7 +657,7 @@
 # text[spa] = Francisco vio a su perro que corretea ardillas.
 # labels = incomplete example:137
 "<A>"
-	"a" det m
+	"a" clf m
 "<Palaʼs>"
 	"Palaʼs" np ant
 "<xutzʼät>"
@@ -847,7 +847,7 @@
 # text[spa] = Juan comió porque ya tenía hambre.
 # labels = incomplete example:139
 "<A>"
-	"a" det m
+	"a" clf m
 "<Xwan>"
 	"Xwan" np ant
 "<xwaʼ>"
@@ -994,7 +994,7 @@
 "<Ri>"
 	"ri" det
 "<a>"
-	"a" det m
+	"a" clf m
 "<Juan>"
 	"Juan" np ant
 "<xutij>"
@@ -1022,7 +1022,7 @@
 "<ri>"
 	"ri" det
 "<a>"
-	"a" det m
+	"a" clf m
 "<Juan>"
 	"Juan" np ant
 "<.>"
@@ -1276,13 +1276,13 @@
 # text[spa] = Juan kissed Maria voluntarily.
 # labels = incomplete
 "<A>"
-	"a" det m
+	"a" clf m
 "<Juan>"
 	"Juan" np ant
 "<xutzʼubʼaj>"
 	"*xutzʼubʼaj"
 "<xta>"
-	"xta" det f
+	"xta" clf f
 "<Maria>"
 	"Maria" np ant
 "<rikʼi>"
@@ -1297,7 +1297,7 @@
 # text[spa] = Maria was kissed by Juan voluntarily.
 # labels = incomplete
 "<Xta>"
-	"xta" det f
+	"xta" clf f
 "<Maria>"
 	"Maria" np ant
 "<xtzʼubʼäx>"
@@ -1305,7 +1305,7 @@
 "<romaʼ>"
 	"oma" n rel px3sg
 "<a>"
-	"a" det m
+	"a" clf m
 "<Juan>"
 	"Juan" np ant
 "<rikʼi>"
@@ -1320,7 +1320,7 @@
 # text[spa] = Maria was kissed by Juan voluntarily.
 # labels = incomplete
 "<Xta>"
-	"xta" det f
+	"xta" clf f
 "<Maria>"
 	"Maria" np ant
 "<xkitzʼubʼaj>"
@@ -1328,7 +1328,7 @@
 "<romaʼ>"
 	"oma" n rel px3sg
 "<a>"
-	"a" det m
+	"a" clf m
 "<Juan>"
 	"Juan" np ant
 "<rikʼi>"
@@ -1343,7 +1343,7 @@
 # text[spa] = Juan wishes he could buy eggs.
 # labels = incomplete
 "<A>"
-	"a" det m
+	"a" clf m
 "<Juan>"
 	"Juan" np ant
 "<nrajoʼ>"
@@ -1363,7 +1363,7 @@
 # text[spa] = Juan wants to buy eggs.
 # labels = incomplete
 "<A>"
-	"a" det m
+	"a" clf m
 "<Juan>"
 	"Juan" np ant
 "<nrajoʼ>"
@@ -1380,7 +1380,7 @@
 # text[spa] = Juan i wants him j to buy eggs.
 # labels = incomplete
 "<A>"
-	"a" det m
+	"a" clf m
 "<Juan>"
 	"Juan" np ant
 "<nrajoʼ>"
@@ -1400,7 +1400,7 @@
 # text[spa] = Juan i wants him j to buy eggs.
 # labels = incomplete
 "<A>"
-	"a" det m
+	"a" clf m
 "<Juan>"
 	"Juan" np ant
 "<nrajoʼ>"
@@ -1423,7 +1423,7 @@
 # text[spa] = Juan 1 told me that it was the dog that bit him 1.
 # labels = incomplete
 "<A>"
-	"a" det m
+	"a" clf m
 "<Juan>"
 	"Juan" np ant
 "<xubʼij>"
@@ -1451,7 +1451,7 @@
 # text[spa] = Juan 1 told me that he 1 was bitten by the dog.
 # labels = incomplete
 "<A>"
-	"a" det m
+	"a" clf m
 "<Juan>"
 	"Juan" np ant
 "<xubʼij>"
@@ -1475,7 +1475,7 @@
 # text[spa] = Juan 1 told me that he 1 was bitten by the dog.
 # labels = incomplete
 "<A>"
-	"a" det m
+	"a" clf m
 "<Juan>"
 	"Juan" np ant
 "<xubʼij>"
@@ -1502,7 +1502,7 @@
 # text[spa] = Juan 1 told me that he 1 was bitten by the dog.
 # labels = incomplete
 "<A>"
-	"a" det m
+	"a" clf m
 "<Juan>"
 	"Juan" np ant
 "<xubʼij>"
@@ -1526,7 +1526,7 @@
 # text[spa] = Juan 1 told me that he 1 was bitten by the dog.
 # labels = incomplete
 "<A>"
-	"a" det m
+	"a" clf m
 "<Juan>"
 	"Juan" np ant
 "<xubʼij>"
@@ -1603,7 +1603,7 @@
 "<ri>"
 	"ri" det
 "<a>"
-	"a" det m
+	"a" clf m
 "<Juan>"
 	"Juan" np ant
 "<?>"
@@ -1616,7 +1616,7 @@
 # text[spa] = No man was bitten by a dog.
 # labels = incomplete
 "<Ma>"
-	"ma" det m
+	"ma" clf m
 "<jun>"
 	"jun" num
 "<achiʼ>"
@@ -1719,7 +1719,7 @@
 # text[spa] = Juan wants a car.
 # labels = incomplete
 "<A>"
-	"a" det m
+	"a" clf m
 "<Juan>"
 	"Juan" np ant
 "<nrajoʼ>"
@@ -1744,7 +1744,7 @@
 "<romaʼ>"
 	"oma" n rel px3sg
 "<a>"
-	"a" det m
+	"a" clf m
 "<Juan>"
 	"Juan" np ant
 "<.>"
@@ -1832,7 +1832,7 @@
 # text[spa] = Juan and Maria were bitten by a snake.
 # labels = incomplete
 "<A>"
-	"a" det m
+	"a" clf m
 "<Juan>"
 	"Juan" np ant
 "<y>"
@@ -1977,13 +1977,13 @@
 "<ri>"
 	"ri" det
 "<xta>"
-	"xta" det f
+	"xta" clf f
 "<Maria>"
 	"Maria" np ant
 "<ri>"
 	"ri" det
 "<a>"
-	"a" det m
+	"a" clf m
 "<Juan>"
 	"Juan" np ant
 "<.>"
@@ -1998,13 +1998,13 @@
 "<ri>"
 	"ri" det
 "<xta>"
-	"xta" det f
+	"xta" clf f
 "<Maria>"
 	"Maria" np ant
 "<ri>"
 	"ri" det
 "<a>"
-	"a" det m
+	"a" clf m
 "<Juan>"
 	"Juan" np ant
 "<.>"
@@ -2023,7 +2023,7 @@
 "<ri>"
 	"ri" det
 "<a>"
-	"a" det m
+	"a" clf m
 "<Juan>"
 	"Juan" np ant
 "<.>"
@@ -2043,7 +2043,7 @@
 "<ri>"
 	"ri" det
 "<a>"
-	"a" det m
+	"a" clf m
 "<Juan>"
 	"Juan" np ant
 "<.>"
@@ -2144,7 +2144,7 @@
 "<rixjayil>"
 	"ixjayil" n px3sg
 "<a>"
-	"a" det m
+	"a" clf m
 "<Manuel>"
 	"Manuel" np ant
 "<rijaʼ>"
@@ -2160,7 +2160,7 @@
 "<Rixjayil>"
 	"ixjayil" n px3sg
 "<a>"
-	"a" det m
+	"a" clf m
 "<Manuel>"
 	"Manuel" np ant
 "<nukanoj>"
@@ -2216,7 +2216,7 @@
 "<Xkanox>"
 	"*Xkanox"
 "<a>"
-	"a" det m
+	"a" clf m
 "<Manuel>"
 	"Manuel" np ant
 "<romaʼ>"
@@ -2237,7 +2237,7 @@
 "<Xkikanoj>"
 	"*Xkikanoj"
 "<a>"
-	"a" det m
+	"a" clf m
 "<Manuel>"
 	"Manuel" np ant
 "<romaʼ>"
@@ -2319,7 +2319,7 @@
 # text[spa] = Manuel told me that the dog bit Ramon.
 # labels = incomplete
 "<A>"
-	"a" det m
+	"a" clf m
 "<Manuel>"
 	"Manuel" np ant
 "<xubʼij>"
@@ -2339,7 +2339,7 @@
 "<ri>"
 	"ri" det
 "<a>"
-	"a" det m
+	"a" clf m
 "<Ramon>"
 	"Ramon" np ant
 "<.>"
@@ -2407,7 +2407,7 @@
 "<ri>"
 	"ri" det
 "<ixta>"
-	"ixta" det f
+	"ixta" clf f
 "<Nikʼteʼ>"
 	"Nikʼteʼ" np ant
 "<,>"
@@ -2417,7 +2417,7 @@
 "<ri>"
 	"ri" det
 "<a>"
-	"a" det m
+	"a" clf m
 "<Waykan>"
 	"Waykan" np ant
 "<.>"
@@ -2430,7 +2430,7 @@
 "<Ri>"
 	"ri" det
 "<ixta>"
-	"ixta" det f
+	"ixta" clf f
 "<Ixchel>"
 	"Ixchel" np ant
 "<xwär>"
@@ -2478,7 +2478,7 @@
 "<ri>"
 	"ri" det
 "<a>"
-	"a" det m
+	"a" clf m
 "<Kanek>"
 	"Kanek" np ant
 "<.>"
@@ -2491,7 +2491,7 @@
 "<Ri>"
 	"ri" det
 "<a>"
-	"a" det m
+	"a" clf m
 "<Kanek>"
 	"Kanek" np ant
 "<xbʼe>"
@@ -2510,7 +2510,7 @@
 "<Ri>"
 	"ri" det
 "<a>"
-	"a" det m
+	"a" clf m
 "<Kot>"
 	"Kot" np ant
 "<xuchöy>"
@@ -2535,7 +2535,7 @@
 "<Ri>"
 	"ri" det
 "<a>"
-	"a" det m
+	"a" clf m
 "<Kot>"
 	"Kot" np ant
 "<xuyaʼ>"
@@ -2564,7 +2564,7 @@
 "<ri>"
 	"ri" det
 "<a>"
-	"a" det m
+	"a" clf m
 "<Waykan>"
 	"Waykan" np ant
 "<xtoʼo>"
@@ -2585,7 +2585,7 @@
 "<ru>"
 	"*ru"
 "<a>"
-	"a" det m
+	"a" clf m
 "<Waykan>"
 	"Waykan" np ant
 "<xintoʼo>"
@@ -2648,7 +2648,7 @@
 "<ri>"
 	"ri" det
 "<a>"
-	"a" det m
+	"a" clf m
 "<Kajiʼ>"
 	"Kajiʼ" np ant
 	"kajiʼ" num
@@ -2808,7 +2808,7 @@
 "<Ri>"
 	"ri" det
 "<a>"
-	"a" det m
+	"a" clf m
 "<Waykan>"
 	"Waykan" np ant
 "<,>"
@@ -2829,7 +2829,7 @@
 "<Ri>"
 	"ri" det
 "<a>"
-	"a" det m
+	"a" clf m
 "<Kaʼibʼil>"
 	"Kaʼibʼil" np ant
 "<,>"
@@ -2837,7 +2837,7 @@
 "<ri>"
 	"ri" det
 "<a>"
-	"a" det m
+	"a" clf m
 "<Kajil>"
 	"Kajil" np ant
 	"ajil" n px3pl
@@ -2852,7 +2852,7 @@
 "<ri>"
 	"ri" det
 "<a>"
-	"a" det m
+	"a" clf m
 "<Noʼj>"
 	"Noʼj" np ant
 "<.>"
@@ -2890,7 +2890,7 @@
 "<Ri>"
 	"ri" det
 "<ma>"
-	"ma" det m
+	"ma" clf m
 "<Waykan>"
 	"Waykan" np ant
 "<,>"
@@ -2900,7 +2900,7 @@
 "<ri>"
 	"ri" det
 "<ixta>"
-	"ixta" det f
+	"ixta" clf f
 "<Nikteʼ>"
 	"Nikteʼ" np ant
 "<.>"
@@ -2913,7 +2913,7 @@
 "<Ri>"
 	"ri" det
 "<ma>"
-	"ma" det m
+	"ma" clf m
 "<Waykan>"
 	"Waykan" np ant
 "<xqʼeten>"
@@ -2923,7 +2923,7 @@
 "<ri>"
 	"ri" det
 "<ixta>"
-	"ixta" det f
+	"ixta" clf f
 "<Nikteʼ>"
 	"Nikteʼ" np ant
 "<.>"
@@ -2936,7 +2936,7 @@
 "<Ri>"
 	"ri" det
 "<ixta>"
-	"ixta" det f
+	"ixta" clf f
 "<Nikteʼ>"
 	"Nikteʼ" np ant
 "<xqʼetex>"
@@ -2948,7 +2948,7 @@
 "<ri>"
 	"ri" det
 "<ma>"
-	"ma" det m
+	"ma" clf m
 "<Waykan>"
 	"Waykan" np ant
 "<.>"
@@ -2976,7 +2976,7 @@
 "<ri>"
 	"ri" det
 "<ma>"
-	"ma" det m
+	"ma" clf m
 "<Raxcheʼ>"
 	"Raxcheʼ" np ant
 "<.>"
@@ -2995,7 +2995,7 @@
 "<ri>"
 	"ri" det
 "<a>"
-	"a" det m
+	"a" clf m
 "<Bʼalam>"
 	"Bʼalam" np ant
 	"bʼalam" n
@@ -3039,7 +3039,7 @@
 "<ri>"
 	"ri" det
 "<a>"
-	"a" det m
+	"a" clf m
 "<Saq>"
 	"Saq" np ant
 "<Chʼen>"
@@ -3054,7 +3054,7 @@
 "<Ri>"
 	"ri" det
 "<ma>"
-	"ma" det m
+	"ma" clf m
 "<Raxcheʼ>"
 	"Raxcheʼ" np ant
 "<,>"
@@ -3088,7 +3088,7 @@
 "<ri>"
 	"ri" det
 "<ma>"
-	"ma" det m
+	"ma" clf m
 "<Yaxpak>"
 	"Yaxpak" np ant
 "<.>"
@@ -3122,7 +3122,7 @@
 "<ri>"
 	"ri" det @det #4->6
 "<ma>"
-	"ma" det m @det #5->6
+	"ma" clf m @det #5->6
 "<Qʼanel>"
 	"Qʼanel" np ant @nsubj #6->1
 "<.>"
@@ -3135,7 +3135,7 @@
 "<Pakal>"
 	"Pakal" np ant @root #1->0
 "<Bʼalam>"
-	"Bʼalam" np ant @fixed #2->1
+	"Bʼalam" np ant @flat #2->1
 "<nubʼiʼ>"
 	"bʼiʼ" n px1sg @nsubj #3->1
 "<.>"
@@ -3152,7 +3152,7 @@
 "<ri>"
 	"ri" det
 "<ixta>"
-	"ixta" det f
+	"ixta" clf f
 "<Ixqʼanil>"
 	"Ixqʼanil" np ant
 "<.>"

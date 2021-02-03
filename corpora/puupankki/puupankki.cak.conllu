@@ -1,0 +1,54 @@
+# sent_id = gdik99:3c233d7c4d
+# text = A Kanek xuchäp jun kuk.
+# text[spa] = Kanek agarró una ardilla.
+# labels = example:79
+1	A	a	NOUN	_	Gender=Masc|NounType=Clf	2	det	_	_
+2	Kanek	Kanek	PROPN	_	_	3	nsubj	_	_
+3	xuchäp	chäp	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+4	jun	jun	NUM	_	_	5	nummod	_	_
+5	kuk	kuk	NOUN	_	_	3	obj	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = gdik99:f3b5cb1000
+# text = A Xwan xukʼayij xajabʼ pa kʼaybʼäl.
+# text[spa] = Juan vendió zapatos en el mercado.
+# labels = example:130
+1	A	a	NOUN	_	Gender=Masc|NounType=Clf	2	det	_	_
+2	Xwan	Xwan	PROPN	_	_	3	nsubj	_	_
+3	xukʼayij	kʼayij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+4	xajabʼ	xajabʼ	NOUN	_	_	3	obj	_	_
+5	pa	pa	ADP	_	_	6	case	_	_
+6	kʼaybʼäl	kʼaybʼäl	NOUN	_	_	3	obl	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = gdik99:1fdfd88f84
+# text = ¿Achike xchapo ri äkʼ.
+# text[spa] = ¿Quién agarró la gallina?
+# labels = example:133
+1	¿	¿	PUNCT	_	_	3	punct	_	_
+2	Achike	achike	PRON	_	PronType=Int	3	nsubj	_	_
+3	xchapo	chäp	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
+5	äkʼ	äkʼ	NOUN	_	_	3	obj	_	_
+6	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = gdik99:41c8db44d0
+# text = Ri tzʼiʼ xupurij jun syan.
+# text[spa] = El perro mordió a un gato.
+# labels = example:133
+1	Ri	ri	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	tzʼiʼ	tzʼiʼ	NOUN	_	_	3	nsubj	_	_
+3	xupurij	purij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+4	jun	jun	NUM	_	_	5	nummod	_	_
+5	syan	syan	NOUN	_	_	3	obj	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = mdrk:80be44a80c
+# text = Pakal Bʼalam nubʼiʼ.
+# text[spa] = Mi nombre es Pakal Bʼalam.
+# labels = example:187
+1	Pakal	Pakal	PROPN	_	_	0	root	_	_
+2	Bʼalam	Bʼalam	PROPN	_	_	1	flat	_	_
+3	nubʼiʼ	bʼiʼ	NOUN	_	Number[psor]=Sing|Person[psor]=1	1	nsubj	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
+
