@@ -2620,13 +2620,11 @@
 	"xa" adv
 "<chi>"
 	"chi" pr
-	"chi" cnjsub
 "<awaqän>"
 	"aqän" n px2sg
 "<xatpe>"
 	"pe" v iv perf s_sg2
 "<wi>"
-	"we" cnjsub
 	"wi" mod
 "<.>"
 	"." sent
@@ -2634,84 +2632,80 @@
 # sent_id = mdrk:ca509c65f3
 # text = Xutzʼibʼaj jun ütz wuj ri a Kajiʼ Kawoq.
 # text[spa] = Kajiʼ Kawoq escribió un buen libro.
-# labels = incomplete example:183
+# labels = example:183
 "<Xutzʼibʼaj>"
-	"tzʼibʼaj" v tv perf o_sg3 s_sg3
+	"tzʼibʼaj" v tv perf o_sg3 s_sg3 @root #1->0
 "<jun>"
-	"jun" det @det
+	"jun" det @det #2->4
 "<ütz>"
-	"ütz" adj
-	"ütz" adv
+	"ütz" adj @amod #3->4
 "<wuj>"
-	"wuj" n
+	"wuj" n @obj #4->1
 "<ri>"
-	"ri" det
+	"ri" det @det #5->7
 "<a>"
-	"a" clf m
+	"a" clf m @clf #6->7
 "<Kajiʼ>"
-	"Kajiʼ" np ant
-	"kajiʼ" num
+	"Kajiʼ" np ant @nsubj #7->1
 "<Kawoq>"
-	"Kawoq" np ant
+	"Kawoq" np ant @flat #8->7
 "<.>"
-	"." sent
+	"." sent @punct #9->1
 
 # sent_id = mdrk:4c78167fac
 # text = Ri xexaʼ, xekikamisaj ri qatiʼt qamamaʼ.
 # text[spa] = Los invasores masacraron a nuestros abuelos.
-# labels = incomplete example:183
+# labels = example:183 check-compound
 "<Ri>"
-	"ri" det
+	"ri" det @det #1->2
 "<xexaʼ>"
-	"xex" n pl
-	"xaʼ" v tv perf s_pl3
-	"xaʼ" v tv pass perf s_pl3
+	"xex" n pl @dislocated #2->4
 "<,>"
-	"," cm
+	"," cm @punct #3->2
 "<xekikamisaj>"
-	"kamisaj" v tv perf o_pl3 s_pl3
+	"kamisaj" v tv perf o_pl3 s_pl3 @root #4->0
 "<ri>"
-	"ri" det
+	"ri" det @det #5->6
 "<qatiʼt>"
-	"qatiʼt" n
+	"tiʼt" n px1pl @obj #6->4
 "<qamamaʼ>"
-	"mamaʼaj" n px1pl
+	"mamaʼaj" n px1pl @conj #7->6
 "<.>"
-	"." sent
+	"." sent @punct #8->4
 
 # sent_id = mdrk:b305a190ec
 # text = Xeʼatin pa raxyaʼ ri nuteʼ nutataʼ.
 # text[spa] = Mis papas se bañaron en agua fría.
-# labels = incomplete example:184
+# labels = example:184 check-compound
 "<Xeʼatin>"
-	"atin" v iv perf s_pl3
+	"atin" v iv perf s_pl3 @root #1->0
 "<pa>"
-	"pa" pr
+	"pa" pr @case #2->3
 "<raxyaʼ>"
-	"raxyaʼ" n
+	"raxyaʼ" n @obl #3->1
 "<ri>"
-	"ri" det
+	"ri" det @det #4->5
 "<nuteʼ>"
-	"teʼej" n px1sg
+	"teʼej" n px1sg @nsubj #5->1
 "<nutataʼ>"
-	"tataʼaj" n px1sg
+	"tataʼaj" n px1sg @conj #6->5
 "<.>"
-	"." sent
+	"." sent @punct #7->1
 
 # sent_id = mdrk:f817aac50e
 # text = Wakami xojatin pa raxyaʼ.
 # text[spa] = Hoy nos bañamos en agua fría.
-# labels = incomplete example:184
+# labels = example:184
 "<Wakami>"
-	"wakami" adv
+	"wakami" adv @advmod #1->2
 "<xojatin>"
-	"atin" v iv perf s_pl1
+	"atin" v iv perf s_pl1 @root #2->0
 "<pa>"
-	"pa" pr
+	"pa" pr @case #3->4
 "<raxyaʼ>"
-	"raxyaʼ" n
+	"raxyaʼ" n @obl #4->2
 "<.>"
-	"." sent
+	"." sent @punct #5->2
 
 # sent_id = mdrk:4e146739ea
 # text = Iwir, yalan jukumaj xewaʼ ri samajelaʼ.
@@ -2752,7 +2746,6 @@
 	"*xikʼo"
 "<el>"
 	"el" dir
-	"el" v iv
 "<jun>"
 	"jun" det @det
 "<ti>"
@@ -2767,15 +2760,15 @@
 # text[spa] = Hace un rato se quebró un trasto.
 # labels = incomplete example:184
 "<Miʼer>"
-	"miʼer" adv
+	"miʼer" adv @advmod #1->2
 "<xpax>"
-	"paxij" v tv perf s_sg3
+	"paxij" v tv pass perf s_sg3 @root #2->0
 "<jun>"
-	"jun" det @det
+	"jun" det @det #3->4
 "<läq>"
-	"läq" n
+	"läq" n @nsubj #4->2
 "<.>"
-	"." sent
+	"." sent @punct #5->2
 
 # sent_id = mdrk:8c792ebf6e
 # text = Ri xexaʼ, xkiporoj ronojel ri qawuj.
@@ -2839,7 +2832,6 @@
 	"a" clf m
 "<Kajil>"
 	"Kajil" np ant
-	"ajil" n px3pl
 "<,>"
 	"," cm
 "<xebʼe>"

@@ -136,6 +136,65 @@
 5	syan	syan	NOUN	_	_	3	obj	_	_
 6	.	.	PUNCT	_	_	3	punct	_	_
 
+# sent_id = mdrk:ca509c65f3
+# text = Xutzʼibʼaj jun ütz wuj ri a Kajiʼ Kawoq.
+# text[spa] = Kajiʼ Kawoq escribió un buen libro.
+# labels = example:183
+1	Xutzʼibʼaj	tzʼibʼaj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+2	jun	jun	DET	_	Definite=Ind|PronType=Art	4	det	_	_
+3	ütz	ütz	ADJ	_	_	4	amod	_	_
+4	wuj	wuj	NOUN	_	_	1	obj	_	_
+5	ri	ri	DET	_	Definite=Def|PronType=Art	7	det	_	_
+6	a	a	NOUN	_	Gender=Masc|NounType=Clf	7	clf	_	_
+7	Kajiʼ	Kajiʼ	PROPN	_	_	1	nsubj	_	_
+8	Kawoq	Kawoq	PROPN	_	_	7	flat	_	_
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = mdrk:4c78167fac
+# text = Ri xexaʼ, xekikamisaj ri qatiʼt qamamaʼ.
+# text[spa] = Los invasores masacraron a nuestros abuelos.
+# labels = example:183 check-compound
+1	Ri	ri	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	xexaʼ	xex	NOUN	_	Number=Plur	4	dislocated	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	xekikamisaj	kamisaj	VERB	_	Aspect=Perf|Number[obj]=Plur|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+5	ri	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
+6	qatiʼt	tiʼt	NOUN	_	Number[psor]=Plur|Person[psor]=1	4	obj	_	_
+7	qamamaʼ	mamaʼaj	NOUN	_	Number[psor]=Plur|Person[psor]=1	6	conj	_	_
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = mdrk:b305a190ec
+# text = Xeʼatin pa raxyaʼ ri nuteʼ nutataʼ.
+# text[spa] = Mis papas se bañaron en agua fría.
+# labels = example:184 check-compound
+1	Xeʼatin	atin	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
+2	pa	pa	ADP	_	_	3	case	_	_
+3	raxyaʼ	raxyaʼ	NOUN	_	_	1	obl	_	_
+4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
+5	nuteʼ	teʼej	NOUN	_	Number[psor]=Sing|Person[psor]=1	1	nsubj	_	_
+6	nutataʼ	tataʼaj	NOUN	_	Number[psor]=Sing|Person[psor]=1	5	conj	_	_
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = mdrk:f817aac50e
+# text = Wakami xojatin pa raxyaʼ.
+# text[spa] = Hoy nos bañamos en agua fría.
+# labels = example:184
+1	Wakami	wakami	ADV	_	_	2	advmod	_	_
+2	xojatin	atin	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
+3	pa	pa	ADP	_	_	4	case	_	_
+4	raxyaʼ	raxyaʼ	NOUN	_	_	2	obl	_	_
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = mdrk:18895560e9
+# text = Miʼer xpax jun läq.
+# text[spa] = Hace un rato se quebró un trasto.
+# labels = incomplete example:184
+1	Miʼer	miʼer	ADV	_	_	2	advmod	_	_
+2	xpax	paxij	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	jun	jun	DET	_	Definite=Ind|PronType=Art	4	det	_	_
+4	läq	läq	NOUN	_	_	2	nsubj	_	_
+5	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = mdrk:80be44a80c
 # text = Pakal Bʼalam nubʼiʼ.
 # text[spa] = Mi nombre es Pakal Bʼalam.
