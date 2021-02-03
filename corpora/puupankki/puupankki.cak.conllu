@@ -258,6 +258,18 @@
 7	Chʼen	Chʼen	PROPN	_	_	6	flat	_	_
 8	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = mdrk:81050a25e2
+# text = Kʼoj kaʼiʼ ruwuj ri ma Qʼanel.
+# text[spa] = Don Qʼanel tiene dos libros.
+# labels = example:187
+1	Kʼoj	kʼojoj	VERB	_	Subcat=Tran	0	root	_	_
+2	kaʼiʼ	kaʼiʼ	NUM	_	_	3	nummod	_	_
+3	ruwuj	wuj	NOUN	_	Number[psor]=Sing|Person[psor]=3	1	obj	_	_
+4	ri	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
+5	ma	ma	NOUN	_	Gender=Masc|NounType=Clf	6	det	_	_
+6	Qʼanel	Qʼanel	PROPN	_	_	1	nsubj	_	_
+7	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = mdrk:80be44a80c
 # text = Pakal Bʼalam nubʼiʼ.
 # text[spa] = Mi nombre es Pakal Bʼalam.
