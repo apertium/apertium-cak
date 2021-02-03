@@ -9,6 +9,99 @@
 5	kuk	kuk	NOUN	_	_	3	obj	_	_
 6	.	.	PUNCT	_	_	3	punct	_	_
 
+# sent_id = mdik99:e75fb8b43d
+# text = Jun kuk xchäp ruma a Kanek.
+# text[spa] = Una ardilla fue agarrada por Kanek.
+# labels = check-passive example:79
+1	Jun	jun	NUM	_	_	2	det	_	_
+2	kuk	kuk	NOUN	_	_	3	nsubj	_	_
+3	xchäp	chäp	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	ruma	oma	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
+5	a	a	NOUN	_	Gender=Masc|NounType=Clf	6	clf	_	_
+6	Kanek	Kanek	PROPN	_	_	4	nmod	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = gdik99:31fcb693d8
+# text = A Xwan xuqʼetej xta Kanteʼl.
+# text[spa] = Juan abrazó a Candelaria.
+# labels = example:79
+1	A	a	NOUN	_	Gender=Masc|NounType=Clf	2	clf	_	_
+2	Xwan	Xwan	PROPN	_	_	3	nsubj	_	_
+3	xuqʼetej	qʼetej	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+4	xta	xta	NOUN	_	Gender=Fem|NounType=Clf	5	clf	_	_
+5	Kanteʼl	Kanteʼl	PROPN	_	_	3	obj	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = gdik99:031a6fa6b9
+# text = Ixta Kanteʼl xqʼetex ruma a Xwan.
+# text[spa] = Candelaria fue abrazada por Juan.
+# labels = example:79
+1	Ixta	ixta	NOUN	_	Gender=Fem|NounType=Clf	2	clf	_	_
+2	Kanteʼl	Kanteʼl	PROPN	_	_	3	nsubj	_	_
+3	xqʼetex	qʼetej	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	ruma	oma	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
+5	a	a	NOUN	_	Gender=Masc|NounType=Clf	6	clf	_	_
+6	Xwan	Xwan	PROPN	_	_	4	nmod	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = gdik99:cfdcea193d
+# text = Ri achi xukʼaxaj ri qachʼabäl.
+# text[spa] = El señor escuchó nuestra palabra.
+# labels = example:80
+1	Ri	ri	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	achi	achi	NOUN	_	_	3	nsubj	_	_
+3	xukʼaxaj	kʼaxaj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
+5	qachʼabäl	chʼabäl	NOUN	_	Number[psor]=Plur|Person[psor]=1	3	obj	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = gdik99:82b406c79f
+# text = Ri qachʼabäl xkʼaxäx ruma ri achin.
+# text[spa] = Nuestra palabra fue escuchada por el señor.
+# labels = example:80
+1	Ri	ri	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	qachʼabäl	chʼabäl	NOUN	_	Number[psor]=Plur|Person[psor]=1	3	nsubj	_	_
+3	xkʼaxäx	kʼaxaj	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	ruma	oma	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
+5	ri	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
+6	achin	achin	NOUN	_	_	4	nmod	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = gdik99:fd0a5ae3c1
+# text = Ixta Saqijix xuqʼetej ma Saq Bʼalam.
+# text[spa] = Saqijix abrazó a don Saq B'alam.
+# labels = example:128
+1	Ixta	ixta	NOUN	_	Gender=Fem|NounType=Clf	2	clf	_	_
+2	Saqijix	Saqijix	PROPN	_	_	3	nsubj	_	_
+3	xuqʼetej	qʼetej	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+4	ma	ma	NOUN	_	Gender=Masc|NounType=Clf	5	clf	_	_
+5	Saq	Saq	PROPN	_	_	3	obj	_	_
+6	Bʼalam	Bʼalam	PROPN	_	_	5	flat	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = gdik99:83e8224b80
+# text = Ma Saqteqaw xutzʼät xta Mariʼy.
+# text[spa] = Saqteqaw vio a María.
+# labels = example:128
+1	Ma	ma	NOUN	_	Gender=Masc|NounType=Clf	2	clf	_	_
+2	Saqteqaw	Saqteqaw	PROPN	_	_	3	nsubj	_	_
+3	xutzʼät	tzʼët	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+4	xta	xta	NOUN	_	Gender=Fem|NounType=Clf	5	clf	_	_
+5	Mariʼy	Mariʼy	PROPN	_	_	3	obj	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = gdik99:652373b35f
+# text = Xta Mariʼy xtzʼat ruma ma Saqteqaw.
+# text[spa] = María fue vista por Saqteqaw.
+# labels = example:128
+1	Xta	xta	NOUN	_	Gender=Fem|NounType=Clf	2	clf	_	_
+2	Mariʼy	Mariʼy	PROPN	_	_	3	nsubj	_	_
+3	xtzʼat	tzʼët	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	ruma	oma	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
+5	ma	ma	NOUN	_	Gender=Masc|NounType=Clf	6	clf	_	_
+6	Saqteqaw	Saqteqaw	PROPN	_	_	4	nmod	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = gdik99:f3b5cb1000
 # text = A Xwan xukʼayij xajabʼ pa kʼaybʼäl.
 # text[spa] = Juan vendió zapatos en el mercado.

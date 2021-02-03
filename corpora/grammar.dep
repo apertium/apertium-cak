@@ -18,93 +18,93 @@
 # sent_id = mdik99:e75fb8b43d
 # text = Jun kuk xchäp ruma a Kanek.
 # text[spa] = Una ardilla fue agarrada por Kanek.
-# labels = incomplete example:79
+# labels = check-passive example:79
 "<Jun>"
-	"jun" num
+	"jun" num @det #1->2
 "<kuk>"
-	"kuk" n
+	"kuk" n @nsubj #2->3
 "<xchäp>"
-	"chäp" v tv perf s_sg3
+	"chäp" v tv pass perf s_sg3 @root #3->0
 "<ruma>"
-	"oma" n rel px3sg
+	"oma" n rel px3sg @obl #4->3
 "<a>"
-	"a" clf m
+	"a" clf m @clf #5->6
 "<Kanek>"
-	"Kanek" np ant
+	"Kanek" np ant @nmod #6->4
 "<.>"
-	"." sent
+	"." sent @punct #7->3
 
 # sent_id = gdik99:31fcb693d8
 # text = A Xwan xuqʼetej xta Kanteʼl.
 # text[spa] = Juan abrazó a Candelaria.
-# labels = incomplete example:79
+# labels = example:79
 "<A>"
-	"a" clf m
+	"a" clf m @clf #1->2
 "<Xwan>"
-	"Xwan" np ant
+	"Xwan" np ant @nsubj #2->3
 "<xuqʼetej>"
-	"qʼetej" v tv perf o_sg3 s_sg3
+	"qʼetej" v tv perf o_sg3 s_sg3 @root #3->0
 "<xta>"
-	"xta" clf f
+	"xta" clf f @clf #4->5
 "<Kanteʼl>"
-	"Kanteʼl" np ant
+	"Kanteʼl" np ant @obj #5->3
 "<.>"
-	"." sent
+	"." sent @punct #6->3
 
 # sent_id = gdik99:031a6fa6b9
 # text = Ixta Kanteʼl xqʼetex ruma a Xwan.
 # text[spa] = Candelaria fue abrazada por Juan.
-# labels = incomplete example:79
+# labels = example:79
 "<Ixta>"
-	"ixta" clf f
+	"ixta" clf f @clf #1->2
 "<Kanteʼl>"
-	"Kanteʼl" np ant
+	"Kanteʼl" np ant @nsubj #2->3
 "<xqʼetex>"
-	"qʼetej" v tv pass perf s_sg3
+	"qʼetej" v tv pass perf s_sg3 @root #3->0
 "<ruma>"
-	"oma" n rel px3sg
+	"oma" n rel px3sg @obl #4->3
 "<a>"
-	"a" clf m
+	"a" clf m @clf #5->6
 "<Xwan>"
-	"Xwan" np ant
+	"Xwan" np ant @nmod #6->4
 "<.>"
-	"." sent
+	"." sent @punct #7->3
 
 # sent_id = gdik99:cfdcea193d
 # text = Ri achi xukʼaxaj ri qachʼabäl.
 # text[spa] = El señor escuchó nuestra palabra.
-# labels = incomplete example:80
+# labels = example:80
 "<Ri>"
-	"ri" det
+	"ri" det @det #1->2
 "<achi>"
-	"*achi"
+	"achi" n @nsubj #2->3
 "<xukʼaxaj>"
-	"kʼaxaj" v tv perf o_sg3 s_sg3
+	"kʼaxaj" v tv perf o_sg3 s_sg3 @root #3->0
 "<ri>"
-	"ri" det
+	"ri" det @det #4->5
 "<qachʼabäl>"
-	"chʼabäl" n px1pl
+	"chʼabäl" n px1pl @obj #5->3
 "<.>"
-	"." sent
+	"." sent @punct #6->3
 
 # sent_id = gdik99:82b406c79f
 # text = Ri qachʼabäl xkʼaxäx ruma ri achin.
 # text[spa] = Nuestra palabra fue escuchada por el señor.
-# labels = incomplete example:80
+# labels = example:80
 "<Ri>"
-	"ri" det
+	"ri" det @det #1->2
 "<qachʼabäl>"
-	"chʼabäl" n px1pl
+	"chʼabäl" n px1pl @nsubj #2->3
 "<xkʼaxäx>"
-	"*xkʼaxäx"
+	"kʼaxaj" v tv perf pass s_sg3 @root #3->0
 "<ruma>"
-	"oma" n rel px3sg
+	"oma" n rel px3sg @obl #4->3
 "<ri>"
-	"ri" det
+	"ri" det @det #5->6
 "<achin>"
-	"achin" n
+	"achin" n @nmod #6->4
 "<.>"
-	"." sent
+	"." sent @punct #7->3
 
 # sent_id = gdik99:7cdb3eeb25
 # text = Ri achin xkʼaxan ri qachʼabäl.
@@ -126,58 +126,57 @@
 # sent_id = gdik99:fd0a5ae3c1
 # text = Ixta Saqijix xuqʼetej ma Saq Bʼalam.
 # text[spa] = Saqijix abrazó a don Saq B'alam.
-# labels = incomplete example:128
+# labels = example:128
 "<Ixta>"
-	"ixta" clf f
+	"ixta" clf f @clf #1->2
 "<Saqijix>"
-	"Saqijix" np ant
+	"Saqijix" np ant @nsubj #2->3
 "<xuqʼetej>"
-	"qʼetej" v tv perf o_sg3 s_sg3
+	"qʼetej" v tv perf o_sg3 s_sg3 @root #3->0
 "<ma>"
-	"ma" clf m
+	"ma" clf m @clf #4->5
 "<Saq>"
-	"Saq" np ant
+	"Saq" np ant @obj #5->3
 "<Bʼalam>"
-	"Bʼalam" np ant
-	"bʼalam" n
+	"Bʼalam" np ant @flat #6->5
 "<.>"
-	"." sent
+	"." sent @punct #7->3
 
 # sent_id = gdik99:83e8224b80
 # text = Ma Saqteqaw xutzʼät xta Mariʼy.
 # text[spa] = Saqteqaw vio a María.
-# labels = incomplete example:128
+# labels = example:128
 "<Ma>"
-	"ma" clf m
+	"ma" clf m @clf #1->2
 "<Saqteqaw>"
-	"Saqteqaw" np ant
+	"Saqteqaw" np ant @nsubj #2->3
 "<xutzʼät>"
-	"tzʼët" v tv perf o_sg3 s_sg3
+	"tzʼët" v tv perf o_sg3 s_sg3 @root #3->0
 "<xta>"
-	"xta" clf f
+	"xta" clf f @clf #4->5
 "<Mariʼy>"
-	"Mariʼy" np ant
+	"Mariʼy" np ant @obj #5->3
 "<.>"
-	"." sent
+	"." sent @punct #6->3
 
 # sent_id = gdik99:652373b35f
 # text = Xta Mariʼy xtzʼat ruma ma Saqteqaw.
 # text[spa] = María fue vista por Saqteqaw.
-# labels = incomplete example:128
+# labels = example:128
 "<Xta>"
-	"xta" clf f
+	"xta" clf f @clf #1->2
 "<Mariʼy>"
-	"Mariʼy" np ant
+	"Mariʼy" np ant @nsubj #2->3
 "<xtzʼat>"
-	"tzʼët" v tv pass perf s_sg3
+	"tzʼët" v tv pass perf s_sg3 @root #3->0
 "<ruma>"
-	"oma" n rel px3sg
+	"oma" n rel px3sg @obl #4->3
 "<ma>"
-	"ma" clf m
+	"ma" clf m @clf #5->6
 "<Saqteqaw>"
-	"Saqteqaw" np ant
+	"Saqteqaw" np ant @nmod #6->4
 "<.>"
-	"." sent
+	"." sent @punct #7->3
 
 # sent_id = gdik99:fa23ac6313
 # text = Ri kuk xuroch xta Mariʼy.
@@ -328,7 +327,7 @@
 "<riʼ>"
 	"riʼ" det
 "<jun>"
-	"jun" num
+	"jun" det @det
 "<ikej>"
 	"ikäj" n
 	"kej" n px2pl
@@ -344,7 +343,7 @@
 "<xupalibʼej>"
 	"*xupalibʼej"
 "<jun>"
-	"jun" num
+	"jun" det @det
 "<ikej>"
 	"ikäj" n
 	"kej" n px2pl
@@ -431,7 +430,7 @@
 "<xuchäp>"
 	"chäp" v tv perf o_sg3 s_sg3
 "<jun>"
-	"jun" num
+	"jun" det @det
 "<äkʼ>"
 	"äkʼ" n
 "<.>"
@@ -486,7 +485,7 @@
 "<ri>"
 	"ri" det
 "<jun>"
-	"jun" num
+	"jun" det @det
 "<syan>"
 	"syan" n
 "<.>"
@@ -531,7 +530,7 @@
 "<xintzʼät>"
 	"*xintzʼät"
 "<jun>"
-	"jun" num
+	"jun" det @det
 "<xtän>"
 	"xtän" n
 "<.>"
@@ -1559,7 +1558,7 @@
 "<romaʼ>"
 	"oma" n rel px3sg
 "<jun>"
-	"jun" num
+	"jun" det @det
 "<tzʼiʼ>"
 	"tzʼiʼ" n
 "<?>"
@@ -1580,7 +1579,7 @@
 "<romaʼ>"
 	"oma" n rel px3sg
 "<jun>"
-	"jun" num
+	"jun" det @det
 "<tzʼiʼ>"
 	"tzʼiʼ" n
 "<?>"
@@ -1618,7 +1617,7 @@
 "<Ma>"
 	"ma" clf m
 "<jun>"
-	"jun" num
+	"jun" det @det
 "<achiʼ>"
 	"achin" n
 	"chiʼaj" n px2sg
@@ -1645,7 +1644,7 @@
 "<ta>"
 	"ta" mod
 "<jun>"
-	"jun" num
+	"jun" det @det
 "<Kaqchikel>"
 	"kaqchikel" n
 "<xeleqʼäx>"
@@ -1662,7 +1661,7 @@
 # text[spa] = A cat was bitten by the dog.
 # labels = incomplete
 "<Jun>"
-	"jun" num
+	"jun" det @det
 "<meʼs>"
 	"mes" n
 "<xkibʼaʼ>"
@@ -1681,7 +1680,7 @@
 # text[spa] = A cat was bitten by the dog.
 # labels = incomplete
 "<Jun>"
-	"jun" num
+	"jun" det @det
 "<meʼs>"
 	"mes" n
 "<xbʼax>"
@@ -1702,7 +1701,7 @@
 "<Xbʼax>"
 	"*Xbʼax"
 "<jun>"
-	"jun" num
+	"jun" det @det
 "<meʼs>"
 	"mes" n
 "<romaʼ>"
@@ -1725,7 +1724,7 @@
 "<nrajoʼ>"
 	"*nrajoʼ"
 "<jun>"
-	"jun" num
+	"jun" det @det
 "<chʼich>"
 	"chʼichʼ" n
 "<.>"
@@ -1736,7 +1735,7 @@
 # text[spa] = A car is wanted by Juan.
 # labels = incomplete
 "<Jun>"
-	"jun" num
+	"jun" det @det
 "<chʼich>"
 	"chʼichʼ" n
 "<najowäx>"
@@ -1844,7 +1843,7 @@
 "<romaʼ>"
 	"oma" n rel px3sg
 "<jun>"
-	"jun" num
+	"jun" det @det
 "<kumätz>"
 	"kumätz" n
 "<.>"
@@ -1943,7 +1942,7 @@
 "<Xroqotaj>"
 	"*Xroqotaj"
 "<jun>"
-	"jun" num
+	"jun" det @det
 "<meʼs>"
 	"mes" n
 "<ri>"
@@ -2017,7 +2016,7 @@
 "<Xubʼa>"
 	"bʼaʼ" v tv perf o_sg3 s_sg3
 "<jun>"
-	"jun" num
+	"jun" det @det
 "<tzʼiʼ>"
 	"tzʼiʼ" n
 "<ri>"
@@ -2034,7 +2033,7 @@
 # text[spa] = A dog bit Juan.
 # labels = incomplete
 "<Jun>"
-	"jun" num
+	"jun" det @det
 "<tzʼiʼ>"
 	"tzʼiʼ" n
 "<xbʼaʼo>"
@@ -2056,7 +2055,7 @@
 "<Nibʼaʼon>"
 	"*Nibʼaʼon"
 "<jun>"
-	"jun" num
+	"jun" det @det
 "<tzʼiʼ>"
 	"tzʼiʼ" n
 "<.>"
@@ -2069,7 +2068,7 @@
 "<Xirubʼaʼ>"
 	"bʼaʼ" v tv perf o_sg1 s_sg3
 "<jun>"
-	"jun" num
+	"jun" det @det
 "<tzʼiʼ>"
 	"tzʼiʼ" n
 "<rin>"
@@ -2084,7 +2083,7 @@
 "<Xirubʼaʼ>"
 	"bʼaʼ" v tv perf o_sg1 s_sg3
 "<jun>"
-	"jun" num
+	"jun" det @det
 "<tzʼiʼ>"
 	"tzʼiʼ" n
 "<.>"
@@ -2095,7 +2094,7 @@
 # text[spa] = A dog is barking.
 # labels = incomplete
 "<Jun>"
-	"jun" num
+	"jun" det @det
 "<tzʼiʼ>"
 	"tzʼiʼ" n
 "<nibʼaʼon>"
@@ -2108,7 +2107,7 @@
 # text[spa] = A dog bit me.
 # labels = incomplete
 "<Jun>"
-	"jun" num
+	"jun" det @det
 "<tzʼiʼ>"
 	"tzʼiʼ" n
 "<xibʼaʼo>"
@@ -2123,7 +2122,7 @@
 # text[spa] = A dog bit me.
 # labels = incomplete
 "<Jun>"
-	"jun" num
+	"jun" det @det
 "<tzʼiʼ>"
 	"tzʼiʼ" n
 "<xibʼaʼo>"
@@ -2262,7 +2261,7 @@
 "<romaʼ>"
 	"oma" n rel px3sg
 "<jun>"
-	"jun" num
+	"jun" det @det
 "<tzʼiʼ>"
 	"tzʼiʼ" n
 "<.>"
@@ -2281,7 +2280,7 @@
 "<romaʼ>"
 	"oma" n rel px3sg
 "<jun>"
-	"jun" num
+	"jun" det @det
 "<tzʼiʼ>"
 	"tzʼiʼ" n
 "<.>"
@@ -2516,7 +2515,7 @@
 "<xuchöy>"
 	"*xuchöy"
 "<jun>"
-	"jun" num
+	"jun" det @det
 "<cheʼ>"
 	"cheʼ" n
 "<rukʼin>"
@@ -2639,7 +2638,7 @@
 "<Xutzʼibʼaj>"
 	"tzʼibʼaj" v tv perf o_sg3 s_sg3
 "<jun>"
-	"jun" num
+	"jun" det @det
 "<ütz>"
 	"ütz" adj
 	"ütz" adv
@@ -2755,7 +2754,7 @@
 	"el" dir
 	"el" v iv
 "<jun>"
-	"jun" num
+	"jun" det @det
 "<ti>"
 	"ti" dim
 "<kej>"
@@ -2772,7 +2771,7 @@
 "<xpax>"
 	"paxij" v tv perf s_sg3
 "<jun>"
-	"jun" num
+	"jun" det @det
 "<läq>"
 	"läq" n
 "<.>"
@@ -3033,7 +3032,7 @@
 "<Xulöqʼ>"
 	"löqʼ" v tv perf o_sg3 s_sg3
 "<jun>"
-	"jun" num
+	"jun" det @det
 "<wexaj>"
 	"wexaj" n
 "<ri>"
@@ -3062,7 +3061,7 @@
 "<xusipaj>"
 	"sipaj" v tv perf o_sg3 s_sg3
 "<jun>"
-	"jun" num
+	"jun" det @det
 "<ruq>"
 	"uq" n px3sg
 "<ri>"
