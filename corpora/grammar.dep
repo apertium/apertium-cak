@@ -181,19 +181,19 @@
 # sent_id = gdik99:fa23ac6313
 # text = Ri kuk xuroch xta Mariʼy.
 # text[spa] = La ardilla arañó a María.
-# labels = incomplete example:129
+# labels = example:129
 "<Ri>"
-	"ri" det
+	"ri" det @det #1->2
 "<kuk>"
-	"kuk" n
+	"kuk" n @nsubj #2->3
 "<xuroch>"
-	"rochoj" v tv perf o_sg3 s_sg3
+	"rochoj" v tv perf o_sg3 s_sg3 @root #3->0
 "<xta>"
-	"xta" clf f
+	"xta" clf f @clf #4->5
 "<Mariʼy>"
-	"Mariʼy" np ant
+	"Mariʼy" np ant @obj #5->3
 "<.>"
-	"." sent
+	"." sent @punct #6->3
 
 # sent_id = gdik99:38bd678574
 # text = Man jaʼ ta ri kuk xrocho xta Mariʼy.
@@ -206,34 +206,34 @@
 "<ta>"
 	"ta" mod
 "<ri>"
-	"ri" det
+	"ri" det @det
 "<kuk>"
-	"kuk" n
+	"kuk" n @nsubj
 "<xrocho>"
-	"rochoj" v tv apo perf s_sg3
+	"rochoj" v tv apo perf s_sg3 @root
 "<xta>"
-	"xta" clf f
+	"xta" clf f @clf
 "<Mariʼy>"
-	"Mariʼy" np ant
+	"Mariʼy" np ant @obj
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = gdik99:d73c642e8a
 # text = A Palaʼs xuqʼetej xta Kataʼl.
 # text[spa] = Francisco abrazó a Catarina.
-# labels = incomplete example:130
+# labels = example:130
 "<A>"
-	"a" clf m
+	"a" clf m @clf #1->2
 "<Palaʼs>"
-	"Palaʼs" np ant
+	"Palaʼs" np ant @nsubj #2->3
 "<xuqʼetej>"
-	"qʼetej" v tv perf o_sg3 s_sg3
+	"qʼetej" v tv perf o_sg3 s_sg3 @root #3->0
 "<xta>"
-	"xta" clf f
+	"xta" clf f @clf #4->5
 "<Kataʼl>"
-	"Kataʼl" np ant
+	"Kataʼl" np ant @obj #5->3
 "<.>"
-	"." sent
+	"." sent @punct #6->3
 
 # sent_id = gdik99:b3d77606d4
 # text = Man jaʼ ta a Palaʼs xqʼeten xta Kataʼl.
@@ -263,7 +263,7 @@
 # text[spa] = ¿Quién abrazó a Catarina?
 # labels = incomplete example:130
 "<¿>"
-	"¿" lquest
+	"¿" lquest @punct
 "<Achike>"
 	"achike" prn itg
 "<xqʼeten>"
@@ -273,9 +273,7 @@
 "<Kataʼl>"
 	"Kataʼl" np ant
 "<?>"
-	"?" sent
-"<.>"
-	"." sent
+	"?" sent @punct
 
 # sent_id = gdik99:f3b5cb1000
 # text = A Xwan xukʼayij xajabʼ pa kʼaybʼäl.
@@ -299,40 +297,38 @@
 # sent_id = gdik99:e27380e3df
 # text = A Xwan xkʼayin pa kʼaybʼäl.
 # text[spa] = Juan vendió en el mercado.
-# labels = incomplete example:130
+# labels = example:130
 "<A>"
-	"a" clf m
+	"a" clf m @clf #1->2
 "<Xwan>"
-	"Xwan" np ant
+	"Xwan" np ant @nsubj #2->3
 "<xkʼayin>"
-	"kʼayij" v tv apn perf s_sg3
+	"kʼayij" v tv apn perf s_sg3 @root #3->0
 "<pa>"
-	"pa" pr
+	"pa" pr @case #4->5
 "<kʼaybʼäl>"
-	"kʼaybʼäl" n
-	"kʼayij" v tv ger_ins
+	"kʼaybʼäl" n @obl #5->3
 "<.>"
-	"." sent
+	"." sent @punct #6->3
 
 # sent_id = gdik99:57414188e3
 # text = Nutataʼ xpaʼeʼ pa riʼ jun ikej.
 # text[spa] = Mi papá se paró sobre un hacha.
-# labels = incomplete example:131
+# labels = example:131
 "<Nutataʼ>"
-	"tataʼaj" n px1sg
+	"tataʼaj" n px1sg @nsubj #1->2
 "<xpaʼeʼ>"
-	"paʼeʼ" v iv perf s_sg3
+	"paʼeʼ" v iv perf s_sg3 @root #2->0
 "<pa>"
-	"pa" pr
+	"pa" pr @case #3->6
 "<riʼ>"
-	"riʼ" det
+	"riʼ" prn dem @det #4->6
 "<jun>"
-	"jun" det @det
+	"jun" det @det #5->6
 "<ikej>"
-	"ikäj" n
-	"kej" n px2pl
+	"ikäj" n @obl #6->2
 "<.>"
-	"." sent
+	"." sent @punct #7->2
 
 # sent_id = gdik99:f4776586a6
 # text = Nutataʼ xupalibʼej jun ikej.
@@ -346,95 +342,93 @@
 	"jun" det @det
 "<ikej>"
 	"ikäj" n
-	"kej" n px2pl
 "<.>"
 	"." sent
 
 # sent_id = gdik99:7262de8e0b
 # text = A Xwan xuqʼetej xta Mariʼy.
 # text[spa] = Juan abrazó a María.
-# labels = incomplete example:132
+# labels = example:132
 "<A>"
-	"a" clf m
+	"a" clf m @clf #1->2
 "<Xwan>"
-	"Xwan" np ant
+	"Xwan" np ant @nsubj #2->3
 "<xuqʼetej>"
-	"qʼetej" v tv perf o_sg3 s_sg3
+	"qʼetej" v tv perf o_sg3 s_sg3 @root #3->0
 "<xta>"
-	"xta" clf f
+	"xta" clf f @clf #4->5
 "<Mariʼy>"
-	"Mariʼy" np ant
+	"Mariʼy" np ant @obj #5->3
 "<.>"
-	"." sent
+	"." sent @punct #6->3
 
 # sent_id = gdik99:fa102c5f66
 # text = Xta Mariʼy xqʼetex ruma a Xwan.
 # text[spa] = María fue abrazada por Juan.
-# labels = incomplete example:132
+# labels = example:132
 "<Xta>"
-	"xta" clf f
-"<Mariʼy>"
-	"Mariʼy" np ant
+	"xta" clf f @clf #1->2
+"<Mariʼy>" 
+	"Mariʼy" np ant @nsubj #2->3
 "<xqʼetex>"
-	"qʼetej" v tv pass perf s_sg3
+	"qʼetej" v tv pass perf s_sg3 @root #3->0
 "<ruma>"
-	"oma" n rel px3sg
+	"oma" n rel px3sg @obl #4->3
 "<a>"
-	"a" clf m
+	"a" clf m @clf #5->6
 "<Xwan>"
-	"Xwan" np ant
+	"Xwan" np ant @nmod #6->4
 "<.>"
-	"." sent
+	"." sent @punct #7->3
 
 # sent_id = gdik99:e56a77c49c
 # text = Pa juyuʼ xnutäq wi nukʼajol.
 # text[spa] = Al monte mandé a mi hijo.
-# labels = incomplete example:132
+# labels = example:132
 "<Pa>"
-	"pa" pr
+	"pa" pr @case #1->2
 "<juyuʼ>"
-	"juyuʼ" n
+	"juyuʼ" n @obl #2->3
 "<xnutäq>"
-	"*xnutäq"
+	"taqoj" v tv perf o_sg3 s_sg1 @root #3->0
 "<wi>"
-	"we" cnjsub
-	"wi" mod
+	"wi" foc @discourse #4->3
 "<nukʼajol>"
-	"kʼajol" n px1sg
+	"kʼajol" n px1sg @obj #5->3
 "<.>"
-	"." sent
+	"." sent @punct #6->3
 
 # sent_id = gdik99:19ad81a613
 # text = Xnutäq pa juyuʼ nukʼajol.
 # text[spa] = Mandé a mi hijo al monte.
-# labels = incomplete example:133
+# labels = example:133
 "<Xnutäq>"
-	"*Xnutäq"
+	"taqoj" v tv perf o_sg3 s_sg1 @root #1->0
 "<pa>"
-	"pa" pr
+	"pa" pr @case #1->2
 "<juyuʼ>"
-	"juyuʼ" n
+	"juyuʼ" n @obl #2->1
 "<nukʼajol>"
-	"kʼajol" n px1sg
+	"kʼajol" n px1sg @obj #3->1
 "<.>"
-	"." sent
+	"." sent @punct #4->1
 
 # sent_id = gdik99:b933ab48a4
 # text = A Xwan xuchäp jun äkʼ.
 # text[spa] = Juan agarró una gallina.
-# labels = incomplete example:133
+# labels = example:133
 "<A>"
-	"a" clf m
+	"a" clf m @clf #1->2
 "<Xwan>"
-	"Xwan" np ant
+	"Xwan" np ant @nsubj #2->3
 "<xuchäp>"
-	"chäp" v tv perf o_sg3 s_sg3
+	"chäp" v tv perf o_sg3 s_sg3 @root #3->0
 "<jun>"
-	"jun" det @det
+	"jun" det @det #4->5
 "<äkʼ>"
-	"äkʼ" n
+	"äkʼ" n @obj #5->3
 "<.>"
-	"." sent
+	"." sent @punct #6->3
 
 # sent_id = gdik99:1fdfd88f84
 # text = ¿Achike xchapo ri äkʼ.
@@ -517,24 +511,23 @@
 # text[spa] = Salí al camino y entonces vi a una joven.
 # labels = incomplete example:134
 "<Xinel>"
-	"el" v iv perf s_sg1
+	"el" v iv perf s_sg1 @root
 "<el>"
-	"el" dir
-	"el" v iv
+	"el" adv dir @advmod
 "<pa>"
-	"pa" pr
+	"pa" pr @case
 "<bʼey>"
-	"bʼey" n
+	"bʼey" n @obl
 "<kʼari>"
-	"kʼari" cnjsub
+	"kʼari" cnjsub @mark
 "<xintzʼät>"
-	"*xintzʼät"
+	"tzʼët" v tv perf o_sg1 s_sg1 @!
 "<jun>"
 	"jun" det @det
 "<xtän>"
-	"xtän" n
+	"xtän" n @obj
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = gdik99:96eb14c1ab
 # text = Ri nuchaqʼ yalan joʼonel xbʼe pa juyuʼ.
@@ -866,7 +859,7 @@
 # labels = incomplete example:140
 "<Wi>"
 	"we" cnjsub
-	"wi" mod
+	"wi" foc
 "<nayaʼ>"
 	"yaʼ" v tv impf o_sg3 s_sg2
 "<aqʼaʼ>"
@@ -2608,7 +2601,7 @@
 	"pe" v iv perf s_sg2
 "<wi>"
 	"we" cnjsub
-	"wi" mod
+	"wi" foc
 "<.>"
 	"." sent
 
@@ -2625,7 +2618,7 @@
 "<xatpe>"
 	"pe" v iv perf s_sg2
 "<wi>"
-	"wi" mod
+	"wi" foc
 "<.>"
 	"." sent
 
@@ -2745,7 +2738,7 @@
 "<xikʼo>"
 	"*xikʼo"
 "<el>"
-	"el" dir
+	"el" adv dir
 "<jun>"
 	"jun" det @det
 "<ti>"
@@ -3007,7 +3000,7 @@
 "<xeʼikʼo>"
 	"*xeʼikʼo"
 "<el>"
-	"el" dir
+	"el" adv dir
 	"el" v iv
 "<ri>"
 	"ri" det
