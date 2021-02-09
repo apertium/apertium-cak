@@ -357,8 +357,6 @@ LEXICON V-TV-COMMON
 
 ! TODO: Does this only apply to passive / do we need to switch the agreement?
 @R.Prefijo.1@%<cmpl%>:@R.Prefijo.1@%{≤%}%>%{V%}täj                  # ; ! Prefix: +; Suffix: -{V}täj
-@R.Prefijo.1@%<apo%>:@R.Prefijo.1@%{≤%}%>o                          # ; ! Prefix: +; Suffix: -o
-@R.Prefijo.1@%<apn%>:@R.Prefijo.1@%{≤%}%>%{i%}n                     # ; ! Prefix: +; Suffix: -n      ! FIXME: xk'ayin // nito'on
                                                                     # ; 
 LEXICON TV 
 
@@ -366,37 +364,43 @@ LEXICON TV
 @D.Prefijo@%<v%>%<tv%>%<pp%>:@D.Prefijo@%>%{o%}m                    # ; ! Prefix: -; Suffix: -{o}m;  
 @D.Prefijo@%<v%>%<tv%>%<subs%>:@D.Prefijo@%>ik                      # ; ! Prefix: -; Suffix: -ik;     ! FIXME: Possession
 @R.Pass.SinSujeto@%<v%>%<tv%>%<pass%>:@R.Pass.SinSujeto@%{≤%}            V-TV-COMMON ;
+@R.Prefijo.1@%<anti%>:@R.Prefijo.1@%{≤%}%>%{i%}n                         # ; ! Prefix: +; Suffix: -n      ! FIXME: xk'ayin // nito'on
+@R.Prefijo.1@%<anti%>%<agfoc%>:@R.Prefijo.1@%{≤%}%>o                # ; ! Prefix: +; Suffix: -o
 %<v%>%<tv%>:                                                        V-COMMON ; 
 
 LEXICON TV/Vj
 
 @D.Prefijo@%<v%>%<tv%>%<pp%>:@D.Prefijo@%>%{o%}m                    # ; ! Prefix: -; Suffix: -{o}m;  
 @D.Prefijo@%<v%>%<tv%>%<subs%>:@D.Prefijo@%>ik                      # ; ! Prefix: -; Suffix: -ik;     ! FIXME: Possession
-@R.Pass.SinSujeto@%<v%>%<tv%>%<pass%>:@R.Pass.SinSujeto@%>%{V%}x    V-TV-COMMON ;
-%<v%>%<tv%>:                                                        V-COMMON ; 
+@R.Prefijo.1@%<anti%>:@R.Prefijo.1@%{≤%}%>n                         # ; ! Prefix: +; Suffix: -n      ! FIXME: xk'ayin // nito'on
+@R.Prefijo.1@%<anti%>%<agfoc%>:@R.Prefijo.1@%{≤%}%>ʼo               # ; ! Prefix: +; Suffix: -o
+@R.Pass.SinSujeto@%<v%>%<tv%>%<pass%>:@R.Pass.SinSujeto@%>x         V-TV-COMMON ;
+%<v%>%<tv%>:                                                         V-COMMON ; 
 
 LEXICON TV/ej
 
 @D.Pass.SinSujeto@%<v%>%<tv%>:@D.Pass.SinSujeto@%>ej            # ; 
-                                                                TV/Vj ; 
+%<v%>%<tv%>:e                                                              TV/Vj ; 
+
 LEXICON TV/ij
 
 @D.Pass.SinSujeto@%<v%>%<tv%>:@D.Pass.SinSujeto@%>ij            # ; 
-                                                                TV/Vj ; 
+%<v%>%<tv%>:i                                                              TV/Vj ; 
+
 LEXICON TV/uj
 
 @D.Pass.SinSujeto@%<v%>%<tv%>:@D.Pass.SinSujeto@%>uj            # ; 
-                                                                TV/Vj ; 
+%<v%>%<tv%>:u                                                              TV/Vj ; 
 
 LEXICON TV/aj
 
 @D.Pass.SinSujeto@%<v%>%<tv%>:@D.Pass.SinSujeto@%>aj            # ; 
-                                                                TV/Vj ; 
+%<v%>%<tv%>:a                                                              TV/Vj ; 
 
 LEXICON TV/oj
 
 @D.Pass.SinSujeto@%<v%>%<tv%>:@D.Pass.SinSujeto@%>oj            # ; 
-                                                                TV/Vj ; 
+%<v%>%<tv%>:o                                                              TV/Vj ; 
 
 LEXICON IV 
 
