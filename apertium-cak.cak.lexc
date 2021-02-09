@@ -501,14 +501,14 @@ ni%<ij%>:ni # ; ! "no"
 
 LEXICON Contracciones
 
-chi%<pr%>%+re%<prn%>:chire # ;  ! Use/Sub ! TODO: Check this
-chi%<pr%>%+re%<prn%>:chre # ;  ! Use/Sub ! TODO: Check this
-chi%<pr%>%+re%<prn%>:chiraʼ # ;  ! Use/Sub ! TODO: Check this
+chi%<pr%>%+ech%<n%>%<rel%>%<px3sg%>:chire # ;  ! Use/Sub ! TODO: Check this
+chi%<pr%>%+ech%<n%>%<rel%>%<px3sg%>:chre # ;  ! Use/Sub ! TODO: Check this
+chi%<pr%>%+ech%<n%>%<rel%>%<px3sg%>:chiraʼ # ;  ! Use/Sub ! TODO: Check this
 
-chi%<pr%>%+rïn%<prn%>:chwe # ;  ! Use/Sub ! Src/npass ! TODO: Check this
-chi%<pr%>%+rïn%<prn%>:chweʼ # ;  ! Use/Sub ! Src/kwo ! TODO: Check this
+chi%<pr%>%+ech%<n%>%<rel%>%<px1sg%>:chwe # ;  ! Use/Sub ! Src/npass ! TODO: Check this
+chi%<pr%>%+ech%<n%>%<rel%>%<px1sg%>:chweʼ # ;  ! Use/Sub ! Src/kwo ! TODO: Check this
 
-chi%<pr%>%+rat%<prn%>:chawe # ;  ! Use/Sub ! Src/wiki
+chi%<pr%>%+ech%<n%>%<rel%>%<px2sg%>:chawe # ;  ! Use/Sub ! Src/wiki
 
 chi%<pr%>%+pam%<n%>%<rel%>%<px3sg%>:chupam # ; ! Use/Sub ! TODO: Check this
 chi%<pr%>%+wäch%<n%>%<rel%>%<px3sg%>:chuwäch # ; ! Use/Sub ! TODO: Check this

@@ -1074,10 +1074,10 @@
 
 # sent_id = npass:6e930f909c
 # text = Ri tzʼiʼ xkichäp romaʼ ri achin.
-# text[spa] = The dog was grabbedby the man.
+# text[spa] = The dog was grabbed by the man.
 # labels = incomplete
 "<Ri>"
-	"ri" det
+	"ri" det @det
 "<tzʼiʼ>"
 	"tzʼiʼ" n
 "<xkichäp>"
@@ -1461,29 +1461,28 @@
 # sent_id = npass:df8ebe9b08
 # text = A Juan xubʼij chwe chi xbʼax romaʼ ri tzʼiʼ.
 # text[spa] = Juan 1 told me that he 1 was bitten by the dog.
-# labels = incomplete
+# labels = complete
 "<A>"
-	"a" clf m
+	"a" clf m @clf #1->2
 "<Juan>"
-	"Juan" np ant
+	"Juan" np ant @nsubj #2->3
 "<xubʼij>"
-	"bʼij" v tv perf o_sg3 s_sg3
+	"bʼij" v tv perf o_sg3 s_sg3 @root #3->0
 "<chwe>"
-	"chi" pr
-		"rïn" prn
+	"chi" pr @case #4->5
+		"ech" n rel px1sg @obl #5->3
 "<chi>"
-	"chi" pr
-	"chi" cnjsub
+	"chi" cnjsub @mark #6->7
 "<xbʼax>"
-	"*xbʼax"
+	"bʼaʼ" v tv pass perf s_sg3 @ccomp #7->3
 "<romaʼ>"
-	"oma" n rel px3sg
+	"oma" n rel px3sg @obl #8->7
 "<ri>"
-	"ri" det
+	"ri" det @det #9->10
 "<tzʼiʼ>"
-	"tzʼiʼ" n
+	"tzʼiʼ" n @nmod #10->8
 "<.>"
-	"." sent
+	"." sent @punct #11->3
 
 # sent_id = npass:efd58331c8
 # text = A Juan xubʼij chwe xkibʼaʼ romaʼ ri tzʼiʼ.
@@ -1497,7 +1496,7 @@
 	"bʼij" v tv perf o_sg3 s_sg3
 "<chwe>"
 	"chi" pr
-		"rïn" prn
+		"ech" n rel px1sg @obl #5->3
 "<xkibʼaʼ>"
 	"bʼaʼ" v tv perf o_sg3 s_pl3
 "<romaʼ>"
@@ -1541,7 +1540,7 @@
 # text[spa] = Who was bitten by a dog?
 # labels = incomplete
 "<Chike>"
-	"*Chike"
+	"chike" prn itg
 "<xbʼax>"
 	"*xbʼax"
 "<romaʼ>"
@@ -1549,11 +1548,9 @@
 "<jun>"
 	"jun" det @det
 "<tzʼiʼ>"
-	"tzʼiʼ" n
+	"tzʼiʼ" n @
 "<?>"
 	"?" sent
-"<.>"
-	"." sent
 
 # sent_id = npass:0dac07d507
 # text = Chike achin xkibʼaʼ romaʼ jun tzʼiʼ?
@@ -1573,8 +1570,6 @@
 	"tzʼiʼ" n
 "<?>"
 	"?" sent
-"<.>"
-	"." sent
 
 # sent_id = npass:39743d836e
 # text = Romaʼ achike tzʼiʼ xkibʼaʼ ri a Juan?
@@ -1609,8 +1604,6 @@
 	"jun" det @det
 "<achiʼ>"
 	"achin" n
-	"chiʼaj" n px2sg
-	"chiʼ" n rel px2sg
 "<xbʼax>"
 	"*xbʼax"
 "<romaʼ>"
@@ -1650,19 +1643,19 @@
 # text[spa] = A cat was bitten by the dog.
 # labels = incomplete
 "<Jun>"
-	"jun" det @det
+	"jun" det @det #1->2
 "<meʼs>"
-	"mes" n
+	"mes" n @nsubj #2->3
 "<xkibʼaʼ>"
-	"bʼaʼ" v tv perf o_sg3 s_pl3
+	"bʼaʼ" v tv perf o_sg3 s_pl3 @root
 "<romaʼ>"
-	"oma" n rel px3sg
+	"oma" n rel px3sg @obl #4->3
 "<ri>"
-	"ri" det
+	"ri" det @det #5->6
 "<tzʼiʼ>"
-	"tzʼiʼ" n
+	"tzʼiʼ" n @nmod #6->3
 "<.>"
-	"." sent
+	"." sent @punct #7->3
 
 # sent_id = npass:2f733d1d53
 # text = Jun meʼs xbʼax romaʼ ri tzʼiʼ.
