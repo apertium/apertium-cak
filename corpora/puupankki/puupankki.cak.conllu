@@ -265,6 +265,82 @@
 1	Xewär	wär	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
 2	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = npass:df437474ab
+# text = Ri alabʼoniʼ xekitij ri wäʼy.
+# text[spa] = The boys ate the tortillas.
+# labels = incomplete
+1	Ri	ri	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	alabʼoniʼ	alabʼom	NOUN	_	Number=Plur	3	nsubj	_	_
+3	xekitij	tij	VERB	_	Aspect=Perf|Number[obj]=Plur|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
+5	wäʼy	wäy	NOUN	_	_	3	obj	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = kwo:b993717c7a
+# text = Xubʼa ri tzʼiʼ ri meʼs.
+# text[spa] = The dog bit the cat.
+# labels = complete check-dislocated
+1	Xubʼa	bʼaʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+2	ri	ri	DET	_	Definite=Def|PronType=Art	3	det	_	_
+3	tzʼiʼ	tzʼiʼ	NOUN	_	_	1	nsubj	_	_
+4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
+5	meʼs	mes	NOUN	_	_	1	obj	_	_
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = kwo:ce3d59c7c3
+# text = Ri tzʼiʼ xubʼa ri meʼs.
+# text[spa] = The dog bit the cat.
+# labels = complete
+1	Ri	ri	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	tzʼiʼ	tzʼiʼ	NOUN	_	_	3	nsubj	_	_
+3	xubʼa	bʼaʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
+5	meʼs	mes	NOUN	_	_	3	obj	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = kwo:06a61707e9
+# text = Xuloqʼ ri wäʼy Maria.
+# text[spa] = Maria bought the tortillas.
+# labels = complete
+1	Xuloqʼ	löqʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+2	ri	ri	DET	_	Definite=Def|PronType=Art	3	det	_	_
+3	wäʼy	wäy	NOUN	_	_	1	obj	_	_
+4	Maria	Maria	PROPN	_	_	1	nsubj	_	_
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = kwo:fa35533bbe
+# text = Xubʼa jun tzʼiʼ ri a Juan.
+# text[spa] = Juan bit a dog.
+# labels = complete
+1	Xubʼa	bʼaʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+2	jun	jun	DET	_	Definite=Ind|PronType=Art	3	det	_	_
+3	tzʼiʼ	tzʼiʼ	NOUN	_	_	1	obj	_	_
+4	ri	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
+5	a	a	NOUN	_	Gender=Masc|NounType=Clf	6	clf	_	_
+6	Juan	Juan	PROPN	_	_	1	nsubj	_	_
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = kwo:8897796ccf
+# text = Jun tzʼiʼ xbʼaʼo ri a Juan.
+# text[spa] = A dog bit Juan.
+# labels = complete
+1	Jun	jun	DET	_	Definite=Ind|PronType=Art	2	det	_	_
+2	tzʼiʼ	tzʼiʼ	NOUN	_	_	3	nsubj	_	_
+3	xbʼaʼo	bʼaʼ	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=AgFoc	0	root	_	_
+4	ri	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
+5	a	a	NOUN	_	Gender=Masc|NounType=Clf	6	clf	_	_
+6	Juan	Juan	PROPN	_	_	3	dislocated	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = kwo:47e3d84fc7
+# text = Xirubʼaʼ jun tzʼiʼ.
+# text[spa] = A dog bit me.
+# labels = complete
+1	Xirubʼaʼ	bʼaʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=1|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+2	jun	jun	DET	_	Definite=Ind|PronType=Art	3	det	_	_
+3	tzʼiʼ	tzʼiʼ	NOUN	_	_	1	nsubj	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = mdrk:ca509c65f3
 # text = Xutzʼibʼaj jun ütz wuj ri a Kajiʼ Kawoq.
 # text[spa] = Kajiʼ Kawoq escribió un buen libro.

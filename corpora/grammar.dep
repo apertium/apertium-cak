@@ -1801,98 +1801,95 @@
 # sent_id = npass:d95769c798
 # text = Ri wäʼy xtij romaʼ ri achin. 
 # text[spa] = The tortilla was eaten by the man.
-# labels = incomplete
+# labels = complete
 "<Ri>"
-	"ri" det
+	"ri" det @det #1->2
 "<wäʼy>"
-	"wäy" n
+	"wäy" n @nsubj #2->3
 "<xtij>"
-	"tijoj" v tv perf s_sg3
-	"tij" v tv perf s_sg3
-	"tij" v tv pass perf s_sg3
+	"tij" v tv pass perf s_sg3 @root #3->0
 "<romaʼ>"
-	"oma" n rel px3sg
+	"oma" n rel px3sg @obl #4->3
 "<ri>"
-	"ri" det
+	"ri" det @det #5->6
 "<achin>"
-	"achin" n
+	"achin" n @nmod #6->4
 "<.>"
-	"." sent
+	"." sent @punct #7->3
  
 # sent_id = npass:61f1a673c8
 # text = A Juan y Maria xebʼax romaʼ jun kumätz.
 # text[spa] = Juan and Maria were bitten by a snake.
-# labels = incomplete
+# labels = complete
 "<A>"
-	"a" clf m
+	"a" clf m @clf #1->2
 "<Juan>"
-	"Juan" np ant
+	"Juan" np ant @nsubj #2->5
 "<y>"
-	"y" cnjcoo
+	"y" cnjcoo @cc #3->4
 "<Maria>"
-	"Maria" np ant
+	"Maria" np ant @conj #4->2
 "<xebʼax>"
-	"*xebʼax"
+	"bʼaj" v tv pass perf s_pl3 @root #5->0
 "<romaʼ>"
-	"oma" n rel px3sg
+	"oma" n rel px3sg @obl #6->5
 "<jun>"
-	"jun" det @det
+	"jun" det @det #7->8
 "<kumätz>"
-	"kumätz" n
+	"kumätz" n @nmod #8->5
 "<.>"
-	"." sent
+	"." sent @punct #9->5
 
 # sent_id = npass:df437474ab
 # text = Ri alabʼoniʼ xekitij ri wäʼy.
 # text[spa] = The boys ate the tortillas.
 # labels = incomplete
 "<Ri>"
-	"ri" det
+	"ri" det @det #1->2
 "<alabʼoniʼ>"
-	"alabʼom" n pl
+	"alabʼom" n pl @nsubj #2->3
 "<xekitij>"
-	"tijoj" v tv perf o_pl3 s_pl3
-	"tij" v tv perf o_pl3 s_pl3
+	"tij" v tv perf o_pl3 s_pl3 @root #3->0
 "<ri>"
-	"ri" det
+	"ri" det @det #4->5
 "<wäʼy>"
-	"wäy" n
+	"wäy" n @obj #5->3
 "<.>"
-	"." sent
+	"." sent @punct #6->3
 
 # sent_id = kwo:b993717c7a
 # text = Xubʼa ri tzʼiʼ ri meʼs.
 # text[spa] = The dog bit the cat.
-# labels = incomplete
+# labels = complete check-dislocated
 "<Xubʼa>"
-	"bʼaʼ" v tv perf o_sg3 s_sg3
+	"bʼaʼ" v tv perf o_sg3 s_sg3 @root #1->0
 "<ri>"
-	"ri" det
+	"ri" det @det #2->3
 "<tzʼiʼ>"
-	"tzʼiʼ" n
+	"tzʼiʼ" n @nsubj #3->1
 "<ri>"
-	"ri" det
+	"ri" det @det #4->5
 "<meʼs>"
-	"mes" n
+	"mes" n @obj #5->1
 "<.>"
-	"." sent
+	"." sent @punct #6->1
 
 # sent_id = kwo:ce3d59c7c3
 # text = Ri tzʼiʼ xubʼa ri meʼs.
 # text[spa] = The dog bit the cat.
-# labels = incomplete
+# labels = complete
 "<Ri>"
-	"ri" det
+	"ri" det @det #1->2
 "<tzʼiʼ>"
-	"tzʼiʼ" n
+	"tzʼiʼ" n @nsubj #2->3
 "<xubʼa>"
-	"bʼaʼ" v tv perf o_sg3 s_sg3
+	"bʼaʼ" v tv perf o_sg3 s_sg3 @root #3->0
 "<ri>"
-	"ri" det
+	"ri" det @det #4->5
 "<meʼs>"
-	"mes" n
+	"mes" n @obj #5->3
 "<.>"
-	"." sent
+	"." sent @punct #6->3
 
 # sent_id = kwo:69ec5a3e7d
 # text = Xroqotaj ri tzʼiʼ ri meʼs.
@@ -1948,17 +1945,17 @@
 # sent_id = kwo:06a61707e9
 # text = Xuloqʼ ri wäʼy Maria.
 # text[spa] = Maria bought the tortillas.
-# labels = incomplete
+# labels = complete
 "<Xuloqʼ>"
-	"löqʼ" v tv perf o_sg3 s_sg3
+	"löqʼ" v tv perf o_sg3 s_sg3 @root #1->0
 "<ri>"
-	"ri" det
+	"ri" det @det #2->3
 "<wäʼy>"
-	"wäy" n
+	"wäy" n @obj #3->1
 "<Maria>"
-	"Maria" np ant
+	"Maria" np ant @nsubj #4->1
 "<.>"
-	"." sent
+	"." sent @punct #5->1
 
 # sent_id = kwo:17eb20e77f
 # text = Xroqotaj ri xta Maria ri a Juan.
@@ -2005,41 +2002,40 @@
 # sent_id = kwo:fa35533bbe
 # text = Xubʼa jun tzʼiʼ ri a Juan.
 # text[spa] = Juan bit a dog.
-# labels = incomplete
+# labels = complete
 "<Xubʼa>"
-	"bʼaʼ" v tv perf o_sg3 s_sg3
+	"bʼaʼ" v tv perf o_sg3 s_sg3 @root #1->0
 "<jun>"
-	"jun" det @det
+	"jun" det @det #2->3
 "<tzʼiʼ>"
-	"tzʼiʼ" n
+	"tzʼiʼ" n @obj #3->1
 "<ri>"
-	"ri" det
+	"ri" det @det #4->6
 "<a>"
-	"a" clf m
+	"a" clf m @clf #5->6
 "<Juan>"
-	"Juan" np ant
+	"Juan" np ant @nsubj #6->1
 "<.>"
-	"." sent
+	"." sent @punct #7->1
 
 # sent_id = kwo:8897796ccf
 # text = Jun tzʼiʼ xbʼaʼo ri a Juan.
 # text[spa] = A dog bit Juan.
-# labels = incomplete
+# labels = complete
 "<Jun>"
-	"jun" det @det
+	"jun" det @det #1->2
 "<tzʼiʼ>"
-	"tzʼiʼ" n
+	"tzʼiʼ" n @nsubj #2->3
 "<xbʼaʼo>"
-	"bʼaʼ" v tv anti agfoc perf s_sg3
-	"bʼaʼ" v tv pass anti agfoc perf s_sg3
+	"bʼaʼ" v tv anti agfoc perf s_sg3 @root #3->0
 "<ri>"
-	"ri" det
+	"ri" det @det #4->6
 "<a>"
-	"a" clf m
+	"a" clf m @clf #5->6
 "<Juan>"
-	"Juan" np ant
+	"Juan" np ant @dislocated #6->3
 "<.>"
-	"." sent
+	"." sent @punct #7->3
 
 # sent_id = kwo:717f4ade1e
 # text = Nibʼaʼon jun tzʼiʼ.
@@ -2072,15 +2068,15 @@
 # sent_id = kwo:47e3d84fc7
 # text = Xirubʼaʼ jun tzʼiʼ.
 # text[spa] = A dog bit me.
-# labels = incomplete
+# labels = complete
 "<Xirubʼaʼ>"
-	"bʼaʼ" v tv perf o_sg1 s_sg3
+	"bʼaʼ" v tv perf o_sg1 s_sg3 @root #1->0
 "<jun>"
-	"jun" det @det
+	"jun" det @det #2->3
 "<tzʼiʼ>"
-	"tzʼiʼ" n
+	"tzʼiʼ" n @nsubj #3->1
 "<.>"
-	"." sent
+	"." sent @punct #4->1
 
 # sent_id = kwo:ad22d26d1a
 # text = Jun tzʼiʼ nibʼaʼon.
@@ -2337,14 +2333,6 @@
 "<.>"
 	"." sent
 
-# sent_id = #:9762053d4d
-# text = #
-# text[spa] = #
-# labels = incomplete example:#
-#
-"<.>"
-	"." sent
-
 # sent_id = kwo:cb901c277b
 # text = Ja ri wäʼy xuloqʼ Maria.
 # text[spa] = It was the tortillas that Maria bought.
@@ -2360,14 +2348,6 @@
 	"löqʼ" v tv perf o_sg3 s_sg3
 "<Maria>"
 	"Maria" np ant
-"<.>"
-	"." sent
-
-# sent_id = #:9762053d4d
-# text = #
-# text[spa] = #
-# labels = incomplete example:#
-#
 "<.>"
 	"." sent
 
