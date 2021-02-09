@@ -375,7 +375,7 @@ LEXICON TV/Vj
 @R.Prefijo.1@%<anti%>:@R.Prefijo.1@%{≤%}%>n                         # ; ! Prefix: +; Suffix: -n      ! FIXME: xk'ayin // nito'on
 @R.Prefijo.1@%<anti%>%<agfoc%>:@R.Prefijo.1@%{≤%}%>ʼo               # ; ! Prefix: +; Suffix: -o
 @R.Pass.SinSujeto@%<v%>%<tv%>%<pass%>:@R.Pass.SinSujeto@%>x         V-TV-COMMON ;
-%<v%>%<tv%>:                                                         V-COMMON ; 
+%<v%>%<tv%>:j                                                         V-COMMON ; 
 
 LEXICON TV/ej
 
@@ -390,7 +390,7 @@ LEXICON TV/ij
 LEXICON TV/uj
 
 @D.Pass.SinSujeto@%<v%>%<tv%>:@D.Pass.SinSujeto@%>uj            # ; 
-%<v%>%<tv%>:u                                                              TV/Vj ; 
+%<v%>%<tv%>:u                                                   TV/Vj ; 
 
 LEXICON TV/aj
 

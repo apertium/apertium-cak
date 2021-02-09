@@ -46,6 +46,7 @@ Vx:0 <=> _ %>: :Vow  ;
 
 "Alternation of {n} in verbal prefixes"
 %{n%}:n <=>  i _ %>: :Vow ; 
+             i _ %>: k ;
 
 "Alternation of {ъ} in verbal prefixes"
 %{ъ%}:ʼ <=> _ %>: :Vow ; 

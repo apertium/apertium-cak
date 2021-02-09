@@ -258,12 +258,78 @@
 5	juyuʼ	juyuʼ	NOUN	_	_	3	obl	_	_
 6	.	.	PUNCT	_	_	3	punct	_	_
 
+# sent_id = npass:1e090a4eaf
+# text = Ri achin xuchʼäy ri tzʼiʼ.
+# text[spa] = The man hit the dog.
+# labels = complete
+1	Ri	ri	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	achin	achin	NOUN	_	_	3	nsubj	_	_
+3	xuchʼäy	chʼäy	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
+5	tzʼiʼ	tzʼiʼ	NOUN	_	_	3	obj	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = npass:7a3596089f
+# text = Xinkikʼutuj.
+# text[spa] = They asked me.
+# labels = complete
+1	Xinkikʼutuj	kʼutuj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=1|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = npass:4fc1ffe13e
 # text = Xewär.
 # text[spa] = They slept.
 # labels = complete
 1	Xewär	wär	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
 2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = npass:56730e6e9a
+# text = Yerunäq kan ri alabʼom.
+# text[spa] = She was bothering the children.
+# labels = complete
+1	Yerunäq	näq	VERB	_	Aspect=Imp|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+2	kan	kan	ADV	_	AdvType=Dir	1	advmod	_	_
+3	ri	ri	DET	_	Definite=Def|PronType=Art	4	det	_	_
+4	alabʼom	alabʼom	NOUN	_	_	1	obj	_	_
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = npass:8028f3c7f5
+# text = Ri tzʼiʼ xchʼay romaʼ ri achin.
+# text[spa] = The dog was hit by the man.
+# labels = complete
+1	Ri	ri	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	tzʼiʼ	tzʼiʼ	NOUN	_	_	3	nsubj	_	_
+3	xchʼay	chʼäy	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	romaʼ	oma	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
+5	ri	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
+6	achin	achin	NOUN	_	_	3	nmod	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = npass:905ebbe47a
+# text = Ri a Juan xutij riwäʼy.
+# text[spa] = Juan ate the tortilla.
+# labels = complete
+1	Ri	ri	DET	_	Definite=Def|PronType=Art	3	det	_	_
+2	a	a	NOUN	_	Gender=Masc|NounType=Clf	3	clf	_	_
+3	Juan	Juan	PROPN	_	_	4	nsubj	_	_
+4	xutij	tij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+5-6	riwäʼy	_	_	_	_	_	_	_	_
+5	*riwäʼy	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
+6		wäʼy	NOUN	_	_	4	obj	_	_
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = npass:2438430e84
+# text = Ri wäʼy xtij romaʼ ri a Juan.
+# text[spa] = The tortilla was eaten by Juan.
+# labels = complete
+1	Ri	ri	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	wäʼy	wäy	NOUN	_	_	3	nsubj	_	_
+3	xtij	tij	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	romaʼ	oma	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
+5	ri	ri	DET	_	Definite=Def|PronType=Art	7	det	_	_
+6	a	a	NOUN	_	Gender=Masc|NounType=Clf	7	clf	_	_
+7	Juan	Juan	PROPN	_	_	4	nmod	_	_
+8	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = npass:df437474ab
 # text = Ri alabʼoniʼ xekitij ri wäʼy.
