@@ -364,17 +364,17 @@ LEXICON TV
 @D.Prefijo@%<v%>%<tv%>%<pp%>:@D.Prefijo@%>%{o%}m                    # ; ! Prefix: -; Suffix: -{o}m;  
 @D.Prefijo@%<v%>%<tv%>%<subs%>:@D.Prefijo@%>ik                      # ; ! Prefix: -; Suffix: -ik;     ! FIXME: Possession
 @R.Pass.SinSujeto@%<v%>%<tv%>%<pass%>:@R.Pass.SinSujeto@%{≤%}            V-TV-COMMON ;
-@R.Prefijo.1@%<anti%>:@R.Prefijo.1@%{≤%}%>%{i%}n                         # ; ! Prefix: +; Suffix: -n      ! FIXME: xk'ayin // nito'on
-@R.Prefijo.1@%<anti%>%<agfoc%>:@R.Prefijo.1@%{≤%}%>o                # ; ! Prefix: +; Suffix: -o
+@R.Prefijo.1@%<v%>%<tv%>%<anti%>:@R.Prefijo.1@%{≤%}%>%{i%}n                         # ; ! Prefix: +; Suffix: -n      ! FIXME: xk'ayin // nito'on
+@R.Prefijo.1@%<v%>%<tv%>%<anti%>%<agfoc%>:@R.Prefijo.1@%{≤%}%>o                # ; ! Prefix: +; Suffix: -o
 %<v%>%<tv%>:                                                        V-COMMON ; 
 
 LEXICON TV/Vj
 
-@D.Prefijo@%<v%>%<tv%>%<pp%>:@D.Prefijo@%>%{o%}m                    # ; ! Prefix: -; Suffix: -{o}m;  
-@D.Prefijo@%<v%>%<tv%>%<subs%>:@D.Prefijo@%>ik                      # ; ! Prefix: -; Suffix: -ik;     ! FIXME: Possession
+@D.Prefijo@%<pp%>:@D.Prefijo@%>%{o%}m                    # ; ! Prefix: -; Suffix: -{o}m;  
+@D.Prefijo@%<subs%>:@D.Prefijo@%>ik                      # ; ! Prefix: -; Suffix: -ik;     ! FIXME: Possession
 @R.Prefijo.1@%<anti%>:@R.Prefijo.1@%{≤%}%>n                         # ; ! Prefix: +; Suffix: -n      ! FIXME: xk'ayin // nito'on
 @R.Prefijo.1@%<anti%>%<agfoc%>:@R.Prefijo.1@%{≤%}%>ʼo               # ; ! Prefix: +; Suffix: -o
-@R.Pass.SinSujeto@%<v%>%<tv%>%<pass%>:@R.Pass.SinSujeto@%>x         V-TV-COMMON ;
+@R.Pass.SinSujeto@%<pass%>:@R.Pass.SinSujeto@%>x         V-TV-COMMON ;
 %<v%>%<tv%>:j                                                         V-COMMON ; 
 
 LEXICON TV/ej
@@ -1455,6 +1455,7 @@ kʼwaj:kʼwaj TV ; ! "llevar"
 qʼetej:qʼet TV/ej ; ! "abrazar"
 kamisaj:kamis TV/aj ; ! "matar"
 kʼaxaj:kʼax TV/aj ; ! "escuchar"
+palibʼej:palibʼ TV/ej ; ! ""
 
 retz:retz TV ; ! "romper"
 tzäq:tzäq TV ; ! "botar"
@@ -1479,8 +1480,10 @@ bʼij:bʼij TV ; ! "decir"
 bʼij:bʼïj TV ; ! "decir" ! Use/Sub ! Src/story
 bʼaʼ:bʼaʼ TV ; ! "morder"
 bʼaʼ:bʼa TV ; ! "morder" ! Use/Sub ! Src/kwo
+bʼaʼ:bʼ TV/aj ; ! "morder" ! FIXME: check
 
 qot:qot TV ; ! ""
+juchʼ:juchʼ TV ; ! ""
 
 tzʼibʼaj:tzʼibʼ TV/aj ; ! "escribir"
 
