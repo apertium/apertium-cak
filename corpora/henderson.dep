@@ -363,17 +363,17 @@
 # text[orig] = Xixajon rik’in wana’ iwïr.
 # text[gloss] = Xi-Ø-xajon r-ik’in w-ana’ iwïr.
 # text[eng] = He danced with my sister yesterday.
-# label = incomplete
+# label = complete
 "<Xixajon>"
-	"*Xixajon"
+	"xajon" v iv perf s_sg3 @root #1->0
 "<rikʼin>"
-	"ikʼin" n rel px3sg @obl
+	"ikʼin" n rel px3sg @obl #2->1
 "<wanaʼ>"
-	"anaʼ" n px1sg @nmod
+	"anaʼ" n px1sg @nmod #3->2
 "<iwïr>"
-	"iwïr" adv @advmod
+	"iwïr" adv @advmod #4->1
 "<.>"
-	"." sent @punct
+	"." sent @punct #5->1
 
 # sent_id = henderson:17a
 # text = Xulöqʼ ri äkʼ pa kʼaybʼal ri xta Irma.
@@ -424,15 +424,15 @@
 # text[orig] = Xuchʼobʼej ri ixöq. 
 # text[gloss] = X-Ø-u-chʼo-bʼe-j ri ixöq. 
 # text[eng] = He spoke to the woman.
-# label = incomplete
+# label = complete
 "<Xuchʼobʼej>"
-	"*Xuchʼobʼej"
+	"chʼobʼej" v tv perf o_sg3 s_sg3 @root #1->0
 "<ri>"
-	"ri" det
+	"ri" det @det #2->3
 "<ixöq>"
-	"ixöq" n
+	"ixöq" n @obj #3->1
 "<.>"
-	"." sent
+	"." sent @punct #4->1
 
 # sent_id = henderson:18c
 # text = Xatrutzijobʼej ri ixöq.
@@ -505,104 +505,100 @@
 # text[orig] = Yisamäj pa kʼaybʼal.
 # text[gloss] = Y-i-samäj pa kʼaybʼal.
 # text[eng] = I work in the market.
-# label = incomplete
+# label = complete
 "<Yisamäj>"
-	"samäj" v iv impf s_sg1
+	"samäj" v iv impf s_sg1 @root #1->0
 "<pa>"
-	"pa" pr
+	"pa" pr @case #2->3
 "<kʼaybʼal>"
-	"kʼaybʼäl" n
+	"kʼaybʼäl" n @obl #3->1
 "<.>"
-	"." sent
+	"." sent @punct #4->1
 
 # sent_id = henderson:22b
 # text = Yisamäj rikʼin jun wachbʼil.
 # text[orig] = Yisamäj rikʼin jun wachbʼil. 
 # text[gloss] = Y-i-samäj r-ikʼin jun w-achbʼil. 
 # text[eng] = I work with a friend.
-# label = incomplete
+# label = complete
 "<Yisamäj>"
-	"samäj" v iv impf s_sg1
+	"samäj" v iv impf s_sg1 @root #1->0
 "<rikʼin>"
-	"ikʼin" n rel px3sg
+	"ikʼin" n rel px3sg @obl #2->1
 "<jun>"
-	"jun" num
+	"jun" num @det #3->4
 "<wachbʼil>"
-	"*wachbʼil"
+	"achbʼil" n px1sg @nmod #4->2
 "<.>"
-	"." sent
+	"." sent @punct #5->1
 
 # sent_id = henderson:22c
 # text = Yisamäj rikʼin jun ikäj.
 # text[orig] = Yisamäj rikʼin jun ikäj. 
 # text[gloss] = Y-i-samäj r-ikʼin jun ikäj. 
 # text[eng] = I work with a hatchet.
-# label = incomplete
+# label = complete
 "<Yisamäj>"
-	"samäj" v iv impf s_sg1
+	"samäj" v iv impf s_sg1 @root #1->0
 "<rikʼin>"
-	"ikʼin" n rel px3sg
+	"ikʼin" n rel px3sg @obl #2->1
 "<jun>"
-	"jun" num
+	"jun" num @det #3->4
 "<ikäj>"
-	"ikäj" n
+	"ikäj" n @nmod #4->2
 "<.>"
-	"." sent
+	"." sent @punct #5->1
 
 # sent_id = henderson:22d
 # text = Yisamäj pa ruwiʼ ri aqʼom.
 # text[orig] = Yisamäj pa ruwiʼ ri aqʼom. 
 # text[gloss] = Y-i-samäj pa ru-wiʼ ri aqʼom. 
 # text[eng] = I work about (in) medicine.
-# label = incomplete
+# label = complete
 "<Yisamäj>"
-	"samäj" v iv impf s_sg1
+	"samäj" v iv impf s_sg1 @root #1->0
 "<pa>"
-	"pa" pr
+	"pa" pr @case #2->3
 "<ruwiʼ>"
-	"ruwiʼ" n px3sg
-	"wiʼaj" n px3sg
-	"wiʼ" n rel px3sg
+	"wiʼ" n rel px3sg @obl #3->1
 "<ri>"
-	"ri" det
+	"ri" det @det #4->3
 "<aqʼom>"
-	"aqʼom" n
+	"aqʼom" n @nmod #5->3
 "<.>"
-	"." sent
+	"." sent @punct #6->1
 
 # sent_id = henderson:23a
 # text = Xintzʼibʼaj richin nuteʼ.
 # text[orig] = Xintzʼibʼaj richin nuteʼ. 
 # text[gloss] = X-Ø-in-tzʼibʼaj r-ichin nu-teʼ. 
 # text[eng] = I wrote it for my mother.
-# label = incomplete
+# label = complete
 "<Xintzʼibʼaj>"
-	"*Xintzʼibʼaj"
+	"tzʼibʼaj" v tv perf o_sg3 s_sg1 @root #1->0
 "<richin>"
-	"ichin" n rel px3sg
+	"ichin" n rel px3sg @obl #2->1
 "<nuteʼ>"
-	"teʼej" n px1sg
+	"teʼej" n px1sg @nmod #3->2
 "<.>"
-	"." sent
+	"." sent @punct #4->1
 
 # sent_id = henderson:23c
 # text = Xitzʼibʼan chi re nuteʼ.
 # text[orig] = Xitz’ib’an chi re nute’. 
 # text[gloss] = X-i-tz’ib’a-n chi r-e nu-te’. 
 # text[eng] = I wrote to my mother.
-# label = incomplete
+# label = complete
 "<Xitzʼibʼan>"
-	"tzʼibʼaj" v tv anti perf o_sg3 s_pl2
-	"tzʼibʼaj" v tv anti perf s_sg1
+	"tzʼibʼaj" v tv anti perf s_sg1 @root #1->0
 "<chi>"
-	"chi" cnjsub
-	"chi" pr
+	"chi" pr @case #2->3
 "<re>"
-	"re" det dem
+	"ech" n rel px3sg @obl #3->1
 "<nuteʼ>"
-	"teʼej" n px1sg
+	"teʼej" n px1sg @nmod #4->3
 "<.>"
-	"." sent
+	"." sent @punct #5->1
 
 # sent_id = henderson:24a
 # text = Xechʼon chi re ri qʼatöy tzij.

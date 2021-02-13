@@ -1346,6 +1346,18 @@
 7	kʼaybʼal	kʼaybʼäl	NOUN	_	_	1	obl	_	_
 8	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = henderson:16a
+# text = Xixajon rikʼin wanaʼ iwïr.
+# text[orig] = Xixajon rik’in wana’ iwïr.
+# text[gloss] = Xi-Ø-xajon r-ik’in w-ana’ iwïr.
+# text[eng] = He danced with my sister yesterday.
+# label = complete
+1	Xixajon	xajon	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
+2	rikʼin	ikʼin	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
+3	wanaʼ	anaʼ	NOUN	_	Number[psor]=Sing|Person[psor]=1	2	nmod	_	_
+4	iwïr	iwïr	ADV	_	_	1	advmod	_	_
+5	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = henderson:17a
 # text = Xulöqʼ ri äkʼ pa kʼaybʼal ri xta Irma.
 # text[orig] = Xulöq’ ri äk’ pa k’ayb’al ri xta Irma.
@@ -1362,6 +1374,17 @@
 8	Irma	Irma	PROPN	_	_	1	nsubj	_	_
 9	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = henderson:18b
+# text = Xuchʼobʼej ri ixöq.
+# text[orig] = Xuchʼobʼej ri ixöq. 
+# text[gloss] = X-Ø-u-chʼo-bʼe-j ri ixöq. 
+# text[eng] = He spoke to the woman.
+# label = complete
+1	Xuchʼobʼej	chʼobʼej	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+2	ri	ri	DET	_	Definite=Def|PronType=Art	3	det	_	_
+3	ixöq	ixöq	NOUN	_	_	1	obj	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = henderson:21a
 # text = Xinlöqʼ ri äkʼ richin nuteʼ.
 # text[orig] = Xinlöqʼ ri äkʼ richin nuteʼ.
@@ -1374,6 +1397,77 @@
 4	richin	ichin	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
 5	nuteʼ	teʼej	NOUN	_	Number[psor]=Sing|Person[psor]=1	4	nmod	_	_
 6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = henderson:22a
+# text = Yisamäj pa kʼaybʼal.
+# text[orig] = Yisamäj pa kʼaybʼal.
+# text[gloss] = Y-i-samäj pa kʼaybʼal.
+# text[eng] = I work in the market.
+# label = complete
+1	Yisamäj	samäj	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
+2	pa	pa	ADP	_	_	3	case	_	_
+3	kʼaybʼal	kʼaybʼäl	NOUN	_	_	1	obl	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = henderson:22b
+# text = Yisamäj rikʼin jun wachbʼil.
+# text[orig] = Yisamäj rikʼin jun wachbʼil. 
+# text[gloss] = Y-i-samäj r-ikʼin jun w-achbʼil. 
+# text[eng] = I work with a friend.
+# label = complete
+1	Yisamäj	samäj	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
+2	rikʼin	ikʼin	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
+3	jun	jun	NUM	_	_	4	det	_	_
+4	wachbʼil	achbʼil	NOUN	_	Number[psor]=Sing|Person[psor]=1	2	nmod	_	_
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = henderson:22c
+# text = Yisamäj rikʼin jun ikäj.
+# text[orig] = Yisamäj rikʼin jun ikäj. 
+# text[gloss] = Y-i-samäj r-ikʼin jun ikäj. 
+# text[eng] = I work with a hatchet.
+# label = complete
+1	Yisamäj	samäj	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
+2	rikʼin	ikʼin	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
+3	jun	jun	NUM	_	_	4	det	_	_
+4	ikäj	ikäj	NOUN	_	_	2	nmod	_	_
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = henderson:22d
+# text = Yisamäj pa ruwiʼ ri aqʼom.
+# text[orig] = Yisamäj pa ruwiʼ ri aqʼom. 
+# text[gloss] = Y-i-samäj pa ru-wiʼ ri aqʼom. 
+# text[eng] = I work about (in) medicine.
+# label = complete
+1	Yisamäj	samäj	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
+2	pa	pa	ADP	_	_	3	case	_	_
+3	ruwiʼ	wiʼ	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
+4	ri	ri	DET	_	Definite=Def|PronType=Art	3	det	_	_
+5	aqʼom	aqʼom	NOUN	_	_	3	nmod	_	_
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = henderson:23a
+# text = Xintzʼibʼaj richin nuteʼ.
+# text[orig] = Xintzʼibʼaj richin nuteʼ. 
+# text[gloss] = X-Ø-in-tzʼibʼaj r-ichin nu-teʼ. 
+# text[eng] = I wrote it for my mother.
+# label = complete
+1	Xintzʼibʼaj	tzʼibʼaj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
+2	richin	ichin	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
+3	nuteʼ	teʼej	NOUN	_	Number[psor]=Sing|Person[psor]=1	2	nmod	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = henderson:23c
+# text = Xitzʼibʼan chi re nuteʼ.
+# text[orig] = Xitz’ib’an chi re nute’. 
+# text[gloss] = X-i-tz’ib’a-n chi r-e nu-te’. 
+# text[eng] = I wrote to my mother.
+# label = complete
+1	Xitzʼibʼan	tzʼibʼaj	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Tran|VerbForm=Fin|Voice=Antip	0	root	_	_
+2	chi	chi	ADP	_	_	3	case	_	_
+3	re	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
+4	nuteʼ	teʼej	NOUN	_	Number[psor]=Sing|Person[psor]=1	3	nmod	_	_
+5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = henderson:25a
 # text = Xulöqʼ ri poʼt kichin ri nuteʼ.
