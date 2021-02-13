@@ -51,3 +51,8 @@
 	booktitle = {Proceedings of the LFG00 Conference},
 	year = 2000
 }
+
+@misc{rh,
+	title = {Observations on the Syntax of Adjunct  Extraction in Kaqchikel},
+	author = {Robert Henderson}
+}	
