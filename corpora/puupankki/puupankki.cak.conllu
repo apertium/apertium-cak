@@ -488,6 +488,19 @@
 6	achin	achin	NOUN	_	_	4	nmod	_	_
 7	.	.	PUNCT	_	_	3	punct	_	_
 
+# sent_id = npass:9619e62cd0
+# text = Ri bʼojoy xpaxitäj komaʼ rije.
+# text[spa] = The pot has been broken by them.
+# labels = complete
+1	Ri	ri	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	bʼojoy	bʼojoʼy	NOUN	_	_	3	nsubj	_	_
+3	xpaxitäj	xpaxitäj	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	komaʼ	oma	NOUN	_	NounType=Relat|Number[psor]=Plur|Person[psor]=3	3	obl	_	_
+5-6	rije	_	_	_	_	_	_	_	_
+5	rije	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
+6		e	PRON	_	PronType=Prs	4	nmod	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = npass:6e930f909c
 # text = Ri tzʼiʼ xkichäp romaʼ ri achin.
 # text[spa] = The dog was grabbed by the man.
@@ -498,6 +511,19 @@
 4	romaʼ	oma	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
 5	ri	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
 6	achin	achin	NOUN	_	_	4	nmod	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = npass:5b8076c4eb
+# text = Ri bʼojoy xkipaxij romaʼ rijaʼ.
+# text[spa] = The pot was broken by him.
+# labels = complete
+1	Ri	ri	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	bʼojoy	bʼojoʼy	NOUN	_	_	3	obj	_	_
+3	xkipaxij	paxij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+4	romaʼ	oma	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
+5-6	rijaʼ	_	_	_	_	_	_	_	_
+5	rijaʼ	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
+6		jaʼ	PRON	_	PronType=Prs	3	nmod	_	_
 7	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = npass:a37366c39b

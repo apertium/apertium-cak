@@ -1055,19 +1055,20 @@
 # sent_id = npass:9619e62cd0
 # text = Ri bʼojoy xpaxitäj komaʼ rije.
 # text[spa] = The pot has been broken by them.
-# labels = incomplete
+# labels = complete
 "<Ri>"
-	"ri" det
+	"ri" det @det #1->2
 "<bʼojoy>"
-	"bʼojoʼy" n
+	"bʼojoʼy" n @nsubj #2->3
 "<xpaxitäj>"
-	"*xpaxitäj"
+	"xpaxitäj" v tv pass cmpl perf s_sg3 @root #3->0
 "<komaʼ>"
-	"oma" n rel px3pl
+	"oma" n rel px3pl @obl #4->3
 "<rije>"
-	"rijeʼ" prn pos
+	"ri" det @det #5->6
+		"e" prn pers @nmod #6->4
 "<.>"
-	"." sent
+	"." sent @punct #7->3
 
 # sent_id = npass:6e930f909c
 # text = Ri tzʼiʼ xkichäp romaʼ ri achin.
@@ -1091,38 +1092,20 @@
 # sent_id = npass:5b8076c4eb
 # text = Ri bʼojoy xkipaxij romaʼ rijaʼ.
 # text[spa] = The pot was broken by him.
-# labels = incomplete
+# labels = complete
 "<Ri>"
-	"ri" det
+	"ri" det @det #1->2
 "<bʼojoy>"
-	"bʼojoʼy" n
+	"bʼojoʼy" n @obj #2->3
 "<xkipaxij>"
-	"paxij" v tv perf o_sg3 s_pl3
+	"paxij" v tv perf o_sg3 s_pl3 @root #3->0
 "<romaʼ>"
-	"oma" n rel px3sg
+	"oma" n rel px3sg @obl #4->3
 "<rijaʼ>"
-	"rijaʼ" prn pers
-	"rijaʼ" prn pos
+	"ri" det @det #5->6
+		"jaʼ" prn pers @nmod #6->3
 "<.>"
-	"." sent
-
-# sent_id = npass:5b8076c4eb
-# text = Ri bʼojoy xkipaxij romaʼ rijaʼ.
-# text[spa] = The pot was broken by him.
-# labels = incomplete
-"<Ri>"
-	"ri" det
-"<bʼojoy>"
-	"bʼojoʼy" n
-"<xkipaxij>"
-	"paxij" v tv perf o_sg3 s_pl3
-"<romaʼ>"
-	"oma" n rel px3sg
-"<rijaʼ>"
-	"rijaʼ" prn pers
-	"rijaʼ" prn pos
-"<.>"
-	"." sent
+	"." sent @punct #7->3
 
 # sent_id = npass:ce1a199051
 # text = Ri bʼojoy xkipaxij komaʼ rijeʼ.
@@ -1144,20 +1127,20 @@
 # sent_id = npass:14ce7d6144
 # text = Ri bʼojoy xkipaxij qomaʼ roj.
 # text[spa] = The pot was broken by us.
-# labels = incomplete
+# labels = complete
 "<Ri>"
-	"ri" det
+	"ri" det @det #1->2
 "<bʼojoy>"
-	"bʼojoʼy" n
+	"bʼojoʼy" n @obj #2->3
 "<xkipaxij>"
-	"paxij" v tv perf o_sg3 s_pl3
+	"paxij" v tv perf o_sg3 s_pl3 @root #3->0
 "<qomaʼ>"
-	"oma" n rel px1pl
+	"oma" n rel px1pl @obl #4->3
 "<roj>"
-	"oj" n px3sg
-	"röj" prn pos
+	"ri" det @det #5->6
+		"öj" prn pers @nmod #6->3
 "<.>"
-	"." sent
+	"." sent @punct #7->3
 
 # sent_id = npass:662a20ad68
 # text = Ri tzʼiʼ xkitzʼet awomaʼ rat.
