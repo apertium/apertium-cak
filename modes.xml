@@ -3,7 +3,7 @@
 
   <mode name="cak-morph" install="yes">
     <pipeline>
-      <program name="sed &quot;s/['’]/ʼ/g&quot;"/>
+<!--      <program name="sed &quot;s/['’]/ʼ/g&quot;"/>-->
       <program name="hfst-proc -w">
         <file name="cak.automorf.hfst"/>
       </program>

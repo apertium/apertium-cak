@@ -1284,3 +1284,37 @@
 5	Ixqʼanil	Ixqʼanil	PROPN	_	_	2	nmod	_	_
 6	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = henderson:2a
+# text = Xpe waweʼ.
+# text[orig] = Xpe waweʼ. 
+# text[gloss] = X-Ø-pe waweʼ. 
+# text[eng] =  He came here.
+# label = complete
+1	Xpe	pe	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
+2	waweʼ	waweʼ	ADV	_	_	1	advmod	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = henderson:25a
+# text = Xulöqʼ ri poʼt kichin ri nuteʼ.
+# text[orig] = Xulöqʼ ri poʼt kichin ri nuteʼ. 
+# text[gloss] = X-Ø-u-löqʼ ri poʼt k-ichin ri nu-teʼ. 
+# text[eng] = My mother bought the blouse for them.
+# label = complete
+1	Xulöqʼ	löqʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+2	ri	ri	DET	_	Definite=Def|PronType=Art	3	det	_	_
+3	poʼt	poʼt	NOUN	_	_	1	obj	_	_
+4	kichin	ichin	NOUN	_	NounType=Relat|Number[psor]=Plur|Person[psor]=3	1	obl	_	_
+5	ri	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
+6	nuteʼ	teʼej	NOUN	_	Number[psor]=Sing|Person[psor]=1	1	nsubj	_	_
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = henderson:42b
+# text = Xisamäj wi.
+# text[orig] = Xisamäj wi.
+# text[gloss] = X-i-samäj wi.
+# text[eng] = I WORKED (not anything else).
+# label = complete
+1	Xisamäj	samäj	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
+2	wi	wi	PART	_	Focus=Yes	1	discourse	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+

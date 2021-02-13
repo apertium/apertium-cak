@@ -13,6 +13,13 @@ Multichar_Symbols
 %<adv%>                ! Adverbio
 %<det%>                ! Determinante
 %<cnjsub%>             ! Conjunción subordinadora
+%<mod%>
+%<foc%>
+%<pr%>
+%<num%>
+%<neg%>
+
+%<rel%>
 
 %<iv%>                 ! Intransitivo
 %<tv%>                 ! Transitivo
@@ -23,11 +30,19 @@ Multichar_Symbols
 %<m%>
 %<f%>
 
+%<anti%>
+%<pass%>
+%<agfoc%>
+
 %<impf%>               ! Imperfectivo
 %<perf%>               ! Perfectivo
 %<pot%>                ! Potencial
 
 %<cmpl%>               ! Completivo
+
+%<itg%>
+%<dem%>
+%<dir%>
 
 %<ant%>                ! Antropónimo
 %<cog%>                ! Cognomen
@@ -457,7 +472,7 @@ kʼa%<mod%>:kʼa # ; ! ""
 yan%<mod%>:yan # ; ! ""
 chïk%<mod%>:chïk # ; ! ""
 chïk%<mod%>:chik # ; ! "" ! Use/Sub
-wi%<mod%>:wi # ; ! ""
+wi%<foc%>:wi # ; ! ""
 
 apo%<aux%>:apo # ; ! ""
 
@@ -482,13 +497,13 @@ achiʼel%<cnjsub%>:achiʼel # ; ! "como" ! FIXME: Check
 
 ti%<dim%>:ti # ; 
 
-el%<dir%>:el # ; ! ""
-ok%<dir%>:ok # ; ! ""
-pe%<dir%>:pe # ; ! ""
-apon%<dir%>:apon # ; ! ""
-aqʼanij%<dir%>:aqʼanij # ; ! ""
-qaj%<dir%>:qaj # ; ! ""
-kan%<dir%>:kan # ; ! ""
+el%<adv%>%<dir%>:el # ; ! ""
+ok%<adv%>%<dir%>:ok # ; ! ""
+pe%<adv%>%<dir%>:pe # ; ! ""
+apon%<adv%>%<dir%>:apon # ; ! ""
+aqʼanij%<adv%>%<dir%>:aqʼanij # ; ! ""
+qaj%<adv%>%<dir%>:qaj # ; ! ""
+kan%<adv%>%<dir%>:kan # ; ! ""
 
 cha%<quot%>:cha # ; ! ""
 
@@ -1224,6 +1239,7 @@ Kanteʼl:Kanteʼl NP-ANT ; ! ""
 Maria:Maria NP-ANT ; ! ""
 María:María NP-ANT ; ! ""
 Mariʼy:Mariʼy NP-ANT ; ! ""
+Irma:Irma NP-ANT ; ! ""
 Saqteqaw:Saqteqaw NP-ANT ; ! ""
 Saqijix:Saqijix NP-ANT ; ! ""
 Ixkikʼ:Ixkikʼ NP-ANT ; ! ""
