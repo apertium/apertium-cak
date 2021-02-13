@@ -135,6 +135,17 @@
 5	Kataʼl	Kataʼl	PROPN	_	_	3	obj	_	_
 6	.	.	PUNCT	_	_	3	punct	_	_
 
+# sent_id = gdik99:c6d816d531
+# text = ¿Achike xqʼeten xta Kataʼl?
+# text[spa] = ¿Quién abrazó a Catarina?
+# labels = complete example:130 check-antipassive
+1	¿	¿	PUNCT	_	_	3	punct	_	_
+2	Achike	achike	PRON	_	PronType=Int	3	nsubj	_	_
+3	xqʼeten	qʼetej	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Antip	0	root	_	_
+4	xta	xta	NOUN	_	Gender=Fem|NounType=Clf	5	clf	_	_
+5	Kataʼl	Kataʼl	PROPN	_	_	3	dislocated	_	_
+6	?	?	PUNCT	_	_	3	punct	_	_
+
 # sent_id = gdik99:f3b5cb1000
 # text = A Xwan xukʼayij xajabʼ pa kʼaybʼäl.
 # text[spa] = Juan vendió zapatos en el mercado.
@@ -219,10 +230,10 @@
 # text[spa] = Mandé a mi hijo al monte.
 # labels = example:133
 1	Xnutäq	taqoj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-1	pa	pa	ADP	_	_	2	case	_	_
-2	juyuʼ	juyuʼ	NOUN	_	_	1	obl	_	_
-3	nukʼajol	kʼajol	NOUN	_	Number[psor]=Sing|Person[psor]=1	1	obj	_	_
-4	.	.	PUNCT	_	_	1	punct	_	_
+2	pa	pa	ADP	_	_	3	case	_	_
+3	juyuʼ	juyuʼ	NOUN	_	_	1	obl	_	_
+4	nukʼajol	kʼajol	NOUN	_	Number[psor]=Sing|Person[psor]=1	1	obj	_	_
+5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = gdik99:b933ab48a4
 # text = A Xwan xuchäp jun äkʼ.
@@ -285,8 +296,8 @@
 2	achin	achin	NOUN	_	_	3	nsubj	_	_
 3	xchapon	chäp	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Antip	0	root	_	_
 4-5	chwe	_	_	_	_	_	_	_	_
-4	chwe	chi	ADP	_	_	5	case	_	_
-5		ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=1	4	obl	_	_
+4	ch	chi	ADP	_	_	5	case	_	_
+5	we	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=1	4	obl	_	_
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = gdik99:bbfd3d9239
@@ -298,8 +309,8 @@
 3	ri	ri	SCONJ	_	_	4	mark	_	_
 4	xchapon	chäp	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Antip	2	acl	_	_
 5-6	chwe	_	_	_	_	_	_	_	_
-5	chwe	chi	ADP	_	_	6	case	_	_
-6		ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=1	4	obl	_	_
+5	ch	chi	ADP	_	_	6	case	_	_
+6	we	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=1	4	obl	_	_
 7	samajel	samajel	NOUN	_	_	0	root	_	_
 8	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -325,6 +336,18 @@
 6	tzʼibʼabʼäl	tzʼibʼabʼäl	NOUN	_	_	4	nmod	_	_
 7	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = gdik99:801aeba3d9
+# text = Kʼo chik pa tuj taj xinok.
+# text[spa] = Ya estaba en el temascal cuando entré.
+# labels = example:139
+1	Kʼo	kʼo	ADJ	_	_	0	root	_	_
+2	chik	chïk	PART	_	_	1	advmod	_	_
+3	pa	pa	ADP	_	_	4	case	_	_
+4	tuj	tuj	NOUN	_	_	1	obl	_	_
+5	taj	taj	SCONJ	_	_	6	mark	_	_
+6	xinok	ok	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	1	advcl	_	_
+7	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = npass:1e090a4eaf
 # text = Ri achin xuchʼäy ri tzʼiʼ.
 # text[spa] = The man hit the dog.
@@ -335,6 +358,17 @@
 4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
 5	tzʼiʼ	tzʼiʼ	NOUN	_	_	3	obj	_	_
 6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = npass:50cbfcea02
+# text = Xupaxij ri achin ri bʼojoy.
+# text[spa] = The man broke the pot.
+# labels = complete
+1	Xupaxij	paxij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+2	ri	ri	DET	_	Definite=Def|PronType=Art	3	det	_	_
+3	achin	achin	NOUN	_	_	1	obj	_	_
+4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
+5	bʼojoy	bʼojoʼy	NOUN	_	_	1	nsubj	_	_
+6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = npass:7a3596089f
 # text = Xinkikʼutuj.
@@ -381,8 +415,8 @@
 3	Juan	Juan	PROPN	_	_	4	nsubj	_	_
 4	xutij	tij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5-6	riwäʼy	_	_	_	_	_	_	_	_
-5	*riwäʼy	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
-6		wäʼy	NOUN	_	_	4	obj	_	_
+5	ri	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
+6	wäʼy	wäʼy	NOUN	_	_	4	obj	_	_
 7	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = npass:2438430e84
@@ -430,8 +464,8 @@
 2	Juan	Juan	PROPN	_	_	3	nsubj	_	_
 3	xubʼij	bʼij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 4-5	chwe	_	_	_	_	_	_	_	_
-4	chwe	chi	ADP	_	_	5	case	_	_
-5		ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=1	3	obl	_	_
+4	ch	chi	ADP	_	_	5	case	_	_
+5	we	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=1	3	obl	_	_
 6	xbʼax	bʼaʼ	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	3	ccomp	_	_
 7	romaʼ	oma	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
 8	ri	ri	DET	_	Definite=Def|PronType=Art	9	det	_	_
@@ -446,14 +480,25 @@
 2	Juan	Juan	PROPN	_	_	3	nsubj	_	_
 3	xubʼij	bʼij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 4-5	chwe	_	_	_	_	_	_	_	_
-4	chwe	chi	ADP	_	_	5	case	_	_
-5		ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=1	3	obl	_	_
+4	ch	chi	ADP	_	_	5	case	_	_
+5	we	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=1	3	obl	_	_
 6	chi	chi	SCONJ	_	_	7	mark	_	_
 7	xbʼax	bʼaʼ	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	3	ccomp	_	_
 8	romaʼ	oma	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	7	obl	_	_
 9	ri	ri	DET	_	Definite=Def|PronType=Art	10	det	_	_
 10	tzʼiʼ	tzʼiʼ	NOUN	_	_	8	nmod	_	_
 11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = npass:fc6aca861e
+# text = Chike xbʼax romaʼ jun tzʼiʼ?
+# text[spa] = Who was bitten by a dog?
+# labels = complete
+1	Chike	chike	PRON	_	PronType=Int	2	nsubj	_	_
+2	xbʼax	bʼaʼ	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	romaʼ	oma	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	2	obl	_	_
+4	jun	jun	DET	_	Definite=Ind|PronType=Art	5	det	_	_
+5	tzʼiʼ	tzʼiʼ	NOUN	_	_	3	nmod	_	_
+6	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = npass:631cfa5b3d
 # text = Xbʼax jun meʼs romaʼ ri tzʼiʼ.
@@ -467,6 +512,29 @@
 6	tzʼiʼ	tzʼiʼ	NOUN	_	_	4	nmod	_	_
 7	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = npass:be2b540596
+# text = A Juan nrajoʼ jun chʼich.
+# text[spa] = Juan wants a car.
+# labels = complete
+1	A	a	NOUN	_	Gender=Masc|NounType=Clf	2	clf	_	_
+2	Juan	Juan	PROPN	_	_	3	nsubj	_	_
+3	nrajoʼ	ajoʼ	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+4	jun	jun	DET	_	Definite=Ind|PronType=Art	5	det	_	_
+5	chʼich	chʼichʼ	NOUN	_	_	3	obj	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = npass:7bb0051387
+# text = Jun chʼich najowäx romaʼ a Juan.
+# text[spa] = A car is wanted by Juan.
+# labels = complete
+1	Jun	jun	DET	_	Definite=Ind|PronType=Art	2	det	_	_
+2	chʼich	chʼichʼ	NOUN	_	_	3	nsubj	_	_
+3	najowäx	ajoʼ	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	romaʼ	oma	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
+5	a	a	NOUN	_	Gender=Masc|NounType=Clf	6	clf	_	_
+6	Juan	Juan	PROPN	_	_	4	nmod	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = npass:0302f8d3eb
 # text = Ri cheʼ xutzäq ri jaʼy.
 # text[spa] = The tree knocked down the house.
@@ -477,6 +545,56 @@
 4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
 5	jaʼy	jay	NOUN	_	_	3	obj	_	_
 6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = npass:c91813e016
+# text = Ri jaʼy xtzaq romaʼ ri cheʼ.
+# text[spa] = The house was knocked down by the tree.
+# labels = complete
+1	Ri	ri	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	jaʼy	jay	NOUN	_	_	3	nsubj	_	_
+3	xtzaq	tzäq	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	romaʼ	oma	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
+5	ri	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
+6	cheʼ	cheʼ	NOUN	_	_	3	nmod	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = npass:4a68b630fe
+# text = Ri wäʼy xkitij romaʼ ri achin. 
+# text[spa] = The tortilla was eaten by the man.
+# labels = complete ki-passive check-annotation
+1	Ri	ri	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	wäʼy	wäy	NOUN	_	_	3	nsubj	_	_
+3	xkitij	tij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+4	romaʼ	oma	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
+5	ri	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
+6	achin	achin	NOUN	_	_	4	nmod	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = npass:d95769c798
+# text = Ri wäʼy xtij romaʼ ri achin. 
+# text[spa] = The tortilla was eaten by the man.
+# labels = complete
+1	Ri	ri	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	wäʼy	wäy	NOUN	_	_	3	nsubj	_	_
+3	xtij	tij	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	romaʼ	oma	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
+5	ri	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
+6	achin	achin	NOUN	_	_	4	nmod	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = npass:61f1a673c8
+# text = A Juan y Maria xebʼax romaʼ jun kumätz.
+# text[spa] = Juan and Maria were bitten by a snake.
+# labels = complete
+1	A	a	NOUN	_	Gender=Masc|NounType=Clf	2	clf	_	_
+2	Juan	Juan	PROPN	_	_	5	nsubj	_	_
+3	y	y	CCONJ	_	_	4	cc	_	_
+4	Maria	Maria	PROPN	_	_	2	conj	_	_
+5	xebʼax	bʼaʼ	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	romaʼ	oma	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
+7	jun	jun	DET	_	Definite=Ind|PronType=Art	8	det	_	_
+8	kumätz	kumätz	NOUN	_	_	5	nmod	_	_
+9	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = npass:df437474ab
 # text = Ri alabʼoniʼ xekitij ri wäʼy.
@@ -553,6 +671,105 @@
 2	jun	jun	DET	_	Definite=Ind|PronType=Art	3	det	_	_
 3	tzʼiʼ	tzʼiʼ	NOUN	_	_	1	nsubj	_	_
 4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = kwo:bfa46728c3
+# text = A Manuel xubʼij chweʼ chi ri tzʼiʼ xubʼaʼ ri a Ramon.
+# text[spa] = Manuel told me that the dog bit Ramon.
+# labels = complete
+1	A	a	NOUN	_	Gender=Masc|NounType=Clf	2	clf	_	_
+2	Manuel	Manuel	PROPN	_	_	3	nsubj	_	_
+3	xubʼij	bʼij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+4-5	chweʼ	_	_	_	_	_	_	_	_
+4	chweʼ	chi	ADP	_	_	5	case	_	_
+5		ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=1	3	obl	_	_
+6	chi	chi	SCONJ	_	_	9	mark	_	_
+7	ri	ri	DET	_	Definite=Def|PronType=Art	8	det	_	_
+8	tzʼiʼ	tzʼiʼ	NOUN	_	_	9	nsubj	_	_
+9	xubʼaʼ	bʼaʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	3	ccomp	_	_
+10	ri	ri	DET	_	Definite=Def|PronType=Art	12	det	_	_
+11	a	a	NOUN	_	Gender=Masc|NounType=Clf	12	clf	_	_
+12	Ramon	Ramon	PROPN	_	_	9	obj	_	_
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = mdrk:fbabedde83
+# text = Toq xpe ri ixta Nikʼteʼ, xbʼe ri a Waykan.
+# text[spa] = Cuando vino Nikʼteʼ, se fue Waykan.
+# labels = complete example:159
+1	Toq	töq	SCONJ	_	_	2	mark	_	_
+2	xpe	pe	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	7	advcl	_	_
+3	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
+4	ixta	ixta	NOUN	_	Gender=Fem|NounType=Clf	5	clf	_	_
+5	Nikʼteʼ	Nikʼteʼ	PROPN	_	_	2	nsubj	_	_
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	xbʼe	bʼe	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
+8	ri	ri	DET	_	Definite=Def|PronType=Art	10	det	_	_
+9	a	a	NOUN	_	Gender=Masc|NounType=Clf	10	clf	_	_
+10	Waykan	Waykan	PROPN	_	_	7	nsubj	_	_
+11	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = mdrk:4b5f13e761
+# text = We yojbʼe, yojchʼaqeʼ.
+# text[spa] = Si nos vamos, nos mojamos.
+# labels = complete example:159
+1	We	we	SCONJ	_	_	2	mark	_	_
+2	yojbʼe	bʼe	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=1|Subcat=Intr|VerbForm=Fin	4	advcl	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	yojchʼaqeʼ	chʼaqeʼ	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = mdrk:d040f82295
+# text = Xbʼe pa tinamït ri a Kanek.
+# text[spa] = Kanek fue a la ciudad.
+# labels = complete example:159
+1	Xbʼe	bʼe	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
+2	pa	pa	ADP	_	_	3	case	_	_
+3	tinamït	tinamït	NOUN	_	_	1	obl	_	_
+4	ri	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
+5	a	a	NOUN	_	Gender=Masc|NounType=Clf	6	clf	_	_
+6	Kanek	Kanek	PROPN	_	_	1	nsubj	_	_
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = mdrk:110bcffe6f
+# text = Ri a Kanek xbʼe rukʼin ruteʼ.
+# text[spa] = Kanek fue con su madre.
+# labels = complete example:159
+1	Ri	ri	DET	_	Definite=Def|PronType=Art	3	det	_	_
+2	a	a	NOUN	_	Gender=Masc|NounType=Clf	3	clf	_	_
+3	Kanek	Kanek	PROPN	_	_	4	nsubj	_	_
+4	xbʼe	bʼe	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
+5	rukʼin	kʼin	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
+6	ruteʼ	teʼej	NOUN	_	Number[psor]=Sing|Person[psor]=3	5	nmod	_	_
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = mdrk:058a413331
+# text = Ri a Kot xuchöy jun cheʼ rukʼin ri ikäj.
+# text[spa] = Kot cortó un árbol con una hacha.
+# labels = complete example:160
+1	Ri	ri	DET	_	Definite=Def|PronType=Art	3	det	_	_
+2	a	a	NOUN	_	Gender=Masc|NounType=Clf	3	clf	_	_
+3	Kot	Kot	PROPN	_	_	4	nsubj	_	_
+4	xuchöy	chöy	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+5	jun	jun	DET	_	Definite=Ind|PronType=Art	6	det	_	_
+6	cheʼ	cheʼ	NOUN	_	_	4	obj	_	_
+7	rukʼin	kʼin	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
+8	ri	ri	DET	_	Definite=Def|PronType=Art	9	det	_	_
+9	ikäj	ikäj	NOUN	_	_	7	nmod	_	_
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = mdrk:9d1a7b3ebe
+# text = Ri a Kot xuyaʼ ri wuj chi re ruteʼ.
+# text[spa] = Kot le dio el libro a su madre.
+# labels = complete example:160
+1	Ri	ri	DET	_	Definite=Def|PronType=Art	3	det	_	_
+2	a	a	NOUN	_	Gender=Masc|NounType=Clf	3	clf	_	_
+3	Kot	Kot	PROPN	_	_	4	nsubj	_	_
+4	xuyaʼ	yaʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+5	ri	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
+6	wuj	wuj	NOUN	_	_	4	obj	_	_
+7	chi	chi	ADP	_	_	9	case	_	_
+8	re	re	DET	_	PronType=Art|PronType=Dem	9	det	_	_
+9	ruteʼ	teʼej	NOUN	_	Number[psor]=Sing|Person[psor]=3	4	obl	_	_
+10	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = mdrk:cfd4520caf
 # text = Xa chi awaqän xatpe wi.
