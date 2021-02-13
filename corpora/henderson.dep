@@ -344,20 +344,19 @@
 # text[orig] = Xusipaj chi re nute’ iwïr.
 # text[gloss] = X-Ø-u-sipaj chi r-e nu-te’ iwïr.
 # text[eng] = He gave it to my mother yesterday.
-# label = incomplete
+# label = complete
 "<Xusipaj>"
-	"sipaj" v tv perf o_sg3 s_sg3
+	"sipaj" v tv perf o_sg3 s_sg3 @root #1->0
 "<chi>"
-	"chi" cnjsub
-	"chi" pr
+	"chi" pr @case #2->3
 "<re>"
-	"re" det dem
+	"ech" n rel px3sg @obl #3->1
 "<nuteʼ>"
-	"teʼej" n px1sg
+	"teʼej" n px1sg @nmod #4->3
 "<iwïr>"
-	"iwïr" adv
+	"iwïr" adv @advmod #5->1
 "<.>"
-	"." sent
+	"." sent @punct #6->1
 
 # sent_id = henderson:16a
 # text = Xixajon rikʼin wanaʼ iwïr.
@@ -368,38 +367,38 @@
 "<Xixajon>"
 	"*Xixajon"
 "<rikʼin>"
-	"ikʼin" n rel px3sg
+	"ikʼin" n rel px3sg @obl
 "<wanaʼ>"
-	"anaʼ" n px1sg
+	"anaʼ" n px1sg @nmod
 "<iwïr>"
-	"iwïr" adv
+	"iwïr" adv @advmod
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = henderson:17a
 # text = Xulöqʼ ri äkʼ pa kʼaybʼal ri xta Irma.
 # text[orig] = Xulöq’ ri äk’ pa k’ayb’al ri xta Irma.
 # text[gloss] = X-Ø-u-löq’ ri äk’ pa k’ayb’al ri xta Irma.
 # text[eng] = Irma bought a chicken in the market.
-# label = incomplete
+# label = complete
 "<Xulöqʼ>"
-	"löqʼ" v tv perf o_sg3 s_sg3
+	"löqʼ" v tv perf o_sg3 s_sg3 @root #1->0
 "<ri>"
-	"ri" det
+	"ri" det @det #2->3
 "<äkʼ>"
-	"äkʼ" n
+	"äkʼ" n @obj #3->1
 "<pa>"
-	"pa" pr
+	"pa" pr @case #4->5
 "<kʼaybʼal>"
-	"kʼaybʼäl" n
+	"kʼaybʼäl" n @obl #5->1
 "<ri>"
-	"ri" det
+	"ri" det @det #6->8
 "<xta>"
-	"xta" det f
+	"xta" det f @clf #7->8
 "<Irma>"
-	"Irma" np ant
+	"Irma" np ant @nsubj #8->1
 "<.>"
-	"." sent
+	"." sent @punct #9->1
 
 # sent_id = henderson:18a
 # text = Xupalbʼej jun pop ri ixtän.
@@ -487,19 +486,19 @@
 # text[orig] = Xinlöqʼ ri äkʼ richin nuteʼ.
 # text[gloss] = X-Ø-in-löqʼ ri äkʼ r-ichin nu-teʼ.
 # text[eng] = I bought the chicken for my mother.
-# label = incomplete
+# label = complete
 "<Xinlöqʼ>"
-	"*Xinlöqʼ"
+	"löqʼ" v tv perf o_sg3 s_sg1 @root #1->0
 "<ri>"
-	"ri" det
+	"ri" det @det #2->3
 "<äkʼ>"
-	"äkʼ" n
+	"äkʼ" n @obj #3->1
 "<richin>"
-	"ichin" n rel px3sg
+	"ichin" n rel px3sg @obl #4->1
 "<nuteʼ>"
-	"teʼej" n px1sg
+	"teʼej" n px1sg @nmod #5->4
 "<.>"
-	"." sent
+	"." sent @punct #6->1
 
 # sent_id = henderson:22a
 # text = Yisamäj pa kʼaybʼal.
