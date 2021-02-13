@@ -1294,6 +1294,58 @@
 2	waweʼ	waweʼ	ADV	_	_	1	advmod	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = henderson:2b
+# text = Waweʼ xpe.
+# text[orig] = Wawe’ xpe. 
+# text[gloss] = Wawe’ x-Ø-pe. 
+# text[eng] = Here he came.
+# label = complete
+1	Waweʼ	waweʼ	ADV	_	_	2	advmod	_	_
+2	xpe	pe	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = henderson:6a
+# text = Richin ateʼ xinlöqʼ ri uq.
+# text[orig] = Richin ateʼ xinlöqʼ ri uq. 
+# text[gloss] = R-ichin a-teʼ x-Ø-in-löqʼ ri uq. 
+# text[eng] = For your mother I bought the corte.
+# label = complete
+1	Richin	ichin	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
+2	ateʼ	teʼej	NOUN	_	Number[psor]=Sing|Person[psor]=2	1	nmod	_	_
+3	xinlöqʼ	löqʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
+4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
+5	uq	uq	NOUN	_	_	3	obj	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = henderson:9a
+# text = Rikʼin tzʼibaʼbʼal xintzʼibʼabʼej wi ri wuj.
+# text[orig] = Rikʼin tzʼiba’bʼal xintzʼibʼabʼej wi ri wuj. 
+# text[gloss] = R-ikʼin tzʼiba’bʼal x-Ø-in-tzʼibʼa-bʼe-j wi ri wuj. 
+# text[eng] = With a pen I wrote the paper.
+# label = complete
+1	Rikʼin	ikʼin	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
+2	tzʼibaʼbʼal	tzʼibaʼbʼal	NOUN	_	_	1	nmod	_	_
+3	xintzʼibʼabʼej	tzʼibʼabʼej	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
+4	wi	wi	PART	_	Focus=Yes	3	discourse	_	_
+5	ri	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
+6	wuj	wuj	NOUN	_	_	3	obj	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = henderson:14b
+# text = Xulöqʼ ri äkʼ ri nuteʼ pa kʼaybʼal.
+# text[orig] = Xulöqʼ ri äkʼ ri nuteʼ pa kʼaybʼal.
+# text[gloss] = X-Ø-u-löqʼ ri äkʼ ri nu-teʼ pa kʼaybʼal.
+# text[eng] = My mother bought the chicken in the market.
+# label = complete
+1	Xulöqʼ	löqʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+2	ri	ri	DET	_	Definite=Def|PronType=Art	3	det	_	_
+3	äkʼ	äkʼ	NOUN	_	_	1	obj	_	_
+4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
+5	nuteʼ	teʼej	NOUN	_	Number[psor]=Sing|Person[psor]=1	1	nsubj	_	_
+6	pa	pa	ADP	_	_	7	case	_	_
+7	kʼaybʼal	kʼaybʼäl	NOUN	_	_	1	obl	_	_
+8	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = henderson:25a
 # text = Xulöqʼ ri poʼt kichin ri nuteʼ.
 # text[orig] = Xulöqʼ ri poʼt kichin ri nuteʼ. 
