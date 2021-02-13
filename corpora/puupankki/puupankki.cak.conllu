@@ -1155,9 +1155,9 @@
 4	xuyaʼ	yaʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	ri	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
 6	wuj	wuj	NOUN	_	_	4	obj	_	_
-7	chi	chi	ADP	_	_	9	case	_	_
-8	re	re	DET	_	PronType=Art|PronType=Dem	9	det	_	_
-9	ruteʼ	teʼej	NOUN	_	Number[psor]=Sing|Person[psor]=3	4	obl	_	_
+7	chi	chi	ADP	_	_	8	case	_	_
+8	re	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
+9	ruteʼ	teʼej	NOUN	_	Number[psor]=Sing|Person[psor]=3	8	nmod	_	_
 10	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = mdrk:cfd4520caf
@@ -1429,16 +1429,14 @@
 # text[gloss] = Chi r-e a-teʼ x-Ø-in-yaʼ wi ri uq. 
 # text[eng] = To your mother I gave the corte.
 # label = complete
-1	Chi	chi	ADP	_	_	3	case	_	_
-2-3	re	_	_	_	_	_	_	_	_
-2	r	ri	DET	_	Definite=Def|PronType=Art	3	det	_	_
-3	e	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
-4	ateʼ	teʼej	NOUN	_	Number[psor]=Sing|Person[psor]=2	3	nmod	_	_
-5	xinyaʼ	yaʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-6	wi	wi	PART	_	Focus=Yes	5	discourse	_	_
-7	ri	ri	DET	_	Definite=Def|PronType=Art	8	det	_	_
-8	uq	uq	NOUN	_	_	5	obj	_	_
-9	.	.	PUNCT	_	_	5	punct	_	_
+1	Chi	chi	ADP	_	_	2	case	_	_
+2	re	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
+3	ateʼ	teʼej	NOUN	_	Number[psor]=Sing|Person[psor]=2	2	nmod	_	_
+4	xinyaʼ	yaʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+5	wi	wi	PART	_	Focus=Yes	4	discourse	_	_
+6	ri	ri	DET	_	Definite=Def|PronType=Art	7	det	_	_
+7	uq	uq	NOUN	_	_	4	obj	_	_
+8	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = henderson:6a
 # text = Richin ateʼ xinlöqʼ ri uq.
@@ -1722,14 +1720,12 @@
 # text[eng] = They spoke to the mayor.
 # label = complete
 1	Xechʼon	chʼon	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Antip	0	root	_	_
-2	chi	chi	ADP	_	_	4	case	_	_
-3-4	re	_	_	_	_	_	_	_	_
-3	r	ri	DET	_	Definite=Def|PronType=Art	4	det	_	_
-4	e	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
-5	ri	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
-6	qʼatöy	qʼatöy	NOUN	_	_	4	nmod	_	_
-7	tzij	tzij	NOUN	_	_	6	compound	_	_
-8	.	.	PUNCT	_	_	1	punct	_	_
+2	chi	chi	ADP	_	_	3	case	_	_
+3	re	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
+4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
+5	qʼatöy	qʼatöy	NOUN	_	_	3	nmod	_	_
+6	tzij	tzij	NOUN	_	_	5	compound	_	_
+7	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = henderson:25a
 # text = Xulöqʼ ri poʼt kichin ri nuteʼ.

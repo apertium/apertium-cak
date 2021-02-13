@@ -2481,11 +2481,11 @@
 "<wuj>"
 	"wuj" n @obj #6->4
 "<chi>"
-	"chi" pr @case #7->9
+	"chi" pr @case #7->8
 "<re>"
-	"re" det dem @det #8->9
+	"ech" n rel px3sg @obl #8->4
 "<ruteʼ>"
-	"teʼej" n px3sg @obl #9->4
+	"teʼej" n px3sg @nmod #9->8
 "<.>"
 	"." sent @punct #10->4
 
