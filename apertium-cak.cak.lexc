@@ -551,15 +551,15 @@ at%<prn%>%<pers%>:at # ;
 ix%<prn%>%<pers%>:ix # ; 
 e%<prn%>%<pers%>:e # ; 
 
-rïn%<prn%>%<pos%>:rïn # ;
-rïn%<prn%>%<pos%>:rin # ; ! Use/Sub ! Src/kwo
-rat%<prn%>%<pos%>:rat # ;
-rijaʼ%<prn%>%<pos%>:rijaʼ # ;
-röj%<prn%>%<pos%>:röj # ;
-röj%<prn%>%<pos%>:roj # ; ! Use/Sub ! Src/npass
-rïx%<prn%>%<pos%>:rïx # ;
-rijeʼ%<prn%>%<pos%>:rijeʼ # ;
-rijeʼ%<prn%>%<pos%>:rije # ; ! Use/Sub ! Src/npass
+ri%<det%>%+in%<prn%>%<pers%>:rïn # ;
+ri%<det%>%+in%<prn%>%<pers%>:rin # ; ! Use/Sub ! Src/kwo
+ri%<det%>%+at%<prn%>%<pers%>:rat # ;
+ri%<det%>%+ijaʼ%<prn%>%<pers%>:rijaʼ # ; ! FIXME: check
+ri%<det%>%+öj%<prn%>%<pers%>:röj # ;
+ri%<det%>%+öj%<prn%>%<pers%>:roj # ; ! Use/Sub ! Src/npass
+ri%<det%>%+ix%<prn%>%<pers%>:rïx # ;
+ri%<det%>%+e%<prn%>%<pers%>:rijeʼ # ;
+ri%<det%>%+e%<prn%>%<pers%>:rije # ; ! Use/Sub ! Src/npass
 
 ririʼ%<prn%>%<dem%>:ririʼ # ;
 rijaʼ%<prn%>%<pers%>:rijaʼ # ;
@@ -1457,6 +1457,7 @@ qʼetej:qʼet TV/ej ; ! "abrazar"
 kamisaj:kamis TV/aj ; ! "matar"
 kʼaxaj:kʼax TV/aj ; ! "escuchar"
 palibʼej:palibʼ TV/ej ; ! ""
+oqotaj:oqot TV/aj ; ! "perseguir"
 
 retz:retz TV ; ! "romper"
 tzäq:tzäq TV ; ! "botar"
@@ -1491,6 +1492,7 @@ tzʼibʼaj:tzʼibʼ TV/aj ; ! "escribir"
 
 tijoj:tij TV/oj ; ! "enseñar"
 siloj:sil TV/oj ; ! "mover"
+kanoj:kan TV/oj ; ! "buscar"
 
 chaʼ:chaʼ TV ; ! "elegir, escoger"
 
