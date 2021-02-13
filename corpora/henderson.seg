@@ -1,0 +1,711 @@
+# sent_id = henderson:1b
+# text = Pa kʼaybʼal xinlöqʼ wi.
+# text[orig] = Pa kʼaybʼal xinlöqʼ wi.
+# text[gloss] = Pa kʼaybʼal x-Ø-in-löqʼ wi.
+# text[eng] = In the market I bought it.
+# label = incomplete
+^Pa/Pa$
+^kʼaybʼal/kʼaybʼal$
+^xinlöqʼ/x>in>löqʼ$
+^wi/wi$
+^./.$
+
+# sent_id = henderson:2a
+# text = Xpe waweʼ.
+# text[orig] = Xpe waweʼ.
+# text[gloss] = X-Ø-pe waweʼ. 
+# text[eng] =  He came here.
+# label = complete
+^Xpe/X>pe$
+^waweʼ/waweʼ$
+^./.$
+
+# sent_id = henderson:2b
+# text = Waweʼ xpe.
+# text[orig] = Wawe’ xpe.
+# text[gloss] = Wawe’ x-Ø-pe. 
+# text[eng] = Here he came.
+# label = complete
+^Waweʼ/Waweʼ$
+^xpe/x>pe$
+^./.$
+
+# sent_id = henderson:4a
+# text = Nabän ri qawäy pa toqʼa.
+# text[orig] = Nabän ri qawäy pa toqʼa.
+# text[gloss] = N-Ø-a-bän ri qa-wäy pa toqʼa.
+# text[eng] = You make our food at night.
+# label = incomplete
+^Nabän/*Nabän$
+^ri/ri$
+^qawäy/qa>wäy$
+^pa/pa$
+^toqʼa/*toqʼa$
+^./.$
+
+# sent_id = henderson:5b
+# text = Chi re ateʼ xinyaʼ wi ri uq.
+# text[orig] = Chi re ateʼ xinyaʼ wi ri uq.
+# text[gloss] = Chi r-e a-teʼ x-Ø-in-yaʼ wi ri uq. 
+# text[eng] = To your mother I gave the corte.
+# label = incomplete
+^Chi/Chi$
+^re/re$
+^ateʼ/a>teʼ$
+^xinyaʼ/*xinyaʼ$
+^wi/wi$
+^ri/ri$
+^uq/*uq$
+^./.$
+
+# sent_id = henderson:6a
+# text = Richin ateʼ xinlöqʼ ri uq.
+# text[orig] = Richin ateʼ xinlöqʼ ri uq.
+# text[gloss] = R-ichin a-teʼ x-Ø-in-löqʼ ri uq. 
+# text[eng] = For your mother I bought the corte.
+# label = incomplete
+^Richin/R>ichin$
+^ateʼ/a>teʼ$
+^xinlöqʼ/*xinlöqʼ$
+^ri/ri$
+^uq/*uq$
+^./.$
+
+# sent_id = henderson:7a
+# text = Man waweʼ ta xwaʼ wi.
+# text[orig] = Man waweʼ ta xwa’ wi.
+# text[gloss] = Man waweʼ ta x-Ø-wa’ wi.
+# text[eng] = It’s not here where he ate.
+# label = incomplete
+^Man/Man$
+^waweʼ/waweʼ$
+^ta/ta$
+^xwaʼ/x>waʼ$
+^wi/wi$
+^./.$
+
+# sent_id = henderson:7d
+# text = Man chanin ta xwaʼ.
+# text[orig] = Man chanin ta xwaʼ.
+# text[gloss] = Man chanin ta x-Ø-waʼ. 
+# text[eng] = It’s not quickly that he ate.
+# label = incomplete
+^Man/Man$
+^chanin/*chanin$
+^ta/ta$
+^xwaʼ/x>waʼ$
+^./.$
+
+# sent_id = henderson:8a
+# text = La waweʼ xalöqʼ wi ri äkʼ?
+# text[orig] = La waweʼ xalöqʼ wi ri äkʼ?
+# text[gloss] = La waweʼ x-Ø-a-löqʼ wi ri äkʼ?
+# text[eng] = Did you buy the chicken here?
+# label = incomplete
+^La/La$
+^waweʼ/waweʼ$
+^xalöqʼ/x>a>löqʼ$
+^wi/wi$
+^ri/ri$
+^äkʼ/*äkʼ$
+^\/\^?/?^./.$
+
+# sent_id = henderson:8d
+# text = La iwïr xalöqʼ ri äkʼ?
+# text[orig] = La iwïr xalöqʼ ri äkʼ?
+# text[gloss] = La iwïr x-Ø-a-löqʼ ri äkʼ?
+# text[eng] = Did you buy the chicken yesterday?
+# label = incomplete
+^La/La$
+^iwïr/*iwïr$
+^xalöqʼ/x>a>löqʼ$
+^ri/ri$
+^äkʼ/*äkʼ$
+^\/\^?/?^./.$
+
+# sent_id = henderson:9a
+# text = Rikʼin tzʼibaʼbʼal xintzʼibʼabʼej wi ri wuj.
+# text[orig] = Rikʼin tzʼiba’bʼal xintzʼibʼabʼej wi ri wuj.
+# text[gloss] = R-ikʼin tzʼiba’bʼal x-Ø-in-tzʼibʼa-bʼe-j wi ri wuj. 
+# text[eng] = With a pen I wrote the paper.
+# label = incomplete
+^Rikʼin/R>ikʼin$
+^tzʼibaʼbʼal/*tzʼibaʼbʼal$
+^xintzʼibʼabʼej/*xintzʼibʼabʼej$
+^wi/wi$
+^ri/ri$
+^wuj/*wuj$
+^./.$
+
+# sent_id = henderson:10a
+# text = Akuchiʼ xabʼe wi?
+# text[orig] = Akuchiʼ xabʼe wi?
+# text[gloss] = Akuchiʼ x-a-bʼe wi?
+# text[eng] =  ^Where/*Where ^did/*did ^you/*you ^go/*go^?/?$
+# label = incomplete
+^Akuchiʼ/*Akuchiʼ$
+^xabʼe/x>a>bʼe$
+^wi/wi$
+^\/\^?/?^./.$
+
+# sent_id = henderson:11a
+# text = Yabʼiyin akuchiʼ nkayix wi ri lawx.
+# text[orig] = Yab’iyin akuchi’ nkayix wi ri lawx.
+# text[gloss] = Y-a-b’iyin akuchi’ n-Ø-kayi-x wi ri lawx. 
+# text[eng] = You walk to where nails are bought.
+# label = incomplete
+^Yabʼiyin/*Yabʼiyin$
+^akuchiʼ/*akuchiʼ$
+^nkayix/*nkayix$
+^wi/wi$
+^ri/ri$
+^lawx/*lawx$
+^./.$
+
+# sent_id = henderson:12a
+# text = Waweʼ xebʼiyin wi pe.
+# text[orig] = Waweʼ xebʼiyin wi pe.
+# text[gloss] = Waweʼ x-e-bʼiyin wi pe. 
+# text[eng] =  ^Here/*Here ^they/*they ^walked/*walked^./.$
+# label = incomplete
+^Waweʼ/Waweʼ$
+^xebʼiyin/*xebʼiyin$
+^wi/wi$
+^pe/pe$
+^./.$
+
+# sent_id = henderson:13a
+# text = Pa qʼequʼm xbʼekiqʼetej yan ta chïk wi pe kiʼ.
+# text[orig] = Pa q’equ’m xb’ekiq’etej yan ta chïk wi pe ki’.
+# text[gloss] = Pa q’equ’m x-Ø-b’e-ki-q’etej yan ta chïk wi pe k-i’.
+# text[eng] =  ^They/*They ^had/*had ^already/*already ^been/*been ^hugging/*hugging ^again/*again ^in/in ^the/*the ^darkness/*darkness^./.$
+# label = incomplete
+^Pa/Pa$
+^qʼequʼm/qʼequʼm$
+^xbʼekiqʼetej/*xbʼekiqʼetej$
+^yan/yan$
+^ta/ta$
+^chïk/chïk$
+^wi/wi$
+^pe/pe$
+^kiʼ/*kiʼ$
+^./.$
+
+# sent_id = henderson:14b
+# text = Xulöqʼ ri äkʼ ri nuteʼ pa kʼaybʼal.
+# text[orig] = Xulöqʼ ri äkʼ ri nuteʼ pa kʼaybʼal.
+# text[gloss] = X-Ø-u-löqʼ ri äkʼ ri nu-teʼ pa kʼaybʼal.
+# text[eng] = My mother bought the chicken in the market.
+# label = incomplete
+^Xulöqʼ/X>u>löqʼ$
+^ri/ri$
+^äkʼ/*äkʼ$
+^ri/ri$
+^nuteʼ/nu>teʼ$
+^pa/pa$
+^kʼaybʼal/*kʼaybʼal$
+^./.$
+
+# sent_id = henderson:14c
+# text = Xubän ri qawäy ri nuteʼ pa toqʼa.
+# text[orig] = Xubän ri qawäy ri nuteʼ pa toqʼa.
+# text[gloss] = X-Ø-u-bän ri qa-wäy ri nu-teʼ pa toqʼa.
+# text[eng] = My mother makes our food at night.
+# label = incomplete
+^Xubän/*Xubän$
+^ri/ri$
+^qawäy/qa>wäy$
+^ri/ri$
+^nuteʼ/nu>teʼ$
+^pa/pa$
+^toqʼa/*toqʼa$
+^./.$
+
+# sent_id = henderson:15a
+# text = Xusipaj chi re nuteʼ iwïr.
+# text[orig] = Xusipaj chi re nute’ iwïr.
+# text[gloss] = X-Ø-u-sipaj chi r-e nu-te’ iwïr.
+# text[eng] = He gave it to my mother yesterday.
+# label = incomplete
+^Xusipaj/X>u>sip>aj/X>u>sipaj$
+^chi/chi$
+^re/re$
+^nuteʼ/nu>teʼ$
+^iwïr/*iwïr$
+^./.$
+
+# sent_id = henderson:16a
+# text = Xixajon rikʼin wanaʼ iwïr.
+# text[orig] = Xixajon rik’in wana’ iwïr.
+# text[gloss] = Xi-Ø-xajon r-ik’in w-ana’ iwïr.
+# text[eng] = He danced with my sister yesterday.
+# label = incomplete
+^Xixajon/*Xixajon$
+^rikʼin/r>ikʼin$
+^wanaʼ/w>anaʼ$
+^iwïr/*iwïr$
+^./.$
+
+# sent_id = henderson:17a
+# text = Xulöqʼ ri äkʼ pa kʼaybʼal ri xta Irma.
+# text[orig] = Xulöq’ ri äk’ pa k’ayb’al ri xta Irma.
+# text[gloss] = X-Ø-u-löq’ ri äk’ pa k’ayb’al ri xta Irma.
+# text[eng] = Irma bought a chicken in the market.
+# label = incomplete
+^Xulöqʼ/X>u>löqʼ$
+^ri/ri$
+^äkʼ/*äkʼ$
+^pa/pa$
+^kʼaybʼal/*kʼaybʼal$
+^ri/ri$
+^xta/xta$
+^Irma/Irma$
+^./.$
+
+# sent_id = henderson:18a
+# text = Xupalbʼej jun pop ri ixtän.
+# text[orig] = Xupalb’ej jun pop ri ixtän.
+# text[gloss] = X-Ø-u-pal-b’e-j jun pop ri ixtän.
+# text[eng] = The girl stood on a mat.
+# label = incomplete
+^Xupalbʼej/*Xupalbʼej$
+^jun/*jun$
+^pop/*pop$
+^ri/ri$
+^ixtän/i>xtän$
+^./.$
+
+# sent_id = henderson:18b
+# text = Xuchʼobʼej ri ixöq.
+# text[orig] = Xuchʼobʼej ri ixöq.
+# text[gloss] = X-Ø-u-chʼo-bʼe-j ri ixöq. 
+# text[eng] = He spoke to the woman.
+# label = incomplete
+^Xuchʼobʼej/*Xuchʼobʼej$
+^ri/ri$
+^ixöq/*ixöq$
+^./.$
+
+# sent_id = henderson:18c
+# text = Xatrutzijobʼej ri ixöq.
+# text[orig] = Xatrutzijob’ej ri ixöq.
+# text[gloss] = X-at-ru-tzijo-b’e-j ri ixöq.
+# text[eng] = The woman talked about you.
+# label = incomplete
+^Xatrutzijobʼej/*Xatrutzijobʼej$
+^ri/ri$
+^ixöq/*ixöq$
+^./.$
+
+# sent_id = henderson:18d
+# text = Xusamajibʼej wachbʼil.
+# text[orig] = Xusamajibʼej wachbʼil.
+# text[gloss] = X-Ø-u-samaji-bʼe-j w-achbʼil. 
+# text[eng] = He worked with my friend
+# label = incomplete
+^Xusamajibʼej/*Xusamajibʼej$
+^wachbʼil/*wachbʼil$
+^./.$
+
+# sent_id = henderson:20a
+# text = Nïm raqän ri chʼat wichin.
+# text[orig] = Nïm raqän ri ch’at wichin.
+# text[gloss] = Nïm r-aqän ri ch’at w-ichin. 
+# text[eng] =  ^My/*My ^bed/*bed ^is/*is ^tall/*tall^./.$
+# label = incomplete
+^Nïm/Nïm$
+^raqän/r>aqän$
+^ri/ri$
+^chʼat/*chʼat$
+^wichin/w>ichin$
+^./.$
+
+# sent_id = henderson:21a
+# text = Xinlöqʼ ri äkʼ richin nuteʼ.
+# text[orig] = Xinlöqʼ ri äkʼ richin nuteʼ.
+# text[gloss] = X-Ø-in-löqʼ ri äkʼ r-ichin nu-teʼ.
+# text[eng] = I bought the chicken for my mother.
+# label = incomplete
+^Xinlöqʼ/*Xinlöqʼ$
+^ri/ri$
+^äkʼ/*äkʼ$
+^richin/r>ichin$
+^nuteʼ/nu>teʼ$
+^./.$
+
+# sent_id = henderson:22a
+# text = Yisamäj pa kʼaybʼal.
+# text[orig] = Yisamäj pa kʼaybʼal.
+# text[gloss] = Y-i-samäj pa kʼaybʼal.
+# text[eng] = I work in the market.
+# label = incomplete
+^Yisamäj/Y>i>samäj$
+^pa/pa$
+^kʼaybʼal/*kʼaybʼal$
+^./.$
+
+# sent_id = henderson:22b
+# text = Yisamäj rikʼin jun wachbʼil.
+# text[orig] = Yisamäj rikʼin jun wachbʼil.
+# text[gloss] = Y-i-samäj r-ikʼin jun w-achbʼil. 
+# text[eng] = I work with a friend.
+# label = incomplete
+^Yisamäj/Y>i>samäj$
+^rikʼin/r>ikʼin$
+^jun/*jun$
+^wachbʼil/*wachbʼil$
+^./.$
+
+# sent_id = henderson:22c
+# text = Yisamäj rikʼin jun ikäj.
+# text[orig] = Yisamäj rikʼin jun ikäj.
+# text[gloss] = Y-i-samäj r-ikʼin jun ikäj. 
+# text[eng] = I work with a hatchet.
+# label = incomplete
+^Yisamäj/Y>i>samäj$
+^rikʼin/r>ikʼin$
+^jun/*jun$
+^ikäj/*ikäj$
+^./.$
+
+# sent_id = henderson:22d
+# text = Yisamäj pa ruwiʼ ri aqʼom.
+# text[orig] = Yisamäj pa ruwiʼ ri aqʼom.
+# text[gloss] = Y-i-samäj pa ru-wiʼ ri aqʼom. 
+# text[eng] = I work about (in) medicine.
+# label = incomplete
+^Yisamäj/Y>i>samäj$
+^pa/pa$
+^ruwiʼ/ru>wiʼ$
+^ri/ri$
+^aqʼom/*aqʼom$
+^./.$
+
+# sent_id = henderson:23a
+# text = Xintzʼibʼaj richin nuteʼ.
+# text[orig] = Xintzʼibʼaj richin nuteʼ.
+# text[gloss] = X-Ø-in-tzʼibʼaj r-ichin nu-teʼ. 
+# text[eng] = I wrote it for my mother.
+# label = incomplete
+^Xintzʼibʼaj/*Xintzʼibʼaj$
+^richin/r>ichin$
+^nuteʼ/nu>teʼ$
+^./.$
+
+# sent_id = henderson:23c
+# text = Xitzʼibʼan chi re nuteʼ.
+# text[orig] = Xitz’ib’an chi re nute’.
+# text[gloss] = X-i-tz’ib’a-n chi r-e nu-te’. 
+# text[eng] = I wrote to my mother.
+# label = incomplete
+^Xitzʼibʼan/X>i>tzʼibʼa>n$
+^chi/chi$
+^re/re$
+^nuteʼ/nu>teʼ$
+^./.$
+
+# sent_id = henderson:24a
+# text = Xechʼon chi re ri qʼatöy tzij.
+# text[orig] = Xech’on chi re ri q’atöy tzij.
+# text[gloss] = X-e-ch’o-n chi r-e ri q’atöy tzij. 
+# text[eng] = They spoke to the mayor.
+# label = incomplete
+^Xechʼon/*Xechʼon$
+^chi/chi$
+^re/re$
+^ri/ri$
+^qʼatöy/*qʼatöy$
+^tzij/*tzij$
+^./.$
+
+# sent_id = henderson:25a
+# text = Xulöqʼ ri poʼt kichin ri nuteʼ.
+# text[orig] = Xulöqʼ ri poʼt kichin ri nuteʼ.
+# text[gloss] = X-Ø-u-löqʼ ri poʼt k-ichin ri nu-teʼ. 
+# text[eng] = My mother bought the blouse for them.
+# label = incomplete
+^Xulöqʼ/X>u>löqʼ$
+^ri/ri$
+^poʼt/*poʼt$
+^kichin/k>ichin$
+^ri/ri$
+^nuteʼ/nu>teʼ$
+^./.$
+
+# sent_id = henderson:26a
+# text = Xukem ri pas wichin ri numetzʼ.
+# text[orig] = Xukem ri pas wichin ri numetzʼ.
+# text[gloss] = X-Ø-ukem ri pas w-ichin ri nu-metzʼ. 
+# text[eng] = My girlfriend wove the belt for me.
+# label = incomplete
+^Xukem/*Xukem$
+^ri/ri$
+^pas/*pas$
+^wichin/w>ichin$
+^ri/ri$
+^numetzʼ/*numetzʼ$
+^./.$
+
+# sent_id = henderson:27a
+# text = Xintzʼët ri achin ri nsamäj ke la.
+# text[orig] = Xintzʼët ri achin ri nsamäj ke la.
+# text[gloss] = X-Ø-in-tzʼët ri achin ri n-Ø-samäj ke la. 
+# text[eng] = I saw the man that works there.
+# label = incomplete
+^Xintzʼët/*Xintzʼët$
+^ri/ri$
+^achin/*achin$
+^ri/ri$
+^nsamäj/*nsamäj$
+^ke/ke$
+^la/la$
+^./.$
+
+# sent_id = henderson:28a
+# text = Yikikot wi xbʼe Tojil pa kʼaybʼal.
+# text[orig] = Yikikot wi xbʼe Tojil pa kʼaybʼal.
+# text[gloss] = Y-i-kikot wi x-Ø-bʼe Tojil pa kʼaybʼal. 
+# text[eng] = I am happy if Tojil went to the market.
+# label = incomplete
+^Yikikot/*Yikikot$
+^wi/wi$
+^xbʼe/x>bʼe$
+^Tojil/*Tojil$
+^pa/pa$
+^kʼaybʼal/*kʼaybʼal$
+^./.$
+
+# sent_id = henderson:28c
+# text = Yikikot toq nibʼe Tojil pa kʼaybʼal.
+# text[orig] = Yikikot toq nibʼe Tojil pa kʼaybʼal.
+# text[gloss] = Y-i-kikot toq ni-Ø-bʼe Tojil pa kʼaybʼal. 
+# text[eng] = I am happy when Tojil goes to the market.
+# label = incomplete
+^Yikikot/*Yikikot$
+^toq/toq$
+^nibʼe/ni>bʼe$
+^Tojil/*Tojil$
+^pa/pa$
+^kʼaybʼal/*kʼaybʼal$
+^./.$
+
+# sent_id = henderson:28e
+# text = Yikikot roma xbʼe Tojil pa kʼaybʼal.
+# text[orig] = Yikikot roma xbʼe Tojil pa kʼaybʼal.
+# text[gloss] = Y-i-kikot roma x-Ø-bʼe Tojil pa kʼaybʼal. 
+# text[eng] = I am happy because Tojil went to the market.
+# label = incomplete
+^Yikikot/*Yikikot$
+^roma/r>oma$
+^xbʼe/x>bʼe$
+^Tojil/*Tojil$
+^pa/pa$
+^kʼaybʼal/*kʼaybʼal$
+^./.$
+
+# sent_id = henderson:29a
+# text = Nawetamaj achike xixajon rikʼin ri awachbʼil?
+# text[orig] = Nawetamaj achike xixajon rikʼin ri awachbʼil?
+# text[gloss] = N-Ø-aw-etamaj achike xi-Ø-xajon r-ikʼin ri aw-achbʼil? 
+# text[eng] = Do you know who danced with your friend?
+# label = incomplete
+^Nawetamaj/*Nawetamaj$
+^achike/achike$
+^xixajon/*xixajon$
+^rikʼin/r>ikʼin$
+^ri/ri$
+^awachbʼil/*awachbʼil$
+^\/\^?/?^./.$
+
+# sent_id = henderson:30a
+# text = Xatzʼët achike xbʼe pa kʼaybʼal?
+# text[orig] = Xatzʼët achike xbʼe pa kʼaybʼal?
+# text[gloss] = X-Ø-a-tzʼët achike x-Ø-bʼe pa kʼaybʼal? 
+# text[eng] = Did you see who went to the market?
+# label = incomplete
+^Xatzʼët/X>a>tzʼët$
+^achike/achike$
+^xbʼe/x>bʼe$
+^pa/pa$
+^kʼaybʼal/*kʼaybʼal$
+^\/\^?/?^./.$
+
+# sent_id = henderson:31a
+# text = Akuchi nkirayil yeʼapon wi?
+# text[orig] = Akuchi nkirayil yeʼapon wi?
+# text[gloss] = Akuchi n-Ø-ki-rayil y-eʼ-apon wi?
+# text[eng] = Where did they desire to arrive?
+# label = incomplete
+^Akuchi/*Akuchi$
+^nkirayil/*nkirayil$
+^yeʼapon/*yeʼapon$
+^wi/wi$
+^\/\^?/?^./.$
+
+# sent_id = henderson:32a
+# text = Achoj ikʼin nawetamaj chi xixajon wi?
+# text[orig] = Achoj ikʼin nawetamaj chi xixajon wi?
+# text[gloss] = Achoj ikʼin n-Ø-aw-etamaj chi xi-Ø-xajon wi?
+# text[eng] = With whom do you know he danced?
+# label = incomplete
+^Achoj/*Achoj$
+^ikʼin/i>kʼin$
+^nawetamaj/*nawetamaj$
+^chi/chi$
+^xixajon/*xixajon$
+^wi/wi$
+^\/\^?/?^./.$
+
+# sent_id = henderson:33a
+# text = Akuchi xatzʼët chi xbʼe wi?
+# text[orig] = Akuchi xatzʼët chi xbʼe wi?
+# text[gloss] = Akuchi x-Ø-a-tzʼët chi x-Ø-bʼe wi?
+# text[eng] = Where did you see him go?
+# label = incomplete
+^Akuchi/*Akuchi$
+^xatzʼët/x>a>tzʼët$
+^chi/chi$
+^xbʼe/x>bʼe$
+^wi/wi$
+^\/\^?/?^./.$
+
+# sent_id = henderson:34a
+# text = Achoj ikʼin xatzʼët chi xsamäj wi?
+# text[orig] = Achoj ikʼin xatzʼët chi xsamäj wi?
+# text[gloss] = Achoj ikʼin x-Ø-a-tzʼët chi x-Ø-samäj wi?
+# text[eng] = With whom did you see him work?
+# label = incomplete
+^Achoj/*Achoj$
+^ikʼin/i>kʼin$
+^xatzʼët/x>a>tzʼët$
+^chi/chi$
+^xsamäj/x>samäj$
+^wi/wi$
+^\/\^?/?^./.$
+
+# sent_id = henderson:34b
+# text = Achoj ikʼin xatzʼët wi chi xsamäj?
+# text[orig] = Achoj ikʼin xatzʼët wi chi xsamäj?
+# text[gloss] = Achoj ikʼin x-Ø-a-tzʼët wi chi x-Ø-samäj? 
+# text[eng] = With whom did you see him work?
+# label = incomplete
+^Achoj/*Achoj$
+^ikʼin/i>kʼin$
+^xatzʼët/x>a>tzʼët$
+^wi/wi$
+^chi/chi$
+^xsamäj/x>samäj$
+^\/\^?/?^./.$
+
+# sent_id = henderson:35a
+# text = Achoj ikʼin nretamaj chi xeʼel wi?
+# text[orig] = Achoj ik’in nretamaj chi xe’el wi?
+# text[gloss] = Achoj ik’in n-Ø-r-etamaj chi x-e’-el wi?
+# text[eng] = With whom does he know they left?
+# label = incomplete
+^Achoj/*Achoj$
+^ikʼin/i>kʼin$
+^nretamaj/*nretamaj$
+^chi/chi$
+^xeʼel/x>eʼ>el$
+^wi/wi$
+^\/\^?/?^./.$
+
+# sent_id = henderson:36a
+# text = Achoj ikʼin xretamaj ruteʼ chi xeʼel wi.
+# text[orig] = Achoj ik’in xretamaj rute’ chi xeʼel wi.
+# text[gloss] = Achoj ik’in x-Ø-r-etamaj ru-te’ chi x-eʼ-el wi.
+# text[eng] = With whom did his mother know they left?’
+# label = incomplete
+^Achoj/*Achoj$
+^ikʼin/i>kʼin$
+^xretamaj/*xretamaj$
+^ruteʼ/ru>teʼ$
+^chi/chi$
+^xeʼel/x>eʼ>el$
+^wi/wi$
+^./.$
+
+# sent_id = henderson:37a
+# text = Nretamaj ruteʼ chi xeʼel rikʼin ri a Xwan.
+# text[orig] = Nretamaj ruteʼ chi xeʼel rikʼin ri a Xwan.
+# text[gloss] = N-Ø-r-etamaj ru-teʼ chi x-eʼ-el r-ikʼin ri a Xwan. 
+# text[eng] = His mother knows they left with Xwan.
+# label = incomplete
+^Nretamaj/*Nretamaj$
+^ruteʼ/ru>teʼ$
+^chi/chi$
+^xeʼel/x>eʼ>el$
+^rikʼin/r>ikʼin$
+^ri/ri$
+^a/a$
+^Xwan/Xwan$
+^./.$
+
+# sent_id = henderson:38a
+# text = Pa kʼaybʼal xulöqʼ wi ri äkʼ.
+# text[orig] = Pa k’ayb’al xulöq’ wi ri äk’.
+# text[gloss] = Pa k’ayb’al x-Ø-u-löq’ wi ri äk’.
+# text[eng] = She bought a chicken in the market.
+# label = incomplete
+^Pa/Pa$
+^kʼaybʼal/*kʼaybʼal$
+^xulöqʼ/x>u>löqʼ$
+^wi/wi$
+^ri/ri$
+^äkʼ/*äkʼ$
+^./.$
+
+# sent_id = henderson:39a
+# text = Ri nuteʼ pa kʼaybʼal xulöqʼ wi ri äkʼ.
+# text[orig] = Ri nute’ pa k’ayb’al xulöq’ wi ri äk’.
+# text[gloss] = Ri nu-te’ pa k’ayb’al x-Ø-u-löq’ wi ri äk’. 
+# text[eng] = My mother bought a chicken in the market.
+# label = incomplete
+^Ri/Ri$
+^nuteʼ/nu>teʼ$
+^pa/pa$
+^kʼaybʼal/*kʼaybʼal$
+^xulöqʼ/x>u>löqʼ$
+^wi/wi$
+^ri/ri$
+^äkʼ/*äkʼ$
+^./.$
+
+# sent_id = henderson:40a
+# text = Ri xta Irma pa chʼat nwär wi.
+# text[orig] = Ri xta Irma pa ch’at nwär wi.
+# text[gloss] = Ri xta Irma pa ch’at n-Ø-wär wi. 
+# text[eng] = In her bed Irma sleeps.
+# label = incomplete
+^Ri/Ri$
+^xta/xta$
+^Irma/Irma$
+^pa/pa$
+^chʼat/*chʼat$
+^nwär/*nwär$
+^wi/wi$
+^./.$
+
+# sent_id = henderson:42a
+# text = Xinlöq wi ri äkʼ.
+# text[orig] = Xinlöq wi ri äk’.
+# text[gloss] = X-Ø-in-löq wi ri äk’.
+# text[eng] = I BOUGHT the chicken (I didn’t steal it).
+# label = incomplete
+^Xinlöq/*Xinlöq$
+^wi/wi$
+^ri/ri$
+^äkʼ/*äkʼ$
+^./.$
+
+# sent_id = henderson:42b
+# text = Xisamäj wi.
+# text[orig] = Xisamäj wi.
+# text[gloss] = X-i-samäj wi.
+# text[eng] = I WORKED (not anything else).
+# label = incomplete
+^Xisamäj/X>i>samäj$
+^wi/wi$
+^./.$
+
