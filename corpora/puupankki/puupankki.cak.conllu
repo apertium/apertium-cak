@@ -575,6 +575,32 @@
 6		jaʼ	PRON	_	PronType=Prs	3	nmod	_	_
 7	.	.	PUNCT	_	_	3	punct	_	_
 
+# sent_id = npass:ce1a199051
+# text = Ri bʼojoy xkipaxij komaʼ rijeʼ.
+# text[spa] = The pot was broken by them.
+# labels = complete
+1	Ri	ri	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	bʼojoy	bʼojoʼy	NOUN	_	_	3	obj	_	_
+3	xkipaxij	paxij	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+4	komaʼ	oma	NOUN	_	NounType=Relat|Number[psor]=Plur|Person[psor]=3	3	obl	_	_
+5-6	rijeʼ	_	_	_	_	_	_	_	_
+5	rijeʼ	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
+6		e	PRON	_	PronType=Prs	4	nmod	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = npass:662a20ad68
+# text = Ri tzʼiʼ xkitzʼet awomaʼ rat.
+# text[spa] = The dog was seen by you.
+# labels = complete
+1	Ri	ri	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	tzʼiʼ	tzʼiʼ	NOUN	_	_	3	obj	_	_
+3	xkitzʼet	tzʼät	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran	0	root	_	_
+4	awomaʼ	oma	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=2	3	obl	_	_
+5-6	rat	_	_	_	_	_	_	_	_
+5	r	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
+6	at	at	PRON	_	PronType=Prs	4	nmod	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = npass:a37366c39b
 # text = A Juan xubʼij chwe xbʼax romaʼ ri tzʼiʼ.
 # text[spa] = Juan 1 told me that he 1 was bitten by the dog.
