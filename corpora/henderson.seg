@@ -40,7 +40,7 @@
 ^ri/ri$
 ^qawäy/qa>wäy$
 ^pa/pa$
-^toqʼa/*toqʼa$
+^toqʼa/toqʼa$
 ^./.$
 
 # sent_id = henderson:5b
@@ -50,12 +50,12 @@
 # text[eng] = To your mother I gave the corte.
 # label = incomplete
 ^Chi/Chi$
-^re/re$
+^re/r>e$
 ^ateʼ/a>teʼ$
-^xinyaʼ/*xinyaʼ$
+^xinyaʼ/x>in>yaʼ$
 ^wi/wi$
 ^ri/ri$
-^uq/*uq$
+^uq/uq$
 ^./.$
 
 # sent_id = henderson:6a
@@ -66,9 +66,9 @@
 # label = incomplete
 ^Richin/R>ichin$
 ^ateʼ/a>teʼ$
-^xinlöqʼ/*xinlöqʼ$
+^xinlöqʼ/x>in>löqʼ$
 ^ri/ri$
-^uq/*uq$
+^uq/uq$
 ^./.$
 
 # sent_id = henderson:7a
@@ -107,8 +107,8 @@
 ^xalöqʼ/x>a>löqʼ$
 ^wi/wi$
 ^ri/ri$
-^äkʼ/*äkʼ$
-^\/\^?/?^./.$
+^äkʼ/äkʼ$
+^?/?$
 
 # sent_id = henderson:8d
 # text = La iwïr xalöqʼ ri äkʼ?
@@ -117,11 +117,11 @@
 # text[eng] = Did you buy the chicken yesterday?
 # label = incomplete
 ^La/La$
-^iwïr/*iwïr$
+^iwïr/iwïr$
 ^xalöqʼ/x>a>löqʼ$
 ^ri/ri$
-^äkʼ/*äkʼ$
-^\/\^?/?^./.$
+^äkʼ/äkʼ$
+^?/?$
 
 # sent_id = henderson:9a
 # text = Rikʼin tzʼibaʼbʼal xintzʼibʼabʼej wi ri wuj.
@@ -146,7 +146,7 @@
 ^Akuchiʼ/*Akuchiʼ$
 ^xabʼe/x>a>bʼe$
 ^wi/wi$
-^\/\^?/?^./.$
+^?/?$
 
 # sent_id = henderson:11a
 # text = Yabʼiyin akuchiʼ nkayix wi ri lawx.
@@ -199,7 +199,7 @@
 # label = incomplete
 ^Xulöqʼ/X>u>löqʼ$
 ^ri/ri$
-^äkʼ/*äkʼ$
+^äkʼ/äkʼ$
 ^ri/ri$
 ^nuteʼ/nu>teʼ$
 ^pa/pa$
@@ -227,11 +227,11 @@
 # text[gloss] = X-Ø-u-sipaj chi r-e nu-te’ iwïr.
 # text[eng] = He gave it to my mother yesterday.
 # label = incomplete
-^Xusipaj/X>u>sip>aj/X>u>sipaj$
+^Xusipaj/X>u>sip>aj$
 ^chi/chi$
 ^re/re$
 ^nuteʼ/nu>teʼ$
-^iwïr/*iwïr$
+^iwïr/iwïr$
 ^./.$
 
 # sent_id = henderson:16a
@@ -243,7 +243,7 @@
 ^Xixajon/*Xixajon$
 ^rikʼin/r>ikʼin$
 ^wanaʼ/w>anaʼ$
-^iwïr/*iwïr$
+^iwïr/iwïr$
 ^./.$
 
 # sent_id = henderson:17a
@@ -254,7 +254,7 @@
 # label = incomplete
 ^Xulöqʼ/X>u>löqʼ$
 ^ri/ri$
-^äkʼ/*äkʼ$
+^äkʼ/äkʼ$
 ^pa/pa$
 ^kʼaybʼal/*kʼaybʼal$
 ^ri/ri$
@@ -269,8 +269,8 @@
 # text[eng] = The girl stood on a mat.
 # label = incomplete
 ^Xupalbʼej/*Xupalbʼej$
-^jun/*jun$
-^pop/*pop$
+^jun/jun$
+^pop/pop$
 ^ri/ri$
 ^ixtän/i>xtän$
 ^./.$
@@ -328,7 +328,7 @@
 # label = incomplete
 ^Xinlöqʼ/*Xinlöqʼ$
 ^ri/ri$
-^äkʼ/*äkʼ$
+^äkʼ/äkʼ$
 ^richin/r>ichin$
 ^nuteʼ/nu>teʼ$
 ^./.$
@@ -352,8 +352,8 @@
 # label = incomplete
 ^Yisamäj/Y>i>samäj$
 ^rikʼin/r>ikʼin$
-^jun/*jun$
-^wachbʼil/*wachbʼil$
+^jun/jun$
+^wachbʼil/w>achbʼil$
 ^./.$
 
 # sent_id = henderson:22c
@@ -364,8 +364,8 @@
 # label = incomplete
 ^Yisamäj/Y>i>samäj$
 ^rikʼin/r>ikʼin$
-^jun/*jun$
-^ikäj/*ikäj$
+^jun/jun$
+^ikäj/ikäj$
 ^./.$
 
 # sent_id = henderson:22d
@@ -387,7 +387,7 @@
 # text[gloss] = X-Ø-in-tzʼibʼaj r-ichin nu-teʼ. 
 # text[eng] = I wrote it for my mother.
 # label = incomplete
-^Xintzʼibʼaj/*Xintzʼibʼaj$
+^Xintzʼibʼaj/X>in>tzʼibʼaj$
 ^richin/r>ichin$
 ^nuteʼ/nu>teʼ$
 ^./.$
@@ -410,12 +410,12 @@
 # text[gloss] = X-e-ch’o-n chi r-e ri q’atöy tzij. 
 # text[eng] = They spoke to the mayor.
 # label = incomplete
-^Xechʼon/*Xechʼon$
+^Xechʼon/X>e>chʼo>n$
 ^chi/chi$
-^re/re$
+^re/r>e$
 ^ri/ri$
-^qʼatöy/*qʼatöy$
-^tzij/*tzij$
+^qʼatöy/qʼatöy$
+^tzij/tzij$
 ^./.$
 
 # sent_id = henderson:25a
@@ -515,7 +515,7 @@
 ^rikʼin/r>ikʼin$
 ^ri/ri$
 ^awachbʼil/*awachbʼil$
-^\/\^?/?^./.$
+^?/?$
 
 # sent_id = henderson:30a
 # text = Xatzʼët achike xbʼe pa kʼaybʼal?
@@ -528,7 +528,7 @@
 ^xbʼe/x>bʼe$
 ^pa/pa$
 ^kʼaybʼal/*kʼaybʼal$
-^\/\^?/?^./.$
+^?/?$
 
 # sent_id = henderson:31a
 # text = Akuchi nkirayil yeʼapon wi?
@@ -540,7 +540,7 @@
 ^nkirayil/*nkirayil$
 ^yeʼapon/*yeʼapon$
 ^wi/wi$
-^\/\^?/?^./.$
+^?/?$
 
 # sent_id = henderson:32a
 # text = Achoj ikʼin nawetamaj chi xixajon wi?
@@ -554,7 +554,7 @@
 ^chi/chi$
 ^xixajon/*xixajon$
 ^wi/wi$
-^\/\^?/?^./.$
+^?/?$
 
 # sent_id = henderson:33a
 # text = Akuchi xatzʼët chi xbʼe wi?
@@ -567,7 +567,7 @@
 ^chi/chi$
 ^xbʼe/x>bʼe$
 ^wi/wi$
-^\/\^?/?^./.$
+^?/?$
 
 # sent_id = henderson:34a
 # text = Achoj ikʼin xatzʼët chi xsamäj wi?
@@ -581,7 +581,7 @@
 ^chi/chi$
 ^xsamäj/x>samäj$
 ^wi/wi$
-^\/\^?/?^./.$
+^?/?$
 
 # sent_id = henderson:34b
 # text = Achoj ikʼin xatzʼët wi chi xsamäj?
@@ -595,7 +595,7 @@
 ^wi/wi$
 ^chi/chi$
 ^xsamäj/x>samäj$
-^\/\^?/?^./.$
+^?/?$
 
 # sent_id = henderson:35a
 # text = Achoj ikʼin nretamaj chi xeʼel wi?
@@ -609,7 +609,7 @@
 ^chi/chi$
 ^xeʼel/x>eʼ>el$
 ^wi/wi$
-^\/\^?/?^./.$
+^?/?$
 
 # sent_id = henderson:36a
 # text = Achoj ikʼin xretamaj ruteʼ chi xeʼel wi.
@@ -653,7 +653,7 @@
 ^xulöqʼ/x>u>löqʼ$
 ^wi/wi$
 ^ri/ri$
-^äkʼ/*äkʼ$
+^äkʼ/äkʼ$
 ^./.$
 
 # sent_id = henderson:39a
@@ -669,7 +669,7 @@
 ^xulöqʼ/x>u>löqʼ$
 ^wi/wi$
 ^ri/ri$
-^äkʼ/*äkʼ$
+^äkʼ/äkʼ$
 ^./.$
 
 # sent_id = henderson:40a
@@ -696,7 +696,7 @@
 ^Xinlöq/*Xinlöq$
 ^wi/wi$
 ^ri/ri$
-^äkʼ/*äkʼ$
+^äkʼ/äkʼ$
 ^./.$
 
 # sent_id = henderson:42b

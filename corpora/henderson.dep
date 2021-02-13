@@ -5,16 +5,15 @@
 # text[eng] = In the market I bought it.
 # label = incomplete
 "<Pa>"
-	"pa" pr
+	"pa" pr @case #1->2
 "<kʼaybʼal>"
-	"kʼaybʼäl" n
+	"kʼaybʼäl" n @obl #2->3
 "<xinlöqʼ>"
-	"*xinlöqʼ"
+	"löqʼ" v tv perf o_sg3 s_sg1 @root #3->0
 "<wi>"
-	"we" cnjsub
-	"wi" foc
+	"wi" foc @discourse #4->3
 "<.>"
-	"." sent
+	"." sent @punct #5->3
 
 # sent_id = henderson:2a
 # text = Xpe waweʼ.
@@ -47,44 +46,43 @@
 # text[orig] = Nabän ri qawäy pa toqʼa.
 # text[gloss] = N-Ø-a-bän ri qa-wäy pa toqʼa.
 # text[eng] = You make our food at night.
-# label = incomplete
+# label = complete
 "<Nabän>"
-	"*Nabän"
+	"bän" v tv impf o_sg3 s_sg2 @root #1->0
 "<ri>"
-	"ri" det
+	"ri" det @det #2->3
 "<qawäy>"
-	"wäy" n px1pl
+	"wäy" n px1pl @obj #3->1
 "<pa>"
-	"pa" pr
+	"pa" pr @case #4->5
 "<toqʼa>"
-	"*toqʼa"
+	"toqʼa" n @obl #5->1
 "<.>"
-	"." sent
+	"." sent @punct #6->1
 
 # sent_id = henderson:5b
 # text = Chi re ateʼ xinyaʼ wi ri uq.
 # text[orig] = Chi re ateʼ xinyaʼ wi ri uq. 
 # text[gloss] = Chi r-e a-teʼ x-Ø-in-yaʼ wi ri uq. 
 # text[eng] = To your mother I gave the corte.
-# label = incomplete
+# label = complete
 "<Chi>"
-	"chi" cnjsub
-	"chi" pr
+	"chi" pr @case #1->3
 "<re>"
-	"re" det dem
+	"ri" det @det #2->3
+		"ech" n rel px3sg @obl #3->5
 "<ateʼ>"
-	"teʼej" n px2sg
+	"teʼej" n px2sg @nmod #4->3
 "<xinyaʼ>"
-	"*xinyaʼ"
+	"yaʼ" v tv perf o_sg3 s_sg3 @root #5->0
 "<wi>"
-	"we" cnjsub
-	"wi" foc
+	"wi" foc @discourse #6->5
 "<ri>"
-	"ri" det
+	"ri" det @det #7->8
 "<uq>"
-	"uq" n
+	"uq" n @obj #8->5
 "<.>"
-	"." sent
+	"." sent @punct #9->5
 
 # sent_id = henderson:6a
 # text = Richin ateʼ xinlöqʼ ri uq.
@@ -112,15 +110,14 @@
 # text[eng] = It’s not here where he ate.
 # label = incomplete
 "<Man>"
-	"man" neg
+	"man" neg @aux:neg
 "<waweʼ>"
-	"waweʼ" adv
+	"waweʼ" adv 
 "<ta>"
 	"ta" mod
 "<xwaʼ>"
-	"waʼ" v iv perf s_sg3
+	"waʼ" v iv perf s_sg3 @root
 "<wi>"
-	"we" cnjsub
 	"wi" foc
 "<.>"
 	"." sent
@@ -147,24 +144,21 @@
 # text[orig] = La waweʼ xalöqʼ wi ri äkʼ?
 # text[gloss] = La waweʼ x-Ø-a-löqʼ wi ri äkʼ?
 # text[eng] = Did you buy the chicken here?
-# label = incomplete
+# label = complete
 "<La>"
-	"la" det dem
+	"la" qst @discourse #1->3
 "<waweʼ>"
-	"waweʼ" adv
+	"waweʼ" adv @advmod #2->3
 "<xalöqʼ>"
-	"löqʼ" v tv perf o_sg3 s_sg2
-	"löqʼ" v tv perf s_sg2
-	"löqʼ" v tv pass perf s_sg2
+	"löqʼ" v tv perf o_sg3 s_sg2 @root #3->0
 "<wi>"
-	"we" cnjsub
-	"wi" foc
+	"wi" foc @discourse #4->3
 "<ri>"
-	"ri" det
+	"ri" det @det #5->6
 "<äkʼ>"
-	"äkʼ" n
+	"äkʼ" n @obj #6->3
 "<?>"
-	"?" sent
+	"?" sent @punct #7->3
 
 # sent_id = henderson:8d
 # text = La iwïr xalöqʼ ri äkʼ?
@@ -211,16 +205,15 @@
 # text[orig] = Akuchiʼ xabʼe wi?
 # text[gloss] = Akuchiʼ x-a-bʼe wi?
 # text[eng] =  Where did you go?
-# label = incomplete
+# label = complete
 "<Akuchiʼ>"
-	"*Akuchiʼ"
+	"akuchiʼ" adv itg @advmod #1->2
 "<xabʼe>"
-	"bʼe" v iv perf s_sg2
+	"bʼe" v iv perf s_sg2 @root #2->0
 "<wi>"
-	"we" cnjsub
-	"wi" foc
+	"wi" foc @discourse #3->2
 "<?>"
-	"?" sent
+	"?" sent @punct #4->2
 
 # sent_id = henderson:11a
 # text = Yabʼiyin akuchiʼ nkayix wi ri lawx.
@@ -235,12 +228,11 @@
 "<nkayix>"
 	"*nkayix"
 "<wi>"
-	"we" cnjsub
 	"wi" foc
 "<ri>"
 	"ri" det
 "<lawx>"
-	"*lawx"
+	"lawx" n
 "<.>"
 	"." sent
 
@@ -249,19 +241,17 @@
 # text[orig] = Waweʼ xebʼiyin wi pe. 
 # text[gloss] = Waweʼ x-e-bʼiyin wi pe. 
 # text[eng] =  Here they walked.
-# label = incomplete
+# label = complete
 "<Waweʼ>"
-	"waweʼ" adv
+	"waweʼ" adv @advmod #1->2
 "<xebʼiyin>"
-	"*xebʼiyin"
+	"bʼiyin" v iv impf s_pl3 @root #2->0
 "<wi>"
-	"we" cnjsub
-	"wi" foc
+	"wi" foc @discourse #3->2
 "<pe>"
-	"pe" adv dir
-	"pe" v iv
+	"pe" adv dir @advmod #4->2
 "<.>"
-	"." sent
+	"." sent @punct #5->2
 
 # sent_id = henderson:13a
 # text = Pa qʼequʼm xbʼekiqʼetej yan ta chïk wi pe kiʼ.
@@ -321,23 +311,23 @@
 # text[orig] = Xubän ri qawäy ri nuteʼ pa toqʼa.
 # text[gloss] = X-Ø-u-bän ri qa-wäy ri nu-teʼ pa toqʼa.
 # text[eng] = My mother makes our food at night.
-# label = incomplete
+# label = complete
 "<Xubän>"
-	"*Xubän"
+	"bän" v tv perf o_sg3 s_sg3 @root #1->0
 "<ri>"
-	"ri" det
+	"ri" det @det #2->3
 "<qawäy>"
-	"wäy" n px1pl
+	"wäy" n px1pl @obj #3->1
 "<ri>"
-	"ri" det
+	"ri" det @det #4->%
 "<nuteʼ>"
-	"teʼej" n px1sg
+	"teʼej" n px1sg @nsubj #5->1
 "<pa>"
-	"pa" pr
+	"pa" pr @case #6->7
 "<toqʼa>"
-	"*toqʼa"
+	"toqʼa" n @obl #7->1
 "<.>"
-	"." sent
+	"." sent @punct #8->1
 
 # sent_id = henderson:15a
 # text = Xusipaj chi re nuteʼ iwïr.
@@ -405,26 +395,26 @@
 # text[orig] = Xupalb’ej jun pop ri ixtän.
 # text[gloss] = X-Ø-u-pal-b’e-j jun pop ri ixtän.
 # text[eng] = The girl stood on a mat.
-# label = incomplete
+# label = complete applicative
 "<Xupalbʼej>"
-	"*Xupalbʼej"
+	"palbʼej" v tv o_sg3 s_sg3 @root #1->0
 "<jun>"
-	"jun" num
+	"jun" num @det #2->3
 "<pop>"
-	"*pop"
+	"pop" n @obj #3->1
 "<ri>"
-	"ri" det
+	"ri" det @det #4->5
 "<ixtän>"
-	"xtän" n px2pl
+	"ixtän" n @nsubj #5->1
 "<.>"
-	"." sent
+	"." sent @punct #6->1
 
 # sent_id = henderson:18b
 # text = Xuchʼobʼej ri ixöq.
 # text[orig] = Xuchʼobʼej ri ixöq. 
 # text[gloss] = X-Ø-u-chʼo-bʼe-j ri ixöq. 
 # text[eng] = He spoke to the woman.
-# label = complete
+# label = complete applicative
 "<Xuchʼobʼej>"
 	"chʼobʼej" v tv perf o_sg3 s_sg3 @root #1->0
 "<ri>"
@@ -439,47 +429,47 @@
 # text[orig] = Xatrutzijob’ej ri ixöq.
 # text[gloss] = X-at-ru-tzijo-b’e-j ri ixöq.
 # text[eng] = The woman talked about you.
-# label = incomplete
+# label = complete typo-in-gloss applicative
 "<Xatrutzijobʼej>"
-	"*Xatrutzijobʼej"
+	"tzijobʼej" v tv o_sg2 s_sg3 @root #1->0
 "<ri>"
-	"ri" det
+	"ri" det @det #2->3
 "<ixöq>"
-	"ixöq" n
+	"ixöq" n @nsubj #3->1
 "<.>"
-	"." sent
+	"." sent @punct #4->1
 
 # sent_id = henderson:18d
 # text = Xusamajibʼej wachbʼil.
 # text[orig] = Xusamajibʼej wachbʼil. 
 # text[gloss] = X-Ø-u-samaji-bʼe-j w-achbʼil. 
 # text[eng] = He worked with my friend
-# label = incomplete
+# label = complete applicative
 "<Xusamajibʼej>"
-	"*Xusamajibʼej"
+	"samajibʼej" v tv o_sg3 s_sg3 @root #1->0
 "<wachbʼil>"
-	"*wachbʼil"
+	"achbʼil" n px1sg @obj #2->1
 "<.>"
-	"." sent
+	"." sent @punct #3->1
 
 # sent_id = henderson:20a
 # text = Nïm raqän ri chʼat wichin.
 # text[orig] = Nïm raqän ri ch’at wichin. 
 # text[gloss] = Nïm r-aqän ri ch’at w-ichin. 
 # text[eng] =  My bed is tall.
-# label = incomplete
+# label = complete
 "<Nïm>"
-	"nïm" adj
+	"nïm" adj @root #1->0
 "<raqän>"
-	"aqän" n px3sg
+	"aqän" n px3sg @nsubj #2->1
 "<ri>"
-	"ri" det
+	"ri" det @det #3->4
 "<chʼat>"
-	"*chʼat"
+	"chʼat" n @nmod #4->2
 "<wichin>"
-	"ichin" n rel px1sg
+	"ichin" n rel px1sg @obl #5->1
 "<.>"
-	"." sent
+	"." sent @punct #6->1
 
 # sent_id = henderson:21a
 # text = Xinlöqʼ ri äkʼ richin nuteʼ.
@@ -605,22 +595,22 @@
 # text[orig] = Xech’on chi re ri q’atöy tzij. 
 # text[gloss] = X-e-ch’o-n chi r-e ri q’atöy tzij. 
 # text[eng] = They spoke to the mayor.
-# label = incomplete
+# label = complete
 "<Xechʼon>"
-	"*Xechʼon"
+	"chʼon" v tv anti perf s_pl3 @root #1->0
 "<chi>"
-	"chi" cnjsub
-	"chi" pr
+	"chi" pr @case #2->4
 "<re>"
-	"re" det dem
+	"ri" det @det #3->4
+		"ech" n rel px3sg @obl #4->1
 "<ri>"
-	"ri" det
+	"ri" det @det #5->6
 "<qʼatöy>"
-	"qʼät" v tv ger_ag1
+	"qʼatöy" n @nmod #6->4
 "<tzij>"
-	"tzij" n
+	"tzij" n @compound #7->6
 "<.>"
-	"." sent
+	"." sent @punct #8->1
 
 # sent_id = henderson:25a
 # text = Xulöqʼ ri poʼt kichin ri nuteʼ.
@@ -648,87 +638,86 @@
 # text[orig] = Xukem ri pas wichin ri numetzʼ. 
 # text[gloss] = X-Ø-ukem ri pas w-ichin ri nu-metzʼ. 
 # text[eng] = My girlfriend wove the belt for me.
-# label = incomplete
+# label = complete
 "<Xukem>"
-	"*Xukem"
+	"ukem" v tv perf o_sg3 s_sg3 @root #1->0
 "<ri>"
-	"ri" det
+	"ri" det @det #2->3
 "<pas>"
-	"*pas"
+	"pas" n @obj #3->1
 "<wichin>"
-	"ichin" n rel px1sg
+	"ichin" n rel px1sg @obl #4->1
 "<ri>"
-	"ri" det
+	"ri" det @det #5->6
 "<numetzʼ>"
-	"*numetzʼ"
+	"metzʼ" n px1sg @nsubj #6->1
 "<.>"
-	"." sent
+	"." sent @punct #7->1
 
 # sent_id = henderson:27a
 # text = Xintzʼët ri achin ri nsamäj ke la.
 # text[orig] = Xintzʼët ri achin ri nsamäj ke la. 
 # text[gloss] = X-Ø-in-tzʼët ri achin ri n-Ø-samäj ke la. 
 # text[eng] = I saw the man that works there.
-# label = incomplete
+# label = complete
 "<Xintzʼët>"
-	"*Xintzʼët"
+	"tzʼët" v tv perf o_sg3 s_sg1 @root #1->0
 "<ri>"
-	"ri" det
+	"ri" det @det #2->3
 "<achin>"
-	"achin" n
+	"achin" n @obj #3->1
 "<ri>"
-	"ri" det
+	"ri" cnjsub @mark #4->5
 "<nsamäj>"
-	"*nsamäj"
+	"samäj" v iv impf s_sg3 @acl #5->3
 "<ke>"
-	"ke" adv
+	"ke" adv @advmod #6->5
 "<la>"
-	"la" det dem
+	"la" adv @fixed #7->6
 "<.>"
-	"." sent
+	"." sent @punct #8->1
 
 # sent_id = henderson:28a
 # text = Yikikot wi xbʼe Tojil pa kʼaybʼal.
 # text[orig] = Yikikot wi xbʼe Tojil pa kʼaybʼal. 
 # text[gloss] = Y-i-kikot wi x-Ø-bʼe Tojil pa kʼaybʼal. 
 # text[eng] = I am happy if Tojil went to the market.
-# label = incomplete
+# label = complete
 "<Yikikot>"
-	"*Yikikot"
+	"kikot" v iv impf s_sg1 @root #1->0
 "<wi>"
-	"we" cnjsub
-	"wi" foc
+	"we" cnjsub @mark #2->3
 "<xbʼe>"
-	"bʼe" v iv perf s_sg3
+	"bʼe" v iv perf s_sg3 @advcl #3->1
 "<Tojil>"
-	"*Tojil"
+	"Tojil" np ant @nsubj #4->3
 "<pa>"
-	"pa" pr
+	"pa" pr @case #5->6
 "<kʼaybʼal>"
-	"kʼaybʼäl" n
+	"kʼaybʼäl" n @obl #6->3
 "<.>"
-	"." sent
+	"." sent @punct #7->1
 
 # sent_id = henderson:28c
 # text = Yikikot toq nibʼe Tojil pa kʼaybʼal.
 # text[orig] = Yikikot toq nibʼe Tojil pa kʼaybʼal. 
 # text[gloss] = Y-i-kikot toq ni-Ø-bʼe Tojil pa kʼaybʼal. 
 # text[eng] = I am happy when Tojil goes to the market.
-# label = incomplete
+# label = complete
 "<Yikikot>"
-	"*Yikikot"
+	"kikot" v iv impf s_sg1 @root #1->0
 "<toq>"
-	"töq" cnjsub
+	"töq" cnjsub @mark #2->3
 "<nibʼe>"
-	"bʼe" v iv impf s_sg3
+	"bʼe" v iv impf s_sg3 @advcl #3->1
 "<Tojil>"
-	"*Tojil"
+	"Tojil" np ant @nsubj #4->3
 "<pa>"
-	"pa" pr
+	"pa" pr @case #5->6
 "<kʼaybʼal>"
-	"kʼaybʼäl" n
+	"kʼaybʼäl" n @obl #6->3
 "<.>"
-	"." sent
+	"." sent @punct #7->1
 
 # sent_id = henderson:28e
 # text = Yikikot roma xbʼe Tojil pa kʼaybʼal.
@@ -780,7 +769,6 @@
 # label = incomplete
 "<Xatzʼët>"
 	"tzʼët" v tv perf o_sg3 s_sg2
-	"tzʼët" v tv perf s_sg2
 "<achike>"
 	"achike" prn itg
 "<xbʼe>"
@@ -805,7 +793,6 @@
 "<yeʼapon>"
 	"*yeʼapon"
 "<wi>"
-	"we" cnjsub
 	"wi" foc
 "<?>"
 	"?" sent
@@ -838,22 +825,19 @@
 # text[orig] = Akuchi xatzʼët chi xbʼe wi?
 # text[gloss] = Akuchi x-Ø-a-tzʼët chi x-Ø-bʼe wi?
 # text[eng] = Where did you see him go?
-# label = incomplete
+# label = complete
 "<Akuchi>"
-	"*Akuchi"
+	"akuchi" adv itg @advmod #1->4
 "<xatzʼët>"
-	"tzʼët" v tv perf o_sg3 s_sg2
-	"tzʼët" v tv perf s_sg2
+	"tzʼët" v tv perf o_sg3 s_sg2 @root #2->0
 "<chi>"
-	"chi" cnjsub
-	"chi" pr
+	"chi" cnjsub @mark #3->4
 "<xbʼe>"
-	"bʼe" v iv perf s_sg3
+	"bʼe" v iv perf s_sg3 @ccomp #4->2
 "<wi>"
-	"we" cnjsub
-	"wi" foc
+	"wi" foc @discourse #5->4
 "<?>"
-	"?" sent
+	"?" sent @punct #6->2
 
 # sent_id = henderson:34a
 # text = Achoj ikʼin xatzʼët chi xsamäj wi?
@@ -862,7 +846,7 @@
 # text[eng] = With whom did you see him work?
 # label = incomplete
 "<Achoj>"
-	"*Achoj"
+	"achoj" prn itg
 "<ikʼin>"
 	"kʼin" n rel px2pl
 "<xatzʼët>"
@@ -958,117 +942,111 @@
 # text[orig] = Nretamaj ruteʼ chi xeʼel rikʼin ri a Xwan. 
 # text[gloss] = N-Ø-r-etamaj ru-teʼ chi x-eʼ-el r-ikʼin ri a Xwan. 
 # text[eng] = His mother knows they left with Xwan.
-# label = incomplete
+# label = complete
 "<Nretamaj>"
-	"*Nretamaj"
+	"etamaj" v tv impf o_sg3 s_sg3 @root #1->0
 "<ruteʼ>"
-	"teʼej" n px3sg
+	"teʼej" n px3sg @nsubj #2->1
 "<chi>"
-	"chi" cnjsub
-	"chi" pr
+	"chi" cnjsub @mark #3->4
 "<xeʼel>"
-	"xeʼel" n
-	"el" v iv perf s_pl3
+	"el" v iv perf s_pl3 @advcl #4->1
 "<rikʼin>"
-	"ikʼin" n rel px3sg
+	"ikʼin" n rel px3sg @obl #5->4
 "<ri>"
-	"ri" det
+	"ri" det @det #6->8
 "<a>"
-	"a" det m
+	"a" det m @clf #7->8
 "<Xwan>"
-	"Xwan" np ant
+	"Xwan" np ant @nmod #8->5
 "<.>"
-	"." sent
+	"." sent @punct #9->1
 
 # sent_id = henderson:38a
 # text = Pa kʼaybʼal xulöqʼ wi ri äkʼ.
 # text[orig] = Pa k’ayb’al xulöq’ wi ri äk’.
 # text[gloss] = Pa k’ayb’al x-Ø-u-löq’ wi ri äk’.
 # text[eng] = She bought a chicken in the market.
-# label = incomplete
+# label = complete
 "<Pa>"
-	"pa" pr
+	"pa" pr @case #1->2
 "<kʼaybʼal>"
-	"kʼaybʼäl" n
+	"kʼaybʼäl" n @obl #2->3
 "<xulöqʼ>"
-	"löqʼ" v tv perf o_sg3 s_sg3
+	"löqʼ" v tv perf o_sg3 s_sg3 @root #3->0
 "<wi>"
-	"we" cnjsub
-	"wi" foc
+	"wi" foc @discourse #4->3
 "<ri>"
-	"ri" det
+	"ri" det @det #5->6
 "<äkʼ>"
-	"äkʼ" n
+	"äkʼ" n @obj #6->3
 "<.>"
-	"." sent
+	"." sent @punct #7->3
 
 # sent_id = henderson:39a
 # text = Ri nuteʼ pa kʼaybʼal xulöqʼ wi ri äkʼ.
 # text[orig] = Ri nute’ pa k’ayb’al xulöq’ wi ri äk’. 
 # text[gloss] = Ri nu-te’ pa k’ayb’al x-Ø-u-löq’ wi ri äk’. 
 # text[eng] = My mother bought a chicken in the market.
-# label = incomplete
+# label = complete
 "<Ri>"
-	"ri" det
+	"ri" det @det #1->2
 "<nuteʼ>"
-	"teʼej" n px1sg
+	"teʼej" n px1sg @nsubj #2->5
 "<pa>"
-	"pa" pr
+	"pa" pr @case #3->4
 "<kʼaybʼal>"
-	"kʼaybʼäl" n
+	"kʼaybʼäl" n @obl #4->5
 "<xulöqʼ>"
-	"löqʼ" v tv perf o_sg3 s_sg3
+	"löqʼ" v tv perf o_sg3 s_sg3 @root #5->0
 "<wi>"
-	"we" cnjsub
-	"wi" foc
+	"wi" foc @discourse #6->5
 "<ri>"
-	"ri" det
+	"ri" det @det #7->8
 "<äkʼ>"
-	"äkʼ" n
+	"äkʼ" n @obj #8->5
 "<.>"
-	"." sent
+	"." sent @punct #9->5
 
 # sent_id = henderson:40a
 # text = Ri xta Irma pa chʼat nwär wi.
 # text[orig] = Ri xta Irma pa ch’at nwär wi. 
 # text[gloss] = Ri xta Irma pa ch’at n-Ø-wär wi. 
 # text[eng] = In her bed Irma sleeps.
-# label = incomplete
+# label = complete
 "<Ri>"
-	"ri" det
+	"ri" det @det #1->3
 "<xta>"
-	"xta" det f
+	"xta" det f @clf #2->3
 "<Irma>"
-	"Irma" np ant
+	"Irma" np ant @nsubj #3->6
 "<pa>"
-	"pa" pr
+	"pa" pr @case #4->5
 "<chʼat>"
-	"*chʼat"
+	"chʼat" n @obl #5->6
 "<nwär>"
-	"*nwär"
+	"wär" v iv impf s_sg3 @root #6->0
 "<wi>"
-	"we" cnjsub
-	"wi" foc
+	"wi" foc @discourse #7->6
 "<.>"
-	"." sent
+	"." sent @punct #8->6
 
 # sent_id = henderson:42a
 # text = Xinlöq wi ri äkʼ.
 # text[orig] = Xinlöq wi ri äk’.
 # text[gloss] = X-Ø-in-löq wi ri äk’.
 # text[eng] = I BOUGHT the chicken (I didn’t steal it).
-# label = incomplete
+# label = complete
 "<Xinlöq>"
-	"*Xinlöq"
+	"löq" v tv perf o_sg3 s_sg1 @root #1->0
 "<wi>"
-	"we" cnjsub
-	"wi" foc
+	"wi" foc @discourse #2->1
 "<ri>"
-	"ri" det
+	"ri" det @det #3->4
 "<äkʼ>"
-	"äkʼ" n
+	"äkʼ" n @obj #4->1
 "<.>"
-	"." sent
+	"." sent @punct #5->1
 
 # sent_id = henderson:42b
 # text = Xisamäj wi.
@@ -1082,3 +1060,4 @@
 	"wi" foc @discourse #2->1
 "<.>"
 	"." sent @punct #3->1
+

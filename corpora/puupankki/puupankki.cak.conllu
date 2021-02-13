@@ -1284,6 +1284,18 @@
 5	Ixqʼanil	Ixqʼanil	PROPN	_	_	2	nmod	_	_
 6	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = henderson:1b
+# text = Pa kʼaybʼal xinlöqʼ wi.
+# text[orig] = Pa kʼaybʼal xinlöqʼ wi.
+# text[gloss] = Pa kʼaybʼal x-Ø-in-löqʼ wi.
+# text[eng] = In the market I bought it.
+# label = incomplete
+1	Pa	pa	ADP	_	_	2	case	_	_
+2	kʼaybʼal	kʼaybʼäl	NOUN	_	_	3	obl	_	_
+3	xinlöqʼ	löqʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
+4	wi	wi	PART	_	Focus=Yes	3	discourse	_	_
+5	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = henderson:2a
 # text = Xpe waweʼ.
 # text[orig] = Xpe waweʼ. 
@@ -1304,6 +1316,36 @@
 2	xpe	pe	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
 3	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = henderson:4a
+# text = Nabän ri qawäy pa toqʼa.
+# text[orig] = Nabän ri qawäy pa toqʼa.
+# text[gloss] = N-Ø-a-bän ri qa-wäy pa toqʼa.
+# text[eng] = You make our food at night.
+# label = complete
+1	Nabän	bän	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	0	root	_	_
+2	ri	ri	DET	_	Definite=Def|PronType=Art	3	det	_	_
+3	qawäy	wäy	NOUN	_	Number[psor]=Plur|Person[psor]=1	1	obj	_	_
+4	pa	pa	ADP	_	_	5	case	_	_
+5	toqʼa	toqʼa	NOUN	_	_	1	obl	_	_
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = henderson:5b
+# text = Chi re ateʼ xinyaʼ wi ri uq.
+# text[orig] = Chi re ateʼ xinyaʼ wi ri uq. 
+# text[gloss] = Chi r-e a-teʼ x-Ø-in-yaʼ wi ri uq. 
+# text[eng] = To your mother I gave the corte.
+# label = complete
+1	Chi	chi	ADP	_	_	3	case	_	_
+2-3	re	_	_	_	_	_	_	_	_
+2	r	ri	DET	_	Definite=Def|PronType=Art	3	det	_	_
+3	e	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
+4	ateʼ	teʼej	NOUN	_	Number[psor]=Sing|Person[psor]=2	3	nmod	_	_
+5	xinyaʼ	yaʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+6	wi	wi	PART	_	Focus=Yes	5	discourse	_	_
+7	ri	ri	DET	_	Definite=Def|PronType=Art	8	det	_	_
+8	uq	uq	NOUN	_	_	5	obj	_	_
+9	.	.	PUNCT	_	_	5	punct	_	_
+
 # sent_id = henderson:6a
 # text = Richin ateʼ xinlöqʼ ri uq.
 # text[orig] = Richin ateʼ xinlöqʼ ri uq. 
@@ -1316,6 +1358,33 @@
 4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
 5	uq	uq	NOUN	_	_	3	obj	_	_
 6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = henderson:8a
+# text = La waweʼ xalöqʼ wi ri äkʼ?
+# text[orig] = La waweʼ xalöqʼ wi ri äkʼ?
+# text[gloss] = La waweʼ x-Ø-a-löqʼ wi ri äkʼ?
+# text[eng] = Did you buy the chicken here?
+# label = complete
+1	La	la	PART	_	PronType=Int	3	discourse	_	_
+2	waweʼ	waweʼ	ADV	_	_	3	advmod	_	_
+3	xalöqʼ	löqʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	0	root	_	_
+4	wi	wi	PART	_	Focus=Yes	3	discourse	_	_
+5	ri	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
+6	äkʼ	äkʼ	NOUN	_	_	3	obj	_	_
+7	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = henderson:8d
+# text = La iwïr xalöqʼ ri äkʼ?
+# text[orig] = La iwïr xalöqʼ ri äkʼ?
+# text[gloss] = La iwïr x-Ø-a-löqʼ ri äkʼ?
+# text[eng] = Did you buy the chicken yesterday?
+# label = complete
+1	La	la	PART	_	PronType=Int	3	discourse	_	_
+2	iwïr	iwïr	ADV	_	_	3	advmod	_	_
+3	xalöqʼ	löqʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	0	root	_	_
+4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
+5	äkʼ	äkʼ	NOUN	_	_	3	obj	_	_
+6	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = henderson:9a
 # text = Rikʼin tzʼibaʼbʼal xintzʼibʼabʼej wi ri wuj.
@@ -1331,6 +1400,29 @@
 6	wuj	wuj	NOUN	_	_	3	obj	_	_
 7	.	.	PUNCT	_	_	3	punct	_	_
 
+# sent_id = henderson:10a
+# text = Akuchiʼ xabʼe wi?
+# text[orig] = Akuchiʼ xabʼe wi?
+# text[gloss] = Akuchiʼ x-a-bʼe wi?
+# text[eng] =  Where did you go?
+# label = complete
+1	Akuchiʼ	akuchiʼ	ADV	_	PronType=Int	2	advmod	_	_
+2	xabʼe	bʼe	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=2|Subcat=Intr|VerbForm=Fin	0	root	_	_
+3	wi	wi	PART	_	Focus=Yes	2	discourse	_	_
+4	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = henderson:12a
+# text = Waweʼ xebʼiyin wi pe.
+# text[orig] = Waweʼ xebʼiyin wi pe. 
+# text[gloss] = Waweʼ x-e-bʼiyin wi pe. 
+# text[eng] =  Here they walked.
+# label = complete
+1	Waweʼ	waweʼ	ADV	_	_	2	advmod	_	_
+2	xebʼiyin	bʼiyin	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
+3	wi	wi	PART	_	Focus=Yes	2	discourse	_	_
+4	pe	pe	ADV	_	AdvType=Dir	2	advmod	_	_
+5	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = henderson:14b
 # text = Xulöqʼ ri äkʼ ri nuteʼ pa kʼaybʼal.
 # text[orig] = Xulöqʼ ri äkʼ ri nuteʼ pa kʼaybʼal.
@@ -1345,6 +1437,19 @@
 6	pa	pa	ADP	_	_	7	case	_	_
 7	kʼaybʼal	kʼaybʼäl	NOUN	_	_	1	obl	_	_
 8	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = henderson:15a
+# text = Xusipaj chi re nuteʼ iwïr.
+# text[orig] = Xusipaj chi re nute’ iwïr.
+# text[gloss] = X-Ø-u-sipaj chi r-e nu-te’ iwïr.
+# text[eng] = He gave it to my mother yesterday.
+# label = complete
+1	Xusipaj	sipaj	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+2	chi	chi	ADP	_	_	3	case	_	_
+3	re	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
+4	nuteʼ	teʼej	NOUN	_	Number[psor]=Sing|Person[psor]=1	3	nmod	_	_
+5	iwïr	iwïr	ADV	_	_	1	advmod	_	_
+6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = henderson:16a
 # text = Xixajon rikʼin wanaʼ iwïr.
@@ -1374,16 +1479,63 @@
 8	Irma	Irma	PROPN	_	_	1	nsubj	_	_
 9	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = henderson:18a
+# text = Xupalbʼej jun pop ri ixtän.
+# text[orig] = Xupalb’ej jun pop ri ixtän.
+# text[gloss] = X-Ø-u-pal-b’e-j jun pop ri ixtän.
+# text[eng] = The girl stood on a mat.
+# label = complete applicative
+1	Xupalbʼej	palbʼej	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran	0	root	_	_
+2	jun	jun	NUM	_	_	3	det	_	_
+3	pop	pop	NOUN	_	_	1	obj	_	_
+4	ri	ri	DET	_	Definite=Def|PronType=Art	5	det	_	_
+5	ixtän	ixtän	NOUN	_	_	1	nsubj	_	_
+6	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = henderson:18b
 # text = Xuchʼobʼej ri ixöq.
 # text[orig] = Xuchʼobʼej ri ixöq. 
 # text[gloss] = X-Ø-u-chʼo-bʼe-j ri ixöq. 
 # text[eng] = He spoke to the woman.
-# label = complete
+# label = complete applicative
 1	Xuchʼobʼej	chʼobʼej	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 2	ri	ri	DET	_	Definite=Def|PronType=Art	3	det	_	_
 3	ixöq	ixöq	NOUN	_	_	1	obj	_	_
 4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = henderson:18c
+# text = Xatrutzijobʼej ri ixöq.
+# text[orig] = Xatrutzijob’ej ri ixöq.
+# text[gloss] = X-at-ru-tzijo-b’e-j ri ixöq.
+# text[eng] = The woman talked about you.
+# label = complete typo-in-gloss applicative
+1	Xatrutzijobʼej	tzijobʼej	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=2|Person[subj]=3|Subcat=Tran	0	root	_	_
+2	ri	ri	DET	_	Definite=Def|PronType=Art	3	det	_	_
+3	ixöq	ixöq	NOUN	_	_	1	nsubj	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = henderson:18d
+# text = Xusamajibʼej wachbʼil.
+# text[orig] = Xusamajibʼej wachbʼil. 
+# text[gloss] = X-Ø-u-samaji-bʼe-j w-achbʼil. 
+# text[eng] = He worked with my friend
+# label = complete applicative
+1	Xusamajibʼej	samajibʼej	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran	0	root	_	_
+2	wachbʼil	achbʼil	NOUN	_	Number[psor]=Sing|Person[psor]=1	1	obj	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = henderson:20a
+# text = Nïm raqän ri chʼat wichin.
+# text[orig] = Nïm raqän ri ch’at wichin. 
+# text[gloss] = Nïm r-aqän ri ch’at w-ichin. 
+# text[eng] =  My bed is tall.
+# label = complete
+1	Nïm	nïm	ADJ	_	_	0	root	_	_
+2	raqän	aqän	NOUN	_	Number[psor]=Sing|Person[psor]=3	1	nsubj	_	_
+3	ri	ri	DET	_	Definite=Def|PronType=Art	4	det	_	_
+4	chʼat	chʼat	NOUN	_	_	2	nmod	_	_
+5	wichin	ichin	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=1	1	obl	_	_
+6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = henderson:21a
 # text = Xinlöqʼ ri äkʼ richin nuteʼ.
@@ -1469,6 +1621,22 @@
 4	nuteʼ	teʼej	NOUN	_	Number[psor]=Sing|Person[psor]=1	3	nmod	_	_
 5	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = henderson:24a
+# text = Xechʼon chi re ri qʼatöy tzij.
+# text[orig] = Xech’on chi re ri q’atöy tzij. 
+# text[gloss] = X-e-ch’o-n chi r-e ri q’atöy tzij. 
+# text[eng] = They spoke to the mayor.
+# label = complete
+1	Xechʼon	chʼon	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Tran|VerbForm=Fin|Voice=Antip	0	root	_	_
+2	chi	chi	ADP	_	_	4	case	_	_
+3-4	re	_	_	_	_	_	_	_	_
+3	r	ri	DET	_	Definite=Def|PronType=Art	4	det	_	_
+4	e	ech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
+5	ri	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
+6	qʼatöy	qʼatöy	NOUN	_	_	4	nmod	_	_
+7	tzij	tzij	NOUN	_	_	6	compound	_	_
+8	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = henderson:25a
 # text = Xulöqʼ ri poʼt kichin ri nuteʼ.
 # text[orig] = Xulöqʼ ri poʼt kichin ri nuteʼ. 
@@ -1482,6 +1650,149 @@
 5	ri	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
 6	nuteʼ	teʼej	NOUN	_	Number[psor]=Sing|Person[psor]=1	1	nsubj	_	_
 7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = henderson:26a
+# text = Xukem ri pas wichin ri numetzʼ.
+# text[orig] = Xukem ri pas wichin ri numetzʼ. 
+# text[gloss] = X-Ø-ukem ri pas w-ichin ri nu-metzʼ. 
+# text[eng] = My girlfriend wove the belt for me.
+# label = complete
+1	Xukem	ukem	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+2	ri	ri	DET	_	Definite=Def|PronType=Art	3	det	_	_
+3	pas	pas	NOUN	_	_	1	obj	_	_
+4	wichin	ichin	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=1	1	obl	_	_
+5	ri	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
+6	numetzʼ	metzʼ	NOUN	_	Number[psor]=Sing|Person[psor]=1	1	nsubj	_	_
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = henderson:27a
+# text = Xintzʼët ri achin ri nsamäj ke la.
+# text[orig] = Xintzʼët ri achin ri nsamäj ke la. 
+# text[gloss] = X-Ø-in-tzʼët ri achin ri n-Ø-samäj ke la. 
+# text[eng] = I saw the man that works there.
+# label = complete
+1	Xintzʼët	tzʼët	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
+2	ri	ri	DET	_	Definite=Def|PronType=Art	3	det	_	_
+3	achin	achin	NOUN	_	_	1	obj	_	_
+4	ri	ri	SCONJ	_	_	5	mark	_	_
+5	nsamäj	samäj	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	3	acl	_	_
+6	ke	ke	ADV	_	_	5	advmod	_	_
+7	la	la	ADV	_	_	6	fixed	_	_
+8	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = henderson:28a
+# text = Yikikot wi xbʼe Tojil pa kʼaybʼal.
+# text[orig] = Yikikot wi xbʼe Tojil pa kʼaybʼal. 
+# text[gloss] = Y-i-kikot wi x-Ø-bʼe Tojil pa kʼaybʼal. 
+# text[eng] = I am happy if Tojil went to the market.
+# label = complete
+1	Yikikot	kikot	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
+2	wi	we	SCONJ	_	_	3	mark	_	_
+3	xbʼe	bʼe	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	1	advcl	_	_
+4	Tojil	Tojil	PROPN	_	_	3	nsubj	_	_
+5	pa	pa	ADP	_	_	6	case	_	_
+6	kʼaybʼal	kʼaybʼäl	NOUN	_	_	3	obl	_	_
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = henderson:28c
+# text = Yikikot toq nibʼe Tojil pa kʼaybʼal.
+# text[orig] = Yikikot toq nibʼe Tojil pa kʼaybʼal. 
+# text[gloss] = Y-i-kikot toq ni-Ø-bʼe Tojil pa kʼaybʼal. 
+# text[eng] = I am happy when Tojil goes to the market.
+# label = complete
+1	Yikikot	kikot	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
+2	toq	töq	SCONJ	_	_	3	mark	_	_
+3	nibʼe	bʼe	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	1	advcl	_	_
+4	Tojil	Tojil	PROPN	_	_	3	nsubj	_	_
+5	pa	pa	ADP	_	_	6	case	_	_
+6	kʼaybʼal	kʼaybʼäl	NOUN	_	_	3	obl	_	_
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = henderson:33a
+# text = Akuchi xatzʼët chi xbʼe wi?
+# text[orig] = Akuchi xatzʼët chi xbʼe wi?
+# text[gloss] = Akuchi x-Ø-a-tzʼët chi x-Ø-bʼe wi?
+# text[eng] = Where did you see him go?
+# label = complete
+1	Akuchi	akuchi	ADV	_	PronType=Int	4	advmod	_	_
+2	xatzʼët	tzʼët	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|VerbForm=Fin	0	root	_	_
+3	chi	chi	SCONJ	_	_	4	mark	_	_
+4	xbʼe	bʼe	VERB	_	Aspect=Perf|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	2	ccomp	_	_
+5	wi	wi	PART	_	Focus=Yes	4	discourse	_	_
+6	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = henderson:37a
+# text = Nretamaj ruteʼ chi xeʼel rikʼin ri a Xwan.
+# text[orig] = Nretamaj ruteʼ chi xeʼel rikʼin ri a Xwan. 
+# text[gloss] = N-Ø-r-etamaj ru-teʼ chi x-eʼ-el r-ikʼin ri a Xwan. 
+# text[eng] = His mother knows they left with Xwan.
+# label = complete
+1	Nretamaj	etamaj	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+2	ruteʼ	teʼej	NOUN	_	Number[psor]=Sing|Person[psor]=3	1	nsubj	_	_
+3	chi	chi	SCONJ	_	_	4	mark	_	_
+4	xeʼel	el	VERB	_	Aspect=Perf|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|VerbForm=Fin	1	advcl	_	_
+5	rikʼin	ikʼin	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
+6	ri	ri	DET	_	Definite=Def|PronType=Art	8	det	_	_
+7	a	a	DET	_	Gender=Masc|PronType=Art	8	clf	_	_
+8	Xwan	Xwan	PROPN	_	_	5	nmod	_	_
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = henderson:38a
+# text = Pa kʼaybʼal xulöqʼ wi ri äkʼ.
+# text[orig] = Pa k’ayb’al xulöq’ wi ri äk’.
+# text[gloss] = Pa k’ayb’al x-Ø-u-löq’ wi ri äk’.
+# text[eng] = She bought a chicken in the market.
+# label = complete
+1	Pa	pa	ADP	_	_	2	case	_	_
+2	kʼaybʼal	kʼaybʼäl	NOUN	_	_	3	obl	_	_
+3	xulöqʼ	löqʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+4	wi	wi	PART	_	Focus=Yes	3	discourse	_	_
+5	ri	ri	DET	_	Definite=Def|PronType=Art	6	det	_	_
+6	äkʼ	äkʼ	NOUN	_	_	3	obj	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = henderson:39a
+# text = Ri nuteʼ pa kʼaybʼal xulöqʼ wi ri äkʼ.
+# text[orig] = Ri nute’ pa k’ayb’al xulöq’ wi ri äk’. 
+# text[gloss] = Ri nu-te’ pa k’ayb’al x-Ø-u-löq’ wi ri äk’. 
+# text[eng] = My mother bought a chicken in the market.
+# label = complete
+1	Ri	ri	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	nuteʼ	teʼej	NOUN	_	Number[psor]=Sing|Person[psor]=1	5	nsubj	_	_
+3	pa	pa	ADP	_	_	4	case	_	_
+4	kʼaybʼal	kʼaybʼäl	NOUN	_	_	5	obl	_	_
+5	xulöqʼ	löqʼ	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+6	wi	wi	PART	_	Focus=Yes	5	discourse	_	_
+7	ri	ri	DET	_	Definite=Def|PronType=Art	8	det	_	_
+8	äkʼ	äkʼ	NOUN	_	_	5	obj	_	_
+9	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = henderson:40a
+# text = Ri xta Irma pa chʼat nwär wi.
+# text[orig] = Ri xta Irma pa ch’at nwär wi. 
+# text[gloss] = Ri xta Irma pa ch’at n-Ø-wär wi. 
+# text[eng] = In her bed Irma sleeps.
+# label = complete
+1	Ri	ri	DET	_	Definite=Def|PronType=Art	3	det	_	_
+2	xta	xta	DET	_	Gender=Fem|PronType=Art	3	clf	_	_
+3	Irma	Irma	PROPN	_	_	6	nsubj	_	_
+4	pa	pa	ADP	_	_	5	case	_	_
+5	chʼat	chʼat	NOUN	_	_	6	obl	_	_
+6	nwär	wär	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
+7	wi	wi	PART	_	Focus=Yes	6	discourse	_	_
+8	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = henderson:42a
+# text = Xinlöq wi ri äkʼ.
+# text[orig] = Xinlöq wi ri äk’.
+# text[gloss] = X-Ø-in-löq wi ri äk’.
+# text[eng] = I BOUGHT the chicken (I didn’t steal it).
+# label = complete
+1	Xinlöq	löq	VERB	_	Aspect=Perf|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
+2	wi	wi	PART	_	Focus=Yes	1	discourse	_	_
+3	ri	ri	DET	_	Definite=Def|PronType=Art	4	det	_	_
+4	äkʼ	äkʼ	NOUN	_	_	1	obj	_	_
+5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = henderson:42b
 # text = Xisamäj wi.
