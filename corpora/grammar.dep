@@ -592,7 +592,7 @@
 	"chäp" v tv anti perf s_sg3 @root #3->0
 "<chwe>"
 	"chi" pr @case #4->5
-		"ech" n rel px1sg @obl #5->4
+		"ech" n rel px1sg @obl #5->3
 "<.>"
 	"." sent @punct #6->3
 
