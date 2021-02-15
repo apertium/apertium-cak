@@ -431,7 +431,7 @@
 	"." sent @punct #6->3
 
 # sent_id = gdik99:1fdfd88f84
-# text = ¿Achike xchapo ri äkʼ.
+# text = ¿Achike xchapo ri äkʼ?
 # text[spa] = ¿Quién agarró la gallina?
 # labels = example:133
 "<¿>"

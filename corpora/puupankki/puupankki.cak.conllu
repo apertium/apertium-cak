@@ -247,7 +247,7 @@
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = gdik99:1fdfd88f84
-# text = ¿Achike xchapo ri äkʼ.
+# text = ¿Achike xchapo ri äkʼ?
 # text[spa] = ¿Quién agarró la gallina?
 # labels = example:133
 1	¿	¿	PUNCT	_	_	3	punct	_	_
