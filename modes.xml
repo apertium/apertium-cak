@@ -44,5 +44,13 @@
     </pipeline>
   </mode>
 
+  <mode name="cak-gener" install="yes">
+    <pipeline>
+      <program name="hfst-proc -w $1">
+        <file name="cak.autogen.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+
 
 </modes>

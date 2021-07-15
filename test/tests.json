@@ -1,0 +1,18 @@
+{
+  "gramatica": {
+    "input": "gramatica-input.txt",
+    "mode": "cak-morph"
+  },
+  "gramatica-gen": {
+    "input": "gramatica-gen-input.txt",
+    "mode": "cak-gener"
+  },
+  "manual": {
+    "input": "manual-input.txt",
+    "mode": "cak-morph"
+  },
+  "manual-gen": {
+    "input": "manual-gen-input.txt",
+    "mode": "cak-gener"
+  }
+}
